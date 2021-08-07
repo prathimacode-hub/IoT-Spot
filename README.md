@@ -25,6 +25,8 @@ Anyone related to technology who is looking to contribute to open-source is all 
 
 **| 8051 | ARM | Adafruit | Arduino | Atmel | Beagle | ESP32 | ESP8266 | Node MCU | PIC | Raspberry Pi |**
 
+**Programming Lanaguages - C, C++, Python**
+
 
 **8051 Scripts** - This repository would have basic python scripts which are useful to get started with programming before you dive into real time projects.
 
@@ -113,7 +115,7 @@ The project repository you had created would have :
 
 - Then in GitHub, in your cloned repository, find the option to make a pull request. 
 
-> print("Start contributing for Awesome_Python_Scripts")
+> print("Start contributing for IoT-Spot")
 
 
 <h2>👍 OpenSource Programs</h2>
@@ -125,23 +127,6 @@ The project repository you had created would have :
  </td>
 </tr>
 </table> 
-
-
-<h2> ✨ Hall Of Fame </h2>
-
-Thanks goes to these amazing people for their contributions 🎉🎉🎉
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-
-<a href="https://github.com/prathimacode-hub/IoT-Spot/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=prathimacode-hub/IoT-Spot" />
-</a>
-
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 
 <h2>📜 Code Of Conduct</h2>
