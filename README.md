@@ -121,7 +121,7 @@ The project repository you had created would have :
 <table>
 <tr>
  <td>
-<a href="https://github.com/prathimacode-hub/"><img src="" width=150px height=150px /></a>
+<a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/OpenSource%20Programs/Girlscript%20Winter%20Of%20Contributing/Girlscript%20Winter%20of%20Contributing.png" width=150px height=150px /></a>
  </td>
 </tr>
 </table> 
