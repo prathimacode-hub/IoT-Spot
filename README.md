@@ -1,7 +1,7 @@
 # Welcome to IoT-Spot👋
 
 <p align="center">
-<img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/CoverPhotos/IoT-Spot.png"></a>
+<img src="**https://github.com/prathimacode-hub/prathimacode-hub/blob/main/CoverPhotos/IoT-Spot.png**"></a>
 </p>
 <p align="center">
 <a href="https://github.com/prathimacode-hub"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&logo=github"></a> 
