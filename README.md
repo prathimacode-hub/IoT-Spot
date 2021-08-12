@@ -81,11 +81,13 @@ The project repository you had created would have :
 
 **file_name.py** or **file_name.c** or **file_name.cpp** - This file is the project you have worked upon.
 
-**README.md** - This file is must included to get good understanding of the project (Elaborate it briefly about how it works using [README](https://github.com/prathimacode-hub/IoT-Spot/blob/main/.github/readme_template.md) template).
+**README.md** - This file is must included to get good understanding of the project (Elaborate it briefly about how it works using [README](https://github.com/prathimacode-hub/IoT-Spot/blob/main/.github/readme_template.md) template). 
 
-**requirements.txt** - In this file, you should add all the requirements you had used in your project 
+**requirements.txt** - In this file, you should add all the requirements you need to make your project work which also illustrates the list of all components used specifically
 
 **Images** - This folder would have all images added, be it screenshots or step by step process images. Also inclusion of block diagrams and emulator circuit diagrams are must to portray the project efficiently.
+
+Since this repo is purely technical, make sure you include "Block Diagrams" and "Emulator Prototype Circuit Diagrams" in "Images" and direct them to README.md file
 
 **Related files** - The other additional and related files would be added up in "Related" folder.
 
