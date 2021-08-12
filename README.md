@@ -28,27 +28,31 @@ Anyone related to technology who is looking to contribute to open-source is all 
 **Programming Lanaguages - C, C++, Python**
 
 
-**8051 Scripts** - This repository would have basic python scripts which are useful to get started with programming before you dive into real time projects.
+**[8051 Scripts](https://github.com/prathimacode-hub/IoT-Spot/tree/main/8051)** - The best repo to start with before you enter into the ocean of micro-controllers. It has all the projects related to 8051 micro-controller
 
-**ARM Scripts** - This repository would have webscraping scripts which is a data scraping technique used for extracting data from websites.
+**[ARM Scripts](https://github.com/prathimacode-hub/IoT-Spot/tree/main/ARM)** - This place is a home to all the scripts based on ARM micro-controllers and get involved into exclusive projects
 
-**Adafruit Scripts** - This repository would have application programming interfacing (API) scripts which would help in performing operations programmatically and deploy projects as apps.
+**[Adafruit Scripts](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Adafruit)** - This repo had all the scripts concerning Adafruit to gain more wisdom on it
 
-**Arduino Scripts** - This repository would have all graphical user interface (GUI) scripts which would create an interface and performs the operations visually unlike command line.
+**[Arduino Scripts](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Arduino)** - An all time repo to scratch your cravings for arduino and indulge in more better way
 
-**Atmel Scripts** - This repository would contain automation scripts that would automate your tasks efficiently and helps you in saving a lot of time.
+**[Atmel Scripts](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Atmel)**  - It has all the scripts that are related to Atmel Micro-controllers to explore further
 
-**Beagle Scripts** - This repository would have all the wide range of games scripts that can programmed and developed using python.
+**[Beagle Scripts](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Beagle)** - This repo would have all the projects that uses Beagle Boards/Bone to understand the scripts much deeper
  
-**ESP32 Scripts** - This repository would indulge with all image processing scripts that would help in beautifying and transforming the images.
+**[ESP32 Scripts](https://github.com/prathimacode-hub/IoT-Spot/tree/main/ESP32)** - This place would contain with all the ESP32 scripts used in relevant projects
 
-**ESP8266 Scripts** - This repository would include all the python based scripts which can be used as Ethical Hacking Tools.
+**[ESP8266 Scripts](https://github.com/prathimacode-hub/IoT-Spot/tree/main/ESP8266)** - This repo would have all the projects related to ESP8266 you can pick up for your references
 
-**Node MCU Scripts** - This repository would include all the python based scripts which can be used as Ethical Hacking Tools.
+**[NodeMCU Scripts](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Node%20MCU)** - This repo has all NodeMCU scripts put up together that are widely useful in running automations
 
-**PIC Scripts** - This repository would include all the python based scripts which can be used as Ethical Hacking Tools.
+**[PIC Scripts](https://github.com/prathimacode-hub/IoT-Spot/tree/main/PIC)** - This place would have the scripts that use PIC micro-controller and useful in inbuilting the functional projects concerning the same.
 
-**Raspberry Pi Scripts** - This repository would include all the python based scripts which can be used as Ethical Hacking Tools.
+**[RaspberryPi Scripts](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Raspberry%20Pi)** - This repo has all that scripts that are compatible to all the versions and models of Raspberry Pi
+
+**[Real-Time Scripts](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Real-Time%20Scripts)** -  This place endorses with all the scripts which takes real-time inputs parallely and makes the projects work functionally and promptly)
+
+**[Major Scripts](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Major%20Scripts)** - This repo has all the major and impactful projects related to Internet Of Things.
 
 When raising an issue, do make sure to mention the kind of script, project title, short description of the project and how would you expect it to work. As a good practice, always link the issue number with pull request. (#issue number : Give this details when you raise a PR).
 
@@ -56,12 +60,6 @@ If you worked on or want to initiate a unique project and share it with the worl
 
 Subsequently, also go through the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-
-<h2>🌱Pre-requisites</h2>
-
-- Python IDE : Install it by using this link [python.org](https://www.python.org/downloads/)
-- If you are new to python programming and want to have a fair knowledge before you start working on it, you can learn it in a simplified way through this [repository](https://github.com/prathimacode-hub/Learn-Python-For-Beginners).
-- To make you familiarize with how programming works in python with proper structuring and algorithms, here I present a [project](https://github.com/prathimacode-hub/PyAlgo-Tree) created specifically for contributors who wants to explore and practice their concepts.
 
 <h2>🛠Templates to Follow</h2>
 
@@ -77,17 +75,17 @@ Subsequently, also go through the GitHub documentation on [creating a pull reque
 
 Your projects should contain this flow to maintain similarity across all other projects. Make sure to note these things, before you create a PR.
 
-Create a folder of your project title. (Example : If you want to add a game of tic tac toe, then project name should be "Tic Tac Toe" and file name as "tic_tac_toe.py")
+Create a folder of your project title. (Example : If you want to add a LED blinking using 8051, then project should be placed under **8051 Scripts** with project title named as "LED Blinking" and file name as "led_blinking.c" if it's a C file)
 
 The project repository you had created would have :
 
-**file_name.py** - This python file is the project you have worked upon.
+**file_name.py** or **file_name.c** or **file_name.cpp** - This file is the project you have worked upon.
 
 **README.md** - This file is must included to get good understanding of the project (Elaborate it briefly about how it works using [README](https://github.com/prathimacode-hub/IoT-Spot/blob/main/.github/readme_template.md) template).
 
-**requirements.txt** - In this file, you should add all the libraries you had included in your project 
+**requirements.txt** - In this file, you should add all the requirements you had used in your project 
 
-**Images** - This folder would have all images added, be it screenshots or step by step process images.
+**Images** - This folder would have all images added, be it screenshots or step by step process images. Also inclusion of block diagrams and emulator circuit diagrams are must to portray the project efficiently.
 
 **Related files** - The other additional and related files would be added up in "Related" folder.
 
