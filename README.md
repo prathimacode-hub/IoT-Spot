@@ -118,17 +118,6 @@ Since this repo is purely technical, make sure you include "Block Diagrams" and 
 > print("Start contributing for IoT-Spot")
 
 
-<h2>👍 OpenSource Programs</h2>
-
-<table>
-<tr>
- <td>
-<a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/OpenSource%20Programs/Girlscript%20Winter%20Of%20Contributing/Girlscript%20Winter%20of%20Contributing.png" width=150px height=150px /></a>
- </td>
-</tr>
-</table> 
-
-
 <h2>📜 Code Of Conduct</h2>
 
 You can find our Code of Conduct [here](https://github.com/prathimacode-hub/IoT-Spot/blob/main/CODE_OF_CONDUCT.md).
