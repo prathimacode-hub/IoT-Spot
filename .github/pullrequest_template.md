@@ -2,7 +2,7 @@
 
 - Info about the related issue 
 
-- [ ] GWOC Participant 
+- [ ] SWOC Participant 
 - [ ] Contributor
 
 Closes: #issue number that will be closed through this PR
@@ -35,7 +35,7 @@ Example how to mark a checkbox:-
 -->
 - [ ] My code follows the guidelines of this project.
 - [ ] I have performed a self-review of my own code.
-- [ ] I have commented my code, particularly whereever it was hard to understand.
+- [ ] I have commented my code, particularly wherever it was hard to understand.
 - [ ] I have made corresponding changes to the documentation.
 - [ ] My changes generate no new warnings.
 - [ ] I have added tests that prove my fix is effective or that my feature works.
