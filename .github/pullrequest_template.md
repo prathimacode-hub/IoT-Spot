@@ -2,6 +2,7 @@
 
 - Info about the related issue 
 
+- [ ] Hacktoberfest2021 Participant 
 - [ ] SWOC Participant 
 - [ ] Contributor
 
