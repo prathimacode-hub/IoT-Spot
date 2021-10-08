@@ -14,7 +14,7 @@ What's the purpose of this project
 - If package, list of functionalities/scripts it can perform
 - If standalone script, short description of script explaining what it achieves.
 - List out the tools/IDE's used
-- List out the components needed to build this project
+- List out the components needed to build this project along with schematics
 
 
 ## Workflow of the Project
@@ -39,8 +39,7 @@ Briefly show the compilation steps of the project
 
 ## Output
 
-Display images/gifs/videos of output/result of your script so that users can visualize it
-Also add schematics and simulations
+Display images/videos of output/result and simulations of your script so that users can visualize it
 Direct up the links here and add them up in "Images" folder.
 
 
