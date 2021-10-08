@@ -1,4 +1,5 @@
-# Package/Script Name
+# Project/Script Name
+
 
 ## Aim
 
@@ -39,6 +40,8 @@ Briefly show the compilation steps of the project
 ## Output
 
 Display images/gifs/videos of output/result of your script so that users can visualize it
+Also add schematics and simulations
+Direct up the links here and add them up in "Images" folder.
 
 
 ## Author(s)
