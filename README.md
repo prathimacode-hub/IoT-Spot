@@ -127,6 +127,9 @@ This project was a part of these open source programs.
  <td>
 <a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/OpenSource%20Programs/Hacktober%20Fest/Hacktoberfest-2021.jpg" width=140px height=60px /></a>
  </td>
+ <td>
+<a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/OpenSource%20Programs/Delta%20Winter%20Of%20Code/Delta-Winter-Of-Code.jpg" width=100px height=80px /></a>
+ </td>
 </tr>
 </table>
 
@@ -139,7 +142,7 @@ Thanks goes to these Wonderful People. Contributions of any kind are welcome!ðŸš
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 
-<a href="https://github.com/prathimacode-hub/ML-ProjectKart/graphs/contributors">
+<a href="https://github.com/prathimacode-hub/IoT-Spot/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=prathimacode-hub/IoT-Spot" />
 </a>
 
