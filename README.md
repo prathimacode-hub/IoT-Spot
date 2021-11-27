@@ -25,7 +25,8 @@ Anyone related to technology who is looking to contribute to open-source is all 
 
 **| 8051 | ARM | Adafruit | Arduino | Atmel | Beagle | ESP32 | ESP8266 | Node MCU | PIC | Raspberry Pi |**
 
-**Programming Lanaguages - C, C++, Python**
+**Programming Lanaguages - C, C++, Python, HTML, CSS**
+**Domain Knowledge - IoT, Web Development
 
 
 **[8051 Scripts](https://github.com/prathimacode-hub/IoT-Spot/tree/main/8051)** - The best repo to start with before you enter into the ocean of micro-controllers. It has all the projects related to 8051 micro-controller
@@ -130,7 +131,7 @@ This project was a part of these open source programs.
 <table>
 <tr>
   <td>
-<a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/OpenSource%20Programs/Script%20Winter%20Of%20Code/Script-Winter-Of-Code.jpg" width=100px height=80px /></a>
+<a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/OpenSource%20Programs/Script%20Winter%20Of%20Code/Script%20Winter%20Of%20Code.jpg" width=100px height=80px /></a>
  </td>
  <td>
 <a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/OpenSource%20Programs/Delta%20Winter%20Of%20Code/Delta-Winter-Of-Code.jpg" width=100px height=80px /></a>
