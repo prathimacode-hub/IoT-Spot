@@ -61,6 +61,11 @@ If you worked on or want to initiate a unique project and share it with the worl
 Subsequently, also go through the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 
+<h2> Link To The Website</h2>
+
+https://prathimacode-hub.github.io/IoT-Spot/
+
+
 <h2>🛠Templates to Follow</h2>
 
 - [Feature request](https://github.com/prathimacode-hub/IoT-Spot/blob/main/.github/issue_template/feature_request.md)
@@ -124,8 +129,8 @@ This project was a part of these open source programs.
 
 <table>
 <tr>
- <td>
-<a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/OpenSource%20Programs/Hacktober%20Fest/Hacktoberfest-2021.jpg" width=140px height=60px /></a>
+  <td>
+<a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/OpenSource%20Programs/Script%20Winter%20Of%20Code/Script-Winter-Of-Code.jpg" width=100px height=80px /></a>
  </td>
  <td>
 <a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/OpenSource%20Programs/Delta%20Winter%20Of%20Code/Delta-Winter-Of-Code.jpg" width=100px height=80px /></a>
