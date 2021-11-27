@@ -9,7 +9,7 @@ Assignee: ''
 
 Define You:
 
-- [ ] Hacktoberfest2021 Participant 
+- [ ] DWOC Participant  
 - [ ] SWOC Participant
 - [ ] Contributor
 
