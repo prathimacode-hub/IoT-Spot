@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading::before{
+    content:" ";
+    background: url('https://www.resilientdatasystems.co.uk/images/header_tech.png')no-repeat center center/cover;
+    position: absolute;
+    height:70vh;
+    width:100vw;
+    z-index:-1;
+    opacity: 0.92;
+    left:0;
+    top:0; 
+}
+.heading{
+    color:rgba(247, 243, 242, 0.925);
+    /*font-family: 'Dancing Script', cursive; */
+    font-family: Pacifico;
+    text-decoration: underline;
+    font-weight:bold;
+    text-align: center;
+    justify-content: center;
+    margin-top: 24vh;
+    font-size: 60px;
+}
