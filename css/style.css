@@ -6,31 +6,78 @@
 }
 html{
     scroll-behavior: smooth;
+    FONT-FAMILY:Poppins, sans-serif;
 }
 .flex{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.heading::before{
-    content:" ";
-    background: url('https://www.resilientdatasystems.co.uk/images/header_tech.png')no-repeat center center/cover;
-    position: absolute;
-    height:70vh;
-    width:100vw;
-    z-index:-1;
-    opacity: 0.92;
-    left:0;
-    top:0; 
+#nav{
+    text-decoration:none;
+}
+.front{
+    background-color: rgb(208, 236, 243);
+}
+.front p{
+    font-size:15px;
+    color: #6084a4;
+    line-height: 1.8;
 }
 .heading{
-    color:rgba(247, 243, 242, 0.925);
-    /*font-family: 'Dancing Script', cursive; */
-    font-family: Pacifico;
-    text-decoration: underline;
+    color:rgba(22, 19, 18, 0.925);
+    margin-right:14vw;
+    font-family: 'Poppins', cursive; 
+    font-size:40px;
+    text-align:start;
     font-weight:bold;
     text-align: center;
     justify-content: center;
-    margin-top: 24vh;
     font-size: 60px;
 }
+.front img {
+    height:100vh;
+    width:45vw;
+}
+.btn.btn-secondary {
+    text-transform: capitalize;
+    border-radius: 0;
+    background-color: #7658e6;
+    padding: 13px 30px;
+    -webkit-box-shadow: 5px 5px 5px #a6f5be;
+    box-shadow: 5px 5px 5px #a7a6f5;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left:5px;
+    margin-top:20px;
+}
+ 
+.btn {
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    padding: 15px 40px;
+    position: relative;
+    border-radius: 4px;
+    z-index: 1;
+    text-transform: uppercase;
+    box-shadow:#b5b9ee;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+}  
