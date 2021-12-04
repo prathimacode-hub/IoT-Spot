@@ -26,7 +26,8 @@ Anyone related to technology who is looking to contribute to open-source is all 
 **| 8051 | ARM | Adafruit | Arduino | Atmel | Beagle | ESP32 | ESP8266 | Node MCU | PIC | Raspberry Pi |**
 
 **Programming Lanaguages - C, C++, Python, HTML, CSS**
-**Domain Knowledge - IoT, Web Development
+
+**Domain Knowledge - IoT, Web Development**
 
 
 **[8051 Scripts](https://github.com/prathimacode-hub/IoT-Spot/tree/main/8051)** - The best repo to start with before you enter into the ocean of micro-controllers. It has all the projects related to 8051 micro-controller
@@ -183,7 +184,7 @@ If you liked working on this project, do ⭐ and share this repository.
 
 🎉 🎊 😃 Happy Contributing 😃 🎊 🎉
 
-<sup><kbd>***[Click here](https://github.com/prathimacode-hub/prathimacode-hub/blob/main/PROJECTS.md)***</kbd> *to view my other projects.</sup>* <br>
+<sup><kbd>***[Click here](https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Projects/OpenSource-Projects.md)***</kbd> *to view my other projects.</sup>* <br>
 </td>
 
 
