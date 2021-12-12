@@ -194,7 +194,7 @@ This project follows the [MIT License](https://github.com/prathimacode-hub/IoT-S
 
 <table>
   <tr>
-    <td align='center'><a href='https://github.com/geetaroraqaz'><img src='' width='80px;' alt=''/><br/><sub><b>Geet Arora</b></sub></a></td>
+    <td align='center'><a href='https://github.com/geetaroraqaz'><img src='https://avatars.githubusercontent.com/u/82507205?v=4' width='80px;' alt=''/><br/><sub><b>Geet Arora</b></sub></a></td>
   </tr>
 </table>
 
