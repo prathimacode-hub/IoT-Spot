@@ -5,9 +5,16 @@
 
 The main aim of the project you want to achieve.
 
+
 ## Purpose
 
 What's the purpose of this project
+
+
+## Components Required
+
+List out the components used in your project
+
 
 ## Short description of package/script
 
@@ -39,7 +46,7 @@ Briefly show the compilation steps of the project
 
 ## Output
 
-Display images/videos of output/result and simulations of your script so that users can visualize it
+Display images/videos of output/result and simulations of your script here in README so that users can visualize it
 Direct up the links here and add them up in "Images" folder.
 
 
