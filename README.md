@@ -46,13 +46,15 @@ Anyone related to technology who is looking to contribute to open-source is all 
 
 **[ESP8266 Scripts](https://github.com/prathimacode-hub/IoT-Spot/tree/main/ESP8266)** - This repo would have all the projects related to ESP8266 you can pick up for your references
 
+**[Minor Scripts](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Minor%20Scripts)** - This repo has all minor scripts put up together on various controllers we can use while working on IoT applications
+
 **[NodeMCU Scripts](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Node%20MCU)** - This repo has all NodeMCU scripts put up together that are widely useful in running automations
 
 **[PIC Scripts](https://github.com/prathimacode-hub/IoT-Spot/tree/main/PIC)** - This place would have the scripts that use PIC micro-controller and useful in inbuilting the functional projects concerning the same.
 
 **[RaspberryPi Scripts](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Raspberry%20Pi)** - This repo has all that scripts that are compatible to all the versions and models of Raspberry Pi
 
-**[Real-Time Scripts](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Real-Time%20Scripts)** -  This place endorses with all the scripts which takes real-time inputs parallely and makes the projects work functionally and promptly)
+**[Real-Time Scripts](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Real-Time%20Scripts)** - This place endorses with all the scripts which takes real-time inputs parallely and makes the projects work functionally and promptly)
 
 **[Major Scripts](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Major%20Scripts)** - This repo has all the major and impactful projects related to Internet Of Things.
 
@@ -141,6 +143,18 @@ This project was a part of these open source programs.
 </table>
 
 
+<h2> 📊 Points Category</h2>
+
+| Level of Issues | Points Allocated |
+| - | - |
+| Beginner | 10 Points 🔰|
+| Easy | 20 Points 🌱|
+| Medium | 30 Points 🌕|
+| Hard | 40 Points 🔥 |
+
+You can check out the project leaderboard here : [SWOC Leaderboard](https://github.com/prathimacode-hub/IoT-Spot/blob/main/.github/swoc_leaderboard.md)
+
+
 <h2>✨Hall Of Fame</h2>   
 
 Thanks goes to these Wonderful People. Contributions of any kind are welcome!🚀 
@@ -174,6 +188,15 @@ This project follows the [MIT License](https://github.com/prathimacode-hub/IoT-S
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 ![Visitor Count](https://profile-counter.glitch.me/{prathimacode-hub}/count.svg)
+
+
+<h2>🤝SWOC Mentors</h2>
+
+<table>
+  <tr>
+    <td align='center'><a href='https://github.com/geetaroraqaz'><img src='' width='80px;' alt=''/><br/><sub><b>Geet Arora</b></sub></a></td>
+  </tr>
+</table>
 
 
 <h2>⭐Give this Project a Star</h2>
