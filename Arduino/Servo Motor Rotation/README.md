@@ -33,13 +33,13 @@ The LED brightness value is also scaled accordingly and is sent to the LED port.
 
 - Assemble the circuit in Tinkercad as shown in the circuit diagram.
 - The resistor value is set at 110 Ω.
-- Upload the code provided in this link.
+- Upload the code provided in this [link](https://github.com/ahananupam33/IoT-Spot/blob/main/Arduino/Servo%20Motor%20Rotation/Servo_Motor.ino).
 - Run the simulation and rotate the potentiometer to get the desired motor rotation.
 
 
 ## Output
 
-[Simulation Video](https://github.com/ahananupam33/IoT-Spot/blob/main/Arduino/Servo%20Motor%20Rotation/Images/Simulation_video.mp4)
+### [Simulation Video](https://github.com/ahananupam33/IoT-Spot/blob/main/Arduino/Servo%20Motor%20Rotation/Images/Simulation_video.mp4)
 <br>
 ![Circuit](https://github.com/ahananupam33/IoT-Spot/blob/main/Arduino/Servo%20Motor%20Rotation/Images/ServoMotor_Circuit.PNG)
 
