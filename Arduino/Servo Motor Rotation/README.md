@@ -39,9 +39,11 @@ The LED brightness value is also scaled accordingly and is sent to the LED port.
 
 ## Output
 
-### [Simulation Video](https://github.com/ahananupam33/IoT-Spot/blob/main/Arduino/Servo%20Motor%20Rotation/Images/Simulation_video.mp4)
+[Simulation Video](https://github.com/ahananupam33/IoT-Spot/blob/main/Arduino/Servo%20Motor%20Rotation/Images/Simulation_video.mp4)
 <br>
-![Circuit](https://github.com/ahananupam33/IoT-Spot/blob/main/Arduino/Servo%20Motor%20Rotation/Images/ServoMotor_Circuit.PNG)
+[Circuit](https://github.com/ahananupam33/IoT-Spot/blob/main/Arduino/Servo%20Motor%20Rotation/Images/ServoMotor_Circuit.PNG)
+<br>
+[Schematic circuit](https://github.com/ahananupam33/IoT-Spot/blob/main/Arduino/Servo%20Motor%20Rotation/Images/ServoMotor_schematic.PNG)
 
 
 ## Author(s)
