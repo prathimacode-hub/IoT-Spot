@@ -30,7 +30,7 @@ In this project, we are controlling the speed of a DC motor using potentiometer 
 - Assemble the circuit in Tinkercad as shown in the circuit diagram.
 - The resistor value is set at 2.2K Ω.
 - Initially, the potentiometer should be at zero.
-- Upload the code provided in this [link](https://github.com/ahananupam33/IoT-Spot/blob/main/Arduino/Servo%20Motor%20Rotation/Servo_Motor.ino).
+- Upload the code provided in this [link](https://github.com/baibhav3211/IoT-Spot/blob/main/Arduino/Speeding%20Motor%20Using%20Arduino/speeding_motor_using_arduino1.ino).
 - Run the simulation and rotate the potentiometer to change the speed of the motor.
 
 
@@ -38,11 +38,13 @@ In this project, we are controlling the speed of a DC motor using potentiometer 
 
 [Simulation Video]()
 <br>
-[Circuit]()
+[Circuit](https://github.com/baibhav3211/IoT-Spot/blob/main/Arduino/Speeding%20Motor%20Using%20Arduino/Images/Circuit%20Diagram.png)
+<br>
+[Schematic View](https://github.com/baibhav3211/IoT-Spot/blob/main/Arduino/Speeding%20Motor%20Using%20Arduino/Images/Schematic%20view.png)
 <br>
 
 
 ## Author(s)
 
-Baibhav
+[Baibhav](https://www.linkedin.com/in/baibhav-90211a197/)
 
