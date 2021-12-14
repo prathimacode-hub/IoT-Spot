@@ -36,7 +36,7 @@ In this project, we are controlling the speed of a DC motor using potentiometer 
 
 ## Output
 
-[Simulation Video]()
+[Simulation Video](https://github.com/baibhav3211/IoT-Spot/blob/main/Arduino/Speeding%20Motor%20Using%20Arduino/Images/Simulation%20video.mp4)
 <br>
 [Circuit](https://github.com/baibhav3211/IoT-Spot/blob/main/Arduino/Speeding%20Motor%20Using%20Arduino/Images/Circuit%20Diagram.png)
 <br>
