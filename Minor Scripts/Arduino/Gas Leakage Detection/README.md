@@ -21,11 +21,11 @@ There is one input and one output sensor connected to the arduino. The gas senso
 - Make the circuit as seen in the images.
 - Upload the source code.
 - Run
-### [Circuit Image](https://github.com/san-13/IoT-Spot/blob/main/Arduino/Gas-Leakage-Detection/Circuit%20Image.png)
-### [Schematic View](https://github.com/san-13/IoT-Spot/blob/main/Arduino/Gas-Leakage-Detection/Schematic%20View.png)
+### [Circuit Image](https://github.com/san-13/IoT-Spot/blob/main/Minor%20Scripts/Arduino/Gas%20Leakage%20Detection/Images/Circuit%20Image.png)
+### [Schematic View](https://github.com/san-13/IoT-Spot/blob/main/Minor%20Scripts/Arduino/Gas%20Leakage%20Detection/Images/Schematic%20View.png)
 ### [Source Code](https://github.com/san-13/IoT-Spot/blob/main/Arduino/Gas-Leakage-Detection/Source%20Code.ino)
 
 ## Output
-### [Simulation Video](https://github.com/san-13/IoT-Spot/blob/main/Arduino/Gas-Leakage-Detection/Simulation%20Video.webm)
+### [Simulation Video](https://github.com/san-13/IoT-Spot/blob/main/Minor%20Scripts/Arduino/Gas%20Leakage%20Detection/Images/Simulation%20Video.webm)
 ## Author
 [Sandeep Verma](github.com/san-13)
