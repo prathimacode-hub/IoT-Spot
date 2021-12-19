@@ -29,7 +29,7 @@ To update the temperature in degree celcius in every second.
 ------------
 ## Output:
 ![Tinkercad Circuit](https://github.com/ritikalohia/IoT-Spot/blob/main/Arduino/Temperature%20sensing%20using%20arduino/Images/temperature_sensing.png)
-[SIMULATION VIDEO] (https://github.com/ritikalohia/IoT-Spot/blob/main/Arduino/Temperature%20sensing%20using%20arduino/output.mp4)
+[SIMULATION VIDEO](https://github.com/ritikalohia/IoT-Spot/blob/main/Arduino/Temperature%20sensing%20using%20arduino/output.mp4)
 
 ------------
 
