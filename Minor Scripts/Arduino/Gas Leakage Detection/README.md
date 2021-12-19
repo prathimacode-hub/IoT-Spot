@@ -23,7 +23,7 @@ There is one input and one output sensor connected to the arduino. The gas senso
 - Run
 #### [Circuit Image](https://github.com/san-13/IoT-Spot/blob/main/Minor%20Scripts/Arduino/Gas%20Leakage%20Detection/images/circuit_image.png)
 #### [Schematic View](https://github.com/san-13/IoT-Spot/blob/main/Minor%20Scripts/Arduino/Gas%20Leakage%20Detection/images/schematic_view.png)
-#### [Source Code](https://github.com/san-13/IoT-Spot/blob/main/Arduino/Gas-Leakage-Detection/source_code.ino)
+#### [Source Code](https://github.com/san-13/IoT-Spot/blob/main/Minor%20Scripts/Arduino/Gas%20Leakage%20Detection/source_code.ino)
 
 ## Output
 #### [Simulation Video](https://github.com/san-13/IoT-Spot/blob/main/Minor%20Scripts/Arduino/Gas%20Leakage%20Detection/images/simulation_video.webm)
