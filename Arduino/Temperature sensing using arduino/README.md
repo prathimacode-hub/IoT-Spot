@@ -24,11 +24,12 @@ To update the temperature in degree celcius in every second.
   - Connect the +Vs to +5v on your Arduino board.
   - Connect Vout to Analog0 or A0 on Arduino board.
   - Connect GND with GND on Arduino.
-- Upload the code provided [here](https://github.com/ritikalohia/IoT-Spot/blob/main/Arduino/Temperature%20sensing%20using%20arduino/temperature.ino)
+- Upload the code provided [here](https://github.com/ritikalohia/IoT-Spot/blob/main/Arduino/Temperature%20sensing%20using%20arduino/Images/temperature.ino)
 - Run to see the project in action!
 ------------
 ## Output:
-![Tinkercad Circuit](https://github.com/ritikalohia/IoT-Spot/blob/main/Arduino/Temperature%20sensing%20using%20arduino/temperature_sensing.png)
+![Tinkercad Circuit](https://github.com/ritikalohia/IoT-Spot/blob/main/Arduino/Temperature%20sensing%20using%20arduino/Images/temperature_sensing.png)
+[SIMULATION VIDEO] (https://github.com/ritikalohia/IoT-Spot/blob/main/Arduino/Temperature%20sensing%20using%20arduino/output.mp4)
 ------------
 
 ## Author:
