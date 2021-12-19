@@ -19,6 +19,7 @@ To update the temperature in degree celcius in every second.
 
 ## Setup instructions:
 - Assemble the circuit as shown below.
+
 ![schematic diagram](https://github.com/ritikalohia/IoT-Spot/blob/main/Arduino/Temperature%20sensing%20using%20arduino/Images/schematic_diagram.png)
 - Temperature has three terminals - Vs, Vout and GND. We will connect the sensor as follows −
   - Connect the +Vs to +5v on your Arduino board.
@@ -28,8 +29,8 @@ To update the temperature in degree celcius in every second.
 - Run to see the project in action!
 ------------
 ## Output:
-![Tinkercad Circuit](https://github.com/ritikalohia/IoT-Spot/blob/main/Arduino/Temperature%20sensing%20using%20arduino/Images/temperature_sensing.png)
-[SIMULATION VIDEO](https://github.com/ritikalohia/IoT-Spot/blob/main/Arduino/Temperature%20sensing%20using%20arduino/output.mp4)
+![Tinkercad Circuit](https://github.com/ritikalohia/IoT-Spot/blob/main/Arduino/Temperature%20sensing%20using%20arduino/Images/circuit_diagram.png)
+[SIMULATION VIDEO](https://github.com/ritikalohia/IoT-Spot/blob/main/Arduino/Temperature%20sensing%20using%20arduino/Images/simulation_video.mp4)
 
 ------------
 
