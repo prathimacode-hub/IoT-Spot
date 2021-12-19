@@ -19,6 +19,7 @@ To update the temperature in degree celcius in every second.
 
 ## Setup instructions:
 - Assemble the circuit as shown below.
+- [schematic diagram](https://github.com/ritikalohia/IoT-Spot/blob/main/Arduino/Temperature%20sensing%20using%20arduino/schematic_diagram.png)
 - Temperature has three terminals - Vs, Vout and GND. We will connect the sensor as follows −
   - Connect the +Vs to +5v on your Arduino board.
   - Connect Vout to Analog0 or A0 on Arduino board.
