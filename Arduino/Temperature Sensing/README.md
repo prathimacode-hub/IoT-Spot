@@ -5,8 +5,7 @@ To get the temperature using arduino
 ## Purpose:
 To update the temperature in degree celcius in every second.
 
-## Short Description:
-**Requirements:**
+## Component Required:
 - Arduino UNO R3
 - breadboard
 - wires
