@@ -101,3 +101,77 @@ html{
     font-size: 1rem;
     border-radius: 0.25rem;
 }
+
+
+#main {
+    margin-left: 30%;
+    margin-top: 5%;
+    background-color: cyan;
+    width: 40%;
+    height: fit-content;
+    border-radius: 4%;
+    box-shadow: inset 2px 2px 20px white;
+}
+
+#image {
+    margin-left: 25%;
+    margin-top: 2%;
+    padding: 2%;
+    border-radius: 50%;
+    box-shadow: 2px 2px white;
+}
+
+#Name {
+    margin-left: 37%;
+}
+
+#designation {
+    margin-left: 44%;
+}
+
+#content {
+    width: 80%;
+    margin-left: 10%;
+}
+
+#prev {
+    background-color: #8a74dd;
+    border: 2px solid #7658e6;
+    /* padding-top: 1%; */
+    color: rgb(15, 17, 17);
+    font-weight: 700;
+    font-size: 2vw;
+    border-radius: 35%;
+    margin-bottom: 5%;
+    margin-left: 30%;
+    font-size: 1.4vw;
+    margin-top:2%;
+    padding:3px;
+    -webkit-border-radius:35%;
+    -moz-border-radius:35%;
+    -ms-border-radius:35%;
+    -o-border-radius:35%;
+}
+
+#next {
+    background-color: #8a74dd;
+    border: 2px solid #7658e6;
+    /*padding-top: 1%;
+    */color: rgb(15, 17, 17);
+    font-weight: 700;
+    border-radius:35%;
+    margin-bottom: 5%;
+    font-size: 1.4vw;
+    float: right;
+    margin-right: 30%;
+    margin-top:2%;
+    padding:3px;
+    -webkit-border-radius:35%;
+    -moz-border-radius:35%;
+    -ms-border-radius:35%;
+    -o-border-radius:35%;
+}
+#Reviewer{
+  margin-left:40%;
+  margin-top:5%;
+}
