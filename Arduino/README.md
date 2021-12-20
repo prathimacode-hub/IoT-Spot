@@ -1,1 +1,9 @@
+# Arduino Scripts
 
+### This repository contains all the basic Arduino Scripts one needs to know before working on end-to-end projects.
+
+- [Alternate LED Blinking](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Arduino/Alternate%20LED%20Blinking)
+- [LCD Welcome Message](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Arduino/LCD%20Welcome%20Message)
+- [Servo Motor Rotation](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Arduino/Servo%20Motor%20Rotation)
+- [Speeding Motor](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Arduino/Speeding%20Motor%20Using%20Arduino)
+- [Temperature Sensing](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Arduino/Temperature%20Sensing)

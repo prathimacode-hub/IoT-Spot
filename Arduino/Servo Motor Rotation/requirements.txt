@@ -1,0 +1,6 @@
+Name	Quantity	Component
+U2	   1	      Arduino Uno R3
+SERVO1	   1	   Positional Micro Servo
+Rpot1	   1	    250 kΩ Potentiometer
+D1	   1	         Red LED
+R1	   1	      110 Ω Resistor
