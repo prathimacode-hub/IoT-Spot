@@ -13,11 +13,12 @@ We use three set of traffic light which are placed on respective three paths. Ou
 
 ## Components Required
 
-- Arduino Uno(R3)
-- Breadboard
-- LEDs ( Red(3), Yellow(3), Green(3))
-- Resistor( 220 Ohm)(3)
-- Wires
+| Components  |      Quantity |  Range|
+|----------   |:-------------:|------:|
+| Arduino Uno |  1            |   -   |
+| LEDs        |3 R, 3 Y, 3 G  |   -   |
+| Resistor    |     3         |220ohm |
+|wires        | -             | -     |
 
 
 ## Short description of package/script
@@ -53,7 +54,7 @@ We use three set of traffic light which are placed on respective three paths. Ou
 
 ## Author
 
-Ritika lohia(https://github.com/ritikalohia/)
+[Ritika lohia](https://github.com/ritikalohia/)
 
 
 
