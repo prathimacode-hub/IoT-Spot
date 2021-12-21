@@ -1,4 +1,4 @@
-# Project/Script Name
+# traffic Light Controller
 
 
 ## Aim
@@ -13,11 +13,11 @@ We use three set of traffic light which are placed on respective three paths. Ou
 
 ## Components Required
 
-Arduino Uno(R3)
-Breadboard
-LEDs ( Red(3), Yellow(3), Green(3))
-Resistor( 220 Ohm)(3)
-Wires
+- Arduino Uno(R3)
+- Breadboard
+- LEDs ( Red(3), Yellow(3), Green(3))
+- Resistor( 220 Ohm)(3)
+- Wires
 
 
 ## Short description of package/script
@@ -38,13 +38,9 @@ Wires
 - Connect these negative terminals to the ground.
 - Connect the positive terminal of the LEDs to the pins 2 to 10, respectively.
 - Power the breadboard by using 5V and GND on the Arduino.
-- Upload the code provided in this link.
-
-
-
-## Detailed explanation of script, if needed
-
-If code is not explainable using comments, use this sections to explain your script
+- Connected circuit diagram:
+  ![TinkerCad circuit](https://github.com/ritikalohia/IoT-Spot/blob/main/Arduino/Traffic%20Light%20Controller/Images/circuit_diagram.png)
+- Upload the code provided in this [link](https://github.com/ritikalohia/IoT-Spot/blob/main/Arduino/Traffic%20Light%20Controller/traffic_light_code.ino).
 
 
 ## Compilation Steps
@@ -53,16 +49,11 @@ If code is not explainable using comments, use this sections to explain your scr
 
 
 ## Output
-
-Display images/videos of output/result and simulations of your script here in README so that users can visualize it
-Direct up the links here and add them up in "Images" folder.
-
+[Simulation video](https://github.com/ritikalohia/IoT-Spot/blob/main/Arduino/Traffic%20Light%20Controller/Images/simulation_video.mp4)
 
 ## Author
 
-Ritika lohia
+Ritika lohia(https://github.com/ritikalohia/)
 
 
-## Disclaimers, if any
 
-Use this section to mention if any particular disclaimer is required
