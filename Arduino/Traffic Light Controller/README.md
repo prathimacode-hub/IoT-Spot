@@ -24,7 +24,7 @@ We use three set of traffic light which are placed on respective three paths. Ou
 ## Short description of package/script
 
 - In the project, we have exhibited traffic lights for a three-way road. The LEDs will be glowing in a particular sequence to form an actual traffic light controller system.
-
+- Tool: Tinkercad software
 
 ## Workflow of the Project
 
