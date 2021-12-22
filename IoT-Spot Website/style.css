@@ -175,3 +175,8 @@ html{
   margin-left:40%;
   margin-top:5%;
 }
+.carousel-item img{
+    opacity: 0.95;
+    height:100vh;
+    width:80vw;
+}
