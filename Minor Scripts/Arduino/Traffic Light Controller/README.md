@@ -1,4 +1,4 @@
-# traffic Light Controller
+# Traffic Light Controller
 
 
 ## Aim
