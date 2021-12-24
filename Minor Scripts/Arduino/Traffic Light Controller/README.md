@@ -41,7 +41,7 @@ We use three set of traffic light which are placed on respective three paths. Ou
 - Power the breadboard by using 5V and GND on the Arduino.
 - Connected circuit diagram:
   ![TinkerCad circuit](https://github.com/ritikalohia/IoT-Spot/blob/main/Minor%20Scripts/Arduino/Traffic%20Light%20Controller/Images/circuit_diagram.png)
-- Upload the code provided in this [link](https://github.com/ritikalohia/IoT-Spot/blob/main/Arduino/Traffic%20Light%20Controller/traffic_light_code.ino).
+- Upload the code provided in this [link](https://github.com/ritikalohia/IoT-Spot/blob/main/Minor%20Scripts/Arduino/Traffic%20Light%20Controller/traffic_light_code.ino).
 
 
 ## Compilation Steps
@@ -50,7 +50,7 @@ We use three set of traffic light which are placed on respective three paths. Ou
 
 
 ## Output
-[Simulation video](https://github.com/ritikalohia/IoT-Spot/blob/main/Arduino/Traffic%20Light%20Controller/Images/simulation_video.mp4)
+[Simulation video](https://github.com/ritikalohia/IoT-Spot/blob/main/Minor%20Scripts/Arduino/Traffic%20Light%20Controller/Images/simulation_video.mp4)
 
 ## Author
 
