@@ -4,14 +4,19 @@
     overflow-y: auto;
     overflow-x: hidden;
 }
+body{
+    overflow-y:hidden;
+}
 html{
     scroll-behavior: smooth;
     Font-family:Poppins, sans-serif;
 }
 .flex{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display:flex;
+    align-content: center;
+    justify-content:center;
+    flex-wrap: wrap;
+    height:100vh;
 }
 .navbar{
     background-color: rgb(208, 236, 243);
@@ -47,6 +52,7 @@ html{
     line-height: 1.8;
 }
 .heading{
+    overflow-y: hidden;
     color:rgba(22, 19, 18, 0.925);
     margin-right:14vw;
     font-family: 'Poppins', cursive; 
@@ -123,9 +129,11 @@ html{
 
 #Name {
     margin-left: 37%;
+    overflow-y: hidden;
 }
 
 #designation {
+    overflow-y: hidden;
     margin-left: 44%;
 }
 
@@ -172,11 +180,145 @@ html{
     -o-border-radius:35%;
 }
 #Reviewer{
-  margin-left:40%;
-  margin-top:5%;
+  text-align: center;
+  overflow-y: hidden;
+
 }
 .carousel-item img{
     opacity: 0.95;
     height:100vh;
     width:80vw;
+}
+.container{
+    width:1200px;
+    margin-top:40px;
+}
+.card{
+    height:40vh;
+    width:30vw;
+}
+.container .card{
+   position:relative;
+   width:290px;
+   height:430px;
+   box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2);
+   box-shadow: inset -5px -5px 15px rgba(255,255,255,0.1);
+   box-shadow: inset 5px 5px 15px rgba(0,0,0,0.3);
+   box-shadow: inset -5px -5px 15px rgba(255,255,255,0.1);
+   border-radius:15px ;
+   -webkit-border-radius:15px ;
+   -moz-border-radius:15px ;
+   -ms-border-radius:15px ;
+   -o-border-radius:15px ;
+   margin:30px;
+}
+.container .card .box{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    top:20px;
+    bottom:20px;
+    left:20px;
+    right:20px;
+    background-color: #2a2b2f;
+    border:2px solid #1e1f23;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    box-shadow: 0px 20px 50px rgba(0,0,0,0.5);
+    transition:0.5s;
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -ms-transition:0.5s;
+    -o-transition:0.5s;
+    overflow:hidden;
+}
+.container .card .box::before{
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    width:50%;
+    height:100%;
+    background: rgba(255,255,255,0.05);
+}
+.container .card .box:hover{
+    transform:translateY(-50px);
+    -webkit-transform:translateY(-50px);
+    -moz-transform:translateY(-50px);
+    -ms-transform:translateY(-50px);
+    -o-transform:translateY(-50px);
+    box-shadow: 0px 40px 70px rgba(0,0,0,0.5);
+}
+.container .card .box .content{
+    padding:20px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container .card .box .content h2{
+    position:absolute;
+    top:-10px;
+    right:30px;
+    font-size: 8em;
+    color:rgba(255,255,255,0.05);
+}
+.container .card .box .content h3{
+   font-size: 1.6em;
+   z-index:1;
+   color:rgba(255,255,255,0.5);
+   transition:0.5s;
+   -webkit-transition:0.5s;
+   -moz-transition:0.5s;
+   -ms-transition:0.5s;
+   -o-transition:0.5s;
+}
+.container .card .box .content p{
+   font-size: 16px;
+   font-style: 300;
+   z-index:1;
+   color:rgba(255,255,255,0.5);
+   transition:0.5s;
+   -webkit-transition:0.5s;
+   -moz-transition:0.5s;
+   -ms-transition:0.5s;
+   -o-transition:0.5s;
+}
+.container .card .box .content a{
+    position:relative;
+    display:inline-block;
+    padding:8px 20px;
+    background: #000;
+    margin-top:15px ;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    color:#fff;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+}
+.container .card:nth-child(1) .box .content a
+{
+    background-color: #2196f3;
+}
+.container .card:nth-child(2) .box .content a
+{
+    background-color:hotpink;
+}
+.container .card:nth-child(3) .box .content a
+{
+    background-color: greenyellow;
+}
+.solutions h1{
+    margin-top:50px;
+   text-align: center;
+   overflow-y:hidden;
 }
