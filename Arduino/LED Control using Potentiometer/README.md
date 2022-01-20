@@ -21,9 +21,10 @@ Brightness of LED can be controlled using the Potentiometer.
 
 ## Workflow:
 
-- First we initialise LED as output and switch as input
 - We initiate a loop
-- Using conditional statements we control the state of the LED depending on the state of the switch.
+- We read the value of the voltage across the Potentiometer
+- We modify the value and provide it as input to the LED
+- Using varied values by varying the resistance of the potentiometer, we control the state of the LED.
 
 ## Setup instructions:
 
