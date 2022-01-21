@@ -37,7 +37,7 @@ Continuous Scrolling can be made using RGB LED.
 
 ## Output:
 
-![Simulation Video](https://github.com/shreya024/IoT-Spot/blob/main/Arduino/RGB%20LED%20Scrolling/Images/rgb_led_scrolling.mp4)
+[Simulation Video](https://github.com/shreya024/IoT-Spot/blob/main/Arduino/RGB%20LED%20Scrolling/Images/rgb_led_scrolling.mp4)
 ![Tinkercad Circuit](https://github.com/shreya024/IoT-Spot/blob/main/Arduino/RGB%20LED%20Scrolling/Images/rgb_led_scrolling.png)
 
 ---
