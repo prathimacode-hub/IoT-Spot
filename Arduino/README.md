@@ -7,6 +7,7 @@
 - [LED Control Using Potentiometer](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Arduino/LED%20Control%20Using%20Potentiometer)
 - [LED Control Using Switch](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Arduino/LED%20Control%20Using%20Switch)
 - [RGB LED Scrolling](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Arduino/RGB%20LED%20Scrolling)
+- [Room Brightness Sensing using Arduino](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Arduino/Room%20Brightness%20Sensing%20using%20Arduino)
 - [Servo Motor Rotation](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Arduino/Servo%20Motor%20Rotation)
 - [Speeding Motor](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Arduino/Speeding%20Motor%20Using%20Arduino)
 - [Temperature Sensing](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Arduino/Temperature%20Sensing)
