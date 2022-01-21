@@ -2,11 +2,11 @@
 
 ## AIM:
 
-To implement continuous scrolling of red,green and blue colors using the RGB LED.
+To implement sensing the room brightness using photoresistor and Arduino.
 
 ## Purpose:
 
-Continuous Scrolling can be made using RGB LED.
+To sense the room brightness using photoresistor and Arduino.
 
 ## Short Description:
 
@@ -21,25 +21,25 @@ Continuous Scrolling can be made using RGB LED.
 
 ## Workflow:
 
-- We initiate a loop that ensures continuous scrolling.
-- We initiate pin 11, 10 and 9 as the output of Red ,Blue and Green terminals respectively.
-- We use analogWrite function to give the input value of 255 one at a time to each of these color terminals of the RGB LED.
-- We set the values of the other two pins to 0 to show distinct colors - Red,Blue and Green.
-- Each color is separated by a very minimal delay of 1 sec.
+- We initiate analog pin A0 as input for the photoresistor and the default pin 13 as output for the LED.
+- We initiate a loop.
+- We read the value of the light sensor using analogRead that changes as we change the brightness of the light.
+- We set the sensorvalue as a delay timer in between the HIGH and LOW states of the LED.
+- This ensures when the room is dark,the LED blinks rapidly and the speed of blinking decreases with increase in brightness.
 
 ## Setup instructions:
 
 - Assemble the circuit as shown below.
-- Make sure to connect one end of the RGB LED to ground(i.e. GND)
-- Upload the code provided [here](https://github.com/shreya024/IoT-Spot/blob/main/Arduino/RGB%20LED%20Scrolling/rgb_led_scrolling.ino)
+- Make sure to connect one end of both the photoresistor and the LED to ground(i.e. GND)
+- Upload the code provided [here](https://github.com/shreya024/IoT-Spot/blob/main/Arduino/Room%20Brightness%20Sensing%20using%20Arduino/room_brightness_sensing_using_arduino.ino)
 - Run to see the project in action!
 
 ---
 
 ## Output:
 
-[Simulation Video](https://github.com/shreya024/IoT-Spot/blob/main/Arduino/RGB%20LED%20Scrolling/Images/rgb_led_scrolling.mp4)
-![Tinkercad Circuit](https://github.com/shreya024/IoT-Spot/blob/main/Arduino/RGB%20LED%20Scrolling/Images/rgb_led_scrolling.png)
+[Simulation Video](https://github.com/shreya024/IoT-Spot/blob/main/Arduino/Room%20Brightness%20Sensing%20using%20Arduino/Images/room_brightness_sensing_using_arduino.mp4)
+![Tinkercad Circuit](https://github.com/shreya024/IoT-Spot/blob/main/Arduino/Room%20Brightness%20Sensing%20using%20Arduino/Images/room_brightness_sensing_using_arduino.png)
 
 ---
 
