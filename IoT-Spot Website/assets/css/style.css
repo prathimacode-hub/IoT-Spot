@@ -387,9 +387,27 @@ li {
   margin-bottom: 15px;
 }
 
-/* .about-tabs {
-  margin-top: 10px;
-} */
+.column {
+  float: left;
+  margin-left:15%;
+  width: 30%;
+  padding: 10px;
+  height: 300px;
+ 
+  background-color: rgb(223, 239, 245); /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column h3{
+  font-weight: bold;
+  color:rgb(68, 63, 63);
+}
+
 .serviceoffers{
   padding:50px 0;
   margin-bottom:50px;
