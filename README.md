@@ -179,7 +179,7 @@ You can find our Code of Conduct [here](https://github.com/prathimacode-hub/IoT-
 
 <h2>📝 License</h2>  
 
-This project follows the [Mozilla Public License](https://github.com/prathimacode-hub/IoT-Spot/blob/main/LICENSE).
+This project follows the [Mozilla Public License 2.0](https://github.com/prathimacode-hub/IoT-Spot/blob/main/LICENSE).
 
 
 <h2>🙂 Project Admin</h2>
