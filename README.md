@@ -8,7 +8,7 @@
 <a href="https://github.com/prathimacode-hub"><img src="https://img.shields.io/badge/Open%20Source-%F0%9F%A4%8D-Green"></a> 
 <a href="https://github.com/prathimacode-hub"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3&style=flat-square"></a>
 <a href="https://github.com/prathimacode-hub/IoT-Spot/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/prathimacode-hub/IoT-Spot"></a>
-<a href="https://github.com/prathimacode-hub"><img src="https://img.shields.io/maintenance/yes/2021"></a>
+<a href="https://github.com/prathimacode-hub"><img src="https://img.shields.io/maintenance/yes/2022"></a>
 </p> 
 
 
@@ -179,7 +179,7 @@ You can find our Code of Conduct [here](https://github.com/prathimacode-hub/IoT-
 
 <h2>📝 License</h2>  
 
-This project follows the [MIT License](https://github.com/prathimacode-hub/IoT-Spot/blob/main/LICENSE).
+This project follows the [Mozilla Public License 2.0](https://github.com/prathimacode-hub/IoT-Spot/blob/main/LICENSE).
 
 
 <h2>🙂 Project Admin</h2>
@@ -207,8 +207,10 @@ If you liked working on this project, do ⭐ and share this repository.
 
 🎉 🎊 😃 Happy Contributing 😃 🎊 🎉
 
-<sup><kbd>***[Click here](https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Projects/OpenSource-Projects.md)***</kbd> *to view my other projects.</sup>* <br>
-</td>
+<!-- <sup><kbd>***[Click Here](https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Projects/OpenSource-Projects.md)***</kbd> *to view my open source projects and</sup>*  <sup><kbd>***[Get In](https://github.com/prathimacode-hub/prathimacode-hub/blob/main/GitHub%20Projects/Learning-Projects.md)***</kbd> *for learning projects.</sup>* <br>
+</td> -->
+
+<sup><kbd>***[Click Here](https://github.com/prathimacode-hub/prathimacode-hub/blob/main/GitHub%20Projects/OpenSource-Projects.md)***</kbd> *to view my open source projects.</sup>* <br>
 
 
 <h2>📬 Contact</h2>
@@ -217,7 +219,7 @@ If you want to contact me, you can reach me through below handles.
 
 <a href="https://twitter.com/prathimak88"><img src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/1200px-Twitter_Bird.svg.png" width="25"></img></a>&nbsp;&nbsp; <a href="https://www.linkedin.com/in/prathima-kadari/"><img src="https://www.felberpr.com/wp-content/uploads/linkedin-logo.png" width="25"></img></a>
 
-© 2021 Prathima Kadari
+© 2022 Prathima Kadari
 
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com) 
