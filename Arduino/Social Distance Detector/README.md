@@ -29,17 +29,17 @@ the buzzer starts beeping and notifying.
 
 - Assemble the circuit in Tinkercad as shown in the circuit diagram.
 - The resistor value is set at 1K Ω.
-- Upload the code provided in this [link]().
+- Upload the code provided in this [link](https://github.com/baibhav3211/IoT-Spot/blob/main/Arduino/Social%20Distance%20Detector/social_distance_detector1.ino).
 - Run the simulation and try to increase the distance in front of ultrasonic sensor.
 
 
 ## Output
 
-[Simulation Video]()
+[Simulation Video](https://github.com/baibhav3211/IoT-Spot/blob/main/Arduino/Social%20Distance%20Detector/Images/Simulation%20Video.mp4)
 <br>
-[Circuit]()
+[Circuit](https://github.com/baibhav3211/IoT-Spot/blob/main/Arduino/Social%20Distance%20Detector/Images/Circuit-Diagram.png)
 <br>
-[Schematic View]()
+[Schematic View](https://github.com/baibhav3211/IoT-Spot/blob/main/Arduino/Social%20Distance%20Detector/Images/Schematic.png)
 <br>
 
 
