@@ -16,7 +16,7 @@ When we start simulation, the servomotor rotates in anti-clockwise direction of 
 Noone, other than who know the correct password, can open the door.
 
 ## Workflow of the Project
-- Arduino takes input from keypad, that is, password of length 4, consist of digits and letters, output display on the LCD. After pressing 4 digits/letters, arduino checks whether it is a correct password or not.
+- Arduino takes input from keypad, that is, password of length 4, consist of digits and letters, output display on the LCD. After pressing 4 digits/letters, arduino checks whether it is a correct password or not. In code, we have decided the correct password, if anybody want to change the password, he/she can do by modifying the code.
 - If it is a correct password, then the servomotor rotates at 90 degrees, and door is opened now. It is opened for 5 seconds, the count down will be displayed on LCD. After 5 sec, the servomotor rotates at 90 degrees in anti clockwise
 and closes the door. 
 - If it is incorrect password, then the peizobuzzer creates noise and in LCD, message appears "Get away".
@@ -25,7 +25,7 @@ and closes the door.
 - Use Tinkercad
 - Make the circuit as seen in the images.
 - Upload the source code.
-- Run
+- Type 4 digits/letters in keypad, see the results.
 #### Circuit Image
 ![circuit diagram](https://github.com/ritikalohia/IoT-Spot/blob/main/Minor%20Scripts/Arduino/home%20security%20alert%20system/Images/circuit_diagram.png)
 #### [Source Code](https://github.com/ritikalohia/IoT-Spot/blob/main/Minor%20Scripts/Arduino/home%20security%20alert%20system/code.ino)
