@@ -26,7 +26,8 @@ If it is incorrect password, then the peizzobuzzer creates noise and in LCD, mes
 - Make the circuit as seen in the images.
 - Upload the source code.
 - Run
-#### [Circuit Image](https://github.com/ritikalohia/IoT-Spot/blob/main/Minor%20Scripts/Arduino/home%20security%20alert%20system/Images/circuit_diagram.png)
+#### Circuit Image
+![circuit diagram](https://github.com/ritikalohia/IoT-Spot/blob/main/Minor%20Scripts/Arduino/home%20security%20alert%20system/Images/circuit_diagram.png)
 #### [Source Code](https://github.com/ritikalohia/IoT-Spot/blob/main/Minor%20Scripts/Arduino/home%20security%20alert%20system/code.ino)
 
 ## Output
