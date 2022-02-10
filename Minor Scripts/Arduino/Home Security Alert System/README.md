@@ -27,10 +27,10 @@ and closes the door.
 - Upload the source code.
 - Type 4 digits/letters in keypad, see the results.
 #### Circuit Image
-![circuit diagram](https://github.com/ritikalohia/IoT-Spot/blob/main/Minor%20Scripts/Arduino/home%20security%20alert%20system/Images/circuit_diagram.png)
-#### [Source Code](https://github.com/ritikalohia/IoT-Spot/blob/main/Minor%20Scripts/Arduino/home%20security%20alert%20system/code.ino)
+![circuit diagram](https://github.com/ritikalohia/IoT-Spot/blob/main/Minor%20Scripts/Arduino/Home%20Security%20Alert%20System/Images/circuit_diagram.png)
+#### [Source Code](https://github.com/ritikalohia/IoT-Spot/blob/main/Minor%20Scripts/Arduino/Home%20Security%20Alert%20System/home_security_alert_system.ino)
 
 ## Output
-#### [Simulation Video](https://github.com/ritikalohia/IoT-Spot/blob/main/Minor%20Scripts/Arduino/home%20security%20alert%20system/Images/simulation-video.mp4)
+#### [Simulation Video](https://github.com/ritikalohia/IoT-Spot/blob/main/Minor%20Scripts/Arduino/Home%20Security%20Alert%20System/Images/simulation-video.mp4)
 ## Author
 [Ritika lohia](github.com/ritikalohia)
