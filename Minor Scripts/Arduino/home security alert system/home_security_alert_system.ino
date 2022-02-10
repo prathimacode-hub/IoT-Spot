@@ -16,7 +16,7 @@ char key[rows][cols] = {
 byte rowPins[rows] = {0, 1, 2, 3};
 byte colPins[cols] = {4, 5, 6, 7};
 Keypad keypad = Keypad(makeKeymap(key), rowPins, colPins, rows, cols);
-char *password = "123D";
+char *password = "123D"; //CORRECT PASSWORD
 int currentposition = 0;
 int buzz = 9;
 int invalidcount = 12;
@@ -27,7 +27,7 @@ void setup()
   Serial.begin(9600);
   pinMode(buzz, OUTPUT);
   myservo.attach(11); // SERVO ATTACHED//
-  lcd.begin(16, 2);
+  lcd.begin(16, 2);   //a 16×2 LCD screen can display up to 32 characters at once
 }
 void loop()
 {
@@ -36,47 +36,47 @@ void loop()
     displayscreen();
   }
   int l;
-  char code = keypad.getKey();
-  if (code != NO_KEY)
+  char code = keypad.getKey(); // return the ASCII value of the key being pressed
+  if (code != NO_KEY)          // The code here will run whenever there is a key pressed
   {
     lcd.clear();
     lcd.setCursor(0, 0);
     lcd.print("PASSWORD:");
-    lcd.setCursor(7, 1);
+    lcd.setCursor(7, 1);  //second line , first character
     lcd.print(" ");
     lcd.setCursor(7, 1);
-    for (l = 0; l <= currentposition; ++l)
+    for (l = 0; l <= currentposition; ++l)  //taking input from keypad and display on LCD.
     {
 
       lcd.print("*");
-      keypress();
-    }
+      keypress(); 
+    } 
 
-    if (code == password[currentposition])
+    if (code == password[currentposition])   // if the currently pressed char == char at same position in password
     {
       ++currentposition;
       if (currentposition == 4)
       {
 
-        unlockdoor();
+        unlockdoor();   //typed password == correct password
         currentposition = 0;
       }
     }
     else
     {
       ++invalidcount;
-      incorrect();
+      incorrect();    //incorrect password function
       currentposition = 0;
     }
-    if (invalidcount == 5)
-    {
-      ++invalidcount;
-      torture1();
-    }
-    if (invalidcount == 8)
-    {
-      torture2();
-    }
+    // if (invalidcount == 5)
+    // {
+    //   ++invalidcount;
+    //   torture1();
+    // }
+    // if (invalidcount == 8)
+    // {
+    //   torture2();
+    // }
   }
   // LOOP ENDS!!!//
 }
@@ -219,7 +219,7 @@ void unlockbuzz()
 }
 
 //**********COUNTER BEEP**********//
-void counterbeep()
+void counterbeep()  //this function does the count down , after 5 sec, it will unlock the door again.
 {
   delay(1200);
 
