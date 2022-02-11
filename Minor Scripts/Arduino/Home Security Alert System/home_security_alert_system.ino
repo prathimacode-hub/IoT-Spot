@@ -68,15 +68,6 @@ void loop()
       incorrect();    //incorrect password function
       currentposition = 0;
     }
-    // if (invalidcount == 5)
-    // {
-    //   ++invalidcount;
-    //   torture1();
-    // }
-    // if (invalidcount == 8)
-    // {
-    //   torture2();
-    // }
   }
   // LOOP ENDS!!!//
 }
