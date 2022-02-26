@@ -25,7 +25,7 @@ Anyone related to technology who is looking to contribute to open-source is all 
 
 **| 8051 | ARM | Adafruit | Arduino | Atmel | Beagle | ESP32 | ESP8266 | Node MCU | PIC | Raspberry Pi |**
 
-**Programming Lanaguages - C, C++, Python, HTML, CSS**
+**Programming Lanaguages - C, C++, Python, HTML, CSS, JS**
 
 **Domain Knowledge - IoT, Web Development**
 
