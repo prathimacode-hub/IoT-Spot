@@ -11,6 +11,12 @@ Over the course of the program, participants can contribute to various projects 
 
 <a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/OpenSource%20Programs/Script%20Winter%20Of%20Code/Script%20Winter%20Of%20Code.jpg" width=150px height=150px /></a>
 
+- Delta Winter Of Code
+
+DWoC is a winter long program organised by Delta Force , the coding club of NIT Trichy. With an aim to support and improve the culture of open source software around us.
+
+<a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/OpenSource%20Programs/Delta%20Winter%20Of%20Code/Delta-Winter-Of-Code.jpg" width=150px height=150px /></a>
+
 - GirlScript Summer Of Code (GSSOC)
 
 Script Winter of Code is a three-month long open source program by GirlScript Foundation during summers.✔
