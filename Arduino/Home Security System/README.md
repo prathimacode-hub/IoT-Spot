@@ -8,7 +8,7 @@ To design a Arduino Based Home Security System
 
 ## Purpose
 
-This low-cost and effective system helps you to protect your house from thieves.
+This low-cost and effective system helps you to protect your house from thieves/intruders.
 
 
 ## Components Required
