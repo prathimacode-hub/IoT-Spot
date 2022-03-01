@@ -8,7 +8,7 @@ To design a Arduino Based Home Security System
 
 ## Purpose
 
-What's the purpose of this project
+This low-cost and effective system helps you to protect your house from thieves.
 
 
 ## Components Required
@@ -26,11 +26,13 @@ What's the purpose of this project
 * 1 Green LED
 * 4 Resisitors
 
+## Short Description 
+
+In this project, we are using PIR Motion Sensor Module as an infraredsensor that generates electric charge when exposed in heat and sends a signal to Arduino. Accordingly the Arduino displays the status on LCD screen and start buzzing the buzzer and glows the LEDs.
 
 ## Workflow of the Project
 
-- First we setup a default password 
-- The servo acts like the lock
+- The servo motor acts like the lock
 - When ths system is not locked the green LED is turned on and a LOCK INACTIVE message is displayed on the LCD Screen
 - When the system is locked by giving the default password through the keypad:
   - Servo rotates
@@ -54,7 +56,8 @@ What's the purpose of this project
 
 ## Output
 
-(https://github.com/rittikadeb/IoT-Spot/blob/main/Arduino/Home%20Security%20System/Images/home-security-system.PNG)
+![Circuit](https://user-images.githubusercontent.com/76259897/156227022-d60e95c8-9fc1-493c-b6eb-9fd0540929a6.png)
+
 
 [Simulation Video](https://github.com/rittikadeb/IoT-Spot/blob/main/Arduino/Home%20Security%20System/Images/home_security_system.mp4)
 
