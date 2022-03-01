@@ -55,15 +55,13 @@ What's the purpose of this project
 ## Output
 
 (https://github.com/rittikadeb/IoT-Spot/blob/main/Arduino/Home%20Security%20System/Images/home-security-system.PNG)
+
 [Simulation Video](https://github.com/rittikadeb/IoT-Spot/blob/main/Arduino/Home%20Security%20System/Images/home_security_system.mp4)
 
 
 
 ## Author(s)
 
-Name(s) of author(s)
+[Rittika Deb](https://github.com/rittikadeb)
 
 
-## Disclaimers, if any
-
-Use this section to mention if any particular disclaimer is required
