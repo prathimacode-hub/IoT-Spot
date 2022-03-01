@@ -10,7 +10,6 @@ Assignee: ''
 Define You:
 
 - [ ] GSSOC Participant 
-- [ ] SWOC Participant 
 - [ ] Contributor
 
 
