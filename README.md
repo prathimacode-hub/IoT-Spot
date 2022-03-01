@@ -139,6 +139,9 @@ This project was a part of these open source programs.
  <td>
 <a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/OpenSource%20Programs/Delta%20Winter%20Of%20Code/Delta-Winter-Of-Code.jpg" width=100px height=80px /></a>
  </td>
+ <td>
+<a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/OpenSource%20Programs/GirlScript%20Summer%20Of%20Code/GirlScript%20Summer%20Of%20Code.png" width=100px height=80px /></a>
+ </td>
 </tr>
 </table>
 
@@ -147,12 +150,11 @@ This project was a part of these open source programs.
 
 | Level of Issues | Points Allocated |
 | - | - |
-| Beginner | 10 Points 🔰|
-| Easy | 20 Points 🌱|
-| Medium | 30 Points 🌕|
-| Hard | 40 Points 🔥 |
+| Level 1|  Points 🔰|
+| Level 2 |  Points 🌱|
+| Level 3 |  Points 🔥|
 
-You can check out the project leaderboard here : [SWOC Leaderboard](https://github.com/prathimacode-hub/IoT-Spot/blob/main/.github/swoc_leaderboard.md)
+You can check out the project leaderboard for GSSOC here : [IoT-Spot Leaderboard](https://github.com/prathimacode-hub/IoT-Spot/blob/main/.github/gssoc_leaderboard.md)
 
 
 <h2>✨Hall Of Fame</h2>   
@@ -188,6 +190,18 @@ This project follows the [Mozilla Public License 2.0](https://github.com/prathim
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 ![Visitor Count](https://profile-counter.glitch.me/{prathimacode-hub}/count.svg)
+
+
+<h2>🤝GSSOC Mentors</h2>
+
+<table>
+  <tr>
+    <td align='center'><a href='https://github.com/abhisheks008'><img src='https://avatars.githubusercontent.com/u/68724349?v=4' width='80px;' alt=''/><br/><sub><b>Abhishek Sharma</b></sub></a></td>
+  </tr>
+  <tr>
+    <td align='center'><a href='https://github.com/vilgad'><img src='https://avatars.githubusercontent.com/u/84396662?v=4' width='80px;' alt=''/><br/><sub><b>Rohit Gupta</b></sub></a></td>
+  </tr>
+</table>
 
 
 <h2>🤝SWOC Mentors</h2>
