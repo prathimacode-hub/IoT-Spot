@@ -2,7 +2,7 @@
 
 - Info about the related issue 
 
-- [ ] DWOC Participant  
+- [ ] GSSOC Participant  
 - [ ] SWOC Participant 
 - [ ] Contributor
 
