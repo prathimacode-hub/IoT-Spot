@@ -33,7 +33,7 @@ In this project, we are using PIR Motion Sensor Module as an infraredsensor that
 ## Workflow of the Project
 
 - The servo motor acts like the lock
-- When ths system is not locked the green LED is turned on and a LOCK INACTIVE message is displayed on the LCD Screen
+- When ths system is not locked the green LED is turned on and a LOCK INACTIVE message is displayed on the LCD Screen.
 - When the system is locked by giving the default password through the keypad:
   - Servo rotates
   - Secured message is displayed on the LCD
