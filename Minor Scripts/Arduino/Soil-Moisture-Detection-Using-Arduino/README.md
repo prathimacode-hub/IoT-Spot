@@ -25,7 +25,7 @@ We take the analog input for temperature sensor and calculate subsequent percent
 Connect the circuit diagram as shown in the image and press the simulation button then change the values for temperature sensor to know the soil moisture.
 
 # Output
-
+Output Image and video in respective folders
 
 <br>
 
