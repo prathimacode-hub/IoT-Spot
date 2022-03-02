@@ -38,7 +38,7 @@ We can make note of time, using Real Time Clock Module.
 
 ## Output:
 
-![Fritzing Circuit](https://github.com/shreya024/IoT-Spot/blob/main/Arduino/LED%20Control%20using%20Switch/Images/led_control_using_switch.png)
+![Block Diagram](https://github.com/SarthakSKumar/IoT-Spot/blob/display_time_on_lcd_using_arduino/Arduino/Display%20Time%20on%20LCD%20using%20Arduino/Images/Block%20Diagram.png)
 
 ---
 

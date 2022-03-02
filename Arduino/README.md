@@ -12,4 +12,4 @@
 - [Smoke Detection Using Arduino](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Arduino/Smoke%20Detection%20Using%20Arduino)
 - [Speeding Motor](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Arduino/Speeding%20Motor%20Using%20Arduino)
 - [Temperature Sensing](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Arduino/Temperature%20Sensing)
-- [Display Time on LCD using Arduino]()
+- [Display Time on LCD using Arduino](https://github.com/SarthakSKumar/IoT-Spot/tree/display_time_on_lcd_using_arduino/Arduino/Display%20Time%20on%20LCD%20using%20Arduino)
