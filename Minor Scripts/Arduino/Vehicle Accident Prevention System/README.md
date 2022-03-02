@@ -3,7 +3,7 @@
 
 ## Aim
 
-To design a Arduino Based Vehicle Accident Prevention System
+To design a Arduino Based Vehicle Accident Prevention System.
 
 
 ## Purpose
@@ -27,7 +27,7 @@ This project proposes a quite efficient way to prevent road accidents.
 
 ## Short Description 
 
-The project deals with prevention of accident by sending alarm and a warning message to the driver if there are other vehicles in the vicinity. It also has a feature of automatic breaking system which turns on when any vehicle is too closethan the given threshold distance.
+The project deals with prevention of accident by sending alarm and a warning message to the driver if there are other vehicles in the vicinity. It also has a feature of automatic breaking system which turns on when any vehicle is too close than the given threshold distance.
 
 ## Workflow of the Project
 
