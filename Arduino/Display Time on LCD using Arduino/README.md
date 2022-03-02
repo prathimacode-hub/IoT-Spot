@@ -31,15 +31,14 @@ We can make note of time, using Real Time Clock Module.
 
 - Assemble the circuit as shown in the Schematic Diagram.
 - Make sure to check the pinouts of LCD as well as the RTC Module
-- Upload the code provided [here](https://github.com/shreya024/IoT-Spot/blob/main/Arduino/LED%20Control%20using%20Switch/led_control_using_switch.ino)
+- Upload the code provided [here](https://github.com/SarthakSKumar/IoT-Spot/blob/display_time_on_lcd_using_arduino/Arduino/Display%20Time%20on%20LCD%20using%20Arduino/display_time_on_lcd_using_arduino.ino)
 - Run to see the project in action!
 
 ---
 
 ## Output:
 
-[Simulation Video](https://github.com/shreya024/IoT-Spot/blob/main/Arduino/LED%20Control%20using%20Switch/Images/led_control_using_switch.mp4)
-![Tinkercad Circuit](https://github.com/shreya024/IoT-Spot/blob/main/Arduino/LED%20Control%20using%20Switch/Images/led_control_using_switch.png)
+![Fritzing Circuit](https://github.com/shreya024/IoT-Spot/blob/main/Arduino/LED%20Control%20using%20Switch/Images/led_control_using_switch.png)
 
 ---
 
