@@ -43,6 +43,9 @@ S command form serial monitor both motor will stop rotating.
 * Then give any command form among these (F,B,L,R,S) through serial monitor.
 * Start Simulation.
 
+## Screenshort
+[Circuit Diagram](https://github.com/rk18venom/IoT-Spot/blob/RC_car_circuit/Arduino/RC%20car%20circuit/Images/RC_car_circuit_image.png)
+
 ## Output
 
 [Video Link](https://github.com/rk18venom/IoT-Spot/blob/RC_car_circuit/Arduino/RC%20car%20circuit/Video/2022_03_01_151325.mp4)
