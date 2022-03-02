@@ -39,8 +39,8 @@ The project deals with prevention of accident by sending alarm and a warning mes
   - Green LED is turned on.
   - **Caution Message** is displayed on the LCD screen.
 -  When vehicle lesser than 1.5m and greater than 1m close to the subject:
-  - Red LED is turned on.
-  - **Apply Break** message is displayed on the LCD screen.
+    - Red LED is turned on.
+    - **Apply Break** message is displayed on the LCD screen.
 - When vehicle is less than 1m from the subject:
   - Automatic Brakes are applied.
   - Green LED is turned on.
