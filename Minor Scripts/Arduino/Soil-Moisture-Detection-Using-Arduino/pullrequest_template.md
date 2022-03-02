@@ -24,6 +24,7 @@ What sort of change have you made:
 ## How Has This Been Tested?
 
 Describe how have you verified the changes made
+<br>
 I have run this project on tinkercad simulation along with various parameters by placing manually.
 
 ## Checklist:
