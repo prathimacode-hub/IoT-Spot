@@ -9,7 +9,7 @@ I'm happy to welcome all the contributions from anyone willing to add new script
 ## 💻Before Contributing
 
 Welcome to [prathimacode-hub/IoT-Spot](https://github.com/prathimacode-hub/IoT-Spot/). Before sending your pull requests, make sure that you **read the whole
-guidelines**. If you have any doubt on the contributing guide, please feel free to reach out.
+guidelines**. If you have any doubt about the contributing guide, please feel free to reach out.
 
 
 ## 🙌Contribution
@@ -21,14 +21,14 @@ Any contribution is accepted, from fixing grammatical mistakes to implementing c
 
 Following are the steps to guide you:
 
-* Step 1: Fork the repo and Go to your Git terminal and  clone it on your machine.
-* Step 2: Add a upstream link to main branch in your cloned repo
+* Step 1: Fork the repo Go to your Git terminal and clone it on your machine.
+* Step 2: Add an upstream link to the main branch in your cloned repo
     ```
     git remote add upstream https://github.com/prathimacode-hub/IoT-Spot.git
     ```
-* Step 3: Keep your cloned repo upto date by pulling from upstream (this will also avoid any merge conflicts while committing new changes)
+* Step 3: Keep your cloned repo up to date by pulling from upstream (this will also avoid any merge conflicts while committing new changes)
     ```
-    git pull upstream main https://github.com/prathimacode-hub/IoT-Spot.git
+    git pull upstream main
     ```
 * Step 4: Create your feature branch (This is a necessary step, so don't skip it)
     ```
@@ -36,7 +36,7 @@ Following are the steps to guide you:
     ```
 * Step 5: Commit all the changes (Write commit message as "Small Message")
     ```
-    git commit -m "Write a meaningfull but small commit message"
+    git commit -m "Write a meaningful but small commit message"
     ```
 * Step 6: Push the changes for review
     ```
@@ -47,23 +47,23 @@ Following are the steps to guide you:
 
 ### 🔨Note:
 
-> - Do not edit/delete someone else's script in this repository. You can only insert new files/folder in this repository.
+> - Do not edit/delete someone else's script in this repository. You can only insert new files/folders into this repository.
 
-  > - Give a meaningful name to whatever file or folder you are adding. (For e.g., if you have written a ML script on Decision Tree Classifier, then 
-  > decision_tree_classifier.py is one example of valid name)
+  > - Give a meaningful name to whatever file or folder you are adding. (E.g., if you have written an ML script on Decision Tree Classifier, then 
+  > decision_tree_classifier.py is one example of the valid name)
 
 
 ## 🔑Guidelines
 
-1. Welcome to this repository, if you are here as open source program participant/contributor.
-2. Participants / contributors have to **comment** on issues they would like to work on, and mentors or the PA will assign you.
+1. Welcome to this repository, if you are here as an open-source program participant/contributor.
+2. Participants/contributors have to **comment** on issues they would like to work on, and mentors or the PA will assign you.
 3. Issues will be assigned on a **first-come, first-serve basis.**
-4. Participants / contributors can also **open their issues** using [issue_template](https://github.com/prathimacode-hub/IoT-Spot/tree/main/.github/issue_template),
+4. Participants/contributors can also **open their issues** using [issue_template](https://github.com/prathimacode-hub/IoT-Spot/tree/main/.github/issue_template),
 but it needs to be verified and labelled by a mentor or PA. Please discuss with the team once before opening your issues. We respect all your contributions, whether 
 it is an Issue or a Pull Request.
-6. When you raise a issue, make sure you get it assigned to you, before you start working on that project.
-7. Each participant / contributor will be **assigned 1 issue (max)** at a time to work.
-8. Participants are expected to follow **project guidelines** and [**coding style**](https://pep8.org/"). **Structured code** is one of our top priority.
+6. When you raise an issue, make sure you get it assigned to you before you start working on that project.
+7. Each participant/contributor will be **assigned 1 issue (max)** at a time to work.
+8. Participants are expected to follow **project guidelines** and [**coding style**](https://pep8.org/"). **Structured code** is one of our top priorities.
 9. Try to **explain your approach** to solve any issue in the comments. This will increase the chances of you being assigned.
 10. Don't create issues that are **already listed**.
 11. Please don't pick up an issue already assigned to someone else. Work on the issues after it gets **assigned to you**.
@@ -71,10 +71,10 @@ it is an Issue or a Pull Request.
 13. Pull requests will be merged after being **reviewed** by a mentor or PA.
 14. It might take **a day or two** to review your pull request. Please have patience and be nice.
 15. Always create a pull request from a **branch** other than `main`.
-16. Participants / contributors have to complete issues before the decided Deadline. If you fail to make a PR within the deadline, then the issue will be assigned to 
+16. Participants/contributors have to complete issues before the decided Deadline. If you fail to make a PR within the deadline, then the issue will be assigned to 
 another person in the queue.
 17. While making PRs, don't forget to **add a description** of your work.
-18. Include issue number (Fixes:issuenumber) in your commit message while creating a pull request.
+18. Include issue number (Fixes: issue number) in your commit message while creating a pull request.
 19. Make sure your solution to any issue is better in terms of performance and other parameters in comparison to the previous work.
 20. We all are here to learn. You are allowed to make mistakes. That's how you learn, right!.
 
@@ -93,11 +93,11 @@ another person in the queue.
 
 We want your work to be readable by others; therefore, we encourage you to note the following:
 
-- If Decision Tree Classifier is submitted for example, the Folder Name should be "Decision Tree Classifier" and the File Name as "decision_tree_classifier.py"
+- If Decision Tree Classifier is submitted, for example, the Folder Name should be "Decision Tree Classifier" and the File Name as "decision_tree_classifier.py"
 - File extension for code should be `.py` or `.c` or `.cpp`. 
 - Strictly use snake_case (underscore_separated) in your file_name, as it will be easy to parse in future using scripts.
 - Please avoid creating new directories if at all possible. Try to fit your work into the existing directory structure you have created for your project. If you want to,
-please contact before doing so.
+please contact me before doing so.
 - For algorithms, the basic project folder should have a "README.md" file, "file_name.py" and .csv files in "Dataset" if any used. 
 - For libraries and other tutorials, the script should be either in .md or .ipynb files.
 - The [README.md](https://github.com/prathimacode-hub/IoT-Spot/blob/main/.github/readme_template.md) file should be concise and clear about what the script is about and what it does.
@@ -110,17 +110,17 @@ please contact before doing so.
 
 ## 📖Resources
 
-1. Markdown : Markdown is a lightweight markup language like HTML, with plain text formatting syntax. 
+1. Markdown: Markdown is a lightweight markup language like HTML, with plain text formatting syntax. 
   * [Markdown Cheat-Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-2. Git : Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files.
+2. Git: Git is a distributed version control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files.
   * [Videos to get started](https://www.youtube.com/watch?v=xAAmje1H9YM&list=PLeo1K3hjS3usJuxZZUBdjAcilgfQHkRzW)
   * [Cheat Sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 
 
 ## 🤔Need more help?
 
-You can refer to the following articles on basics of Git and Github and also contact me, in case you are stuck:
+You can refer to the following articles on the basics of Git and Github and also contact me, in case you are stuck:
 - [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
 - [Cloning a Repo](https://help.github.com/en/desktop/contributing-to-projects/creating-an-issue-or-pull-request)
 - [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
