@@ -40,7 +40,7 @@ S command form serial monitor both motor will stop rotating.
 
 * Open Tinker Cad on any browser and make the circuit as shown [here](https://github.com/rk18venom/IoT-Spot/blob/RC_car_circuit/Arduino/RC%20car%20circuit/Images/RC_car_circuit_image.png).
 * Then paste the code in code section.
-* Then give any command form among these (F,B,L,R,S) through serial monitor.
+* Then give any command from among these (F,B,L,R,S) through serial monitor.
 * Start Simulation.
 
 ## Screenshort
