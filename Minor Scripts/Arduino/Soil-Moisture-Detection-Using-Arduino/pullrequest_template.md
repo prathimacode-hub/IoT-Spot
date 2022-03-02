@@ -14,10 +14,7 @@ Added new project - Checking soil moisture level using temperature sensor databy
 ## Type of change
 
 What sort of change have you made:
-<!--
-Example how to mark a checkbox:-
-- [x] My code follows the code style of this project.
--->
+
 - [ ] Bug fix (non-breaking change which fixes an issue)
 - [X] New feature (non-breaking change which adds functionality)
 - [ ] Code style update (formatting, local variables)
@@ -27,6 +24,7 @@ Example how to mark a checkbox:-
 ## How Has This Been Tested?
 
 Describe how have you verified the changes made
+I have run this project on tinkercad simulation along with various parameters by placing manually.
 
 ## Checklist:
 
