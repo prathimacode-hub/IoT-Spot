@@ -25,7 +25,7 @@ LED can be make to blink at definite intervals using Arduino
 
 - Assemble the circuit as shown below.
 - Make sure to connect one end of both LED to GND
-- Upload the code provided [here](https://github.com/shreya024/IoT-Spot/blob/main/Arduino/LED%20Control%20using%20Potentiometer/led_control_using_potentiometer.ino)
+- Upload the code provided [here](https://github.com/SarthakSKumar/IoT-Spot/blob/Basic_LED_Blinking_using_Arduino/Arduino/Basic%20LED%20Blinking%20Using%20Arduino/Basic_LED_Blinking%20Using%20Arduino.ino)
 - Run to see the project in action!
 
 ---
@@ -33,10 +33,10 @@ LED can be make to blink at definite intervals using Arduino
 ## Output:
 
 [Simulation Video](https://github.com/shreya024/IoT-Spot/blob/main/Arduino/LED%20Control%20using%20Potentiometer/Images/led_control_using_potentiometer.mp4)
-![Fritzing Circuit](https://github.com/shreya024/IoT-Spot/blob/main/Arduino/LED%20Control%20using%20Potentiometer/Images/led_control_using_potentiometer.png)
+![Fritzing Circuit](https://github.com/SarthakSKumar/IoT-Spot/blob/Basic_LED_Blinking_using_Arduino/Arduino/Basic%20LED%20Blinking%20Using%20Arduino/Images/Fritzing%20Circuit%20Diagram.png)
 
 ---
 
 ## Author:
 
-[Shreya Ghosh](https://github.com/shreya024)
+[Sarthak S Kumar](https://github.com/SarthakSKumar)
