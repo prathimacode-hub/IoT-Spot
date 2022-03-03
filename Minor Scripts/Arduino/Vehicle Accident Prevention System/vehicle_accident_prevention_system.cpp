@@ -1,7 +1,7 @@
-#include <LiquidCrystal.h>
+#include <LiquidCrystal.h> // Include library for LCD.
 LiquidCrystal lcd(2, 3, 4, 5, 6, 7);
-#include <Servo.h>
-int distanceThreshold = 0;
+#include <Servo.h> // Include library for Servomotor.
+int distanceThreshold = 0; // Initiaze threshold distance
 
 Servo myservo;
 int cm = 0;
@@ -35,9 +35,9 @@ void setup()
 void loop()
 {
   lcd.clear();
-  cm = 0.01723 * readUltrasonicDistance(11,10);
+  cm = 0.01723 * readUltrasonicDistance(11,10); //Calculation of distance 
  
-  if( cm >=300)
+  if( cm >=300) // Condition 1
   {
     digitalWrite(red, LOW);
     digitalWrite(green, HIGH);
@@ -45,7 +45,7 @@ void loop()
     lcd.setCursor(1,0);
     lcd.print("Safe Distance");
   }
-   if (cm <=300 && cm > 150)
+   if (cm <=300 && cm > 150) // Condition 2
   {
   	digitalWrite(red, LOW);
     digitalWrite(green, HIGH);
@@ -57,7 +57,7 @@ void loop()
    
   }
   
-  if (cm <= 150 && cm > 100)
+  if (cm <= 150 && cm > 100) // Condition 3
   {
 	digitalWrite(red, HIGH);
     digitalWrite(green, LOW);
@@ -69,7 +69,7 @@ void loop()
    
   }
   
-  if (cm <= 100)
+  if (cm <= 100) // Condition 4
   {
 	digitalWrite(red, LOW);
     digitalWrite(green, HIGH);
@@ -78,7 +78,7 @@ void loop()
     lcd.print("Breaks Applied!");
     lcd.setCursor(0,1);
     lcd.print("You are Safe Now");
-    for (pos = 1; pos <= 90; pos ++)
+    for (pos = 1; pos <= 90; pos ++) // Changes servo position
     { 
     myservo.write(pos);             
     delay(5);                       
