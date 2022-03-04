@@ -145,6 +145,7 @@ This project was a part of these open-source programs.
 </tr>
 </table>
 
+<!--
 
 <h2> 📊 Points Category</h2>
 
@@ -152,7 +153,7 @@ This project was a part of these open-source programs.
 | - | - |
 | Level 1|  Points 🔰|
 | Level 2 |  Points 🌱|
-| Level 3 |  Points 🔥|
+| Level 3 |  Points 🔥| -->
 
 You can check out the project leaderboard for GSSOC here : [IoT-Spot Leaderboard](https://github.com/prathimacode-hub/IoT-Spot/blob/main/.github/gssoc_leaderboard.md)
 
