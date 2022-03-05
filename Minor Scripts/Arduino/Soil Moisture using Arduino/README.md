@@ -31,6 +31,8 @@ Connect the circuit diagram as shown in the image and press the simulation butto
 <br>
 
 Output video and images is added in the /images folder
+Video Link: https://github.com/prathimacode-hub/IoT-Spot/blob/6ad5799a44aa93adef54b185650c0081b2015fb2/Minor%20Scripts/Arduino/Soil%20Moisture%20using%20Arduino/Images/Soil%20Moisture%20Video%20Demonstration.mp4
+Image Link: https://github.com/prathimacode-hub/IoT-Spot/blob/6ad5799a44aa93adef54b185650c0081b2015fb2/Minor%20Scripts/Arduino/Soil%20Moisture%20using%20Arduino/Images/SS-5.png
 
 <br>
 
