@@ -33,6 +33,8 @@ Connect the circuit diagram as shown in the image and press the simulation butto
 <br>
 
 Output video and images is added in the /images folder
+Demonstration Video Link: https://github.com/prathimacode-hub/IoT-Spot/blob/2355fa147f2136a441b92ffe9cc3f1f1ee8ec169/Minor%20Scripts/Arduino/Automated%20Hand%20Sanitizer%20Dispenser/Images/Automated%20Hand%20Sanitizer%20Dispenser%20Video%20Demonstration.mp4
+Image Link: https://github.com/prathimacode-hub/IoT-Spot/blob/2355fa147f2136a441b92ffe9cc3f1f1ee8ec169/Minor%20Scripts/Arduino/Automated%20Hand%20Sanitizer%20Dispenser/Images/SS-1.png
 
 <br>
 
