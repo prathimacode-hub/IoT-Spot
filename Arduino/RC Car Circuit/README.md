@@ -47,11 +47,11 @@ S command form serial monitor both motor will stop rotating.
 There is not any error on running the code. It will run perfectly fine.
 
 ## Screenshort
-[Circuit Diagram](https://github.com/rk18venom/IoT-Spot/blob/RC_car_circuit/Arduino/RC%20car%20circuit/Images/RC_car_circuit_image.png)
+[Circuit Diagram](https://github.com/rk18venom/IoT-Spot/blob/RC_car_circuit/Arduino/RC%20Car%20Circuit/Images/Circuit%20Image.png)
 
 ## Output
 
-[Video Link](https://github.com/rk18venom/IoT-Spot/blob/RC_car_circuit/Arduino/RC%20car%20circuit/Video/2022_03_01_151325.mp4)
+[Video Link](https://github.com/rk18venom/IoT-Spot/blob/RC_car_circuit/Arduino/RC%20Car%20Circuit/Videos/Circuit%20design%20RC%20MOTOR%20CAR%20_%20Tinkercad%20-%20Google%20Chrome%202022-03-07%2000-00-35.mp4)
 
 ## Author(s)
 
