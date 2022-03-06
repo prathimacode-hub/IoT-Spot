@@ -1,7 +1,5 @@
 #include "DHT.h"
-
 #define DHTPIN 2     // Digital pin connected to DHT11
-#define DHTTYPE DHT11   // DHT 11
 
 DHT dht(DHTPIN, DHTTYPE);
 
