@@ -28,6 +28,8 @@ Connect the circuit diagram as shown in the image and press the simulation butto
 # Output
 
 Output video and image is added in the /images folder
+Video Demonstration Link: https://github.com/prathimacode-hub/IoT-Spot/blob/2768caa196770147333ad39f3a783096a79623c8/Minor%20Scripts/Arduino/Humidity%20Sensing%20using%20Arduino/Images/Humidity%20Sensing%20Video%20Demonstration.mp4
+Image Link: https://github.com/prathimacode-hub/IoT-Spot/blob/2768caa196770147333ad39f3a783096a79623c8/Minor%20Scripts/Arduino/Humidity%20Sensing%20using%20Arduino/Images/SS-5.png
 <br>
 
 # Author
