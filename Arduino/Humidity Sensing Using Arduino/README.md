@@ -33,7 +33,7 @@ Using a DHT11 Module, we can get the Humidity in the environment the project is 
 
 ## Output:
 ![Tinkercad Circuit](https://github.com/SarthakSKumar/IoT-Spot/blob/Humidity_Sensing_Using_Arduino/Arduino/Humidity%20Sensing%20Using%20Arduino/Images/Fritzing%20Circuit%20Diagram.jpg)
-
+![Simulation Video](https://github.com/SarthakSKumar/IoT-Spot/blob/Humidity_Sensing_Using_Arduino/Arduino/Humidity%20Sensing%20Using%20Arduino/Images/Humidity_Sensing_Using_Arduino_Simulation.mp4)
 ---
 
 ## Author:
