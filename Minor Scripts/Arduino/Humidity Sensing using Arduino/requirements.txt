@@ -1,0 +1,8 @@
+| Component         | Quantity      |
+| ------------------| ------------- |
+| Arduino UNO       |  1            |
+| Breadboard        |  1            |
+| LCD               |  1            |
+| Potentiometer     |  2            |
+| Resistors         |  1            |
+| NeoPixel          |  1            |
