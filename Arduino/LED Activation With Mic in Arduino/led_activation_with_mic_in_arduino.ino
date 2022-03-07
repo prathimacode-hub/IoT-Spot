@@ -1,4 +1,4 @@
-int LED = 13;
+int LED = 13;             // Arduino pin connected to LED
 const int BUTTON_PIN = 7; // Arduino pin connected to button's pin
 const int BUZZER_PIN = 3; // Arduino pin connected to Buzzer's pin
 
@@ -12,18 +12,19 @@ void setup()
 
 void loop()
 {
-    int buttonState = digitalRead(BUTTON_PIN); // read new state
+    int buttonState = digitalRead(BUTTON_PIN); // read new state of button
 
     if (buttonState == LOW)
     {
-        Serial.println("The button is being pressed");
+        // The button is being pressed
         digitalWrite(BUZZER_PIN, HIGH); // turn on
     }
     else if (buttonState == HIGH)
     {
-        Serial.println("The button is unpressed");
+        // The button is unpressed
         digitalWrite(BUZZER_PIN, LOW); // turn off
     }
-    int sensorValue = digitalRead(BUZZER_PIN);
+
+    int sensorValue = digitalRead(BUZZER_PIN); // Microphone input
     digitalWrite(LED, sensorValue);
 }
