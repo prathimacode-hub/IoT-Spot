@@ -27,8 +27,8 @@ Connect the circuit diagram as shown in the image and press the simulation butto
 # Output
 
 Output video and images is added in the /images folder
-Video Demonstration Link:
-Image Link:
+Video Demonstration Link:https://github.com/prathimacode-hub/IoT-Spot/blob/14a7ef1b2157f7943898f8e193290a5bfabbb7b8/Minor%20Scripts/Arduino/Voltage%20Sensing%20using%20Arduino/Images/Voltage%20Sensing%20using%20Arduino%20Video%20Demonstration.mp4
+Image Link:https://github.com/prathimacode-hub/IoT-Spot/blob/14a7ef1b2157f7943898f8e193290a5bfabbb7b8/Minor%20Scripts/Arduino/Voltage%20Sensing%20using%20Arduino/Images/SS-1.png
 
 <br>
 
