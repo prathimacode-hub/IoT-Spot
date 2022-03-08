@@ -1,4 +1,8 @@
-### GSSoC LeaderBoard - Project : IoT-Spot
+<h1> GSSoC LeaderBoard - Project : IoT-Spot SCORE CARD 2021 ✨✨✨ </h1> <br>
+<h2> Welcome to the Repo Officially!!..🙌👏 </h2> <br>
+
+## Total Number Of PR's : 15
+## Total Number of Contributors : 7
 
 🔴 **Full Name** : (GitHub Link : https://github.com/) <br/>
 🔴 **Assigned Issues** : #Issue Number <br/>
