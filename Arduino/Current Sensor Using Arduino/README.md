@@ -33,15 +33,14 @@ and we calculate the current being produced
 - Start simulation
 
 ## OUTPUT
-[Simulation Video]: https://github.com/vaishnavighiradkar/heartbeatSensor/blob/main/156584570-8ffe7872-bc2a-4154-8f7b-676eb32fc75c.zip          
+[Simulation Video]:   https://github.com/vaishnavighiradkar/current_sensor/blob/main/Current%20Sensor%20Using%20Arduino/images/simulation_video.mp4
 
 (click on view raw)
 
-[Circuit Image]:https://github.com/vaishnavighiradkar/heartbeatSensor/blob/main/Screenshot%20(168).png
 
-[Source code]: https://github.com/vaishnavighiradkar/heartbeatSensor/blob/main/heartBeatSensorCode
+[Circuit Image]: https://github.com/vaishnavighiradkar/current_sensor/blob/main/Current%20Sensor%20Using%20Arduino/images/circuit_diagram.png
 
-
+[Source code]: https://github.com/vaishnavighiradkar/current_sensor/blob/main/Current%20Sensor%20Using%20Arduino/current_sensor.ino
 ## author
 Vaishnavi Ghiradkar
 (https://github.com/vaishnavighiradkar)
