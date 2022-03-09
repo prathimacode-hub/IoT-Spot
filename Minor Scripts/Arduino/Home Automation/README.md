@@ -61,7 +61,7 @@ In this project, we are using PIR Motion Sensor Module as an infraredsensor that
 ![Circuit](https://github.com/rittikadeb/IoT-Spot/blob/main/Minor%20Scripts/Arduino/Home%20Automation/Images/home_automation.JPG)
 
 
-[Simulation Video](https://github.com/rittikadeb/IoT-Spot/blob/main/Arduino/Home%20Security%20System/Images/home_security_system.mp4)
+[Simulation Video](https://github.com/rittikadeb/IoT-Spot/blob/main/Minor%20Scripts/Arduino/Home%20Automation/Images/home_automation.mp4)
 
 
 
