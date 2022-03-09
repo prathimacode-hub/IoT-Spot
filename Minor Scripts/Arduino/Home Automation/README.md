@@ -8,7 +8,7 @@ To design a Arduino Based Home Automation System
 
 ## Purpose
 
-This projects deals with the working of home automation.
+This project deals with the working of home automation.
 
 
 ## Components Required
@@ -24,11 +24,11 @@ This projects deals with the working of home automation.
 * Photoresistor
 * Temperature Sensor
 * Power Supply
-* 2 Resisitors
+* 2 Resistors
 
 ## Short Description 
 
-In this project, we are using PIR Motion Sensor Module as an infraredsensor that generates electric charge when exposed in heat and sends a signal to Arduino. Accordingly the Arduino displays the status on LCD screen and start buzzing the buzzer and glows the LEDs.
+In this project, we are using bulbs, DC motors as fans for home automation. These bulbs, fans works according to the data read from the photoresistor & temperature Sensor by the Arduino UNO.
 
 ## Workflow of the Project
 
