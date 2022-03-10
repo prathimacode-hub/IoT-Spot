@@ -1,4 +1,0 @@
-".\Objects\STARTUP.obj",
-".\Objects\dc_motor.obj" 
-TO ".\Objects\DC-motor" 
-PRINT(".\Listings\DC-motor.m51")

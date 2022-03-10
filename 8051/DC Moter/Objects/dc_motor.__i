@@ -1,1 +1,0 @@
-"dc_motor.c" OPTIMIZE (8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\dc_motor.lst) TABS (2) OBJECT(.\Objects\dc_motor.obj)
