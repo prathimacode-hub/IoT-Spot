@@ -1,7 +1,7 @@
-#include<LiquidCrystal.h>
+#include<LiquidCrystal.h> //Include library for LCD.
 #include<SoftwareSerial.h>
 
-LiquidCrystal lcd(6,7,2,3,4,5);
+LiquidCrystal lcd(6,7,2,3,4,5); //initiallize the LCD pins 
 
 int sensorValue = 0;
 int mapValue = 0;
@@ -10,7 +10,7 @@ const int lightBulb1 = 8;
 const int lightBulb2 = 9;
 const int ldrSensor = A0;
 
-int degreeCelsius = 0;
+int degreeCelsius = 0; //state of Temperature Sensor
 const int dcMotor1 = 10;
 const int dcMotor2 = 11;
 
@@ -35,7 +35,7 @@ void setup() {
 void loop() {
 {
   
-	degreeCelsius = map(((analogRead(A1) - 20) * 3.04), 0, 1023, -40, 125);
+	degreeCelsius = map(((analogRead(A1) - 20) * 3.04), 0, 1023, -40, 125); //Conversion to Celsius Scale
 		Serial.print("Temperature: ");
 		Serial.print(degreeCelsius);
 		Serial.println(" Degree Celcius");
@@ -46,7 +46,7 @@ void loop() {
 		lcd.print("C");
   
 //2 dc motors deactivated
-if(degreeCelsius<30) 
+if(degreeCelsius<30) //Condition 1
   {
     digitalWrite(dcMotor1,LOW);
     digitalWrite(dcMotor2,LOW);
@@ -58,7 +58,7 @@ if(degreeCelsius<30)
     Serial.println("Motor 2 is OFF.");
   }
   //dc motor from the left is activated from the right is deactivated
-else if(degreeCelsius>=30 && degreeCelsius<=45) 
+else if(degreeCelsius>=30 && degreeCelsius<=45) //Condition 2
   {
     digitalWrite(dcMotor1,HIGH);
     digitalWrite(dcMotor2,LOW);
@@ -70,7 +70,7 @@ else if(degreeCelsius>=30 && degreeCelsius<=45)
     Serial.println("Motor 2 is OFF.");
   }
   //2 dc motors activated
-else if(degreeCelsius>45) 
+else if(degreeCelsius>45) //Condition 3
   {
     digitalWrite(dcMotor1,HIGH);
     digitalWrite(dcMotor2,HIGH);
@@ -89,12 +89,13 @@ lcd.clear();
   
 {
 	sensorValue = analogRead(ldrSensor);
-	mapValue = map(sensorValue,0,1023,0,255);
+	mapValue = map(sensorValue,0,1023,0,255); //read values from the sensor
 	  
 	Serial.print("Current Mapped Value: ");
 	Serial.println(mapValue);
   
-	if(mapValue<100) {
+	if(mapValue<100) //Condition 4
+	{
 		digitalWrite(lightBulb1,LOW);
 		digitalWrite(lightBulb2,LOW);
 		Serial.println("Bulb 1 is OFF.");
@@ -104,7 +105,8 @@ lcd.clear();
 		lcd.setCursor(0,1);
 		lcd.print("Bulb 2 is OFF.");
 	}
-	else if(mapValue>=100 && mapValue<=150 ) {
+	else if(mapValue>=100 && mapValue<=150 ) //Condition 5
+	{
 		digitalWrite(lightBulb1,HIGH);
 		digitalWrite(lightBulb2,LOW);
 		Serial.println("Bulb 1 is ON.");
@@ -114,7 +116,8 @@ lcd.clear();
 		lcd.setCursor(0,1);
 		lcd.print("Bulb 2 is OFF.");
 	}
-	else if(mapValue>150) {
+	else if(mapValue>150) //Condition 6
+	{
 		digitalWrite(lightBulb1,HIGH);
 		digitalWrite(lightBulb2,HIGH);
 		Serial.println("Bulb 1 is ON.");
