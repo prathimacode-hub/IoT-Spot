@@ -9,9 +9,13 @@ rotate DC Motor in clockwise and anti clockwise direction
 # Component required
 Simulation environment - Proteus 8
 AT89C51 Microcontroller
+
 2 DC Motor
+
 Wires
+
 ICL29D
+
 switches
 <br>
 
@@ -32,7 +36,8 @@ we can add 5th switch to stop.But I have made on forever so that when other swit
 # Setup 
 Connect the circuit diagram as shown in the image and press the simulation button then play with switches to see different output
 # Screenshots
-![](Gallery/dc-motor1.png)
+
+![](https://github.com/nitishkumar07/IoT-Spot/blob/main/8051/DC%20Moter/Gallery/dc-motor1.PNG)
 <br>
 # Output
 
