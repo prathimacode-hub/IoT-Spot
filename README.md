@@ -60,7 +60,7 @@ Anyone related to technology who is looking to contribute to open-source is all 
 
 When raising an issue, do make sure to mention the kind of script, project title, short description of the project and how would you expect it to work. As a good practice, always link the issue number with a pull request. (#issue number: Give these details when you raise a PR).
 
-If you worked on or want to initiate a unique project and share it with the world, you can do that here. Go through the contributing guidelines in [CONTRIBUTING](https://github.com/prathimacode-hub/IoT-Spot/blob/main/CONTRIBUTING_GUIDELINES.md)👩‍💻
+If you worked on or want to initiate a unique project and share it with the world, you can do that here. Go through the contributing guidelines in [CONTRIBUTING](https://github.com/prathimacode-hub/IoT-Spot/blob/main/CONTRIBUTING.md)👩‍💻
 
 Subsequently, also go through the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
@@ -145,6 +145,7 @@ This project was a part of these open-source programs.
 </tr>
 </table>
 
+<!--
 
 <h2> 📊 Points Category</h2>
 
@@ -152,7 +153,7 @@ This project was a part of these open-source programs.
 | - | - |
 | Level 1|  Points 🔰|
 | Level 2 |  Points 🌱|
-| Level 3 |  Points 🔥|
+| Level 3 |  Points 🔥| -->
 
 You can check out the project leaderboard for GSSOC here : [IoT-Spot Leaderboard](https://github.com/prathimacode-hub/IoT-Spot/blob/main/.github/gssoc_leaderboard.md)
 
@@ -201,6 +202,9 @@ This project follows the [Mozilla Public License 2.0](https://github.com/prathim
   <tr>
     <td align='center'><a href='https://github.com/vilgad'><img src='https://avatars.githubusercontent.com/u/84396662?v=4' width='80px;' alt=''/><br/><sub><b>Rohit Gupta</b></sub></a></td>
   </tr>
+  <tr>
+    <td align='center'><a href='https://github.com/Dhruvsinghjadon'><img src='https://avatars.githubusercontent.com/u/75934644?v=4' width='80px;' alt=''/><br/><sub><b>Dhruv Singh Jadon</b></sub></a></td>
+ </tr>
 </table>
 
 

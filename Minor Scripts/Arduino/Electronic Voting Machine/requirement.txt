@@ -1,0 +1,9 @@
+#requirements
+- Tinkercad
+
+#components 
+- Arduino Uno board
+- 5 push buttons
+- resistor
+- LCD screen
+- wires
