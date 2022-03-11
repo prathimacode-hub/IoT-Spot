@@ -6,3 +6,5 @@
 - LCD 16*2
 - Force Sensor
 - Wires
+- Breadboard
+- Resistors 

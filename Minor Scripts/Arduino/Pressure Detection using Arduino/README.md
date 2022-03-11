@@ -9,6 +9,8 @@ To Learn the working of force sensor with arduino board.
 - LCD 16*2
 - Force Sensor
 - Wires
+- Breadboard
+- Resistors 
 
 ## Short Description 
 - When simulation started , force sensor detects pressure and gives output.
