@@ -33,6 +33,9 @@ Connect the circuit diagram as shown in the image and press the simulation butto
 <br>
 
 Output video and images is added in the /images folder
+Video Demonstration Link: https://github.com/prathimacode-hub/IoT-Spot/blob/c1393af799958ccff74f49a19cf82b33b9c11093/Minor%20Scripts/Arduino/Fire%20Alarm%20using%20Arduino/Images/Fire%20Alarm%20using%20Arduino%20Video%20Demonstration.mp4
+
+Image Link: https://github.com/prathimacode-hub/IoT-Spot/blob/c1393af799958ccff74f49a19cf82b33b9c11093/Minor%20Scripts/Arduino/Fire%20Alarm%20using%20Arduino/Images/SS-1.png
 
 <br>
 
