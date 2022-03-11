@@ -1,0 +1,12 @@
+//requirements
+- Proteus 8 Professional
+- Arduino Programming IDE
+
+//components of circuit
+- ACS712 ELC-30 Current Sensor
+- DC motor
+- Battery
+- LCD 16*2
+- Arduino Board
+- Potentiometer
+- wires

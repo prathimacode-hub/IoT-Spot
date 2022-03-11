@@ -1,4 +1,5 @@
 #include "DHT.h"
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 #define DHTPIN 2     // Digital pin connected to DHT11
@@ -6,6 +7,9 @@
 #define DHTPIN 8     // Digital pin connected to DHT11
 >>>>>>> main
 #define DHTTYPE DHT11   // DHT 11
+=======
+#define DHTPIN 2     // Digital pin connected to DHT11
+>>>>>>> db3609b4e1b2a5bb48cac7db94536af83928ebad
 
 DHT dht(DHTPIN, DHTTYPE);
 
@@ -33,11 +37,15 @@ void loop() {
   float heat_index_c = dht.computeHeatIndex(t, h, false);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> db3609b4e1b2a5bb48cac7db94536af83928ebad
   Serial.println(F("humidity-"));
   Serial.print(h);
   Serial.println(F("temperature-"));
   Serial.print(t);
   Serial.print(F("degree centigrade-"));
+<<<<<<< HEAD
 =======
   Serial.print(F("Humidity: "));
   Serial.print(h);
@@ -45,6 +53,8 @@ void loop() {
   Serial.print(t);
   Serial.print(F("°C "));
 >>>>>>> main
+=======
+>>>>>>> db3609b4e1b2a5bb48cac7db94536af83928ebad
   Serial.println(f);
 
   delay(2000);
