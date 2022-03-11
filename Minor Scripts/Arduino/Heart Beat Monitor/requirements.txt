@@ -1,0 +1,14 @@
+##Requiremnts
+-Proteus 8 Professional Software
+-Arduino IDE
+-HeartBeatSensor Library
+-PulsePlayground Library
+
+
+## Components Used
+- Arduino Uno R3
+- Heart Beat Sensor
+- Pot
+- DC Voltmeter
+- Virtual Terminal 
+- Wires

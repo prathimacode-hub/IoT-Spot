@@ -1,7 +1,5 @@
 #include "DHT.h"
-
-#define DHTPIN 8     // Digital pin connected to DHT11
-#define DHTTYPE DHT11   // DHT 11
+#define DHTPIN 2     // Digital pin connected to DHT11
 
 DHT dht(DHTPIN, DHTTYPE);
 
@@ -28,11 +26,11 @@ void loop() {
   // Compute heat index in Celsius (isFahreheit = false)
   float heat_index_c = dht.computeHeatIndex(t, h, false);
 
-  Serial.print(F("Humidity: "));
+  Serial.println(F("humidity-"));
   Serial.print(h);
-  Serial.print(F("%  Temperature: "));
+  Serial.println(F("temperature-"));
   Serial.print(t);
-  Serial.print(F("°C "));
+  Serial.print(F("degree centigrade-"));
   Serial.println(f);
 
   delay(2000);
