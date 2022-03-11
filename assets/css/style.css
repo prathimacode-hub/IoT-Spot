@@ -910,9 +910,8 @@ text-align:center;
   width: 80%;
   display: flex;
   align-items: center;
-  /* justify-content: flex-; */
-  margin-left:15vw;
-  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
   overflow-y: hidden;
   overflow-x: hidden;
 }
@@ -925,6 +924,7 @@ text-align:center;
   border-radius: 50%;
   transition: 0.5s;
   margin-left: 2rem;
+  position: relative;
 }
 
 .contact-social {
@@ -932,6 +932,10 @@ text-align:center;
   line-height: 5.1rem;
   color: var(--primary-background);
   transition: 0.5s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 
 .contact-form {
