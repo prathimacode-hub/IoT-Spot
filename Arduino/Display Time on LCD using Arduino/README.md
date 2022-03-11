@@ -39,7 +39,7 @@ We can make note of time, using Real Time Clock Module.
 ## Output:
 
 ![Block Diagram](https://github.com/SarthakSKumar/IoT-Spot/blob/display_time_on_lcd_using_arduino/Arduino/Display%20Time%20on%20LCD%20using%20Arduino/Images/Block%20Diagram.png)
-![Simulation Video](https://github.com/SarthakSKumar/IoT-Spot/blob/display_time_on_lcd_using_arduino/Arduino/Display%20Time%20on%20LCD%20using%20Arduino/Images/Display_Time_on_LCD_using_Arduino.mp4)
+![Simulation Video](https://github.com/SarthakSKumar/IoT-Spot/blob/display_time_on_lcd_using_arduino/Arduino/Display%20Time%20on%20LCD%20using%20Arduino/Images/Display_Time_on_LCD_using_Arduino_Simulation.mp4)
 
 ---
 
