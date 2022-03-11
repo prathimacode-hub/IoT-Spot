@@ -1,0 +1,8 @@
+#Software Requirements
+- Tinkercad
+
+#Components Requirement
+- Arduino UNO
+- LCD 16*2
+- Force Sensor
+- Wires
