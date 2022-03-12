@@ -37,8 +37,10 @@ we can add 5th switch to stop.But I have made on forever so that when other swit
 Connect the circuit diagram as shown in the image and press the simulation button then play with switches to see different output
 # Screenshots
 
-![](https://github.com/nitishkumar07/IoT-Spot/blob/main/8051/DC%20Moter/Gallery/dc-motor1.PNG)
+![](https://github.com/nitishkumar07/IoT-Spot/blob/main/8051/DC%20Motor%20Interfacing/Gallery/dc-motor.PNG)
 <br>
+# video
+![Output video](https://github.com/nitishkumar07/IoT-Spot/blob/main/8051/DC%20Motor%20Interfacing/Gallery/DCmotor-2022-03-05_17.57.12.mp4)
 # Output
 
 Output video and image is added in the Gallery folder
