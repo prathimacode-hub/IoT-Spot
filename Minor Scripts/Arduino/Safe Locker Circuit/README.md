@@ -44,7 +44,7 @@ List out the components used in this project are:
 ## Setup instructions
 
 * Open tinkercad
-* Make circuit as shown [here](https://github.com/rk18venom/IoT-Spot/blob/Safe-Lock-Circuit/Arduino/Safe%20Lock%20Cicruit%20Simulation%20on%20TinkerCad/Images/Circuit%20Image.png)
+* Make circuit as shown [here](https://github.com/rk18venom/IoT-Spot/blob/Safe-Lock-Circuit/Minor%20Scripts/Arduino/Safe%20Locker%20Circuit/Images/Circuit%20Image.png)
 * First try to implement the program by yourself if you not able to do so then you can do this copy the code and paste it on code section.
 * Run the simulation and set the password and set the recheck the password if it matches then great servo motor will rotate and if its not the buzzer will beep.
 * Open the serial monitor for seeing the set password and password recheck string.
@@ -55,8 +55,8 @@ No error during the compilation of program.
 
 ## Output
 
-* [Image Link](https://github.com/rk18venom/IoT-Spot/blob/Safe-Lock-Circuit/Arduino/Safe%20Lock%20Cicruit%20Simulation%20on%20TinkerCad/Images/Circuit%20Image.png)
-* [Video Link](https://github.com/rk18venom/IoT-Spot/tree/Safe-Lock-Circuit/Arduino/Safe%20Lock%20Cicruit%20Simulation%20on%20TinkerCad/Videos)
+* [Image Link](https://github.com/rk18venom/IoT-Spot/blob/Safe-Lock-Circuit/Minor%20Scripts/Arduino/Safe%20Locker%20Circuit/Images/Circuit%20Image.png)
+* [Video Link](https://github.com/rk18venom/IoT-Spot/blob/Safe-Lock-Circuit/Minor%20Scripts/Arduino/Safe%20Locker%20Circuit/Videos/2022_03_08_123032.mp4)
 
 
 ## Author(s)
