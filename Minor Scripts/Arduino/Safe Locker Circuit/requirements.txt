@@ -1,0 +1,9 @@
+Requirements:
+1. Arduino UNO R3
+2. Servo Motor
+3. Breadboard
+4. Buzzer
+5.  Potentiometer
+6. RGB LED
+7. 2 PushButtons
+8. Tinkercad (if component is not available)
