@@ -3,7 +3,7 @@
 This repository contains all the minor Arduino Projects that helps you familiarize with working using Arduino and targetting specific use case applications
 
 
-## Arduino
+## Arduino Projects
 
 - [Automated Hand Sanitizer Dispenser](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Minor%20Scripts/Arduino/Automated%20Hand%20Sanitizer%20Dispenser)
 - [Electronic Voting Machine](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Minor%20Scripts/Arduino/Electronic%20Voting%20Machine)
