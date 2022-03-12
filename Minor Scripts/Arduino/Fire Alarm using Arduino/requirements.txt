@@ -1,0 +1,10 @@
+| Component         | Quantity      |
+| ------------------| ------------- |
+| Arduino UNO       |  1            |
+| Breadboard        |  1            |
+| LCD               |  1            |
+| Potentiometer     |  1            |
+| Resistors         |  2            |
+| Piezo             |  1            |
+| Infrared Sensor   |  1            |
+| LED               |  1            |
