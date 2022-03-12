@@ -1,0 +1,19 @@
+Components and tools used in this project:
+
+Arduino UNO
+16 X 2 LCD Display
+RTC DS3231 Module
+Power Adapters
+1OK Potentiometer
+Jumper Wires/Connectors
+Arduino Cable
+
+Other Tools and Components:
+
+Digital Multimeter
+Soldering iron kit
+Jumper wires/Connectors
+
+Libraries:
+Wire 
+RTClib
