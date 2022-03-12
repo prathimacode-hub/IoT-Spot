@@ -11,6 +11,16 @@
 <a href="https://github.com/prathimacode-hub"><img src="https://img.shields.io/maintenance/yes/2022"></a>
 </p> 
 
+<p align="center">
+<a href="https://github.com/prathimacode-hub/IoT-Spot/stargazers"><img src="https://badgen.net/github/stars/prathimacode-hub/IoT-Spot"></a>
+<a href="https://github.com/prathimacode-hub/IoT-Spot/network/members"><img src="https://badgen.net/github/forks/prathimacode-hub/IoT-Spot"></a>
+<a href="https://github.com/prathimacode-hub/IoT-Spot/issues"><img src="https://badgen.net/github/open-issues/prathimacode-hub/IoT-Spot"></a>
+<a href="https://github.com/prathimacode-hub/IoT-Spot/issues?q=is%3Aissue+is%3Aclosed"><img src="https://badgen.net/github/closed-issues/prathimacode-hub/IoT-Spot"></a>
+<a href="https://github.com/prathimacode-hub/IoT-Spot/pulls"><img src="https://badgen.net/github/prs/prathimacode-hub/IoT-Spot"></a>
+<a href="https://github.com/prathimacode-hub/IoT-Spot/pulls"><img src="https://badgen.net/github/open-prs/prathimacode-hub/IoT-Spot"></a>
+<a href="https://github.com/prathimacode-hub/IoT-Spot/pulls?q=is%3Apr+is%3Aclosed"><img src="https://badgen.net/github/closed-prs/prathimacode-hub/IoT-Spot"></a>
+</p>
+
 
 <h2>📌Repository</h2>
 
