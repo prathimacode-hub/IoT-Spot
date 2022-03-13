@@ -53,6 +53,7 @@ This repository contains all the basic Arduino Projects one needs to know before
 - [Social Distance Detector](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Arduino/Social%20Distance%20Detector)
 - [Speeding Motor](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Arduino/Speeding%20Motor%20Using%20Arduino)
 - [Temperature Sensing](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Arduino/Temperature%20Sensing)
+- [Voltage Sensing](https://github.com/prathimacode-hub/IoT-Spot/tree/main/Arduino/Voltage%20Sensing%20using%20Arduino)
 
 <h2>✨Hall Of Fame</h2>   
 
