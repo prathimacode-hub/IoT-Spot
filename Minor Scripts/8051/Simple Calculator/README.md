@@ -33,12 +33,12 @@ Connect the circuit diagram as shown in the image and press the simulation butto
 
 To clear the result press on/clear
 # Screenshots
-![](https://github.com/nitishkumar07/IoT-Spot/blob/main/8051/Calculator/Gallery/sc3.PNG)
+![](https://github.com/nitishkumar07/IoT-Spot/blob/main/Minor%20Scripts/8051/Simple%20Calculator/Gallery/sc3.PNG)
 
-![](https://github.com/nitishkumar07/IoT-Spot/blob/main/8051/Calculator/Gallery/sc2.PNG)
+![](https://github.com/nitishkumar07/IoT-Spot/blob/main/Minor%20Scripts/8051/Simple%20Calculator/Gallery/sc2.PNG)
 <br>
 # video
-![output video](https://github.com/nitishkumar07/IoT-Spot/blob/main/8051/Calculator/Gallery/Calculator-2022-03-13_14.19.56.mp4)
+![output video](https://github.com/nitishkumar07/IoT-Spot/blob/main/Minor%20Scripts/8051/Simple%20Calculator/Gallery/Calculator-2022-03-13_14.19.56.mp4)
 # Output
 
 Output video and image is added in the Gallery folder
