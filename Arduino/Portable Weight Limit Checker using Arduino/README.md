@@ -37,6 +37,7 @@ On or Off State of LED can be controlled using the switch.
 ## Output:
 
 [Simulation Video](https://github.com/shreya024/IoT-Spot/blob/main/Arduino/Portable%20Weight%20Limit%20Checker%using%20Arduino/Images/portable_weight_limit_checker_using_arduino.gif)
+
 ![Tinkercad Circuit](https://github.com/shreya024/IoT-Spot/blob/main/Arduino/Portable%20Weight%20Limit%20Checker%using%20Arduino/Images/portable_weight_limit_checker_using_arduino.png)
 
 ---
