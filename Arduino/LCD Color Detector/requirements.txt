@@ -3,5 +3,5 @@
 3) 1 Potentiometer
 4) 9V Battery
 5)  USB
-6) TCS3200 Color Detector
-7) 10K Variable Resistor 
+6) TCS3200/TCS2300 Color Detector
+7) Resistor 
