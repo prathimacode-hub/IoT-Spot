@@ -35,7 +35,7 @@ To be able to access the readings given out by the sensor by storing it as a fil
 ## Setup instructions:
 
 - Assemble the circuit as shown below.
-- the sd card module is supplied with 5V which comes from the Arduino board. The SD card module has 6 pins which are from left to right: GND, VCC, MISO, MOSI, SCK and CS {chip select}.[here]()
+- the sd card module is supplied with 5V which comes from the Arduino board. The SD card module has 6 pins which are from left to right: GND, VCC, MISO, MOSI, SCK and CS [here]()
 - Run to see the project in action!
 
 ---
@@ -43,7 +43,7 @@ To be able to access the readings given out by the sensor by storing it as a fil
 ## Output:
 
 [Simulation Video]()
-![Tinkercad Circuit]()
+[Circuit Diagram]()
 
 ---
 
