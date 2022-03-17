@@ -3,7 +3,7 @@
  
 File file_data;
  
-#define DHTPIN 6    // DHT11  is connected to pin 6 on arduino
+#define DHTPIN 7    // DHT11  is connected to pin 7 on arduino
 #define DHTTYPE DHT11   // DHT11 sensor is used
 DHT dht(DHTPIN, DHTTYPE);   // Initialize DHT library
  
