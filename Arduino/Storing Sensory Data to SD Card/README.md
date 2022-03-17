@@ -12,7 +12,7 @@ To be able to access the readings given out by the DHT11 sensor by storing it as
 
 **Requirements:**
 
-- Arduino board
+- Arduino Development board
 - DHT11 sensor
 - SD card
 - SD card socket (connector)
