@@ -2,17 +2,17 @@
 
 ## AIM:
 
-To store readings/data from DHT11 Sensor as a file on an SD Card using Arduino
+To store sensor readings/data as a file on an SD Card using Arduino
 
 ## Purpose:
 
-To be able to access the readings given out by the DHT11 sensor by storing it as a file on an SD Card using Arduino
+To be able to access the readings given out by the sensor by storing it as a file on an SD Card using Arduino
 
 ## Short Description:
 
 **Requirements:**
 
-- Arduino Development board
+- Arduino board
 - DHT11 sensor
 - SD card
 - SD card socket (connector)
@@ -25,7 +25,7 @@ To be able to access the readings given out by the DHT11 sensor by storing it as
 
 ## Workflow:
 
-- We Import relavant libraries and define objects/references
+- Import relavant libraries and define objects/references
 - We define standard pins for the DHT11 Sensor and setup Serial Communication
 - We check for the correct functioning of the SD Card.
 - We read the Value from the sensor, and print it out in the serial monitor
@@ -38,8 +38,13 @@ To be able to access the readings given out by the DHT11 sensor by storing it as
 - the sd card module is supplied with 5V which comes from the Arduino board. The SD card module has 6 pins which are from left to right: GND, VCC, MISO, MOSI, SCK and CS [here]()
 - Run to see the project in action!
 
+## Output:
+
+[Simulation Video]()
+[Circuit Diagram]()
+
 ---
 
-## Project Author:
+## Author:
 
 [Sarthak S Kumar](https://github.com/SarthakSKumar)
