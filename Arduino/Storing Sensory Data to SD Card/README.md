@@ -35,7 +35,7 @@ To be able to access the readings given out by the sensor by storing it as a fil
 ## Setup instructions:
 
 - Assemble the circuit as shown below.
-- the sd card module is supplied with 5V which comes from the Arduino board. The SD card module has 6 pins which are from left to right: GND, VCC, MISO, MOSI, SCK and CS [here]()
+- the sd card module is supplied with 5V which comes from the Arduino board. The SD card module has 6 pins which are from left to right: GND, VCC, MISO, MOSI, SCK and CS [here](https://github.com/SarthakSKumar/IoT-Spot/blob/main/Arduino/Storing%20Sensory%20Data%20to%20SD%20Card/Images/Storing_Sensory_Data_to_SD_Card_Simulation.mp4)
 - Run to see the project in action!
 
 ---
