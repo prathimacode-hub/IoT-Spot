@@ -25,7 +25,7 @@ To be able to access the readings given out by the DHT11 sensor by storing it as
 
 ## Workflow:
 
-- Import relavant libraries and define objects/references
+- We Import relavant libraries and define objects/references
 - We define standard pins for the DHT11 Sensor and setup Serial Communication
 - We check for the correct functioning of the SD Card.
 - We read the Value from the sensor, and print it out in the serial monitor
