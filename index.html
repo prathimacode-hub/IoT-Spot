@@ -153,7 +153,7 @@
 
             </div>
 
-            <div style="background-color:white;"class="main-img">
+            <div style="background-color:rgb(231, 242, 243);"class="main-img" data-tilt data-tilt-glare data-tilt-max-glare="0.8" transform-style: preserve-3d >
 
                 <img  src="https://st2.depositphotos.com/1907633/8863/i/600/depositphotos_88633856-stock-photo-double-exposure-of-hand-showing.jpg" alt="">
 
@@ -485,6 +485,16 @@
     <script src="./assets/libraries/baffle.js"></script>
     <!-- Custom JS -->
     <script src="./assets/js/script.js"></script>
+    <script type="text/javascript" src="./assets/js/vanilla-tilt.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelector(".main-img"), {
+        max: 25,
+        speed: 400
+      });
+      
+      //It also supports NodeList
+      VanillaTilt.init(document.querySelectorAll(".main-img"));
+    </script>
 
     <!-- ============ Linking JS Ends ============= -->
 </body>

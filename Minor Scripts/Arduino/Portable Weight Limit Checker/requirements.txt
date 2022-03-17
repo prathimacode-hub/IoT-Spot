@@ -1,0 +1,6 @@
+| Component         | Quantity      |
+| ------------------| ------------- |
+| Arduino UNO       |  1            |
+| Force Sensor      |  1            |
+| Piezo Buzzer      |  1            |
+| Resistors         |  1            |
