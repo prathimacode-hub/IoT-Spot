@@ -30,7 +30,7 @@ To be able to access the readings given out by the sensor by storing it as a fil
 - We check for the correct functioning of the SD Card.
 - We read the Value from the sensor, and print it out in the serial monitor
 - After printing to the serial monitor, we write the same data to a file
-- We shall throw an error if the file wasn't available or couldn't be created
+- The program shall throw an error if the file wasn't available or couldn't be created
 
 ## Setup instructions:
 
