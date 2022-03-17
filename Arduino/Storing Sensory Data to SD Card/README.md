@@ -6,7 +6,7 @@ To store readings/data from DHT11 Sensor as a file on an SD Card using Arduino
 
 ## Purpose:
 
-To be able to access the readings given out by the sensor by storing it as a file on an SD Card using Arduino
+To be able to access the readings given out by the DHT11 sensor by storing it as a file on an SD Card using Arduino
 
 ## Short Description:
 
