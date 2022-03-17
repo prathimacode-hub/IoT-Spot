@@ -273,8 +273,7 @@ li {
   justify-content: flex-start;
   align-items: center;
   position: relative;
-  clip-path: polygon(100% 0%,100% 75%,50% 100%,0 75%,0 0);
-
+  
 }
 
 .main-content h3 {
