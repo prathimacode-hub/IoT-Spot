@@ -40,6 +40,6 @@ To be able to access the readings given out by the sensor by storing it as a fil
 
 ---
 
-## Author:
+## Project Author:
 
 [Sarthak S Kumar](https://github.com/SarthakSKumar)
