@@ -2,7 +2,7 @@
 
 ## AIM:
 
-To store sensor readings/data as a file on an SD Card using Arduino
+To store readings/data from DHT11 Sensor as a file on an SD Card using Arduino
 
 ## Purpose:
 
