@@ -1,0 +1,12 @@
+Project Requirements:
+
+- Arduino board
+- DHT11 sensor
+- SD card
+- SD card socket (connector)
+- 10K ohm resistor
+- 4.7K ohm resistor
+- 3 x 3.3K ohm resistor
+- 3 x 2.2K ohm resistor
+- Breadboard
+- Jumper wires/Connectors
