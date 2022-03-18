@@ -1,0 +1,6 @@
+| Component             | Quantity      |
+| ------------------    | ------------- |
+| 8051 microcontroller  |  1            |
+| ICULN2003A            |  1            |
+| stepper  motor        |  1            |
+
