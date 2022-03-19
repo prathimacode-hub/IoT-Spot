@@ -29,7 +29,8 @@ We take the input for the alarm in HH:MM:SS format and the when the clock timing
 Connect the circuit diagram as shown in the image and press the simulation button then change the values using pushbutton to know the gist of the project.
 
 # Output
-
+Video Demonstration Link: https://github.com/prathimacode-hub/IoT-Spot/blob/717988018d49e34bd4d2c815a2b9b0156cf0d972/Minor%20Scripts/Arduino/Alarm%20clock%20using%20Arduino/Images/Alarm%20Clock%20using%20Arduino.mp4
+Image Link: https://github.com/prathimacode-hub/IoT-Spot/blob/717988018d49e34bd4d2c815a2b9b0156cf0d972/Minor%20Scripts/Arduino/Alarm%20clock%20using%20Arduino/Images/SS-1.png
 
 <br>
 
