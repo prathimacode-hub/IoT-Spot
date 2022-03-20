@@ -205,6 +205,8 @@ li {
 .nav-elements {
   display: flex;
   align-items: center;
+  padding: 5px;
+  
 }
 
 .nav-links {
@@ -215,43 +217,42 @@ li {
 
 .nav-link a {
   font-family: var(--montserrat);
-  color: var(--white);
+  color: black;
   font-weight: 700;
   font-size: 1.6rem;
   text-decoration: none;
   padding-left: 2.5vw;
   padding-right: 2.5vw;
+  padding: 15px;
+ margin: 20px;
   transition: 0.3s;
   transition-property: color;
+  
 }
 
 .nav-link a:hover {
-  color: var(--red);
+  color: rgb(255, 0, 55);
+  background-color: #111414;
+ 
 }
-
-#nav-btn {
-  width: 130px;
-  height: 40px;
-  background-color: var(--secondary-button);
-  border: 1px solid var(--red);
-  margin-left: 3vw;
-  transition: 0.2s;
-  transition-property: background-color;
-  cursor: pointer;
-  user-select: none;
-}
-
-#nav-btn:hover {
-  background-color: var(--red);
-}
-
-#nav-btn p {
+#nav-btn p{
   font-family: var(--montserrat);
-  color: var(--white);
-  text-align: center;
+  color: black;
   font-weight: 700;
   font-size: 1.6rem;
-  line-height: 40px;
+  text-decoration: none;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+  padding: 15px;
+  margin: 20px;
+  transition: 0.3s;
+  transition-property: color;
+  
+  
+}
+#nav-btn p:hover{
+  color: rgb(255, 0, 55);
+  background-color: #111414;
 }
 
 .ham {
