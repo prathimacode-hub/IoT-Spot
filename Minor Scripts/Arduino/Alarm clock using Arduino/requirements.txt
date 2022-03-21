@@ -1,0 +1,11 @@
+| Component         | Quantity      |
+| ------------------| ------------- |
+| Arduino UNO       |  1            |
+| Breadboard        |  1            |
+| LCD               |  1            |
+| Potentiometer     |  1            |
+| Resistors         |  8            |
+| Piezo             |  1            |
+| SlideSwitch       |  2            |
+| LED               |  1            |
+| Pushbutton        |  3            |
