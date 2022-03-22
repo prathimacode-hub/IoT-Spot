@@ -1,0 +1,11 @@
+#Software used
+Tinkercad
+
+#components used
+- Arduino uno
+- Ultrasonic sensor
+- LCD 16*2
+- resistors
+- Piezo
+- wires
+- Breadboard
