@@ -41,10 +41,13 @@ to on/off the ir sensor we use ir remote, but if you are doing it using hardware
 
 # Screenshots
 
+![](https://github.com/nitishkumar07/IoT-Spot/blob/main/Arduino/Smart%20Street%20LIght/Gallery/street_light.png)
+![](https://github.com/nitishkumar07/IoT-Spot/blob/main/Arduino/Smart%20Street%20LIght/Gallery/street_light1.png)
 
 <br>
 # video
 
+![Output_Video](https://github.com/nitishkumar07/IoT-Spot/blob/main/Arduino/Smart%20Street%20LIght/Gallery/Smart_street_light-2022-03-23_17.44.13.mp4)
 
 # Output
 
