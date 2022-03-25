@@ -9,6 +9,8 @@ int visits = 0;   //visitor count
 int currentstate = 0;   //for current state of piezo
 int previousstate = 0;    //for previous state piezo
 
+
+
 void setup() {
   lcd.begin(16, 2);  //begin lcd
   pinMode(buzzerpin, OUTPUT); // declare piezo as output
@@ -20,6 +22,11 @@ void setup() {
   delay(2000);
   lcd.clear();
 }
+
+
+
+
+
 
 void loop(){
 delay(200);// reading will be taken after 200 milliseconds
@@ -36,10 +43,14 @@ if (distance < 15) //if distance less than 15 alaram will buzz.
   // Change the number for long or short distances.
       digitalWrite(buzzerpin, HIGH);
 }
+
+
  else
 {
       digitalWrite(buzzerpin, LOW);
 } 
+
+
 
 status = digitalRead(buzzerpin); // read input value
 if (status ==  HIGH) 
@@ -47,15 +58,21 @@ if (status ==  HIGH)
     // check if the input is HIGH (piezo on)
     currentstate = 1;
 }
+
+
+
 else //else set current state of buzzer as 0
 {
       currentstate = 0;
 }
 
+
 if(currentstate != previousstate)
 {  
   //to check if piezo is not still buzzing
   
+
+
 if(currentstate == 1)
 {   
   //if piezo is buzzing
@@ -69,9 +86,14 @@ lcd.print(visits);
 delay(400);
 }
 
+
 }
+
+
 //updating previous state by current state
 previousstate = currentstate;
+
+
 
 }
  

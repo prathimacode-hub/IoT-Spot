@@ -8,6 +8,7 @@ To design a Arduino Based Visitor counter
 
 This low-cost and effective system helps you to keep count of visitors and also buzzes alarm when someone visits which is good for security purpose
 
+
 ## Components Required
 - Arduino uno
 - Ultrasonic sensor

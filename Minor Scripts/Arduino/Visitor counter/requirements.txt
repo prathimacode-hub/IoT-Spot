@@ -1,6 +1,10 @@
 #Software used
 Tinkercad
 
+
+
+
+
 #components used
 - Arduino uno
 - Ultrasonic sensor
