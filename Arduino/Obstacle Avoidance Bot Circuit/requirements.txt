@@ -1,0 +1,9 @@
+Components Required
+
+Arduino UNO R3
+2 H Bridge Motor
+Breadboard
+L293D Motor Driver
+Jumper Wires
+USB (TinkerCad if USB not available)
+Ultrasonic Sensor
