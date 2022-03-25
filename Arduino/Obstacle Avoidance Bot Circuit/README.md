@@ -14,7 +14,7 @@ Bot will avoid all the obstacle in its path.
 ## Components Required
 
 List out the components used in your project
-* Arduio UNO R3
+* Arduino UNO R3
 * 2 H Bridge Motor
 * Breadboard
 * L293D Motor Driver
