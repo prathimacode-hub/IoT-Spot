@@ -1,0 +1,9 @@
+| Component         | Quantity      |
+| ------------------| ------------- |
+| Arduino UNO       |  1            |
+| Breadboard        |  1            |
+| LCD               |  1            |
+| Potentiometer     |  3            |
+| Resistors         |  2            |
+| Piezo             |  1            |
+| Servo Motor       |  1            |
