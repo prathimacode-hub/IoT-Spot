@@ -37,7 +37,7 @@ Now as the distance of obstacle is 0 bot will forward until the obstacle is not 
 
 ## Setup instructions
 
-* Open Tinker Cad on any browser and make the circuit as shown [here](https://github.com/rk18venom/IoT-Spot/blob/RC_car_circuit/Arduino/RC%20car%20circuit/Images/RC_car_circuit_image.png).
+* Open Tinker Cad on any browser and make the circuit as shown [here](https://github.com/rk18venom/IoT-Spot/blob/Obstacle-Avoidance/Minor%20Scripts/Arduino/Obstacle%20Avoidance%20Bot%20Circuit/Images/circuit_image.png).
 * Then paste the code in code section.
 * Open the Serial Monitor.
 * Start Simulation.
@@ -46,11 +46,11 @@ Now as the distance of obstacle is 0 bot will forward until the obstacle is not 
 There is not any error on running the code. It will run perfectly fine.
 
 ## Screenshort
-[Circuit Diagram](https://github.com/rk18venom/IoT-Spot/blob/Obstacle-Avoidance/Arduino/Obstacle%20Avoidance%20Bot%20Circuit/Images/circuit_image.png)
+[Circuit Diagram](https://github.com/rk18venom/IoT-Spot/blob/Obstacle-Avoidance/Minor%20Scripts/Arduino/Obstacle%20Avoidance%20Bot%20Circuit/Images/circuit_image.png)
 
 ## Output
 
-[Video Link](https://github.com/rk18venom/IoT-Spot/tree/Obstacle-Avoidance/Arduino/Obstacle%20Avoidance%20Bot%20Circuit/Videos)
+[Video Link](https://github.com/rk18venom/IoT-Spot/tree/Obstacle-Avoidance/Minor%20Scripts/Arduino/Obstacle%20Avoidance%20Bot%20Circuit/Videos)
 
 ## Author(s)
 
