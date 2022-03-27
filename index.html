@@ -72,6 +72,13 @@
     <!-- ============= Linking CSS Ends ============= -->
     <meta name="google-site-verification" content="OyCUsqz2PLKxLtFjG2BpOVhGnoHwrS98F7tSncv9Z-Y" />
     <script src="https://kit.fontawesome.com/f9fe2a0251.js" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
 </head>
 
 
@@ -320,24 +327,88 @@
     <div class="container headings text-center  ">
       <p class="text-center font-weight-bold">MORE THAN 2000 WEBSITES CREATED</p>
     </div>
+
+
     <div class="container d-flex justify-content-around align-items-center text-center p-50 50">
-      <div>
-        <h1 class="count">1500</h1>
-        <p>CMS Installation</p>
+
+      <!--<div>
+        <h2><a href="#"><i class="fa fa-download"></i></a></h3>
+          <div class="counter" data-target="1500" style="font-size: 20px;">0</div>
+
+        <h1 class="count">1500</h1> //Without Counter
+        <p>CMS Installation</p> //Without Counter
+
+        <h3>CMS Installation</h3>
       </div>
+
       <div>
-        <h1 class="count">2500</h1>
-        <p>Awards won</p>
+        <h2><a href="#"><i class="fas fa-award"></i></a></h3>
+          <div class="counter" data-target="2500" style="font-size: 20px;">0</div>
+
+       <h1 class="count">2500</h1> //Without Counter
+        <p>Awards won</p>//Without Counter
+
+        <h3>Awards won</h3>
       </div>
+
       <div>
-        <h1 class="count">700</h1>
-        <p>Happy Clients</p>
+        <h2><a href="#"><i class="fa fa-smile-o"></i></a></h3>
+          <div class="counter" data-target="700" style="font-size: 20px;">0</div>
+
+       <h1 class="count">700</h1> //Without Counter
+      <p>Happy Clients</p>  //Without Counter
+
+        <h3>Happy Clients</h3>
       </div>
+
       <div>
-        <h1 class="count">500</h1>
-        <p>Working On</p>
+        <h2><a href="#"><i class="fa fa-building-o"></i></a></h3>
+          <div class="counter" data-target="500" style="font-size: 20px;">0</div>
+
+        h1 class="count">500</h1> //Without Counter
+       <p>Working On</p> //Without Counter
+
+       <h3>Working On</h3>
+      </div>-->
+
+
+
+        <!--Dynamic Counter Opened-->
+
+        <div class="box">
+        <h2><a href="#"><i class="fa fa-download"></i></a></h3>
+        <h3><div class="counter">1500</div></h3>
+        <div class="text">CMS Installation</div>
       </div>
+      <div class="box">
+        <!-- <div class="icon"><i class="fas fa-gift"></i></div> -->
+        <h2><a href="#"><i class="fas fa-award"></i></a></h3>
+        <h3><div class="counter">2500</div></h3>
+        <div class="text">Awards won</div>
+      </div>
+      <div class="box">
+        <!-- <div class="icon"><i class="fas fa-users"></i></div> -->
+        <h2><a href="#"><i class="fa fa-smile-o"></i></a></h3>
+        <h3><div class="counter">700</div></h3>
+        <div class="text">Happy Clients</div>
+      </div>
+      <div class="box">
+        <!-- <div class="icon"><i class="fas fa-award"></i></div> -->
+        <h2><a href="#"><i class="fa fa-building-o"></i></a></h3>
+        <h3><div class="counter">500</div></h3>
+        <div class="text">Working On</div>
+      </div>
+
     </div>
+  </div>
+
+
+        <!--Dynamic Counter Closed-->
+
+
+    </div>
+
+
   </section>
 <!--*project end*-->
     <!-- =========== Portfolio Section Ends ============= -->
@@ -497,6 +568,18 @@
     </script>
 
     <!-- ============ Linking JS Ends ============= -->
+
+    <script>
+  $(document).ready(function(){
+    $('.counter').counterUp({
+      delay: 10,
+      time: 1400
+    });
+  });
+  </script>
+
+  <!-- ============ Counter on Scroll ============= -->
+
 </body>
 
 
