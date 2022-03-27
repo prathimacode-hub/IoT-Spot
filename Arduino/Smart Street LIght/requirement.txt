@@ -1,0 +1,8 @@
+| Component             | Quantity      |
+| ------------------    | ------------- |
+| arduino uno           |  1            |
+| LDR                   |  1            |
+| IR Sensors            |  3            |
+| Bulb                  |  3            |
+
+
