@@ -32,8 +32,8 @@ Connect the circuit diagram as shown in the image and press the simulation butto
 <br>
 
 Output video and images is added in the /images folder
-Video Demonstration Link: https://github.com/prathimacode-hub/IoT-Spot/blob/879d182b44ba8c0b487b2c9658c3bc8c1d5ab453/Minor%20Scripts/Arduino/Ventilator%20using%20Arduino/Images/Emergency%20Ventilator%20Video%20Demonstration.mp4
-Image Link: https://github.com/prathimacode-hub/IoT-Spot/blob/879d182b44ba8c0b487b2c9658c3bc8c1d5ab453/Minor%20Scripts/Arduino/Ventilator%20using%20Arduino/Images/SS-1.png
+Video Demonstration Link:
+Image Link:
 
 <br>
 
