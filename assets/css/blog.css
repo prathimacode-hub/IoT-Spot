@@ -18,6 +18,7 @@
     border-bottom-right-radius: 30px;
     width: 300px;
     margin: 20px 0px;
+    transition: 0.3s;
 }
 
 .grid > article:hover{
@@ -57,6 +58,10 @@
 
 .text button:hover{
    color: white;
+}
+
+.footer{
+    font-size: 22px;
 }
 
 @media screen and (max-width: 940px) {
