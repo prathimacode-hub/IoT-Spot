@@ -21,14 +21,16 @@ To detect the location and direction and displaying it on the LCD.
 
 ## Workflow:
 
-- First we initialise Buzzer as digital output and Force Sensor as analog input.
-- We initiate a loop
-- Using conditional statements we turn on the buzzer when the value of the Force Sensor exceeds threshold.
+- The first (right) Arduino is the one that sends the initial request, and then uses that information to display on the Neopixel ring (and in the serial monitor and LCD Display) which direction the broadcast unit is in relation to itself based on cardinal and ordinal directions (N, NE, E, SE, etc.), or, if you’re directly over/under it, it’s labeled “Found.” The lights show up green for a direction, or blue if the unit has been found.
+- The Neopixel Ring is used to detect the direction and location of the second Arduino.
+- The second (left) Arduino board represents the unit that broadcasts its current position when requested.
+- The Direction and Location is rendered on the LCD Display connected to the first Arduino.
+
 
 ## Setup instructions:
 
 - Assemble the circuit as shown below.
-- Make sure to connect one end of both LED and switch to ground(i.e. GND)
+- Make sure to connect one end of both LCD and Neopixel to ground(i.e. GND)
 - Upload the code provided [here](./gps_locator_using_arduino.ino)
 - Run to see the project in action!
 
