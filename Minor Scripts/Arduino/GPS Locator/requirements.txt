@@ -1,0 +1,6 @@
+| Component         | Quantity      |
+| ------------------| ------------- |
+| Arduino UNO       |  2            |
+| NeoPixel          |  1            |
+| LCD               |  1            |
+| Resistors         |  3            |
