@@ -23,19 +23,19 @@ Adafruit_NeoPixel strip2 = Adafruit_NeoPixel(LEDs, neoPixel2, NEO_GRB + NEO_KHZ8
 #define buzz 10
 
 //pad1
-byte pad1[16] = {0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0};// array to hold pad1 LCD row-0&1 values
-byte player1_1[8] = {0, 0, 0, 0, 0, 0, 1, 1};// array to hold pad1 LCD row-0 values
-byte player1_2[8] = {1, 1, 0, 0, 0, 0, 0, 0};// array to hold pad1 LCD row-1 values
+byte pad1[16] = {0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0};   // array to hold pad1 LCD row-0&1 values
+byte player1_1[8] = {0, 0, 0, 0, 0, 0, 1, 1};   // array to hold pad1 LCD row-0 values
+byte player1_2[8] = {1, 1, 0, 0, 0, 0, 0, 0};   // array to hold pad1 LCD row-1 values
 
 //pad2
-byte pad2[16] = {0, 0, 0, 0, 0, 0, 16, 16, 16, 16, 0, 0, 0, 0, 0, 0};// array to hold pad2 LCD row-0&1 values
-byte player2_1[8] = {0, 0, 0, 0, 0, 0, 16, 16};// array to hold pad2 LCD row-0 values
-byte player2_2[8] = {16, 16, 0, 0, 0, 0, 0, 0};// array to hold pad2 LCD row-1 values
+byte pad2[16] = {0, 0, 0, 0, 0, 0, 16, 16, 16, 16, 0, 0, 0, 0, 0, 0};   // array to hold pad2 LCD row-0&1 values
+byte player2_1[8] = {0, 0, 0, 0, 0, 0, 16, 16}; // array to hold pad2 LCD row-0 values
+byte player2_2[8] = {16, 16, 0, 0, 0, 0, 0, 0}; // array to hold pad2 LCD row-1 values
 
 //ball
-byte ball[16] = {0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0};// array to hold ball LCD row-0&1 values
-byte ball1[8] = {0, 0, 0, 0, 0, 0, 0, 1};// array to hold ball LCD row-0 values
-byte ball2[8] = {0, 0, 0, 0, 0, 0, 0, 0};// array to hold ball LCD row-1 values
+byte ball[16] = {0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0};   // array to hold ball LCD row-0&1 values
+byte ball1[8] = {0, 0, 0, 0, 0, 0, 0, 1};   // array to hold ball LCD row-0 values
+byte ball2[8] = {0, 0, 0, 0, 0, 0, 0, 0};   // array to hold ball LCD row-1 values
 
 /*
 	x 			- cursor for ball
@@ -100,7 +100,7 @@ void loop() {
         if (i == 7)ball[i] = 1;
         else ball[i] = 0;
       }
-      x = 8;// set ball cursor to 8
+      x = 8;    // set ball cursor to 8
       lcd.clear();
       lcd.setCursor(3, 0);
       lcd.print("Press start");
@@ -128,7 +128,7 @@ void loop() {
         delay(1000);
       }
       a = 0;
-      game = 1;// set game to 1, exits the while loop and starts the game
+      game = 1; // set game to 1, exits the while loop and starts the game
     }
     delay(100);
   }
@@ -186,22 +186,22 @@ void loop() {
 
   //print pad1, pad2 and ball
   lcd.clear();
-  lcd.setCursor(0, 0);// position of scr1
+  lcd.setCursor(0, 0);  // position of scr1
   lcd.print(scr1);
-  lcd.setCursor(0, 1);// position of scr2
+  lcd.setCursor(0, 1);  // position of scr2
   lcd.print(scr2);
 
-  lcd.setCursor(3, 0);// position of player1_1
+  lcd.setCursor(3, 0);  // position of player1_1
   lcd.write(byte(0));
-  lcd.setCursor(3, 1);// position of player1_2
+  lcd.setCursor(3, 1);  // position of player1_2
   lcd.write(byte(1));
-  lcd.setCursor(15, 0);// position of player2_1
+  lcd.setCursor(15, 0); // position of player2_1
   lcd.write(byte(2));
-  lcd.setCursor(15, 1);// position of player2_2
+  lcd.setCursor(15, 1); // position of player2_2
   lcd.write(byte(3));
-  lcd.setCursor(x, 0);// position of ball1, x is changed to move the ball on the display
+  lcd.setCursor(x, 0);  // position of ball1, x is changed to move the ball on the display
   lcd.write(byte(4));
-  lcd.setCursor(x, 1);// position of ball2, x is changed to move the ball on the display
+  lcd.setCursor(x, 1);  // position of ball2, x is changed to move the ball on the display
   lcd.write(byte(5));
 
   // checks whether the ball hits the pad1
