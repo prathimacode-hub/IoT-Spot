@@ -37,7 +37,7 @@ To play with the ping pong game simulation by using push buttons for control, an
 
 ## Output:
 [Simulation Video](https://github.com/SarthakSKumar/IoT-Spot/blob/f77d50741f02df59e13a02eef1def0a25c2baa98/Arduino/Ping%20Pong%20Game%20using%20Arduino/Images/ping_pong_game_using_arduino_simulation.mp4)
-
+![Tinkercad Circuit](https://github.com/SarthakSKumar/IoT-Spot/blob/8aa2a3c0cd0d0e5c763f454e3701ce37b4ccfdc4/Arduino/Ping%20Pong%20Game%20using%20Arduino/Images/Circuit%20Diagram.png)
 ---
 
 ## Author:
