@@ -1,14 +1,3 @@
-/*
-Project Name: Arduino Ping Pong Game
-Developed by: Team Kratos
-Event: Dreamathon 2019
-Team Members:
-    Sarthak S Kumar
-    Keerthi Prasad Kalluraya
-    Kishan Nischal
-*/
-
-
 #include <LiquidCrystal.h>
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 
