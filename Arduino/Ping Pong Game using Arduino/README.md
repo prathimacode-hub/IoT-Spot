@@ -17,4 +17,4 @@
 
 ## Author:
 
-[Shreya Ghosh](https://github.com/SarthakSKumar)
+[Sarthak S Kumar](https://github.com/SarthakSKumar)
