@@ -1,5 +1,12 @@
 # Ping Pong Game using Arduino
 
+## AIM:
+
+To be able to simulate actual ping pong game with the help of a LCD Display and Arduino
+
+## Purpose:
+
+To play with the ping pong game simulation by using push buttons for control, and LED's for better interaction with the game.
 
 ## Short Description:
 
@@ -14,6 +21,19 @@
 - 1 x LCD display 16x2.
 - 1 x breadboard.
 
+## Workflow:
+
+
+## Setup instructions:
+
+
+
+---
+
+## Output:
+
+
+---
 
 ## Author:
 
