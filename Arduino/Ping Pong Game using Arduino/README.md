@@ -33,7 +33,6 @@ To play with the ping pong game simulation by using push buttons for control, an
 - Assemble the circuit as shown below.
 - Upload the code provided [here](https://github.com/SarthakSKumar/IoT-Spot/blob/8680f2de66d20703953bb2538c715a2169864f4e/Arduino/Ping%20Pong%20Game%20using%20Arduino/Ping_Pong_Game_Using_Arduino.ino)
 - Run to see the project in action!
-
 ---
 
 ## Output:
