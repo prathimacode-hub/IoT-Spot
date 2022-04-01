@@ -23,19 +23,19 @@ Adafruit_NeoPixel strip2 = Adafruit_NeoPixel(LEDs, neoPixel2, NEO_GRB + NEO_KHZ8
 #define buzz 10
 
 //pad1
-byte pad1[16] = {0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0};	  // array to hold pad1 LCD row-0&1 values
-byte player1_1[8] = {0, 0, 0, 0, 0, 0, 1, 1};						// array to hold pad1 LCD row-0 values
-byte player1_2[8] = {1, 1, 0, 0, 0, 0, 0, 0};						// array to hold pad1 LCD row-1 values
+byte pad1[16] = {0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0};// array to hold pad1 LCD row-0&1 values
+byte player1_1[8] = {0, 0, 0, 0, 0, 0, 1, 1};// array to hold pad1 LCD row-0 values
+byte player1_2[8] = {1, 1, 0, 0, 0, 0, 0, 0};// array to hold pad1 LCD row-1 values
 
 //pad2
 byte pad2[16] = {0, 0, 0, 0, 0, 0, 16, 16, 16, 16, 0, 0, 0, 0, 0, 0};// array to hold pad2 LCD row-0&1 values
-byte player2_1[8] = {0, 0, 0, 0, 0, 0, 16, 16};					    // array to hold pad2 LCD row-0 values
-byte player2_2[8] = {16, 16, 0, 0, 0, 0, 0, 0};					    // array to hold pad2 LCD row-1 values
+byte player2_1[8] = {0, 0, 0, 0, 0, 0, 16, 16};// array to hold pad2 LCD row-0 values
+byte player2_2[8] = {16, 16, 0, 0, 0, 0, 0, 0};// array to hold pad2 LCD row-1 values
 
 //ball
-byte ball[16] = {0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0};		    // array to hold ball LCD row-0&1 values
-byte ball1[8] = {0, 0, 0, 0, 0, 0, 0, 1};								    // array to hold ball LCD row-0 values
-byte ball2[8] = {0, 0, 0, 0, 0, 0, 0, 0};								    // array to hold ball LCD row-1 values
+byte ball[16] = {0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0};// array to hold ball LCD row-0&1 values
+byte ball1[8] = {0, 0, 0, 0, 0, 0, 0, 1};// array to hold ball LCD row-0 values
+byte ball2[8] = {0, 0, 0, 0, 0, 0, 0, 0};// array to hold ball LCD row-1 values
 
 /*
 	x 			- cursor for ball
