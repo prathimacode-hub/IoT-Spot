@@ -1,0 +1,14 @@
+Required components used in your project
+
+    Arduino UNO R3
+    Motor
+    LED
+    Breadboard
+    Potentiometer
+    LCD Display
+    NPN Transistor
+    Resistor
+    Diode
+    Jumper Wires
+    USB (TinkerCad if USB not available)
+    Temperature Sensor
