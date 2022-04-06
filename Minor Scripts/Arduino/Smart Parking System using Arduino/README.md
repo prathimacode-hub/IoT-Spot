@@ -33,6 +33,8 @@ Connect the circuit diagram as shown in the image and press the simulation butto
 <br>
 
 Output video and images is added in the /images folder
+Image Link: https://github.com/prathimacode-hub/IoT-Spot/blob/5d76a6303978d1cdc44908a1c5ee50f61cbc016c/Minor%20Scripts/Arduino/Smart%20Parking%20System%20using%20Arduino/Images/SS-1.png
+Video Demonstration Link: https://github.com/prathimacode-hub/IoT-Spot/blob/5d76a6303978d1cdc44908a1c5ee50f61cbc016c/Minor%20Scripts/Arduino/Smart%20Parking%20System%20using%20Arduino/Images/Smart%20Parking%20System%20Video%20Demonstration.mp4
 
 <br>
 
