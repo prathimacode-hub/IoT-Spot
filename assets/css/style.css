@@ -62,21 +62,21 @@ li {
 
 /* Scrollbar Styling */
 ::-webkit-scrollbar {
-  width: 7px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: var(--territory-text);
+  background-color: #002fa7;
 }
 
 ::-webkit-scrollbar-thumb {
   -webkit-border-radius: 10px;
   border-radius: 50px;
-  background: #5757577a;
+  background: #00CCFF;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #1818187a;
+  background: #C60C30;
 }
 
 /* Custom Styling Starts */
