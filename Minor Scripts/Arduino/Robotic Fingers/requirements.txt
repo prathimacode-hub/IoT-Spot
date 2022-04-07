@@ -1,0 +1,6 @@
+| Component         | Quantity      |
+| ------------------| ------------- |
+| Arduino UNO       |  1            |
+| Flex Sensor       |  5            |
+| Micro Servo       |  5            |
+| Resistors         |  5            |
