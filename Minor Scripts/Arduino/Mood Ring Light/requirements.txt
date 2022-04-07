@@ -1,0 +1,5 @@
+| Component         | Quantity      |
+| ------------------| ------------- |
+| Arduino UNO       |  1            |
+| NeoPixel 12       |  1            |
+| NeoPixel Jewel    |  1            |
