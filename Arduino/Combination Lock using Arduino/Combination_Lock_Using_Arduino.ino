@@ -1,19 +1,17 @@
-const int b1 = 2; // first button is on pin 8
-const int b2 = 3; // second is on pin 9
-const int b3 = 4; // third is pin 10
-const int b4 = 5; // fourth is pin 11
-const int b5 = 6; // third is pin 10
-const int b6 = 7; // fourth is pin 11
-const int LED[] = {14, 15, 16, 17, 18, 19};
+const int b1 = 2;       // first button is on pin 8
+const int b2 = 3;       // second is on pin 9
+const int b3 = 4;       // third is pin 10
+const int b4 = 5;       // fourth is pin 11
+const int b5 = 6;       // third is pin 10
+const int b6 = 7;       // fourth is pin 11
 const int Red = 8;      // red LED is on pin 4
 const int greenLed = 9; // green LED is pin 12
+
+int code[] = {6, 5, 5, 4, 3, 2};
+int entered[7];
+const int LED[] = {14, 15, 16, 17, 18, 19};
+
 void checkEntered1(int button);
-
-int code[] = {6, 5, 5, 4, 3, 2}; // the desired code is entered in this array,
-                                 // separated by commas
-
-int entered[7]; // create a new empty array for the code entered by
-                // the user (has 4 elements)
 
 void setup()
 {                       // run once at sketch startup
