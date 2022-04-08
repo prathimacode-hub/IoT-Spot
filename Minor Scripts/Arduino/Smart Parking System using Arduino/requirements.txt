@@ -1,0 +1,11 @@
+| Component         | Quantity      |
+| ------------------| ------------- |
+| Arduino UNO       |  2            |
+| Breadboard        |  2            |
+| LCD               |  2            |
+| Potentiometer     |  2            |
+| Resistors         |  2            |
+| Ultrasonic Sensor |  2            |
+| Infrared Sensor   |  2            |
+| Servo Motor       |  2            |
+| Piezo             |  2            |
