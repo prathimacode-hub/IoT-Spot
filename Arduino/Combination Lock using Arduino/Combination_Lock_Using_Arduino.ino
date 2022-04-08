@@ -17,25 +17,23 @@ void setup()
 {                       // run once at sketch startup
     Serial.begin(9600); // begin Serial
 
-    pinMode(b1, INPUT_PULLUP); // button 1 is an input
-    pinMode(b2, INPUT_PULLUP); // button 2 is an input
-    pinMode(b3, INPUT_PULLUP); // button 3 is an input
-    pinMode(b4, INPUT_PULLUP); // button 4 is an input
-    pinMode(b5, INPUT_PULLUP); // button 3 is an input
-    pinMode(b6, INPUT_PULLUP); // button 4 is an input
+    pinMode(b1, INPUT); // button 1 is an input
+    pinMode(b2, INPUT); // button 2 is an inputMi
+    pinMode(b3, INPUT); // button 3 is an input
+    pinMode(b4, INPUT); // button 4 is an input
+    pinMode(b5, INPUT); // button 3 is an input
+    pinMode(b6, INPUT); // button 4 is an input
 
     pinMode(Red, OUTPUT);      // the red LED is an output
     pinMode(greenLed, OUTPUT); // the green LED is an output
-                               //  setupLights(); //run the setupLights routine
-                               //  setupLights(); //run it again
-                               // delay(650); //delay (only for effect, :P not needed)
-    digitalWrite(Red, LOW);    // turn the red LED on
+
+    digitalWrite(Red, HIGH); // turn the red LED on
+
     for (int i = 0; i < 6; i++)
     {                               // work through numbers 0-3
         Serial.println(code[i]);    // print each digit of the code
         Serial.println(entered[i]); // print each element of the entered[]
-                                    // array (this was for me to check that it
-                                    // started at 0
+                                    // array (this was for me to check that it started at 0
         pinMode(LED[i], OUTPUT);
     }
 }
