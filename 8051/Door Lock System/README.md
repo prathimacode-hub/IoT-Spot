@@ -24,10 +24,15 @@ Keypad
 
 
 # Workflow
-keypad is input, LCD displays the action and also displays the input given to microcontroller.
+keypad is input, 
+LCD displays the action and also displays the input given to microcontroller.
+
 DC motor is the output, we consider DC motor as motion of the door.
+
 Password of door is predefined in the code.
+
 first the input is read, if password given by user matches with the predefined code then the motor rotates clockwise and open the door and after sometime the door closes automatically.
+
 if the password is wrong then Lcd displays that password is wrong and ask the user to try again.
 untill the password entered is not right, the door is not opened.
 
@@ -42,9 +47,13 @@ if password is incorrect it again ask you to try again untill you get the correc
 
 
 # Screenshots
+
+![](https://github.com/nitishkumar07/IoT-Spot/blob/main/8051/Door%20Lock%20System/Gallery/doorlock1.PNG)
+![](https://github.com/nitishkumar07/IoT-Spot/blob/main/8051/Door%20Lock%20System/Gallery/doorlock3.PNG)
 <br>
 # video
 
+![Output_video](https://github.com/nitishkumar07/IoT-Spot/blob/main/8051/Door%20Lock%20System/Gallery/Doorlock_System-2022-04-07_19.32.21.mp4)
 # Output
 
 Output video and image is added in the Gallery folder
