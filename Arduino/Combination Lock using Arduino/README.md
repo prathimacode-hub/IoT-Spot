@@ -16,6 +16,13 @@ Combination lock using arduino. Includes push buttons and LED's for interaction
 - We initiate a loop. Each time a push button is clicked, the corresponding LED glows.
 - On reaching the end of input, program detects if the combination used is correct or not. Depending on that, the green led glows if there is a successful unlock.
 
+## Setup instructions:
+
+- Assemble the circuit as shown below.
+- Upload the code provided [here](https://github.com/SarthakSKumar/IoT-Spot/blob/eaca44909b6084c5558b39605c2c37f76e3a7c05/Arduino/Combination%20Lock%20using%20Arduino/Combination_Lock_Using_Arduino.ino)
+- Run to see the project in action!
+
+---
 ## Output:
 
 - Upload the code provided [here](https://github.com/SarthakSKumar/IoT-Spot/blob/eaca44909b6084c5558b39605c2c37f76e3a7c05/Arduino/Combination%20Lock%20using%20Arduino/Combination_Lock_Using_Arduino.ino)
