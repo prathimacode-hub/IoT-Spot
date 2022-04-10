@@ -1,11 +1,13 @@
 #include<reg51.h>
 #include<string.h>
 #define lcdport P2
+//conecting all inputs and outputs
 sbit rs=P3^4;
 sbit rw=P3^5;
 sbit en=P3^6;
 sbit m1=P3^0;
 sbit m2=P3^1;
+//connection to keypad
 sbit r1=P1^0;
 sbit r2=P1^1;
 sbit r3=P1^2;
@@ -13,20 +15,21 @@ sbit r4=P1^3;
 sbit c1=P1^4;
 sbit c2=P1^5;
 sbit c3=P1^6;
+//setting passwords
 char uid[]="12345";
 char id[5];
 
 void lcdint();
-void user_id(char);
+void user_id(char);//take id from the user
 void lcdstring(char *);
-void delay(int);
+void delay(int);//create delay
 void lcdcmd(char);
 void lcddata(char);
 void check_id();
-char scankey();
-char check();
-void door_open();
-void door_close();
+char scankey();//read and store the key pressed by user
+char check();//check if the password entered matches with the original password
+void door_open();//display message on lcd and rotating motor in clockwise direction
+void door_close();//display message on lcd and rotating motor in anti-clockwise direction
 
 void main()
 {
@@ -193,7 +196,7 @@ delay(2);
 lcdcmd(0x0e);
 delay(2);
 }
-void delay(int x)
+void delay(int x)//delay function
 {
 int i,j;
 for(i=0;i<x;i++)
