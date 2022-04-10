@@ -1,5 +1,0 @@
-Requirements:
-- LED's
-- Push Buttons
-- Arduino Board
-- Wires/Jumper Wires
