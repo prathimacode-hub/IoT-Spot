@@ -1,0 +1,11 @@
+#Software Requirements
+- Tinkercad
+
+#Components 
+- Breadboard
+- LED light (Red)
+- Arduino Uno
+- IR sensor
+- IR Remote
+- Resistors
+- Wires
