@@ -20,13 +20,17 @@ We will learn how to use manipulate keypad and lcd
 ## Short Description 
 
 - I am using keypad to take numbers and operator as input from user.
-- The program will calculate the result and print it on screen
+- The program will calculate the result and print it on screen.
+- This calculator can perform operations on multiple digit number.
 
 
 ## Workflow of the Project
 
-- When the simulation is started, and numbers and operator are given as input it will get printed on lcd screen.
-- After pressing # , you will see the result.
+- When the simultion is started, the keypad will be ready to take inputs.
+- if we push any digit button on the keypad, it will take it as first operand till sesond digit is entered.
+- If second digit button is pressed before operator button, keypad will consider it as double digit number, and so on.
+- Similarly it will happen for second operator. 
+- When * button is pressed, the LCD will display the results.
 
 
 ## Setup instructions
