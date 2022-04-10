@@ -206,15 +206,15 @@ This project follows the [Mozilla Public License 2.0](https://github.com/prathim
 <h2>🤝GSSOC Mentors</h2>
 
 <table>
+    <tr>
+    <td align='center'><a href='https://github.com/Dhruvsinghjadon'><img src='https://avatars.githubusercontent.com/u/75934644?v=4' width='80px;' alt=''/><br/><sub><b>Dhruv Singh Jadon</b></sub></a></td>
+ </tr>
   <tr>
     <td align='center'><a href='https://github.com/abhisheks008'><img src='https://avatars.githubusercontent.com/u/68724349?v=4' width='80px;' alt=''/><br/><sub><b>Abhishek Sharma</b></sub></a></td>
   </tr>
   <tr>
     <td align='center'><a href='https://github.com/vilgad'><img src='https://avatars.githubusercontent.com/u/84396662?v=4' width='80px;' alt=''/><br/><sub><b>Rohit Gupta</b></sub></a></td>
   </tr>
-  <tr>
-    <td align='center'><a href='https://github.com/Dhruvsinghjadon'><img src='https://avatars.githubusercontent.com/u/75934644?v=4' width='80px;' alt=''/><br/><sub><b>Dhruv Singh Jadon</b></sub></a></td>
- </tr>
 </table>
 
 
