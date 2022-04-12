@@ -36,6 +36,7 @@ To mimic the chrome dino game using arduino with LCD and Push buttons.
 ## Output:
 
 ![Circuit Diagram](https://github.com/SarthakSKumar/IoT-Spot/blob/4d51545e31fa835f0a11f6db0ffcfe64c35cb90f/Arduino/Dino%20Game%20using%20Arduino/Images/Circuit%20Diagram.jpg)
+![Simulation Video](https://github.com/SarthakSKumar/IoT-Spot/blob/8e520f235b068e6b1907ee27458c6ea664d01593/Arduino/Dino%20Game%20using%20Arduino/Images/Dino_Game_Using_Arduino_Simulation.mp4)
 
 ## Author:
 
