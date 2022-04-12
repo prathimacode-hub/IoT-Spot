@@ -1,27 +1,29 @@
-#include <LiquidCrystal.h>
+#include <LiquidCrystal.h> //Library for LCD Module
 
+// Defining Pinouts for LCD Module and Arduino Board
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 
-byte dino[8]{
-    B00000,
-    B00111,
-    B00101,
-    B10111,
-    B11100,
-    B11111,
-    B01101,
-    B01100,
-};
+// Bitmap Array for the Dino Character
+byte dino[8] = {
+    0b00000,
+    0b00111,
+    0b00111,
+    0b10110,
+    0b11111,
+    0b01010,
+    0b01010,
+    0b00000};
 
-byte tree[8]{
-    B00011,
-    B11011,
-    B11011,
-    B11011,
-    B11011,
-    B11111,
-    B01110,
-    B01110};
+// Bitmap Array for the tree character
+byte tree[8] = {
+    0b00100,
+    0b00101,
+    0b10101,
+    0b10101,
+    0b10111,
+    0b11100,
+    0b00100,
+    0b00000};
 
 const int BUTTON_ENTER = 8;
 const int BUTTON_SELECT = 9;
