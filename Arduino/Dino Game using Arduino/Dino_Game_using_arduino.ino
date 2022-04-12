@@ -1,9 +1,7 @@
 #include <LiquidCrystal.h>
 
-// Defines the pins that will be used for the display
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 
-// bitmap array for the dino character
 byte dino[8]{
     B00000,
     B00111,
@@ -15,7 +13,6 @@ byte dino[8]{
     B01100,
 };
 
-// character for the tree
 byte tree[8]{
     B00011,
     B11011,
@@ -155,15 +152,12 @@ void handleGame()
 
   int buttonPressedTimes = 0;
 
-  // Generate two random distances for the space between the trees
   int secondPosition = random(4, 9);
   int thirdPosition = random(4, 9);
   int firstTreePosition = LCD_COLUMN;
 
   const int columnValueToStopMoveTrees = -(secondPosition + thirdPosition);
 
-  // this loop is to make the trees move, this loop waiting until
-  // all the trees moved
   for (; firstTreePosition >= columnValueToStopMoveTrees; firstTreePosition--)
   {
 
