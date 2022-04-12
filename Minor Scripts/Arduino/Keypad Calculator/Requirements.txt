@@ -1,0 +1,11 @@
+#Software Used
+- Tinkercad
+
+
+#Components Used
+- Arduino Uno Board
+- Wires 
+- Keypad 4*4
+- LCD Screen 16*4
+- Resistor
+- Wires
