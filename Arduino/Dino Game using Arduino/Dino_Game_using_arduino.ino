@@ -47,11 +47,16 @@ String scoreList[20];
 
 void setup()
 {
+  // Initialising the LCD Module
   lcd.begin(16, 2);
+
+  // Creating the Dino and the Tree Characters in LCD
   lcd.createChar(DINO_CHAR, dino);
   lcd.createChar(TREE_CHAR, tree);
 
   Serial.begin(9600);
+
+  // Defining PinModes for the Buttons
   pinMode(BUTTON_ENTER, INPUT_PULLUP);
   pinMode(BUTTON_SELECT, INPUT_PULLUP);
 }
@@ -91,7 +96,7 @@ void handleMenu()
   }
 }
 
-void showScore()
+void showScore() // Function to show the score of the player
 {
   isShowScore = true;
   delay(200);
@@ -99,11 +104,11 @@ void showScore()
   int currentIndex = 0;
   const int lastIndex = scoreListSize - 1;
 
-  printScore(currentIndex, lastIndex);
+  printScore(currentIndex, lastIndex); // To print the score of the player
 
   while (isShowScore)
   {
-    if (digitalRead(BUTTON_SELECT) == LOW)
+    if (digitalRead(BUTTON_SELECT) == LOW) // Check the button state
     {
       currentIndex = currentIndex < lastIndex ? currentIndex + 1 : 0;
       printScore(currentIndex, lastIndex);
@@ -138,7 +143,7 @@ void printScore(int index, int lastIndex)
   }
 }
 
-void startGame()
+void startGame() // Function to Start the game
 {
   isPlaying = true;
 
@@ -200,7 +205,7 @@ void handleGame()
   }
 }
 
-void handleGameOver()
+void handleGameOver() // Function to handle game over event
 {
   lcd.clear();
   lcd.print("GAME OVER");
@@ -213,7 +218,7 @@ void handleGameOver()
   saveScore();
 }
 
-void saveScore()
+void saveScore() // Function to save the player score
 {
   lcd.clear();
 
@@ -221,7 +226,7 @@ void saveScore()
   int nameSize = 0;
   int alphabetCurrentIndex = 0;
 
-  lcd.print("TYPE YOUR NAME");
+  lcd.print("Your Name: ");
 
   while (nameSize != 3)
   {
@@ -251,7 +256,7 @@ void saveScore()
   score = 0;
 }
 
-void showTree(int position)
+void showTree(int position) // Function to display the tree character and simulate motion
 {
   lcd.setCursor(position, 1);
   lcd.write(TREE_CHAR);
@@ -267,7 +272,7 @@ void defineDinoPosition()
   buttonState == HIGH ? putDinoOnGround() : putDinoOnAir();
 }
 
-void putDinoOnGround()
+void putDinoOnGround() // To set the dino character on the ground
 {
   lcd.setCursor(1, 1);
   lcd.write(DINO_CHAR);
@@ -277,7 +282,7 @@ void putDinoOnGround()
   isDinoOnGround = true;
 }
 
-void putDinoOnAir()
+void putDinoOnAir() // To move the dino character to air, when the corresponding button state changes
 {
   lcd.setCursor(1, 0);
   lcd.write(DINO_CHAR);
