@@ -1,0 +1,7 @@
+Project Requirements:
+
+Arduino Board
+16x2 LCD
+1K ohm Resistor
+2 Pushbuttons
+Wires / Jumper Connectors
