@@ -48,6 +48,8 @@ if password is incorrect it again ask you to try again untill you get the correc
 # Output
 
 Output video and image is added in the Gallery folder
+
+![Design_Link](https://github.com/nitishkumar07/IoT-Spot/tree/main/Minor%20Scripts/8051/Door%20Lock%20System/design)
 <br>
 
 
