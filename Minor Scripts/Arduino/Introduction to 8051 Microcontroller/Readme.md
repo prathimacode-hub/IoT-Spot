@@ -15,6 +15,8 @@
 microcontroller chips.
 
 ## General Block Diagram of 8051
+<img width="359" alt="image" src="https://user-images.githubusercontent.com/85052056/163781875-eb09bcc0-633a-4b50-b7d6-ca3eafaf2ba2.png">
+
 
 ## Basic Definitions
 
@@ -51,80 +53,9 @@ memory address space and 64 K bytes of external data memory address space.
  On chip oscillator and clock circuit.
 ```
 ## Pin Description
+<img width="320" alt="image" src="https://user-images.githubusercontent.com/85052056/163782354-6fc2446b-36bd-47b9-8828-b1b067d4386a.png">
 
-## Pin No. Description
 
-```
-Pins 1-
-PORT 1
-```
-```
-Each of these pins can be configured as an input or an output.
-```
-```
-Pin 9
-RESET
-```
-```
-A logic one on this pin disables the microcontroller and clears the
-contents of most registers (Reset). By applying logic zero, the
-program starts execution from the beginning.
-Pins10-
-PORT 3
-```
-```
-Each of these pins can serve as general input or output. All of them
-have alternative functions.
-Pin 11
-TXD
-```
-```
-Serial asynchronous communication output or Serial synchronous
-communication clock output.
-Pin 12 INT0 - External Interrupt 0 input
-Pin 13 INT1 - External Interrupt 1 input
-Pin 14 T0 - Counter 0 clock input
-Pin 15 T1 - Counter 1 clock input
-```
-
-```
-Pin 16 WR - Write to external RAM
-Pin 18, 19 XTAL2, XTAL1 - Internal oscillator input and output. A quartz crystal
-which specifies operating frequency is usually connected to these
-pins.
-Pin 20 GND - Ground.
-Pin 21-
-Port 2
-```
-```
-If there is no intention to use external memory then these port pins
-are configured as general inputs/outputs. In case external memory is
-used, the higher address byte, i.e. addresses A8-A15 will appear on
-this port.
-Pin 29
-PSEN
-```
-```
-If external ROM is used for storing program then a logic zero (0)
-appears on it every time the microcontroller reads a byte from
-memory.
-Pin 30 ALE - Prior to reading from external memory, the microcontroller puts
-the lower address byte (A0-A7) on P0 and activates the ALE output.
-Pin 31
-EA
-```
-```
-External access. By applying logic zero to this pin, P2 and P3 are used
-for data and address transmission with no regard to whether there is
-internal memory or not.
-Pin 32- 39
-PORT 0
-```
-```
-Similar to P2, if external memory is not used, these pins can be used
-as general inputs/outputs.
-Pin 40 VCC - +5V power supply.
-```
 ## Memory Organization
 
 - The 8051 microcontroller has 128 bytes of Internal RAM. The RAM is also known as Data memory.
@@ -160,6 +91,7 @@ special functions. Even though some of the addresses between 80H and FFH are not
 SFR, they cannot be used as additional RAM area.
 
 ## Internal RAM OF 8051- Memory map
+<img width="566" alt="image" src="https://user-images.githubusercontent.com/85052056/163782790-957b2474-1058-424a-936e-88b196d593d3.png">
 
 ## ROM OF 8051- On-chip +External
 
@@ -177,82 +109,18 @@ It is an arrangement of the CPU with respect to the RAM and ROM. The Harvard and
 architecture are the two ways through which the micro controller CPU can be connected with RAM
 and ROM.
 
-```
-Harvard Architecture Von Neumann Architecture
-```
+- Harvard Architecture
+
+<img width="324" alt="image" src="https://user-images.githubusercontent.com/85052056/163782970-9896717f-8dec-4aea-8cc9-8948b7e601a8.png">
+
+- Von Neumann Architecture
+
+<img width="329" alt="image" src="https://user-images.githubusercontent.com/85052056/163783110-2b621792-5eb7-43b4-a304-ca9c41e57a4b.png">
+
 
 ## Harvard and Von Neumann Architecture
+<img width="599" alt="image" src="https://user-images.githubusercontent.com/85052056/163783450-5e9284e3-9caa-48de-b8b8-834dab8b157d.png">
 
-### Sr.No. Point of Comparison Harvard Architecture Von-Neumann
-
-### Architecture
-
-```
-1 Hardware
-```
-## requirement
-
-```
-It requires more hardware
-since it will be requiring
-separate data and address
-```
-## bus for each memory.
-
-```
-Requires less hardware
-since only a common
-memory needs to be
-```
-## reached.
-
-## 2 Space requirement More space. Less space.
-
-## 3 Speed of execution Faster because the
-
-```
-processor fetches data and
-instructions
-```
-## simultaneously.
-
-```
-Slower since it cannot fetch
-the data and instructions at
-```
-## the same time.
-
-## 4 Space usage Space is wasted, if the
-
-```
-space is left in the data
-memory then the
-instructions memory
-cannot use the space of the
-data memory and
-```
-## vice versa.^
-
-```
-Space is not wasted because
-the space of the data
-memory can be utilized by
-the instructions memory
-```
-## and vice-versa.
-
-```
-5 Controlling Controlling becomes
-complex since data and
-instructions are to be
-fetched simultaneously.
-```
-```
-Controlling becomes simpler
-since either data or
-instructions are to be FY
-fetched at a time.
-```
 ## Special Function Registers (SFRs)
 
 - In 8051 microcontroller there are certain registers which use the RAM addresses from 80H to FFH
@@ -268,92 +136,27 @@ assigned to SFRs.
 - Each SFR has one Byte Address and also a unique name which specifies its purpose. Since the SFRs
 are a part of the Internal RAM Structure, you can access SFRs as if you access the Internal RAM.
 
-### Sr. No. Symbol Name of SFR Address (Hex)
+<img width="460" alt="image" src="https://user-images.githubusercontent.com/85052056/163783672-9b400576-65d9-4a98-80bc-10142e1dbbfb.png">
 
-```
-1 ACC* Accumulator 0E
-2 B* B-Register 0F
-3 PSW* Program Status Word Register 0D
-4 SP Stack Pointer Register 81
-5 DPTR DPL Data Pointer Low Byte 82
-```
 
-```
-DPH Data Pointer High Byte 83
-6 P0* Port 0 80
-7 P1* Port 1 90
-8 P2* Port 2 0A
-9 P3* Port 3 0B
-10 IP* Interrupt Priority Control 0B
-11 IE* Interrupt Enable Control 0A
-12 TMOD Timer Mode Register 89
-13 TCON* Timer Control Register 88
-14 TH0 Timer 0 Higher byte 8C
-15 TL0 Timer 0 Lower byte 8A
-16 TH1 Timer 1 Higher byte 8D
-17 TL1 Timer 1 Lower byte 8B
-18 SCON* Serial Control Register 98
-19 SBUF Serial Buffer Register 99
-20 PCON Power Control Register 87
-* Marked registers are bit and byte addressable, other registers are only byte addressable
-```
+
 ## Program Status Word (PSW): D0H
+<img width="551" alt="image" src="https://user-images.githubusercontent.com/85052056/163783898-671268eb-d2bc-44a1-8a43-a2d877ee9ae3.png">
+
 
 - This is a vital SFR in the functioning of micro controller.
 - This register reflects the status of the operation that is being carried out in the processor.
 - PSW Register is both bit and byte addressable. The physical address of PSW starts from D0H. The
 individual bits are then accessed using D1, D2 ... D7.
 
-### Bit No Bit Symbol Direct Address Name Function
+<img width="454" alt="image" src="https://user-images.githubusercontent.com/85052056/163784087-8526de7c-337b-41a2-8483-ca3417b3f267.png">
 
-```
-0 P D0 Parity This bit will be set if ACC has odd
-number of 1’s after an operation. If
-not, bit will remain cleared.
-1 -- D1 User definable bit
-2 OV D2 Overflow OV flag is set if there is a carry from
-bit 6 for signed number operation,
-but not from bit 7 of an Arithmetic
-operation.
-3 RS0 D3 Register
-Bank select
-```
-```
-LSB of the register bank select bit.
-Bit 0
-4 RS1 D4 Register
-Bank select
-```
-```
-MSB of the register bank select bits.
-Bit 1
-```
-
-```
-5 F0 D5 Flag 0 User defined flag
-6 AC D6 Auxiliary
-carry
-```
-```
-This bit is set if data is coming out
-from bit 3 to bit 4 of Acc during an
-Arithmetic operation.
-7 CY D7 Carry Is set if data is coming out of bit 7 of
-Acc during an Arithmetic operation.
-```
 ### The selection of the register Banks in PSW and their addresses
+<img width="596" alt="image" src="https://user-images.githubusercontent.com/85052056/163784139-be975764-4a12-4f0d-90b1-56e27c48a1e1.png">
+
 
 ### RS1 RS0 Register Bank Address
 
-# 0 0 Bank 0 00H-07H
-
-# 0 1 Bank 1 08H-0FH
-
-# 1 0 Bank 2 10H-17H
-
-```
-1 1 Bank 3 18H-1FH
-```
 ###  CY -- Carry flag
 
 ```
@@ -402,38 +205,8 @@ external interrupts in the lower nibble.
 
 ### Timer/Counters: comparison
 
-### Timer Counter
+<img width="599" alt="image" src="https://user-images.githubusercontent.com/85052056/163784407-de5ffd41-21b6-4e53-b7d2-61b187badf10.png">
 
-```
-The register incremented for every machine
-```
-### cycle.
-
-```
-The register is incremented considering 1 to 0
-transition at its corresponding external input pin
-```
-### (T0, T1).
-
-```
-Maximum count rate is 1/12 of the oscillator
-```
-### frequency.
-
-```
-Maximum count rate is 1/24 of the oscillator
-```
-### frequency.
-
-```
-A timer uses the frequency of the internal clock,
-```
-### and generates delay.
-
-```
-A counter uses an external signal to count
-```
-### pulses.
 
 ## Interrupt
 
@@ -441,19 +214,8 @@ Interrupt is the event that temporarily suspends the main program, pass the cont
 service routine (ISR) and executes the task. Then the control goes to the main program where it had
 left off. 8051 has 5 interrupts available. Some manufacturers also state Reset as one of the interrupt.
 
-### Interrupt Sources ROM location (Vector table)
+<img width="599" alt="image" src="https://user-images.githubusercontent.com/85052056/163784523-cb488d57-18bf-4b9a-a17e-b8993162d8a1.png">
 
-# Reset 0000 H
-
-# External hardware Interrupt 0 INT0 (IE0) 0003 H
-
-# Timer 0 interrupt (TF0) 000B H
-
-# External hardware Interrupt 1 INT1 (IE1) 0013 H
-
-# Timer 1 interrupt (TF1) 001B H
-
-# Serial COM Port interrupt (RI/TI) 0023 H
 
 ## Power down and Idle mode
 
