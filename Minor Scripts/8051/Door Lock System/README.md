@@ -42,8 +42,18 @@ if password is incorrect it again ask you to try again untill you get the correc
 
 
 # Screenshots
+![doorlock1](https://user-images.githubusercontent.com/70712427/163838432-e1a757f8-78ed-4330-a8b2-9ee58aba0c9e.PNG)
+
+![doorlock2](https://user-images.githubusercontent.com/70712427/163838486-f4ddd386-b7c1-4c55-b1fc-46ff23822a1b.PNG)
+![doorlock3](https://user-images.githubusercontent.com/70712427/163838524-3a95604e-d11f-413e-97d0-42cfd9a697f5.PNG)
+
 <br>
 # video
+
+
+https://user-images.githubusercontent.com/70712427/163838549-bef7c590-9da7-4de5-bae5-9c3a498d2f8f.mp4
+
+
 
 # Output
 
