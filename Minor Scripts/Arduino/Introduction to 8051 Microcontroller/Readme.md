@@ -1,4 +1,3 @@
-## IoT Spot
 
 ## Introduction to 8051 Microcontroller
 
