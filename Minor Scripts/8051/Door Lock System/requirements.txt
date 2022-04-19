@@ -1,0 +1,9 @@
+| Component             | Quantity      |
+| ------------------    | ------------- |
+| 8051 microcontroller  |  1            |
+| IC L293D              |  1            |
+| DC  motor             |  1            |
+| LCD                   |  1            |
+| Keypad                |  1            |
+
+
