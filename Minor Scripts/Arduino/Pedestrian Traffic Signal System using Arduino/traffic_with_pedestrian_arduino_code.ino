@@ -189,3 +189,53 @@ void loop()
   {
     digitalWrite(g4, LOW);
     digitalWrite(r4, LOW);
+
+    digitalWrite(y4, HIGH);
+    digitalWrite(r1, HIGH);
+    digitalWrite(r2, HIGH);
+    digitalWrite(r3, HIGH);
+    delay(2000);
+  }
+  digitalWrite(y4, LOW);
+  digitalWrite(r4, LOW);
+  digitalWrite(r1, LOW);
+}
+
+void WalkCycle()
+{
+  delay(350);
+
+  digitalWrite(g1, LOW);
+  digitalWrite(g2, LOW);
+  digitalWrite(g3, LOW);
+  digitalWrite(g4, LOW);
+
+  digitalWrite(y1, LOW);
+  digitalWrite(y2, LOW);
+  digitalWrite(y3, LOW);
+  digitalWrite(y4, LOW);
+
+  digitalWrite(r1, HIGH);
+  digitalWrite(r2, HIGH);
+  digitalWrite(r3, HIGH);
+  digitalWrite(r4, HIGH);
+
+  digitalWrite(pgreen, HIGH);
+  digitalWrite(pRed, LOW);
+  delay(3000);
+  digitalWrite(pgreen, LOW);
+
+  // digitalWrite(pIN, LOW);  // Turn off green Pedestrian Light
+
+  delay(250);
+
+  for (int x = 0; x < 5; x++)
+  { // Flash green Ped LED 5X
+    digitalWrite(pgreen, HIGH);
+    delay(250);
+    digitalWrite(pgreen, LOW);
+    delay(250);
+  }
+
+  digitalWrite(pRed, HIGH);
+}
