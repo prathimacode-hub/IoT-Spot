@@ -267,3 +267,9 @@ Types of Addressing Modes
 3. Direct Addressing.
 4. Register – Indirect Addressing.
 5. Indexed Addressing.
+
+## Summary
+The 8051 Microcontroller is very much useful as it's cost efficient as well power efficient and can be used to satisfy multiple purpose needs. Also the in-depth study of the 8051 gives broader view of other microcontroller's as well. The 8051 Microcontroller is one of the most popular and most commonly used microcontrollers in various fields like embedded systems, consumer electronics, automobiles, etc. Thus the understanding and usage of 8051 is very important in day to day life.
+
+### Author
+Siddhant Pawar 
