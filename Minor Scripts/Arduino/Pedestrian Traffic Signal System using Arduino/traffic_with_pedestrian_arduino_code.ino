@@ -124,3 +124,68 @@ void loop()
     digitalWrite(r4, HIGH);
     delay(2000);
   }
+
+  int crossIn5 = digitalRead(pIN);
+
+  if (crossIn5 == HIGH)
+  {
+    WalkCycle();
+  }
+  else
+  {
+    digitalWrite(y2, LOW);
+    digitalWrite(r3, LOW);
+
+    digitalWrite(g3, HIGH); // 3rd light
+    digitalWrite(r1, HIGH);
+    digitalWrite(r2, HIGH);
+    digitalWrite(r4, HIGH);
+    delay(4000);
+  }
+
+  int crossIn6 = digitalRead(pIN);
+
+  if (crossIn6 == HIGH)
+  {
+    WalkCycle();
+  }
+  else
+  {
+    digitalWrite(g3, LOW);
+
+    digitalWrite(y3, HIGH);
+    digitalWrite(r1, HIGH);
+    digitalWrite(r2, HIGH);
+    digitalWrite(r4, HIGH);
+    delay(2000);
+  }
+
+  int crossIn7 = digitalRead(pIN);
+
+  if (crossIn7 == HIGH)
+  {
+    WalkCycle();
+  }
+  else
+  {
+    digitalWrite(y3, LOW);
+    digitalWrite(r3, LOW);
+    digitalWrite(r4, LOW);
+
+    digitalWrite(g4, HIGH); // 4th light
+    digitalWrite(r1, HIGH);
+    digitalWrite(r2, HIGH);
+    digitalWrite(r3, HIGH);
+    delay(4000);
+  }
+
+  int crossIn8 = digitalRead(pIN);
+
+  if (crossIn8 == HIGH)
+  {
+    WalkCycle();
+  }
+  else
+  {
+    digitalWrite(g4, LOW);
+    digitalWrite(r4, LOW);
