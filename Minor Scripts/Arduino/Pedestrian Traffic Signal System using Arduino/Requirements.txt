@@ -1,0 +1,7 @@
+Requirements:
+
+Arduino Board
+LED's
+Push Button
+USB
+Jumper Wires/Connectors
