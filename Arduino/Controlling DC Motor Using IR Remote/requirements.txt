@@ -1,0 +1,13 @@
+#Software Used
+- Tinkercad
+
+
+
+#Components Used
+- IR remote
+- IR sensor
+- Breadboard
+- DC motor
+- Arduino UNO
+- Wires
+- H-bridge Motor Driver

@@ -1,0 +1,6 @@
+| Component         | Quantity      |
+| ------------------| ------------- |
+| Arduino UNO       |  1            |
+| PushButton        |  1            |
+| LCD               |  1            |
+| Resistor          |  1            |
