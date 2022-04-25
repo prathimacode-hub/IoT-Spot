@@ -36,9 +36,6 @@ To detect weight and raise an alarm if it exceeds the weight limit.
 
 ## Output:
 
-[Simulation Video](https://github.com/shreya024/IoT-Spot/blob/main/Minor%20Scripts/Arduino/Portable%20Weight%20Limit%20Checker/images/portable_weight_limit_checker.mp4) 
-
-![Tinkercad Circuit](./images/portable_weight_limit_checker_using_arduino.png)
 
 ---
 
