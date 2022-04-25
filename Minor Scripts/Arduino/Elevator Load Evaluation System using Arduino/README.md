@@ -34,6 +34,8 @@ To detect elevator load, which will be deciding whether the elevator must move o
 ## Output:
 
 [Simulation Video](https://github.com/SarthakSKumar/IoT-Spot/blob/b2a2adc13fbd888adc51173ddb70c1c598022529/Minor%20Scripts/Arduino/Elevator%20Load%20Evaluation%20System%20using%20Arduino/Images/Elevator_Load_Evaluation_System_using_Arduino_Simulation_Video.mp4) 
+
+[Circuit Diagram](https://github.com/SarthakSKumar/IoT-Spot/blob/21a498564f7a149e63fe099ab210e8caf824e50b/Minor%20Scripts/Arduino/Elevator%20Load%20Evaluation%20System%20using%20Arduino/Images/Circuit%20Diagram.png)
 ## Author:
 
 [Sarthak S Kumar](https://github.com/SarthakSKumar)
