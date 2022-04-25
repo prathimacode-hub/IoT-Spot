@@ -35,3 +35,41 @@ void setup()
     scale.set_scale(calibration_factor); // This value is obtained by using the SparkFun_HX711_Calibration sketch
     scale.tare();                        // Assuming there is no weight on the scale at start up, reset the scale to 0
 }
+void loop()
+{
+    weight = scale.get_units() / 2;
+    lcd.setCursor(0, 0);
+    lcd.print("WEIGHT MEASURED");
+    lcd.setCursor(6, 1);
+    lcd.print(weight, 1);
+    lcd.print(" Kg");
+    if (weight > 60)
+    {
+        stopage();
+    }
+    else
+    {
+        if (digitalRead(Bstart) == LOW)
+        {
+            forward();
+        }
+    }
+    reverse();
+    m_stopage();
+}
+// reverse movement of the elevator motor function
+void reverse()
+{
+    if (digitalRead(Bstop) == LOW)
+    {
+        if (weight > 60)
+            stopage();
+        else
+            backward();
+    }
+}
+void m_stopage()
+{
+    if (digitalRead(Bstopage) == LOW)
+        stopage();
+}
