@@ -2,7 +2,11 @@
 
 ## AIM:
 
-Implementing a levator Load Evaluation System using Arduino
+Implementing a elevator Load Evaluation System using Arduino
+
+## Purpose:
+
+To detect elevator load, which will be deciding whether the elevator must move or not.
 
 **Requirements:**
 
@@ -14,9 +18,12 @@ Implementing a levator Load Evaluation System using Arduino
 - LCD Display
 - USB
 
-## Purpose:
+## Workflow:
 
-To detect elevator load, which will be deciding whether the elevator must move or not.
+- First we initialise the Load Cell, LCD and define pinouts.
+- Push Buttons are set up to control the movements of the sensor.
+- Each time the respective push button is pressed, load cell checks the amount of weight and decides whether the elevator motor runs or not.
+- If the weight is above the speficied weight limit, the motor does not run.
 ## Setup instructions:
 
 - Assemble the circuit as shown below.
