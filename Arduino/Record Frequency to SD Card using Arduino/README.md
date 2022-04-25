@@ -29,6 +29,8 @@ Connect the circuit diagram as shown in the image and press the simulation butto
 Image Link: 1) https://github.com/prathimacode-hub/IoT-Spot/blob/fd5060c64224708eccfa161123478bc0d5b33329/Minor%20Scripts/Arduino/Record%20Frequency%20to%20SD%20Card%20using%20Arduino/Images/SS-1.png
 2) https://github.com/prathimacode-hub/IoT-Spot/blob/fd5060c64224708eccfa161123478bc0d5b33329/Minor%20Scripts/Arduino/Record%20Frequency%20to%20SD%20Card%20using%20Arduino/Images/SS-3.jpeg
 
+Video Link: https://github.com/prathimacode-hub/IoT-Spot/blob/6f90eac38b52850260f4045963f53ae8e894ed26/Arduino/Record%20Frequency%20to%20SD%20Card%20using%20Arduino/Images/Record%20Frequency%20to%20SD%20Card%20using%20Arduino.mp4
+
 <br>
 
 Output and images is added in the /images folder
