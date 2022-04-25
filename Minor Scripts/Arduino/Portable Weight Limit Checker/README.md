@@ -36,6 +36,7 @@ To detect weight and raise an alarm if it exceeds the weight limit.
 
 ## Output:
 
+[Simulation Video](https://github.com/SarthakSKumar/IoT-Spot/blob/b2a2adc13fbd888adc51173ddb70c1c598022529/Minor%20Scripts/Arduino/Elevator%20Load%20Evaluation%20System%20using%20Arduino/Images/Elevator_Load_Evaluation_System_using_Arduino_Simulation_Video.mp4) 
 
 ---
 
