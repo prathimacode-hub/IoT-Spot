@@ -1,0 +1,9 @@
+Requirements:
+
+Arduino UNO
+HX711 Load Cell
+L298N Motor Driver
+DC Motor / BO Motor
+Push Buttons
+LCD Display
+USB
