@@ -73,18 +73,18 @@ void m_stopage()
     if (digitalRead(Bstopage) == LOW)
         stopage();
 }
-void forward()
+void forward() // For forward motion of elevator motor
 {
     digitalWrite(IN1, HIGH);
     digitalWrite(IN2, LOW);
 }
-void backward()
+void backward() // For backward motion of elevator motor
 {
     digitalWrite(IN1, LOW);
     digitalWrite(IN2, HIGH);
 }
 
-void stopage()
+void stopage() // To stop elevator motor
 {
     digitalWrite(IN1, LOW);
     digitalWrite(IN2, LOW);
