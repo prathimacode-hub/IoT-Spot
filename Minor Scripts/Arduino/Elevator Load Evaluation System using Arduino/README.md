@@ -4,6 +4,16 @@
 
 Implementing a levator Load Evaluation System using Arduino
 
+**Requirements:**
+
+- Arduino UNO
+- HX711 Load Cell
+- L298N Motor Driver
+- DC Motor / BO Motor
+- Push Buttons
+- LCD Display
+- USB
+
 ## Purpose:
 
 To detect elevator load, which will be deciding whether the elevator must move or not.
