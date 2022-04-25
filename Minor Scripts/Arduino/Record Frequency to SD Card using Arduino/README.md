@@ -26,11 +26,12 @@ We use the SD card module as well as Function Generator to determine the frequen
 Connect the circuit diagram as shown in the image and press the simulation button then change the values for function generator to know the gist of the project. As well view the '.txt' file which is saved in respective directory.
 
 # Output
-
+Image Link: 1) https://github.com/prathimacode-hub/IoT-Spot/blob/fd5060c64224708eccfa161123478bc0d5b33329/Minor%20Scripts/Arduino/Record%20Frequency%20to%20SD%20Card%20using%20Arduino/Images/SS-1.png
+2) https://github.com/prathimacode-hub/IoT-Spot/blob/fd5060c64224708eccfa161123478bc0d5b33329/Minor%20Scripts/Arduino/Record%20Frequency%20to%20SD%20Card%20using%20Arduino/Images/SS-3.jpeg
 
 <br>
 
-Output video and images is added in the /images folder
+Output and images is added in the /images folder
 
 <br>
 
