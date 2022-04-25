@@ -1,8 +1,8 @@
 #include "HX711.h"
 #include <LiquidCrystal.h>
 
-int IN1 = 4;
-int IN2 = 5;
+int IN1 = 4; // Motor Pin 1
+int IN2 = 5; // Motor Pin 2
 int DOUT = 3;
 int CLK = 2;
 
@@ -16,7 +16,7 @@ float weight;
 
 HX711 scale;
 
-LiquidCrystal lcd(13, 12, 11, 10, 9, 8);
+LiquidCrystal lcd(13, 12, 11, 10, 9, 8); // Defining the LCD pins
 
 void setup()
 {
@@ -35,6 +35,7 @@ void setup()
     scale.set_scale(calibration_factor); // This value is obtained by using the SparkFun_HX711_Calibration sketch
     scale.tare();                        // Assuming there is no weight on the scale at start up, reset the scale to 0
 }
+
 void loop()
 {
     weight = scale.get_units() / 2;
@@ -57,8 +58,7 @@ void loop()
     reverse();
     m_stopage();
 }
-// reverse movement of the elevator motor function
-void reverse()
+void reverse() // reverse movement of the elevator motor function
 {
     if (digitalRead(Bstop) == LOW)
     {
