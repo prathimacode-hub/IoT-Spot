@@ -1,0 +1,8 @@
+| Component         | Quantity      |
+| ------------------| ------------- |
+| Arduino UNO       |  1            |
+| Servo Motor       |  2            |
+| LDR               |  4            |
+| Resistors         |  4            |
+| Breadboard        |  1            |
+| Potentiometer     |  2            |
