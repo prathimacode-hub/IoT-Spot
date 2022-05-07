@@ -895,6 +895,7 @@ color: #fff !important;
 
 .contact-icon {
   margin: 2rem 0;
+  padding: 1.2rem;
   width: 5rem !important;
   height: 5rem;
   border: 2px solid var(--primary-text);
@@ -917,7 +918,7 @@ color: #fff !important;
 }
 
 .contact-info a {
-  margin-left: 3rem;
+  margin-left: 2rem;
   font-size: 1.6rem;
   font-weight: 600;
   text-decoration: none;
@@ -1221,6 +1222,7 @@ gap: 5%;
   }
 
   .nav-links a {
+    color: white;
     padding-left: 0px;
     padding-right: 0px;
     font-size: 3rem;
@@ -1261,10 +1263,10 @@ gap: 5%;
   
   
   #nav-btn {
-    background-color: #11233f;
+    background-color: var(--light-red);
     margin-left: 0px;
     margin-top: 10vh;
-    width: 180px;
+    width: 210px;
     height: 50px;
     display: flex;
     align-items: center;
@@ -1366,6 +1368,9 @@ gap: 5%;
   .social-media-pack a {
     margin: auto 1rem;
     margin-bottom: 2rem;
+  }
+  .submit{
+    margin: 6% auto;
   }
 }
 
