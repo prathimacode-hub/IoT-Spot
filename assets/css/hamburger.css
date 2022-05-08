@@ -1,6 +1,6 @@
 .ham{
     cursor:pointer;
-    -webkit-tap-highlight-color:transparent;
+    /* -webkit-tap-highlight-color:transparent; */
     transition:transform .4s;
     -moz-user-select:none;
     -webkit-user-select:none;
@@ -12,7 +12,7 @@
 }
 .line{
     fill:none;
-    transition:stroke-dasharray .4s,stroke-dashoffset .4s;stroke:#fffe;
+    transition:stroke-dasharray .4s,stroke-dashoffset .4s;stroke:red;
     stroke-width:5.5;
     stroke-linecap:round;
 }
