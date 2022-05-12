@@ -1,0 +1,6 @@
+- Software
+Tinkercad
+
+- Other components
+Arduino Boards -2
+Wires
