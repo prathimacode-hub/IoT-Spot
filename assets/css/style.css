@@ -1530,3 +1530,8 @@ gap: 5%;
     opacity: 1;
   }
 }
+.footer i:hover{
+  transform: scale(1.15);
+  color: var(--red);
+
+}
