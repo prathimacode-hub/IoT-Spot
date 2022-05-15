@@ -26,8 +26,6 @@
 
 html {
   font-size: 10px;
-  scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 body {
@@ -80,7 +78,7 @@ li {
 ::-webkit-scrollbar-thumb {
   -webkit-border-radius: 10px;
   border-radius: 10px;
-  background: #fb2149e1;
+  background: #FE3E57;
   -webkit-box-shadow: rgba(0,0,0,.12) 0 3px 13px 1px;    
 }
 
