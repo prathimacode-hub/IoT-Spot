@@ -1,0 +1,7 @@
+| Component         | Quantity      |
+| ------------------| ------------- |
+| Arduino UNO       |  1            |
+| PIR Sensor        |  1            |
+| Buzzer            |  1            |
+| Resistors         |  9            |
+| RGB LED           |  3            |
