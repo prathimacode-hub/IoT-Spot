@@ -24,8 +24,8 @@ Automatic DoorBell
 - Run to see the project in action!
 ------------
 ## Output:
-[Simulation Video]()
-![Tinkercad Circuit]()
+[Simulation Video](./Images/preview.mp4)
+![Tinkercad Circuit](./Images/preview1.jpg)
 ------------
 
 ## Author:
