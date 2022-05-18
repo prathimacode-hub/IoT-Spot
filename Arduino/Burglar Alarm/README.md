@@ -22,12 +22,12 @@ To Protect the Place From Burglar
 
 ## Setup instructions:
 - Assemble the circuit as shown below.
-- Upload the code provided [here]()
+- Upload the code provided [here](Burglar_alarm.ino)
 - Run to see the project in action!
 ------------
 ## Output:
-[Simulation Video]()
-![Tinkercad Circuit]()
+[Simulation Video](./Images/preview.mp4)
+![Tinkercad Circuit](./Images/preview.jpg)
 ------------
 
 ## Author:
