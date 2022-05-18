@@ -27,7 +27,7 @@ To Protect the Place From Burglar
 ------------
 ## Output:
 [Simulation Video](./Images/preview.mp4)
-![Tinkercad Circuit](./Images/preview.jpg)
+![Tinkercad Circuit](./Images/preview1.jpg)
 ------------
 
 ## Author:
