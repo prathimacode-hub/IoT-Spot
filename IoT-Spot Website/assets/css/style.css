@@ -59,15 +59,36 @@ li {
   text-align: justify;
   color: var(--territory-text);
 }
-.swiper{
-  width:950px;
-}
+/* CSS card styling */
+ .swiper{
+  width:100%;
+  padding-right: 35px;
+  padding-left: 28px;
+  
+} 
 .containerP{
   position: relative;
   height: 450px;
-  width: 1075px;
+  width: 1045px;
   display: flex;
   align-items: center;
+}
+.swiper-button-next{
+  width:  0px;
+  right: 10px;
+
+}
+.swiper-button-prev{
+  width:  0px;
+  left: 10px;
+}
+.swiper-pagination{
+  position: absolute;
+  top:385px; 
+}
+.swiper-pagination-bullet{
+  height: 10px;
+  width: 10px;
 }
 .card p{
   margin: 15px;
@@ -80,21 +101,10 @@ li {
   height: 50vh;
   width:50%;
   display: flex;
-  
   margin: 20px 0 ;
-   box-shadow: 9px 5px 2px 1px rgba(67, 116, 131, 0.363); 
+  box-shadow: 9px 5px 2px 1px rgba(67, 116, 131, 0.363); 
 }
-/* .card:hover{
-  box-shadow: 0 0 18px 0 rgba(0,0,0,0.3);
-  transform:translateY(-20px);
-  -webkit-transform:translateY(-20px);
-  -moz-transform:translateY(-20px);
-  -ms-transform:translateY(-20px);
-  -o-transform:translateY(-20px);
-} */
-.swiper-pagination{
-  bottom: 1px;
-}
+
 .card::before{
   content: "";
   position: absolute;
@@ -109,7 +119,6 @@ li {
   align-items: center;
   padding: 50px 0 50px 0;
   position: relative;
-  z-index: 100; 
 }
 
 /* Scrollbar Styling */
