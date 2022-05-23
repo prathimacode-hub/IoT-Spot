@@ -1,27 +1,37 @@
 # Aim
 To build API for LCD To provide The following functionality:
+<br>
+<br>
 /* LCD Initialize function for any mode */
+<br>
 void LCD_Init(void);
 
 /* LCD send commands function to configure LCD for any mode */
+<br>
 void LCD_SendCommand(uint8 cmd);
 
 /* LCD send char function to put on LCD display (panel) for any mode */
+<br>
 void LCD_SendChar(uint8 data);
 
 /* LCD send string function to put on LCD display (panel) */
+<br>
 void LCD_SendString(uint8* data);
 
 /* go to xy position */
+<br>
 void LCD_Goto_xy(uint8 row,uint8 col);
 
 /* write a string into LCD in x-y position */
+<br>
 void LCD_String_xy (uint8 row, uint8 pos, uint8* data);
 
 /* write number into LCD */
+<br>
 void LCD_SendNumber(uint16 Number);
 
 /* clear LCD display */
+<br>
 void LCD_Clear(void);
 
 <br>
