@@ -1,0 +1,8 @@
+#SOFTWARE USED
+- Tinkercad
+
+#COMPONENTS
+- Arduino Uno
+- Push Buttons
+- LCD 16*4
+- wires

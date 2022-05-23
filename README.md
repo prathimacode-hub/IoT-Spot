@@ -218,6 +218,11 @@ This project follows the [Mozilla Public License 2.0](https://github.com/prathim
 </table>
 
 
+<h2>🌟 Stargazers Over Time 🌟</h2>
+
+[![Stargazers over time](https://starchart.cc/prathimacode-hub/IoT-Spot.svg)](https://starchart.cc/prathimacode-hub/IoT-Spot)
+
+
 <h2>⭐Give this Project a Star</h2>
 
 [![GitHub followers](https://img.shields.io/github/followers/prathimacode-hub.svg?label=Follow%20@prathimacode-hub&style=social)](https://github.com/prathimak88/)  [![Twitter Follow](https://img.shields.io/twitter/follow/prathimak88?style=social)](https://twitter.com/prathimak88)
