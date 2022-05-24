@@ -23,10 +23,12 @@ We will learn how to use IR Remote with LCD screen.
 ## Short Description 
 
 - I am using an IR remote to take input, IR sensor to store and identify the input and LCD screen to print it.
+When simulation is started and any button is pressed on the IR remote, IR sensor will interpret the input. Corresponding to that input and according to the code, Output will get printed on LCD Screen.
 
 ## Workflow of the Project
 
-- When the simulation is started and any button on IR remote is pressed, we can see the corresponding output on LCD screen. 
+- When the simulation is started and any button on IR remote is pressed, we can see the corresponding output on LCD screen.
+IR sensor detects the which button is pressed and provides specific value assigned to that button to LCD. LCD then prints message on screen corresponding to that button 
 
 ## Setup instructions
 
@@ -41,11 +43,11 @@ We will learn how to use IR Remote with LCD screen.
 
 //Click on view raw
 
-[circuit diagram]:   
+[circuit diagram]: https://github.com/vaishnavighiradkar/IR_remote_and_LCD/blob/main/circuit%20diagram.png  
 
-[Simulation Video]:   
+[Simulation Video]:   https://github.com/vaishnavighiradkar/IR_remote_and_LCD/blob/main/Simulation%20Video.mp4
 
-[ Source code ] :    
+[ Source code ] :    https://github.com/vaishnavighiradkar/IR_remote_and_LCD/blob/main/CODE.ino
 
 ## Author
 
