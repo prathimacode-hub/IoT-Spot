@@ -1,0 +1,7 @@
+| Component         | Quantity      |
+| ------------------| ------------- |
+| Arduino UNO       |  1            |
+| Breadboard        |  1            |
+| Buzzer            |  1            |
+| Resistors         |  8            |
+| RGB LED           |  4            |
