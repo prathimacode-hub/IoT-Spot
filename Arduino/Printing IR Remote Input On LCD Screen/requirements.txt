@@ -1,0 +1,12 @@
+#Software Used
+- Tinkercad
+
+#Components
+- LCD Screen 16*2
+- IR Remote
+- IR Sensor
+- Resistor
+- Arduino UNO
+- Breadboard
+- Wires
+- Potentiometer
