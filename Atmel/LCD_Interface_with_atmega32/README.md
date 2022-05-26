@@ -20,12 +20,9 @@ Potentiometer 1K
 
 # Description
 The idea is to built a reusable drivers which can be used in other Projects for this purpose can be achived as follow:
-<br>
 Every Microcontroller has interal peripherals to interface with like DIO pins, timer, and ADC, etc also it can interfaced with external peripherals like LEDS, LCD, and seven segment, etc.
-<br>
 The external peripherals can deal with Microcontroller through Internal peripherals like DIO and this will make extenal peripherals reusable with every Microconroller. also the same thing for internal peripherals
-but with change the addresses of the registers and their sizes. so we will start be building the DIO (Digital Input Output for dealing with pins) peripheral which needed for LCD peripheral. 
-Used The made API (Driver) to configure the LCD. This Driver makes it easier to operate with the LCD since it consists for many functions like LCD_String_xy, LCD_SendNumber etc.
+but with change the addresses of the registers and their sizes. so we will start be building the DIO (Digital Input Output for dealing with pins) peripheral which needed for LCD peripheral. then Use The made API (Driver) to configure the LCD. This Driver makes it easier to operate with the LCD since it consists for many functions like LCD_String_xy, LCD_SendNumber etc.
 <br>
 
 # Workflow
@@ -37,12 +34,12 @@ Connect the circuit diagram as shown in the image and press the simulation butto
 
 # Output
 Output Images:
-![](Gallery%5Cberfore%20run.PNG)
-![](Gallery%5Cafter%20running.PNG)
+![image](https://github.com/mohamedismail53/IoT-Spot/blob/main/Atmel/LCD_Interface_with_atmega32/Gallery/berfore%20run.PNG)
+![image](https://github.com/mohamedismail53/IoT-Spot/blob/main/Atmel/LCD_Interface_with_atmega32/Gallery/after%20running.PNG)
 <br>
 <br>
 Output video:
-[](Gallery%5CVideo.mp4)
+[video](https://github.com/mohamedismail53/IoT-Spot/blob/main/Atmel/LCD_Interface_with_atmega32/Gallery/Video.mp4)
 <br>
 
 # Author
