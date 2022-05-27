@@ -28,7 +28,7 @@ Connect the circuit diagram as shown in the image and press the upload button of
 
 Output video and images is added in the /images folder
 Image Link: https://github.com/prathimacode-hub/IoT-Spot/blob/e0363549eb4f1ea69be9babdb853f6b6e9fe66a7/Node%20MCU/Node%20MCU%20wireless%20communication%20for%20Traffic%20Signal%20Control/Images/SS-1.jpeg
-Video Link: NA
+Video Link: https://github.com/prathimacode-hub/IoT-Spot/blob/459df98fb930f6cfd09e79260306659413bb2d7e/Node%20MCU/Node%20MCU%20wireless%20communication%20for%20Traffic%20Signal%20Control/Images/NodeMCU%20traffic%20Signal%20Video-1.mp4
 
 <br>
 
