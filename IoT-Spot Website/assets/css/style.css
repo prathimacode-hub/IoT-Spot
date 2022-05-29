@@ -1368,6 +1368,41 @@ input:-webkit-autofill {
     margin-bottom: 2rem;
   }
 }
+@media only screen and (max-width: 1129px){
+.main-wrapper {
+  margin-left: 15%;
+}
+
+.main {
+  margin-top: 0px;
+  justify-content: center;
+  flex-direction: column-reverse;
+  text-align: center;
+}
+
+.main-content h2 {
+  line-height: 50px;
+}
+
+.primary {
+  margin-right: 20px;
+}
+
+.btn-grp {
+  margin-top: 3rem;
+  justify-content: center;
+}
+
+.main-img {
+  position: static;
+  right: 0px;
+}
+
+.main-img {
+  margin-bottom: 5vh;
+  height: 70%;
+}
+}
 
 @media screen and (max-width: 720px) {
   .all-works,
