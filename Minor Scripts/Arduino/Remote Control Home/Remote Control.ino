@@ -1,5 +1,5 @@
 #include <IRremote.h>
-
+//working with ir remote
 int voltage[12];
 unsigned int i = 0;
 
@@ -19,24 +19,24 @@ void setup(){
 //--------------------loop
 
 void loop(){ 
-  TranslateIR();
+  TranslateIR();//function associated with the button
 }
 //--------------------functions
 
 //-----Toggle-----
-void ToggleLED(int pin) {
-  if (voltage[pin]) {
+void ToggleLED(int pin) {//function that takes the pin input/button pressed in the remote and perform the function 
+  if (voltage[pin]) {    // and toggles the pin
     Serial.print("LED ");
-    Serial.print(pin - 2);
+    Serial.print(pin - 2); //for conversion we use -2 as we start from 2 but the remote starts with 0
     Serial.println(" was turned off");
-    digitalWrite(pin, LOW);
-    voltage[pin] = 0;
+    digitalWrite(pin, LOW); //
+    voltage[pin] = 0; // voltage array of the particular pin is off i.e. 0
   } else {
     Serial.print("LED ");
-    Serial.print(pin - 2);
+    Serial.print(pin - 2); //for conversion we use -2
     Serial.println(" was turned on");
     digitalWrite(pin, HIGH);
-    voltage[pin] = 1;
+    voltage[pin] = 1; // voltage array of the particular pin is off i.e. 0
   }
 }
 //-----SetUpPins-----
@@ -51,6 +51,7 @@ void SetUpPins() {
   pinMode(7, OUTPUT);
   pinMode(8, OUTPUT);
   pinMode(9, OUTPUT);
+  
   digitalWrite(10, LOW);
   digitalWrite(11, LOW);
   digitalWrite(2, LOW);
@@ -66,10 +67,10 @@ void SetUpPins() {
 void TranslateIR() {
   if (irrecv.decode(&results)){
  
-        if (results.value == 0XFFFFFFFF)
+        if (results.value == 0XFFFFFFFF) //you will receive a 0XFFFFFFFF code when you press a key continuously
           results.value = key_value;
 
-        switch(results.value){
+        switch(results.value){ // predefined code associated with the remote button
           case 0xFD00FF://power
           break;
           case 0xFD807F://vol+
@@ -124,6 +125,6 @@ void TranslateIR() {
           break ;      
         }
         key_value = results.value;
-        irrecv.resume(); 
+        irrecv.resume(); // continue it button can be pressed any time 
   }
 }
