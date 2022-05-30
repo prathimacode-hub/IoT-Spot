@@ -1,9 +1,9 @@
-# COVID DOOR BELL
+# Automatic DOOR BELL
 ## AIM:
-To Ring the Bell As Soon As Somebody's Finger Gets Close To The Switch.
+Automatic DoorBell Circuit Simulation in Timker Cad.
 
 ## Purpose:
-Automatic DoorBell
+To Ring the Bell As Soon As Somebody's Finger Gets Close To The Switch.
 
 ## Short Description:
 **Requirements:**
