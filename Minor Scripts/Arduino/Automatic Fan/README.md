@@ -1,9 +1,9 @@
 # Automatic Fan
 ## AIM:
-To Start the Fan as the Temperature Increaes.
+Temperature Controlled Fan Simulation In Tinker Cad
 
 ## Purpose:
-Temperature Controlled Fan
+To Start the Fan as the Temperature Is Ceratain Temperature is Reached. Also Increse the Fan Speed as the Temperature rises.
 
 ## Short Description:
 **Requirements:**

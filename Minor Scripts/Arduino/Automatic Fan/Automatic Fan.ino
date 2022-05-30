@@ -60,7 +60,9 @@ void stopfan () {
   lcd.clear();
   digitalWrite (fan, LOW);
   delayMicroseconds(90000000000000000000000);
+  //lcd display
   Serial.println("DragonUncaged");
+  //initial display for the temperature
   lcd.print("TEMP: --");
   lcd.setCursor(0,1); 
   lcd.print("FANS: 0%");
