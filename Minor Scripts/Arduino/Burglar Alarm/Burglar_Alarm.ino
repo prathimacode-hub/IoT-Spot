@@ -48,12 +48,12 @@ void loop()
     alarmSetCounter--;
     if (alarmSetCounter == sensitivity)
     {
-     Alarm();
+     Alarm();//alarm will ring
     }
   }
   else
   {
-    NoAlarm();
+    NoAlarm();//alarm will not ring
   }
   Monitor();
 }
