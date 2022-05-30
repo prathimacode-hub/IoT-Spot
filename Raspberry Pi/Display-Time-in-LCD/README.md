@@ -1,5 +1,5 @@
-# SHOWING TIME ON LCD USING RASSBERRY-Pi
-## AIM:SHOWING TIME ON LCD USING RASSBERRY-Pi
+#Display Time on LCD using Raspberry PI 
+#AIM:Display Time on LCD using Raspberry PI 
 ## Purpose:
 SHOWING TIME ON LCD USING RASSBERRY-Pi 
 
@@ -13,7 +13,7 @@ SHOWING TIME ON LCD USING RASSBERRY-Pi
 ---
 ## Workflow:
 - After Starting of the cicuit.
--  GPIO module is to pins and get the input output.
+-  GPIO is a module which connect the pins  and get the input output.
 -  Goes in while loop when its true and shows the message on LCD which is current time.  
 ---
 ## Author:
