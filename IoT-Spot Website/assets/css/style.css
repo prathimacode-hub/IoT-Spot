@@ -59,6 +59,67 @@ li {
   text-align: justify;
   color: var(--territory-text);
 }
+/* CSS card styling */
+ .swiper{
+  width:100%;
+  padding-right: 35px;
+  padding-left: 28px;
+  
+} 
+.containerP{
+  position: relative;
+  height: 450px;
+  width: 1045px;
+  display: flex;
+  align-items: center;
+}
+.swiper-button-next{
+  width:  0px;
+  right: 10px;
+
+}
+.swiper-button-prev{
+  width:  0px;
+  left: 10px;
+}
+.swiper-pagination{
+  position: absolute;
+  top:385px; 
+}
+.swiper-pagination-bullet{
+  height: 10px;
+  width: 10px;
+}
+.card p{
+  margin: 15px;
+  font-family: Georgia;
+}
+.card{
+  position: relative;
+  background: #e2f8fc;
+  border-radius: 20px;
+  height: 50vh;
+  width:50%;
+  display: flex;
+  margin: 20px 0 ;
+  box-shadow: 9px 5px 2px 1px rgba(67, 116, 131, 0.363); 
+}
+
+.card::before{
+  content: "";
+  position: absolute;
+  height:30%;
+  width:100%;
+  background: #bbd9e0;
+  border-radius: 20px 20px 0 0; 
+}
+.card .card-content1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0 50px 0;
+  position: relative;
+}
 
 /* Scrollbar Styling */
 ::-webkit-scrollbar {
@@ -388,21 +449,24 @@ li {
 }
 
 .column {
-  float: left;
+  float: center;
   margin-left:15%;
-  width: 30%;
+  width: 20%;
   padding: 10px;
   height: 300px;
  
-  background-color: rgb(223, 239, 245); /* Should be removed. Only for demonstration */
+  background-color: rgb(90, 21, 252); /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
 .row:after {
   content: "";
-  display: table;
+  display: flex; 
+  justify-content:space-evenly;
   clear: both;
 }
+
+
 .column h3{
   font-weight: bold;
   color:rgb(68, 63, 63);
@@ -514,13 +578,15 @@ text-align:center;
   text-align:center;
 }
 .extra-div:hover{
-  box-shadow: 0 0 18px 0 rgba(0,0,0,0.3);
+   box-shadow: 0 0 18px 0 rgba(0,0,0,0.3); 
+  
   transform:translateY(-20px);
   -webkit-transform:translateY(-20px);
   -moz-transform:translateY(-20px);
   -ms-transform:translateY(-20px);
   -o-transform:translateY(-20px);
 }
+
 .tabs {
   display: flex;
   flex-wrap: wrap;
@@ -1301,6 +1367,41 @@ input:-webkit-autofill {
     margin: auto 1rem;
     margin-bottom: 2rem;
   }
+}
+@media only screen and (max-width: 1129px){
+.main-wrapper {
+  margin-left: 15%;
+}
+
+.main {
+  margin-top: 0px;
+  justify-content: center;
+  flex-direction: column-reverse;
+  text-align: center;
+}
+
+.main-content h2 {
+  line-height: 50px;
+}
+
+.primary {
+  margin-right: 20px;
+}
+
+.btn-grp {
+  margin-top: 3rem;
+  justify-content: center;
+}
+
+.main-img {
+  position: static;
+  right: 0px;
+}
+
+.main-img {
+  margin-bottom: 5vh;
+  height: 70%;
+}
 }
 
 @media screen and (max-width: 720px) {
