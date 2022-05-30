@@ -20,8 +20,14 @@ To Start the Fan as the Temperature Is Ceratain Temperature is Reached. Also Inc
 - We initiate a Conditional statement For the Fan to Start as temperature increases.
 - A Resistor (1 Kohm) is added For the LCD and Resistor (10 Kohm) to the push button.
 
+In this circuit we are maintaing the room temperature between 30-45 C using motor. If the temperature is lower than 30 C then Fan will turn on. Once the temperature gets Low it will turn off User can set the range of room temperature by changing in the code.
+
 ## Setup instructions:
 - Assemble the circuit as shown below.
+- Open Tinker Cad on any browser and make the circuit as shown here.
+- Then paste the code in code section.
+- Open the Serial Monitor.
+- Start Simulation.
 - Upload the code provided [here]()
 - Run to see the project in action!
 ------------
