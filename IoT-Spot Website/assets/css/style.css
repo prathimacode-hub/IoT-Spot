@@ -282,28 +282,35 @@ li {
   text-decoration: none;
   padding-left: 2.5vw;
   padding-right: 2.5vw;
+  padding-top: 1.2vw ;
+  padding-bottom: 1.2vw;
   transition: 0.3s;
   transition-property: color;
 }
 
 .nav-link a:hover {
-  color: var(--red);
+  background: #66bfbf; 
+  color: white;
+  border-radius: 20px;
 }
 
 #nav-btn {
   width: 130px;
   height: 40px;
-  background-color: var(--secondary-button);
-  border: 1px solid var(--red);
+  border: 2px solid black;
+  border-radius: 20px;
   margin-left: 3vw;
   transition: 0.2s;
   transition-property: background-color;
   cursor: pointer;
   user-select: none;
+  background-color:#66bfbf;
 }
 
 #nav-btn:hover {
-  background-color: var(--red);
+  background-color:white;
+  color: white;
+  
 }
 
 #nav-btn p {
@@ -395,11 +402,18 @@ li {
 
 .btn:hover {
   box-shadow: 5px 6px 12px 4px rgba(0, 0, 0, 0.31);
+  
+}
+.btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .primary {
   background-color: var(--red);
   margin-right: 40px;
+
 }
 
 .secondary {
@@ -1018,8 +1032,8 @@ text-align:center;
   font-size: 1.5rem;
   margin-top: 2.5rem;
   height: 5.5rem;
-  background-color: var(--secondary-button);
-  border: none;
+  background-color: #d9dad7;
+  border: 2px solid black;
   border-radius: 5px;
 }
 
@@ -1042,8 +1056,8 @@ input:-webkit-autofill {
 /* Removing autocomplete styling Finished*/
 
 .input::placeholder {
-  font-size: 1.5rem;
-  color: rgba(255, 251, 251, 0.589);
+  font-size: 1.8rem;
+  color: black;
 }
 
 .input:focus {
@@ -1061,13 +1075,15 @@ input:-webkit-autofill {
   margin-top: 3rem;
   background-color: var(--red);
   border: none;
-  font-size: 1.6rem;
-  font-weight: 600;
+  font-size: 1.8rem;
+  font-weight: bold;
   color: var(--white);
   width: 15rem;
   height: 4.8rem;
 }
-
+.submit:hover{
+  background-color: white;
+}
 .footer {
   padding: 3rem 15%;
   padding-top: 4rem;
@@ -1400,7 +1416,7 @@ input:-webkit-autofill {
 
 .main-img {
   margin-bottom: 5vh;
-  height: 70%;
+  height: 50%;
 }
 }
 
