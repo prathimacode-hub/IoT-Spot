@@ -1,4 +1,7 @@
-# Welcome to IoT-Spot👋
+<div align="center">
+  <h1>Welcome to IoT-Spot 👋🎲</h1>
+  <h3>Website for IoT-Spot Project Repo: <a href="https://prathimacode-hub.github.io/IoT-Spot/">Click Here!</a></h3>
+</div>
 
 <p align="center">
 <img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/CoverPhotos/IoT-Spot.png"></a>
@@ -22,14 +25,14 @@
 </p>
 
 
-<h2>📌Repository</h2>
+## 📌Repository
 
 An Amazing Spot to step your foot into this ocean of the "Internet Of things". Dive deep and explore the fiesta of electronics. Broaden your vision at a single go. Enjoy your open source journey!!.🚀
 
 The main aim is to provide a cabin that would help you in mastering the "Internet Of Things" and making your hands dirty while exploring. An enriching field that makes your life turn smarter and be closer to technology. Turn yourself into a magician with all the hands-on that got you covered.
 
 
-<h2>🙌Join Here</h2>
+## 🙌Join Here
 
 Anyone related to technology who is looking to contribute to open-source is all invited to hop in. This place has a task for everyone.
 
@@ -75,12 +78,7 @@ If you worked on or want to initiate a unique project and share it with the worl
 Subsequently, also go through the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 
-<h2> Link To The Website</h2>
-
-https://prathimacode-hub.github.io/IoT-Spot/
-
-
-<h2>🛠Templates to Follow</h2>
+## 🛠Templates to Follow
 
 - [Feature request](https://github.com/prathimacode-hub/IoT-Spot/blob/main/.github/issue_template/feature_request.md)
 - [Bug Report](https://github.com/prathimacode-hub/IoT-Spot/blob/main/.github/issue_template/bug_report.md)
@@ -90,7 +88,7 @@ https://prathimacode-hub.github.io/IoT-Spot/
 **Note**: One should follow these templates while creating a new issue or pull request. 
 
 
-<h2>📝Project Structure</h2>
+## 📝Project Structure
 
 Your projects should contain this flow to maintain similarity across all other projects. Make sure to note these things, before you create a PR.
 
@@ -111,7 +109,7 @@ Since this repo is purely technical, make sure you include "Block Diagrams" and 
 **Related files** - The other additional and related files would be added up in the "Related" folder.
 
 
-<h2>⚙️ Things to Note</h2>
+## ⚙️Things to Note
 
 * Make sure you do not copy codes from external sources because that work will not be considered. Plagiarism is strictly not allowed.
 * You can only work on issues that have been assigned to you.
@@ -122,7 +120,7 @@ Since this repo is purely technical, make sure you include "Block Diagrams" and 
 * Do not update the **[README.md](https://github.com/prathimacode-hub/IoT-Spot/blob/main/README.md).**
 
 
-<h2>👨‍💻 Workflow:</h2>
+## 👨‍💻Workflow:
 
 - Fork the repository
 
@@ -137,23 +135,28 @@ Since this repo is purely technical, make sure you include "Block Diagrams" and 
 > print("Start contributing for IoT-Spot")
 
 
-<h2>👍OpenSource Program</h2>
-
-This project was a part of these open-source programs.
-
+ ## ❄️Open Source Programs
+ 
 <table>
 <tr>
-  <td>
-<a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/OpenSource%20Programs/Script%20Winter%20Of%20Code/Script%20Winter%20Of%20Code.jpg" width=100px height=80px /></a>
+ <td align="center">
+<a href="https://gssoc.girlscript.tech/"><img src="" width=100px height=100px /><br /><sub><b>GirlScript Summer Of Code 2022</b></sub></a>
  </td>
- <td>
-<a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/OpenSource%20Programs/Delta%20Winter%20Of%20Code/Delta-Winter-Of-Code.jpg" width=100px height=80px /></a>
+ <td align="center">
+<a href="https://swoc.tech/"><img src="" width=100px height=100px /><br /><sub><b>Script Winter Of Code 2021</b></sub></a>
  </td>
- <td>
-<a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/OpenSource%20Programs/GirlScript%20Summer%20Of%20Code/GirlScript%20Summer%20Of%20Code.png" width=100px height=80px /></a>
- </td>
+  <td align="center">
+<a href="https://dwoc.io/"><img src="" width=100px height=100px /><br /><sub><b>Delta Winter Of Code 2021</b></sub></a>
+  </td>
 </tr>
 </table>
+
+
+<!-- 
+Achievements
+Content
+Leaderboard -->
+
 
 <!--
 
@@ -163,12 +166,14 @@ This project was a part of these open-source programs.
 | - | - |
 | Level 1|  Points 🔰|
 | Level 2 |  Points 🌱|
-| Level 3 |  Points 🔥| -->
+| Level 3 |  Points 🔥| 
 
 You can check out the project leaderboard for GSSOC here : [IoT-Spot Leaderboard](https://github.com/prathimacode-hub/IoT-Spot/blob/main/.github/gssoc_leaderboard.md)
 
+-->
 
-<h2>✨Hall Of Fame</h2>   
+
+## ✨Hall Of Fame   
 
 Thanks go to these Wonderful People. Contributions of any kind are welcome!🚀 
 
@@ -185,45 +190,33 @@ Thanks go to these Wonderful People. Contributions of any kind are welcome!🚀
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 
-<h2>📜 Code Of Conduct</h2>
+## 📜Code Of Conduct
 
 You can find our Code of Conduct [here](https://github.com/prathimacode-hub/IoT-Spot/blob/main/CODE_OF_CONDUCT.md).
 
 
-<h2>📝 License</h2>  
+## 📝License
 
 This project follows the [Mozilla Public License 2.0](https://github.com/prathimacode-hub/IoT-Spot/blob/main/LICENSE).
 
 
-<h2>🙂 Project Admin</h2>
+## 😎Project Admin
 
-<a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Prathima%20updated%20profile%20pic.jpg" width=100px height=100px /></a>
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+<table>
+  <tr>
+<td align="center"><a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Prathima%20updated%20profile%20pic.jpg" width="80px;" alt=""/><br /><sub><b>Prathima Kadari</b></sub></a></td>
+  </tr>
+</table>
 
 ![Visitor Count](https://profile-counter.glitch.me/{prathimacode-hub}/count.svg)
 
 
-<h2>🤝GSSOC Mentors</h2>
-
-<table>
-    <tr>
-    <td align='center'><a href='https://github.com/Dhruvsinghjadon'><img src='https://avatars.githubusercontent.com/u/75934644?v=4' width='80px;' alt=''/><br/><sub><b>Dhruv Singh Jadon</b></sub></a></td>
- </tr>
-  <tr>
-    <td align='center'><a href='https://github.com/abhisheks008'><img src='https://avatars.githubusercontent.com/u/68724349?v=4' width='80px;' alt=''/><br/><sub><b>Abhishek Sharma</b></sub></a></td>
-  </tr>
-  <tr>
-    <td align='center'><a href='https://github.com/vilgad'><img src='https://avatars.githubusercontent.com/u/84396662?v=4' width='80px;' alt=''/><br/><sub><b>Rohit Gupta</b></sub></a></td>
-  </tr>
-</table>
-
-
-<h2>🌟 Stargazers Over Time 🌟</h2>
+##🌟Stargazers Over Time🌟
 
 [![Stargazers over time](https://starchart.cc/prathimacode-hub/IoT-Spot.svg)](https://starchart.cc/prathimacode-hub/IoT-Spot)
 
 
-<h2>⭐Give this Project a Star</h2>
+## ⭐Give this Project a Star
 
 [![GitHub followers](https://img.shields.io/github/followers/prathimacode-hub.svg?label=Follow%20@prathimacode-hub&style=social)](https://github.com/prathimak88/)  [![Twitter Follow](https://img.shields.io/twitter/follow/prathimak88?style=social)](https://twitter.com/prathimak88)
 
@@ -234,10 +227,10 @@ If you liked working on this project, do ⭐ and share this repository.
 <!-- <sup><kbd>***[Click Here](https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Projects/OpenSource-Projects.md)***</kbd> *to view my open source projects and</sup>*  <sup><kbd>***[Get In](https://github.com/prathimacode-hub/prathimacode-hub/blob/main/GitHub%20Projects/Learning-Projects.md)***</kbd> *for learning projects.</sup>* <br>
 </td> -->
 
-<sup><kbd>***[Click Here](https://github.com/prathimacode-hub/prathimacode-hub/blob/main/GitHub%20Projects/OpenSource-Projects.md)***</kbd> *to view my open source projects.</sup>* <br>
+<sup><kbd>***[Click Here](https://github.com/prathimacode-hub/prathimacode-hub/blob/main/GitHub%20Projects/OpenSource-Projects.md)***</kbd> *to view my open source projects.</sup>* <br> -->
 
 
-<h2>📬 Contact</h2>
+## 📬Contact
 
 If you want to contact me, you can reach me through the below handles.
 
