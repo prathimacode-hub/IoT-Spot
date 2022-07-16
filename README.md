@@ -78,6 +78,11 @@ If you worked on or want to initiate a unique project and share it with the worl
 Subsequently, also go through the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 
+<!-- 
+Content
+ -->
+ 
+ 
 ## 🛠 Templates to Follow
 
 - [Feature request](https://github.com/prathimacode-hub/IoT-Spot/blob/main/.github/issue_template/feature_request.md)
@@ -171,11 +176,6 @@ Since this repo is purely technical, make sure you include "Block Diagrams" and 
 </table>
 
 
-<!-- 
-Content
--->
-
-
 ## ✨ Hall Of Fame   
 
 Thanks go to these Wonderful People. Contributions of any kind are welcome!🚀 
@@ -228,7 +228,7 @@ If you liked working on this project, do ⭐ and share this repository.
 🎉 🎊 😃 Happy Contributing 😃 🎊 🎉
 
 <!-- <sup><kbd>***[Click Here](https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Projects/OpenSource-Projects.md)***</kbd> *to view my open source projects and</sup>*  <sup><kbd>***[Get In](https://github.com/prathimacode-hub/prathimacode-hub/blob/main/GitHub%20Projects/Learning-Projects.md)***</kbd> *for learning projects.</sup>* <br>
-</td> -->
+</td> 
 
 <sup><kbd>***[Click Here](https://github.com/prathimacode-hub/prathimacode-hub/blob/main/GitHub%20Projects/OpenSource-Projects.md)***</kbd> *to view my open source projects.</sup>* <br> -->
 
