@@ -168,7 +168,6 @@ Since this repo is purely technical, make sure you include "Block Diagrams" and 
     <td align="center"><a href="https://github.com/prathimacode-hub/IoT-Spot/blob/main/.github/gssoc_leaderboard.md"><img src="https://cdn-icons-png.flaticon.com/512/1986/1986941.png" width="100px;" alt=""/><br /><sub><b>GSSOC Leaderboard 2022</b></sub></a></td>
     <td align="center"><a href="https://github.com/prathimacode-hub/IoT-Spot/blob/main/.github/swoc_leaderboard.md"><img src="https://cdn-icons-png.flaticon.com/512/1986/1986941.png" width="100px;" alt=""/><br /><sub><b>SWOCLeaderboard 2021</b></sub></a></td>
   </tr>
-  
 </table>
 
 
@@ -204,7 +203,7 @@ You can find our Code of Conduct [here](https://github.com/prathimacode-hub/IoT-
 This project follows the [Mozilla Public License 2.0](https://github.com/prathimacode-hub/IoT-Spot/blob/main/LICENSE).
 
 
-## 😎Project Admin
+## 😎 Project Admin
 
 <table>
   <tr>
@@ -215,7 +214,7 @@ This project follows the [Mozilla Public License 2.0](https://github.com/prathim
 ![Visitor Count](https://profile-counter.glitch.me/{prathimacode-hub}/count.svg)
 
 
-##🌟 Stargazers Over Time 🌟
+## 🌟 Stargazers Over Time 🌟
 
 [![Stargazers over time](https://starchart.cc/prathimacode-hub/IoT-Spot.svg)](https://starchart.cc/prathimacode-hub/IoT-Spot)
 
