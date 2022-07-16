@@ -25,14 +25,14 @@
 </p>
 
 
-## 📌Repository
+## 📌 Repository
 
 An Amazing Spot to step your foot into this ocean of the "Internet Of things". Dive deep and explore the fiesta of electronics. Broaden your vision at a single go. Enjoy your open source journey!!.🚀
 
 The main aim is to provide a cabin that would help you in mastering the "Internet Of Things" and making your hands dirty while exploring. An enriching field that makes your life turn smarter and be closer to technology. Turn yourself into a magician with all the hands-on that got you covered.
 
 
-## 🙌Join Here
+## 🙌 Join Here
 
 Anyone related to technology who is looking to contribute to open-source is all invited to hop in. This place has a task for everyone.
 
@@ -78,7 +78,7 @@ If you worked on or want to initiate a unique project and share it with the worl
 Subsequently, also go through the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 
-## 🛠Templates to Follow
+## 🛠 Templates to Follow
 
 - [Feature request](https://github.com/prathimacode-hub/IoT-Spot/blob/main/.github/issue_template/feature_request.md)
 - [Bug Report](https://github.com/prathimacode-hub/IoT-Spot/blob/main/.github/issue_template/bug_report.md)
@@ -88,7 +88,7 @@ Subsequently, also go through the GitHub documentation on [creating a pull reque
 **Note**: One should follow these templates while creating a new issue or pull request. 
 
 
-## 📝Project Structure
+## 📝 Project Structure
 
 Your projects should contain this flow to maintain similarity across all other projects. Make sure to note these things, before you create a PR.
 
@@ -109,7 +109,7 @@ Since this repo is purely technical, make sure you include "Block Diagrams" and 
 **Related files** - The other additional and related files would be added up in the "Related" folder.
 
 
-## ⚙️Things to Note
+## ⚙️ Things to Note
 
 * Make sure you do not copy codes from external sources because that work will not be considered. Plagiarism is strictly not allowed.
 * You can only work on issues that have been assigned to you.
@@ -120,7 +120,7 @@ Since this repo is purely technical, make sure you include "Block Diagrams" and 
 * Do not update the **[README.md](https://github.com/prathimacode-hub/IoT-Spot/blob/main/README.md).**
 
 
-## 👨‍💻Workflow:
+## 💻 Workflow:
 
 - Fork the repository
 
@@ -135,7 +135,7 @@ Since this repo is purely technical, make sure you include "Block Diagrams" and 
 > print("Start contributing for IoT-Spot")
 
 
- ## ❄️Open Source Programs
+ ## ❄️ Open Source Programs
  
 <table>
 <tr>
@@ -148,32 +148,36 @@ Since this repo is purely technical, make sure you include "Block Diagrams" and 
   <td align="center">
 <a href="https://dwoc.io/"><img src="" width=100px height=100px /><br /><sub><b>Delta Winter Of Code 2021</b></sub></a>
   </td>
+  <td align="center">
+<a href="https://hacktoberfest.digitalocean.com/"><img src="" width=100px height=100px /><br /><sub><b>Hacktoberfest 2021</b></sub></a>
+ </td>
 </tr>
 </table>
 
 
+## 🏆 Achievements of this Project Repo 🎉
+
+**:one: Recognized as the "BEST PROJECT ADMIN" for the project ['IoT-Spot'](https://github.com/prathimacode-hub/IoT-Spot) in GirlScript Summer Of Code 2022.**</br>
+**:two: Recognized as the "🥇 BEST ORGANIZATION" for "FIESTA OF PROJECTS" undertaking the project ['IoT-Spot'](https://github.com/prathimacode-hub/IoT-Spot) at Delta Winter Of Code for the year 2021-22.**</br>
+
+
+## 📊 Leaderboard 
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/prathimacode-hub/IoT-Spot/blob/main/.github/gssoc_leaderboard.md"><img src="https://cdn-icons-png.flaticon.com/512/1986/1986941.png" width="100px;" alt=""/><br /><sub><b>GSSOC Leaderboard 2022</b></sub></a></td>
+    <td align="center"><a href="https://github.com/prathimacode-hub/IoT-Spot/blob/main/.github/swoc_leaderboard.md"><img src="https://cdn-icons-png.flaticon.com/512/1986/1986941.png" width="100px;" alt=""/><br /><sub><b>SWOCLeaderboard 2021</b></sub></a></td>
+  </tr>
+  
+</table>
+
+
 <!-- 
-Achievements
 Content
-Leaderboard -->
-
-
-<!--
-
-<h2> 📊 Points Category</h2>
-
-| Level of Issues | Points Allocated |
-| - | - |
-| Level 1|  Points 🔰|
-| Level 2 |  Points 🌱|
-| Level 3 |  Points 🔥| 
-
-You can check out the project leaderboard for GSSOC here : [IoT-Spot Leaderboard](https://github.com/prathimacode-hub/IoT-Spot/blob/main/.github/gssoc_leaderboard.md)
-
 -->
 
 
-## ✨Hall Of Fame   
+## ✨ Hall Of Fame   
 
 Thanks go to these Wonderful People. Contributions of any kind are welcome!🚀 
 
@@ -190,12 +194,12 @@ Thanks go to these Wonderful People. Contributions of any kind are welcome!🚀
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 
-## 📜Code Of Conduct
+## 📜 Code Of Conduct
 
 You can find our Code of Conduct [here](https://github.com/prathimacode-hub/IoT-Spot/blob/main/CODE_OF_CONDUCT.md).
 
 
-## 📝License
+## 📝 License
 
 This project follows the [Mozilla Public License 2.0](https://github.com/prathimacode-hub/IoT-Spot/blob/main/LICENSE).
 
@@ -211,12 +215,12 @@ This project follows the [Mozilla Public License 2.0](https://github.com/prathim
 ![Visitor Count](https://profile-counter.glitch.me/{prathimacode-hub}/count.svg)
 
 
-##🌟Stargazers Over Time🌟
+##🌟 Stargazers Over Time 🌟
 
 [![Stargazers over time](https://starchart.cc/prathimacode-hub/IoT-Spot.svg)](https://starchart.cc/prathimacode-hub/IoT-Spot)
 
 
-## ⭐Give this Project a Star
+## ⭐ Give this Project a Star
 
 [![GitHub followers](https://img.shields.io/github/followers/prathimacode-hub.svg?label=Follow%20@prathimacode-hub&style=social)](https://github.com/prathimak88/)  [![Twitter Follow](https://img.shields.io/twitter/follow/prathimak88?style=social)](https://twitter.com/prathimak88)
 
@@ -230,7 +234,7 @@ If you liked working on this project, do ⭐ and share this repository.
 <sup><kbd>***[Click Here](https://github.com/prathimacode-hub/prathimacode-hub/blob/main/GitHub%20Projects/OpenSource-Projects.md)***</kbd> *to view my open source projects.</sup>* <br> -->
 
 
-## 📬Contact
+## 📬 Contact
 
 If you want to contact me, you can reach me through the below handles.
 
