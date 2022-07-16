@@ -171,7 +171,7 @@ Since this repo is purely technical, make sure you include "Block Diagrams" and 
 <table>
   <tr>
     <td align="center"><a href="https://github.com/prathimacode-hub/IoT-Spot/blob/main/.github/gssoc_leaderboard.md"><img src="https://cdn-icons-png.flaticon.com/512/1986/1986941.png" width="100px;" alt=""/><br /><sub><b>GSSOC Leaderboard 2022</b></sub></a></td>
-    <td align="center"><a href="https://github.com/prathimacode-hub/IoT-Spot/blob/main/.github/swoc_leaderboard.md"><img src="https://cdn-icons-png.flaticon.com/512/1986/1986941.png" width="100px;" alt=""/><br /><sub><b>SWOCLeaderboard 2021</b></sub></a></td>
+    <td align="center"><a href="https://github.com/prathimacode-hub/IoT-Spot/blob/main/.github/swoc_leaderboard.md"><img src="https://cdn-icons-png.flaticon.com/512/1986/1986941.png" width="100px;" alt=""/><br /><sub><b>SWOC Leaderboard 2021</b></sub></a></td>
   </tr>
 </table>
 
