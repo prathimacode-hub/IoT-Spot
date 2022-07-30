@@ -4,7 +4,7 @@
 </div>
 
 <p align="center">
-<img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/CoverPhotos/IoT-Spot.png"></a>
+<img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Cover%20Photos/IoT-Spot.png"></a>
 </p>
 <p align="center">
 <a href="https://github.com/prathimacode-hub"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&logo=github"></a> 
@@ -145,16 +145,16 @@ Since this repo is purely technical, make sure you include "Block Diagrams" and 
 <table>
 <tr>
  <td align="center">
-<a href="https://gssoc.girlscript.tech/"><img src="" width=100px height=100px /><br /><sub><b>GirlScript Summer Of Code 2022</b></sub></a>
+<a href="https://gssoc.girlscript.tech/"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Open%20Source%20Programs/GirlScript%20Summer%20Of%20Code%202022/GirlScript%20Summer%20Of%20Code%20Logo.png" width=100px height=100px /><br /><sub><b>GirlScript Summer Of Code 2022</b></sub></a>
  </td>
  <td align="center">
-<a href="https://swoc.tech/"><img src="" width=100px height=100px /><br /><sub><b>Script Winter Of Code 2021</b></sub></a>
+<a href="https://swoc.tech/"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Open%20Source%20Programs/Script%20Winter%20Of%20Code%202021/Script%20Winter%20Of%20Code.jpg" width=100px height=100px /><br /><sub><b>Script Winter Of Code 2021</b></sub></a>
  </td>
   <td align="center">
-<a href="https://dwoc.io/"><img src="" width=100px height=100px /><br /><sub><b>Delta Winter Of Code 2021</b></sub></a>
+<a href="https://dwoc.io/"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Open%20Source%20Programs/Delta%20Winter%20Of%20Code%202021/Delta-Winter-Of-Code.jpg" width=100px height=100px /><br /><sub><b>Delta Winter Of Code 2021</b></sub></a>
   </td>
   <td align="center">
-<a href="https://hacktoberfest.digitalocean.com/"><img src="" width=100px height=100px /><br /><sub><b>Hacktoberfest 2021</b></sub></a>
+<a href="https://hacktoberfest.digitalocean.com/"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Open%20Source%20Programs/Hacktoberfest%202021/Hacktoberfest-2021.jpg" width=100px height=100px /><br /><sub><b>Hacktoberfest 2021</b></sub></a>
  </td>
 </tr>
 </table>
@@ -207,7 +207,7 @@ This project follows the [Mozilla Public License 2.0](https://github.com/prathim
 
 <table>
   <tr>
-<td align="center"><a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Prathima%20updated%20profile%20pic.jpg" width="80px;" alt=""/><br /><sub><b>Prathima Kadari</b></sub></a></td>
+<td align="center"><a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Profile%20Assets/Prathima-Kadari-Picture.png" width="100px;" alt=""/><br /><sub><b>Prathima Kadari</b></sub></a></td>
   </tr>
 </table>
 
