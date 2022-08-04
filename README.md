@@ -206,12 +206,12 @@ This project follows the [Mozilla Public License 2.0](https://github.com/prathim
 ## 😎 Project Mentors (SSOC)
 
 <table>
-  <tr>
+  <td>
 <td align="center"><a href="https://github.com/narayan954"><img src="https://avatars.githubusercontent.com/u/77617189?v=4" width="100px;" alt=""/><br /><sub><b>Narayan Soni</b></sub></a></td>
-  </tr>
-  <tr>
+  </td>
+  <td>
 <td align="center"><a href="https://github.com/Rushijaviya"><img src="https://avatars.githubusercontent.com/u/59735978?v=4" width="100px;" alt=""/><br /><sub><b>Rushi Javiya</b></sub></a></td>
-  </tr>
+  </td>
 </table>
 
 
