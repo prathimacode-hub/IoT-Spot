@@ -203,6 +203,18 @@ You can find our Code of Conduct [here](https://github.com/prathimacode-hub/IoT-
 This project follows the [Mozilla Public License 2.0](https://github.com/prathimacode-hub/IoT-Spot/blob/main/LICENSE).
 
 
+## 😎 Project Mentors (SSOC)
+
+<table>
+  <tr>
+<td align="center"><a href="https://github.com/narayan954"><img src="https://avatars.githubusercontent.com/u/77617189?v=4" width="100px;" alt=""/><br /><sub><b>Narayan Soni</b></sub></a></td>
+  </tr>
+  <tr>
+<td align="center"><a href="https://github.com/Rushijaviya"><img src="https://avatars.githubusercontent.com/u/59735978?v=4" width="100px;" alt=""/><br /><sub><b>Rushi Javiya</b></sub></a></td>
+  </tr>
+</table>
+
+
 ## 😎 Project Admin
 
 <table>
