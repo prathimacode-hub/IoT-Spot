@@ -216,6 +216,8 @@ This project follows the [Mozilla Public License 2.0](https://github.com/prathim
   </td>
   <td align="center"><a href="https://github.com/mdnazisharman2803"><img src="https://avatars.githubusercontent.com/u/98539013?v=4" width="100px;" alt=""/><br /><sub><b>Md Nazish Arman</b></sub></a></td>
   </td>
+  <td align="center"><a href="https://github.com/Harshil-Jani"><img src="https://avatars.githubusercontent.com/u/79367883?v=4" width="100px;" alt=""/><br /><sub><b>Harshil Jani</b></sub></a></td>
+  </td>
 </table>
 
 
