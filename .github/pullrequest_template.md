@@ -2,7 +2,7 @@
 
 - Info about the related issue 
 
-- [ ] GSSOC Participant  
+- [ ] SSOC Participant  
 - [ ] Contributor
 
 Closes: #issue number that will be closed through this PR
