@@ -49,8 +49,8 @@ Following are the steps to guide you:
 
 > - Do not edit/delete someone else's script in this repository. You can only insert new files/folders into this repository.
 
-  > - Give a meaningful name to whatever file or folder you are adding. (E.g., if you have written an ML script on Decision Tree Classifier, then 
-  > decision_tree_classifier.py is one example of the valid name)
+  > - Give a meaningful name to whatever file or folder you are adding. (E.g., if you have written a script on LED Blinking, then 
+  > led_blinking.c is one example of the valid name)
 
 
 ## 🔑Guidelines
@@ -93,19 +93,46 @@ another person in the queue.
 
 We want your work to be readable by others; therefore, we encourage you to note the following:
 
-- If Decision Tree Classifier is submitted, for example, the Folder Name should be "Decision Tree Classifier" and the File Name as "decision_tree_classifier.py"
+- If LED Blinking is submitted, for example, the Folder Name should be "LED Blinking" and the File Name as "led_blinking.c" and will be pushed into the appropriate repository.
 - File extension for code should be `.py` or `.c` or `.cpp`. 
 - Strictly use snake_case (underscore_separated) in your file_name, as it will be easy to parse in future using scripts.
-- Please avoid creating new directories if at all possible. Try to fit your work into the existing directory structure you have created for your project. If you want to,
-please contact me before doing so.
-- For algorithms, the basic project folder should have a "README.md" file, "file_name.py" and .csv files in "Dataset" if any used. 
-- For libraries and other tutorials, the script should be either in .md or .ipynb files.
+- Please avoid creating new directories if at all possible. Try to fit your work into the existing directory structure you have created for your project. If you want to, please contact me before doing so.
 - The [README.md](https://github.com/prathimacode-hub/IoT-Spot/blob/main/.github/readme_template.md) file should be concise and clear about what the script is about and what it does.
 - It should be documented briefly enough to let readers understand. 
 - If you have modified/added code work, make sure that code works before submitting.
 - If you have modified/added documentation work, ensure your language is concise and contains no grammar errors.
 - Follow the project structure mentioned in [README](https://github.com/prathimacode-hub/IoT-Spot/blob/main/README.md)
 - Do not update the [README.md](https://github.com/prathimacode-hub/IoT-Spot/blob/main/README.md) and [Contributing_Guidelines.md](https://github.com/prathimacode-hub/IoT-Spot/blob/main/CONTRIBUTING.md).
+
+## 📝 Project Structure for IoT based Issues
+
+Your projects should contain this flow to maintain similarity across all other projects. Make sure to note these things, before you create a PR.
+
+Create a folder of your project title. (Example: If you want to add a LED blinking using 8051, then the project should be placed under **8051 Scripts** with project title named as "LED Blinking" and file name as "led_blinking.c" if it's a C file)
+
+The project repository you had created would have :
+
+**file_name.py** or **file_name.c** or **file_name.cpp** - This file is the project you have worked upon.
+
+**README.md** - This file is must be included to get a good understanding of the project (Elaborate briefly about how it works using [README](https://github.com/prathimacode-hub/IoT-Spot/blob/main/.github/readme_template.md) template). 
+
+**requirements.txt** - In this file, you should add all the requirements you need to make your project work which also illustrates the list of all components used specifically
+
+**Images** - This folder would have all images added, be it screenshots or step by step process images. Also, the inclusion of block diagrams and emulator circuit diagrams are a must to portray the project efficiently.
+
+Since this repo is purely technical, make sure you include "Block Diagrams" and "Emulator Prototype Circuit Diagrams" in "Images" and direct them to the README.md file
+
+**Related files** - The other additional and related files would be added up in the "Related" folder.
+
+
+## 📝 Project Structure for All Kind of Issues and PR's
+
+
+Your projects should contain this flow to maintain similarity across all other projects. Make sure to note these things, before you create a issue or PR.
+
+Create an issue with your idea, approach, your expected outcome and why it's useful to be necessary to be included in this project. For PR, include issue number along with PR template, it's details and compiled output screenshot
+
+All the web related changes should go into [IoT-Spot Website]()
 
 
 ## 📖Resources
