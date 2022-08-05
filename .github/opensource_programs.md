@@ -24,3 +24,9 @@ Script Winter of Code is a three-month long open source program by GirlScript Fo
 Over the course of the program, participants can contribute to various projects under the guidance of an expert facilitator.😎
 
 <a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/OpenSource%20Programs/GirlScript%20Summer%20Of%20Code/GirlScript%20Summer%20Of%20Code.png" width=150px height=150px /></a>
+
+- Social Summer Of Code (SSOC)
+
+SSOC is a 3 Month Open Source Program Organized By Social. They aim to promote open source with new age technologies & want everyone to get the right path & gudience through the program
+
+<a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/OpenSource%20Programs/GirlScript%20Summer%20Of%20Code/GirlScript%20Summer%20Of%20Code.png" width=150px height=150px /></a>
