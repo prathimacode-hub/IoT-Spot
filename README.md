@@ -155,7 +155,7 @@ All the web related changes should go into [IoT-Spot Website]()
 <table>
 <tr>
  <td align="center">
-<a href="https://ssoc.getsocialnow.co/"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Open%20Source%20Programs/Social%20Summer%20Of%20Code%202022/Social%20Summer%20Of%20Code.gif" width=100px height=100px /><br /><sub><b>Social Summer Of Code 2022</b></sub></a>
+<a href="https://ssoc.getsocialnow.co/"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Open%20Source%20Programs/Social%20Summer%20Of%20Code%202022/Social%20Summer%20Of%20Code.png" width=100px height=100px /><br /><sub><b>Social Summer Of Code 2022</b></sub></a>
  </td>
  <td align="center">
 <a href="https://gssoc.girlscript.tech/"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Open%20Source%20Programs/GirlScript%20Summer%20Of%20Code%202022/GirlScript%20Summer%20Of%20Code%20Logo.png" width=100px height=100px /><br /><sub><b>GirlScript Summer Of Code 2022</b></sub></a>
