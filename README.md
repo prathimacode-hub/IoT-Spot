@@ -93,7 +93,7 @@ Content
 **Note**: One should follow these templates while creating a new issue or pull request. 
 
 
-## 📝 Project Structure
+## 📝 Project Structure for IoT based Issues :
 
 Your projects should contain this flow to maintain similarity across all other projects. Make sure to note these things, before you create a PR.
 
@@ -107,11 +107,21 @@ The project repository you had created would have :
 
 **requirements.txt** - In this file, you should add all the requirements you need to make your project work which also illustrates the list of all components used specifically
 
-**Images** - This folder would have all images added, be it screenshots or step by step process images. Also, the inclusion of block diagrams and emulator circuit diagrams are a must to portray the project efficiently.
+**Images** - This folder would have all images added, be it screenshots or step by step process images. Also, the inclusion of block diagrams and emulator circuit diagrams are a must to portray the project efficiently. Compilation video is also included.
 
 Since this repo is purely technical, make sure you include "Block Diagrams" and "Emulator Prototype Circuit Diagrams" in "Images" and direct them to the README.md file
 
 **Related files** - The other additional and related files would be added up in the "Related" folder.
+
+
+## 📝 Project Structure for All Kind of Issues and PR's
+
+
+Your projects should contain this flow to maintain similarity across all other projects. Make sure to note these things, before you create a issue or PR.
+
+Create an issue with your idea, approach, your expected outcome and why it's useful to be necessary to be included in this project. For PR, include issue number along with PR template, it's details and compiled output screenshot
+
+All the web related changes should go into [IoT-Spot Website]()
 
 
 ## ⚙️ Things to Note
@@ -144,6 +154,9 @@ Since this repo is purely technical, make sure you include "Block Diagrams" and 
  
 <table>
 <tr>
+ <td align="center">
+<a href="https://ssoc.getsocialnow.co/"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Open%20Source%20Programs/Social%20Summer%20Of%20Code%202022/Social%20Summer%20Of%20Code.gif" width=100px height=100px /><br /><sub><b>Social Summer Of Code 2022</b></sub></a>
+ </td>
  <td align="center">
 <a href="https://gssoc.girlscript.tech/"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Open%20Source%20Programs/GirlScript%20Summer%20Of%20Code%202022/GirlScript%20Summer%20Of%20Code%20Logo.png" width=100px height=100px /><br /><sub><b>GirlScript Summer Of Code 2022</b></sub></a>
  </td>
