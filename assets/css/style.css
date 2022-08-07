@@ -414,6 +414,10 @@ li {
 .column h3 a:hover{
   color:rgb(255, 0, 55); ;
 }
+.column h3{
+  text-align: center;
+}
+
 
 .serviceoffers{
   padding:50px 0;
