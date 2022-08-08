@@ -406,10 +406,19 @@ li {
   display: table;
   clear: both;
 }
-.column h3{
+.column h3 a{
   font-weight: bold;
   color:rgb(68, 63, 63);
+  text-decoration: none;
 }
+.column h3 a:hover{
+  color:rgb(255, 0, 55); ;
+}
+.column h3{
+  text-align: center;
+  margin-top: 20px;
+}
+
 
 .serviceoffers{
   padding:50px 0;
