@@ -7,7 +7,7 @@
 :root {
   --red: #fe3e57;
   --light-red: #e94d62;
-  --white: #080808;
+  --white: #181818;
   --dim-white: #221f1f;
   --primary-text: rgb(21, 22, 24);
   --territory-text: rgb(19, 21, 24);
@@ -25,11 +25,13 @@
 }
 
 html {
+  overflow-x: hidden;
   font-size: 10px;
   scroll-behavior: smooth;
 }
 
 body {
+  overflow-x: hidden;
   font-family: var(--montserrat);
   background-color: var(--primary-background);
   color: #111414;
@@ -124,10 +126,11 @@ li {
 /* Scrollbar Styling */
 ::-webkit-scrollbar {
   width: 10px;
+
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #002fa7;
+  background-color: blue;
 }
 
 ::-webkit-scrollbar-thumb {
