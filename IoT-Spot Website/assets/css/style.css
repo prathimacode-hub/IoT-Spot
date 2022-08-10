@@ -250,6 +250,7 @@ li {
 .connect{
   font-family: var(--montserrat);
   font-weight: 700;
+  cursor:pointer;
   font-size: 1.6rem;
   text-decoration: none;
   padding-left: 1.5vw;
