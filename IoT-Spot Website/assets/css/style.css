@@ -462,13 +462,20 @@ li {
   margin-bottom:25px !important;
 }
 .project-work{
-  margin:80px 0;
+  margin:50px 0;
 }
-.project-work h1{
-font-size:2rem;
+.project-work p{
+font-size: 3em;
 text-align:center;
 }
-
+.text{
+  font-size: 2em;
+  font-weight:500;
+}
+.counter{
+  font-size: 1em;
+  font-weight:bold;
+}
 
 .header-section{
   width:100%;
