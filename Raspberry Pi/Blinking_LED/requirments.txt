@@ -1,0 +1,23 @@
+To perform this experiment using software only :-
+
+->Wokwi simulator on the web provides a simulator for Raspberry Pi Pico
+
+->We need Embedded C for programming the Raspberry Pi Pico to perform the blinking LED experiment.
+
+->The required hardware objects i.e., LED and Wires are included in the simulator.
+
+
+To perform this experiment using hardware :-
+
+->We need a Raspberry Pi Pico
+
+->Install Arduino IDE to write and flash the C code onto the Raspberry Pi Pico.
+
+->We need 1 Red LED and 3 Green LEDs to perform the experiment.
+
+->The connections of anode of the LEDs is to be done according to the pin assigned to them in the LED Blinking Code
+
+->Ground the cathode of all the LEDS to the GND pin of the Raspberry Pi Pico.
+
+
+
