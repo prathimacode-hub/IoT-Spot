@@ -181,11 +181,12 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 15%;
-  padding-right: 15%;
-  height: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 70px;
   background-color: var(--primary-background);
   position: fixed;
+  overflow: hidden;
   z-index: 10;
   top: 0;
   left: 0;
@@ -211,7 +212,7 @@ li {
 .nav-elements {
   display: flex;
   align-items: center;
-  padding: 5px;
+  padding: 10px;
   
 }
 
