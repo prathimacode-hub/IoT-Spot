@@ -2,7 +2,7 @@
 # Welcome to IoT-Spot👋
 
 <p align="center">
-<img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/CoverPhotos/IoT-Spot.png"></a>
+<img src="https://github.com/prathimacode-hub/prathimacode-hub/raw/main/Cover%20Photos/IoT-Spot.png"></a>
 </p>
 
 
@@ -35,7 +35,7 @@ This project follows the [Mozilla Public License 2.0](https://github.com/prathim
 
 <h2>🙂 Project Admin</h2>
 
-<a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Prathima%20updated%20profile%20pic.jpg" width=100px height=100px /></a>
+<a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/raw/main/Prathima%20updated%20profile%20pic.jpg" width=100px height=100px /></a>
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 ![Visitor Count](https://profile-counter.glitch.me/{prathimacode-hub}/count.svg)
