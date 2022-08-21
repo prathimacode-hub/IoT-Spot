@@ -6,13 +6,13 @@
 </p>
 
 
-<h2>📌Arduino Scripts</h2>
+<h2>📌ESP8266 Scripts</h2>
+NodeMCU is a low-cost open source IoT platform.
+NodeMCU is an open source firmware for which open source prototyping board designs are available. The name "NodeMCU" combines "node" and "MCU" (micro-controller unit). The term "NodeMCU" strictly speaking refers to the firmware rather than the associated development kits.
 
-Arduino is a prototype platform (open-source) based on an easy-to-use hardware and software. It consists of a circuit board, which can be programed (referred to as a microcontroller) and a ready-made software called Arduino IDE (Integrated Development Environment), which is used to write and upload the computer code to the physical board.
+In a nutshell, an ESP8266 is an open hardware development board that can be used by tinkerers, hobbyists, and makers to design and build devices that interact with the real world. 
 
-In a nutshell, an Arduino is an open hardware development board that can be used by tinkerers, hobbyists, and makers to design and build devices that interact with the real world. 
-
-This repository contains all the basic Arduino Projects one needs to know before working on end-to-end projects.
+This repository contains all the basic ESP8266 Projects one needs to know before working on end-to-end projects.
 
 
 ## Documentation
