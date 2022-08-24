@@ -15,7 +15,7 @@
   <meta name="creator" content="Prerna">
   <meta name="author" content="Prerna">
   <meta name="theme-color" content="#294572" />
-  <link rel="manifest" href="/site.webmanifest">
+  <link rel="manifest" href="./manifest.json" />
   <!-- ========== General Meta Data Ends =========== -->
 
 
@@ -29,9 +29,8 @@
 
   <!-- ============= Linking Favicon ============== -->
 
-  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+  <link rel="shortcut icon" href="android-chrome-192x192.png" type="image/png">
 
   <!-- ========== Linking Favicon Ends =========== -->
 
@@ -93,7 +92,7 @@
   <nav class="nav-bar">
 
     <header id="logo" onclick="window.location.href = '#';">
-      <h3>&lt;<span>IOT-Spot</span>&gt;</h3>
+      <h3><span>&lt; IOT-Spot &gt;</span></h3>
     </header>
 
     <div class="nav-elements">
@@ -570,6 +569,16 @@
 
 
   <!-- =============== Linking JS =============== -->
+
+  <script>
+    if ('serviceWorker' in navigator){
+      window.addEventListener('load', ()=>{
+        navigator.serviceWorker.register('./serviceworker.js')
+        .then((reg)=>console.log('Success', reg.scope))
+        .catch ((err)=>console.log('Error', err))
+      })
+    }
+  </script>
 
   <!-- Baffle JS -->
   <script src="./assets/libraries/baffle.js"></script>
