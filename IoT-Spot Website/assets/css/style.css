@@ -181,11 +181,12 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 15%;
-  padding-right: 15%;
-  height: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 70px;
   background-color: var(--primary-background);
   position: fixed;
+  overflow: hidden;
   z-index: 10;
   top: 0;
   left: 0;
@@ -211,7 +212,7 @@ li {
 .nav-elements {
   display: flex;
   align-items: center;
-  padding: 5px;
+  padding: 10px;
   
 }
 
@@ -223,8 +224,8 @@ li {
 
 .nav-link a {
   font-family: var(--montserrat);
-  font-weight: 700;
-  font-size: 1.6rem;
+  font-weight: 500;
+  font-size: 1.8rem;
   text-decoration: none;
   padding-left: 2.5vw;
   padding-right: 2.5vw;
@@ -249,12 +250,12 @@ li {
 
 .connect{
   font-family: var(--montserrat);
-  font-weight: 700;
+  font-weight: 500;
   cursor:pointer;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   text-decoration: none;
   padding-left: 1.5vw;
-  margin:10px;
+  padding: 3px;
   padding-right: 1.5vw;
   transition: 0.3s;
   transition-property: color;
