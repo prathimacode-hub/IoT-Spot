@@ -503,114 +503,89 @@
     </div>
   </section> -->
 
-  <!-- end news letter section -->
-  <!-- =========== Footer Section Begins ============ -->
+    <!-- end news letter section -->
+    <!-- =========== Footer Section Begins ============ -->
+    <footer class="footer">
+        <div class="contact-wrapper">
 
-  <footer class="footer" id ="contact">
+            <div class="footer-icons">
+                <div id="footer-logo" onclick="window.location.href = '#';">
+                    <h3>&lt;<span>IOT-Spot</span>&gt;</h3>
+                </div>
+                <h3 class="form-head">We're here to help and answer any questions you might have.
+                    <BR>We have forward to hearing from you ❤
+                </h3>
+                <div>
+                    <a href="https://twitter.com/prathimak88" target="_blank" rel="noopener" alt="twitter">
+                        <i style="margin-top:6px;" class="fa fa-twitter  footer-i"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/prathima-kadari/" target="_blank" rel="noopener"
+                        alt="linkedin">
+                        <i class="fa fa-linkedin footer-i"></i>
+                    </a>
+                    <a href="https://github.com/prathimacode-hub" target="_blank" rel="noopener" alt="github">
+                        <i class="fa fa-github footer-i"></i>
+                    </a>
+                </div>
+                <div class="contact-container mail-id" onclick="window.open('mailto:kadariprathima4@gmail.com');">
+                    <div class="contact-icon">
+                        <i class="fa fa-envelope"></i>
+                    </div>
+                    <div class="contact-info">
+                        <a href="mailto:kadariprathima4@gmail.com" class="contact-data">kadariprathima4@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <form name="contact" action="message_send.html" class="contact-form" netlify-honeypot="bot-field"
+                data-netlify="true">
+                <h2>Get In Touch!</h2>
+                <input required placeholder="Name" class="input" type="text" name="name" id="name" autocomplete="off" />
+                <input required placeholder="Email Address" class="input" type="email" name="email" id="email"
+                    autocomplete="off" />
+                <input placeholder="Subject" class="input" type="text" name="subject" id="subject" autocomplete="off" />
+                <textarea required placeholder="Your Message" name="message" class="input" id="message"></textarea>
+                <button class="submit btn" type="submit">Send Mail</button>
+            </form>
 
-    <div class="contact-wrapper">
-
-      <div class="footer-icons">
-        <div id="footer-logo" onclick="window.location.href = '#';">
-          <h3>&lt;<span>IOT-Spot</span>&gt;</h3>
-        </div>
-        <h3 class="form-head">We're here to help and answer any questions you might have.<BR>We look forward to hearing
-          from you ❤</h3>
-        <div>
-          <a href="https://twitter.com/prathimak88" target="_blank" rel="noopener" alt="twitter">
-            <i style="margin-top:6px;" class="fa fab-twitter  footer-i"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/prathima-kadari/" target="_blank" rel="noopener" alt="linkedin">
-            <i class="fa fab-linkedin footer-i"></i>
-          </a>
-          <a href="https://github.com/prathimacode-hub" target="_blank" rel="noopener" alt="github">
-            <i class="fa fab-github footer-i"></i>
-          </a>
-        </div>
-        <div class="contact-container mail-id" onclick="window.open('mailto:kadariprathima4@gmail.com');">
-          <div class="contact-icon">
-            <i class="fa fa-envelope"></i>
-          </div>
-          <div class="contact-info">
-            <a href="mailto:kadariprathima4@gmail.com" class="contact-data">kadariprathima4@gmail.com</a>
-          </div>
-        </div>
-      </div>
-      <form name="contact" action="message_send.html" class="contact-form" netlify-honeypot="bot-field"
-        data-netlify="true">
-        <h2>Get In Touch!</h2>
-        <input required placeholder="Name" class="input" type="text" name="name" id="name" autocomplete="off" />
-        <input required placeholder="Email Address" class="input" type="email" name="email" id="email"
-          autocomplete="off" />
-        <input placeholder="Subject" class="input" type="text" name="subject" id="subject" autocomplete="off" />
-        <textarea required placeholder="Your Message" name="message" class="input" id="message"></textarea>
-        <button class="submit btn" type="submit">Send Mail</button>
-      </form>
-
-    </div>
-
-
-    
-
-
-    <hr width="100%" />
-    <p>Made with ❤️ by Prathima Kadari</p>
-    <a href="#" class="up-btn-wrapper" alt="Go to top">
-      <i class="fa fa-angle-up up-btn"></i>
-    </a>
-
-    <hr width="100%" />
-    <p>Made with ❤️ by Prathima Kadari</p>
-    <a href="#" class="up-btn-wrapper" alt="Go to top">
-      <i class="fa fa-angle-up up-btn"></i>
-    </a>
+                </div>
+                <hr width="100%" />
+                <p>Made with ❤️ by Prathima Kadari</p>
+                <a href="#" class="up-btn-wrapper" alt="Go to top">
+                    <i class="fa fa-angle-up up-btn"></i>
+                </a>
 
 
-  </footer>
-  <!-- =========== Footer Section Ends ============== -->
+    </footer>
+    <!-- =========== Footer Section Ends ============== -->
+    <!-- =============== Linking JS =============== -->
 
-  </footer>
+    <!-- Baffle JS -->
+    <script src="./assets/libraries/baffle.js"></script>
+    <!-- Custom JS -->
+    <script src="./assets/js/script.js"></script>
+    <script type="text/javascript" src="./assets/js/vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".main-img"), {
+            max: 25,
+            speed: 400
+        });
 
-  <!-- =============== Linking JS =============== -->
+        //It also supports NodeList
+        VanillaTilt.init(document.querySelectorAll(".main-img"));
+    </script>
 
-  <script>
-    if ('serviceWorker' in navigator){
-      window.addEventListener('load', ()=>{
-        navigator.serviceWorker.register('./serviceworker.js')
-        .then((reg)=>console.log('Success', reg.scope))
-        .catch ((err)=>console.log('Error', err))
-      })
-    }
-  </script>
+    <!-- ============ Linking JS Ends ============= -->
 
+    <script>
+        $(document).ready(function () {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1400
+            });
+        });
+    </script>
 
-  <!-- Baffle JS -->
-  <script src="./assets/libraries/baffle.js"></script>
-  <!-- Custom JS -->
-  <script src="./assets/js/script.js"></script>
-  <script type="text/javascript" src="./assets/js/vanilla-tilt.js"></script>
-  <script type="text/javascript">
-    VanillaTilt.init(document.querySelector(".main-img"), {
-      max: 25,
-      speed: 400
-    });
-
-    //It also supports NodeList
-    VanillaTilt.init(document.querySelectorAll(".main-img"));
-  </script>
-
-  <!-- ============ Linking JS Ends ============= -->
-
-  <script>
-    $(document).ready(function () {
-      $('.counter').counterUp({
-        delay: 10,
-        time: 1400
-      });
-    });
-  </script>
-
-  <!-- ============ Counter on Scroll ============= -->
+    <!-- ============ Counter on Scroll ============= -->
 
 </body>
 
