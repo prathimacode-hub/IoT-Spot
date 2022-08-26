@@ -15,7 +15,7 @@
   <meta name="creator" content="Prerna">
   <meta name="author" content="Prerna">
   <meta name="theme-color" content="#294572" />
-  <link rel="manifest" href="/site.webmanifest">
+  <link rel="manifest" href="./manifest.json" />
   <!-- ========== General Meta Data Ends =========== -->
 
 
@@ -29,9 +29,8 @@
 
   <!-- ============= Linking Favicon ============== -->
 
-  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+  <link rel="shortcut icon" href="android-chrome-192x192.png" type="image/png">
 
   <!-- ========== Linking Favicon Ends =========== -->
 
@@ -93,7 +92,7 @@
   <nav class="nav-bar">
 
     <header id="logo" onclick="window.location.href = '#';">
-      <h3>&lt;<span>IOT-Spot</span>&gt;</h3>
+      <h3><span>&lt; IOT-Spot &gt;</span></h3>
     </header>
 
     <div class="nav-elements">
@@ -347,58 +346,12 @@
 
 
   <!--*******project*********-->
-  <section class="project-work section">
+  <section class="project-work sections">
     <div class="container headings text-center  ">
       <p class="text-center font-weight-bold">MORE THAN 2000 WEBSITES CREATED</p>
     </div>
 
-
-    <div class="container d-flex justify-content-around align-items-center text-center p-50 50">
-
-      <!--<div>
-        <h2><a href="#"><i class="fa fa-download"></i></a></h3>
-          <div class="counter" data-target="1500" style="font-size: 20px;">0</div>
-
-        <h1 class="count">1500</h1> //Without Counter
-        <p>CMS Installation</p> //Without Counter
-
-        <h3>CMS Installation</h3>
-      </div>
-
-      <div>
-        <h2><a href="#"><i class="fas fa-award"></i></a></h3>
-          <div class="counter" data-target="2500" style="font-size: 20px;">0</div>
-
-       <h1 class="count">2500</h1> //Without Counter
-        <p>Awards won</p>//Without Counter
-
-        <h3>Awards won</h3>
-      </div>
-
-      <div>
-        <h2><a href="#"><i class="fa fa-smile-o"></i></a></h3>
-          <div class="counter" data-target="700" style="font-size: 20px;">0</div>
-
-       <h1 class="count">700</h1> //Without Counter
-      <p>Happy Clients</p>  //Without Counter
-
-        <h3>Happy Clients</h3>
-      </div>
-
-      <div>
-        <h2><a href="#"><i class="fa fa-building-o"></i></a></h3>
-          <div class="counter" data-target="500" style="font-size: 20px;">0</div>
-
-        h1 class="count">500</h1> //Without Counter
-       <p>Working On</p> //Without Counter
-
-       <h3>Working On</h3>
-      </div>-->
-
-
-
-      <!--Dynamic Counter Opened-->
-
+    <div class="container d-flex justify-content-around align-items-center text-center">
       <div class="box">
         <h2><a href="#"><i class="fa fa-download"></i></a></h3>
           <h3>
@@ -616,6 +569,16 @@
 
 
   <!-- =============== Linking JS =============== -->
+
+  <script>
+    if ('serviceWorker' in navigator){
+      window.addEventListener('load', ()=>{
+        navigator.serviceWorker.register('./serviceworker.js')
+        .then((reg)=>console.log('Success', reg.scope))
+        .catch ((err)=>console.log('Error', err))
+      })
+    }
+  </script>
 
   <!-- Baffle JS -->
   <script src="./assets/libraries/baffle.js"></script>
