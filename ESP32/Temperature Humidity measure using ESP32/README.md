@@ -1,5 +1,7 @@
 # ESP32 - Temperature and Humidity measure using DHT22
 
+## [Simulation Link](https://wokwi.com/projects/342713692783116883)
+
 This tutorial shows how to use the DHT11 and DHT22 temperature and humidity sensors with the ESP32 using Arduino IDE. We’ll go through a quick introduction to these sensors, pinout, wiring diagram, and finally the Arduino sketch.
 
 ![ESP32 with DHT11 DHT22 Temperature and Humidity Sensor using Arduino IDE](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/04/ESP32-with-DHT11DHT22-Temperature-and-Humidity-Sensor-using-Arduino-IDE.jpg?resize=828%2C466&quality=100&strip=all&ssl=1)
