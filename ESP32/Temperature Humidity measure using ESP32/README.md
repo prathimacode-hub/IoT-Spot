@@ -1,5 +1,5 @@
 # ESP32 - Temperature and Humidity measure using DHT22(Serial Monitor)
-
+## [Code link](https://github.com/adithya-s-k/IoT-Spot/blob/main/ESP32/Temperature%20Humidity%20measure%20using%20ESP32/DHT22_Serial_monitor/DHT22_Serial_monitor.ino)
 ## [Simulation Link](https://wokwi.com/projects/342713692783116883)
 
 ## [Video Link](https://youtu.be/tDdL5urWvH4)
