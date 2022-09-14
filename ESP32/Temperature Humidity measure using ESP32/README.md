@@ -290,6 +290,7 @@ After uploading the code, open the Serial Monitor at a baud rate of 9600. You sh
 ----
 
 # ESP32 - Temperature and Humidity measure using DHT22(Web Server)
+## [Video Link](https://youtu.be/tDdL5urWvH4)
 
 In this project, you’ll learn how to build an asynchronous ESP32 web server with the DHT11 or DHT22 that displays temperature and humidity using Arduino IDE.
 
