@@ -1,5 +1,7 @@
 ## **ESP32 Hall Effect Sensor Project:**
 
+### [Video Link](https://youtu.be/vyDZdwk76Jk)
+
 The ESP32 board has a built-in  **Hall Effect sensor**  also. This sensor is a simple piece of wire with a continuous current flowing through it.
 
 When the magnetic field is placed around it, the charge carriers, electrons, and holes are deflected to either side. This deflection or imbalance generates a voltage difference across the sensor material. This generated voltage difference is used to measure the strength of the magnetic field.
