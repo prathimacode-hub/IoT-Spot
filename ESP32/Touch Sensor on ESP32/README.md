@@ -1,5 +1,7 @@
 # How to use ESP32 Touch Sensor
 
+### [Video Link](https://youtu.be/40tyJfvpcxw)
+
 ESP32 Touch and Hall effect sensor are built-in inside the ESP Wroom 32 microcontroller chip. Both the sensors are easy to program and can be used in small projects. So by the end of this article, you would be able to use and  **program the ESP32 Touch and Hall effect Sensor**  with Arduino IDE.
 
 ![Touch and Hall-effect sensor are inside this chip!](https://www.etechnophiles.com/wp-content/uploads/2021/03/ESP32-animated.jpg?ezimgfmt=ng%3Awebp%2Fngcb40%2Frs%3Adevice%2Frscb40-1)
