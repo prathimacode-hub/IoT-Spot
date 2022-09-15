@@ -70,3 +70,74 @@ void loop() {
 ```
 **OBJECTIVE** **:**  When the jumper wire connected to the GPIO pin 15 is touched, the inbuilt LED of the esp32 board lights up.
 
+### **Code Explanation:**
+
+#define LED_BuiltIn 2
+
+-   Define the macro for Pin 2 called  LED_BUILTIN**.**  Defining macros simplifies your program. Whenever the name  LED_BUILTIN  appears in the program, the compiler changes it to pin no. 2 automatically.
+-   So to use a pin other than GPIO pin 2, you just have to change the GPIO PIN at one place only i.e, where you have defined the macro for GPIO pin 2.
+
+**Note:** Macros are defined outside the functions and at the beginning of the program.
+
+#### **Inside the void setup() function:**
+
+**Note** **:** The  setup() function is called as soon as the program starts executing. It is used to initialize variables and set the mode of the GPIO pins. Setup() function is executed only once.
+
+ pinMode(LED_BuiltIn,OUTPUT);
+
+-   Here, we are initializing the mode of the  LED_BuiltIn  GPIO pin as OUTPUT.
+
+Serial.begin(115200);
+
+-   Serial.begin() function starts the serial data communication between the Arduino board and the Arduino IDE.
+-   The argument of the  Serial.begin()  function sets the data rate in bits per second (baud) for serial data transmission. Here we are setting the data rate as 115200 bits per second.
+-   **Supported baud rates**  are 300, 600, 1200, 2400, 4800, 9600, 14400, 19200, 28800, 31250, 38400, 57600, and 115200.
+
+delay(1000); 
+Serial.println("ESP32 Touch sensor value");
+
+-   The  delay()  function is used to stop/pause the execution of the program for 1000 milliseconds (1 second). In order to wait for the serial monitor to start.
+-   And the  Serial.println()  function is used to print the data to the serial port in the human-readable ASCII format followed by a return character ("\r”) and a newline character ("\n”).
+-   Here, I am printing the string "ESP32 Touch sensor value” on the serial monitor of Arduino.
+-   To open the serial monitor, go to  **Tools>Serial monitor** or press **Ctrl+Shift+M**. Then select the baud rate 115200 from the drop-down menu present at the bottom right corner of the serial monitor.
+
+**Note:**  Make sure the Arduino board is connected to the PC and right COM port is selected.
+
+#### **Inside the void loop() function:**
+
+**Note:** After the execution of the  setup()  function, the execution loop() function begins. Its function is to continuously run the code written inside of it in an infinite loop. That’s why it’s called a  void loop().
+
+Serial.println(touchRead(15));
+delay(1000);
+
+-   Serial.println()  function prints the value returned by the  touchRead()  function.
+-   As explained earlier, the  touchRead()  function is used to read the value of the touch sensor by accepting the GPIO pin number as the argument. And with the increase in touch-force on the wire, the value returned by the  touchRead()  increases.
+-   The  delay()  function stops the program for 1 second (1000 milliseconds).
+
+if (touchRead(15)<40)
+{.....}
+
+-   **if-else** statements are called conditional statements.
+-   If the condition inside the **()**  bracket is true, the statements inside the  **if {}**  block is executed.
+-   If the condition inside the **()**  bracket is false, the compiler skips the code/statement inside the  **if {}**  block.
+-   In the program given above, when the  touchRead()  function returns a value greater than 40, statements inside the  **if{}**  block is executed.
+
+##### **Statements inside the if() block:**
+
+digitalWrite(LED_BuiltIn,HIGH); 
+delay(500); 
+digitalWrite(LED_BuiltIn,LOW); 
+delay(500);
+
+-   It’s a simple LED blinking program. First, the  digitalWrite()  function turns ON the inbuilt LED.
+-   Then there is a delay of 500 milliseconds.
+-   The  digitalWrite()  function turns OFF the inbuilt LED.
+-   Again there is a delay of 500 milliseconds.
+
+![Turning LED ON using ESP32 touch sensor ](https://www.etechnophiles.com/wp-content/uploads/2021/03/result_touch._800x425.jpg?ezimgfmt=rs:714x379/rscb40/ng:webp/ngcb40)
+
+Turning LED ON using the ESP32 touch sensor
+
+**Step 6** **:** Touch the jumper wire connected to the respective GPIO pin and observe the readings on the serial monitor.
+
+So the outcome of this project is: when you touch the jumper wire connected to the GPIO pin 15, the inbuilt LED of the esp32 board lights up.
