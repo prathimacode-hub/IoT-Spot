@@ -47,3 +47,40 @@ void loop() {
 
 **OBJECTIVE** **:**  Print the values returned by the built-in hall effect sensor.
 
+### **Code Explanation:**
+
+int magnetic_value=0;
+
+-   Declare a variable named  magnetic_value  of the integer data type to hold the value returned by the hallRead()  function.
+
+#### **Inside the void setup() function:**
+
+Serial.begin(115200);
+
+-   Serial.begin() function starts the serial data communication between the Arduino board and the Arduino IDE.
+-   The argument of the  Serial.begin()  function sets the data rate in bits per second (baud) for serial data transmission. Here we are setting the data rate as 115200 bits per second.
+-   Supported baud rates are 300, 600, 1200, 2400, 4800, 9600, 14400, 19200, 28800, 31250, 38400, 57600, and 115200.
+
+#### **Inside the void loop() function:**
+
+magnetic_value=hallRead();
+
+-   Assign the value return by the  hallRead()  function to the variable declared above i.e.,  magnetic_value.
+
+Serial.print("ESP32 Hall effect sensor value value: ");
+Serial.println(magnetic_value);
+delay(2000);
+
+-   Serial.println()  function prints the value returned by the  hallRead()  function by using the variable magnetic_value.
+-   As explained earlier, the  hallRead()  function is used to read the value of the hall effect sensor by accepting the GPIO pin number as the argument. And with the increase in the external magnetic field around the sensor, the value returned by the  hallRead()  increases.
+-   The  delay()  function stops the program for 1 second (1000 milliseconds).
+
+**NOTE:**  And as these statements are inside the loop() function, the code runs in an infinite loop and prints the sensor values every second.
+
+![Fluctuating magnetic field measured using ESP32 Hall effect sensor](https://www.etechnophiles.com/wp-content/uploads/2021/03/result_halleffect.jpg?ezimgfmt=rs:714x309/rscb40/ng:webp/ngcb40)
+
+Fluctuating magnetic field measured using ESP32 Hall effect sensor
+
+**Step 6** **:** Place the magnet directly above the ESP32 Wroom chip and observe the readings on the serial monitor. Bring the magnet closer to the chip or rotate the face of the magnet 180 degrees.
+
+**Note:** Negative reading means the electrons are deflected to the other side now OR the magnet facing the chip is turned 180 degrees.
