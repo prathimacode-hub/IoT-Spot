@@ -581,3 +581,12 @@ client.println();
 
 So this is all about this first tutorial on creating a web server using ESP32 in Arduino IDE.
 
+### Arduino WiFi Functions
+
+Details of the functions used in this code are given below:
+
+-   WifiSever(): This procedure is used to create a server that is used to listen to incoming HTTP requests from the web client.
+-   WiFi.begin(ssid, password): This function is initialized the WiFi library with two arguments as an input to this function. The first argument is the name of the network and the second argument is the password of the wireless network.
+-   WiFi.connected(): This function check either ESP32 is connected to network or not. It will return the status as TRUE or FALSE depending on the connection.
+-   WiFilocalIP(): If ESP32 is successfully connected with a network, we can use this function to get the IP address which is assigned to the board.
+-   server.begin(): It will tell start the connection to the web client and start receiving requests from the Web clients.
