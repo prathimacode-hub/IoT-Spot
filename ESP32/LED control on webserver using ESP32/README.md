@@ -288,3 +288,32 @@ Now, open the serial monitor and click on the reset button of the ESP32 dev kit 
 
 Now we will see how to open the web page which is stored in ESP32 board. To access the web server, paste the IP address which we noted in the last step in any web browser. You will find this web page in your browser.[![accessing ESP32 webserver](https://microcontrollerslab.com/wp-content/uploads/2019/03/accessing-ESP32-webserver-1024x549.jpg)](https://microcontrollerslab.com/wp-content/uploads/2019/03/accessing-ESP32-webserver.jpg)
 
+### How ESP32 Web server works?
+
+After accessing a web page through a web browser, you can check the serial monitor where you will see the web page HTTP GET request from a client over HTTP protocol. You will see this message on the serial monitor.
+
+New Client is requesting web page
+GET / HTTP/1.1
+Host: 192.168.10.47
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+AlexaToolbar-ALX_NS_PH: AlexaToolbar/alx-4.0.3
+
+This is a message which defines the operating parameters for the transaction of an HTTP request by the client and for the service of the web page by the station. But we don’t need to worry about this. The actual concept which we need to understand is what happens when someone presses on/off buttons to trigger LED on and off. So now let’s see what happens on the browser and what message goes to the ESP32 board which we display on a serial monitor.
+
+#### Controlling LEDs from web page
+
+When you press an LED0 button, you will see that the IP address will now contain an additional text “/?LED0=ON” and this message will be sent to the ESP32 board. you will also see the message in the string “GET /?LED0=ON HTTP/1.1″ . So ESP32 will receive this request from the web client and turn on the LED0 which we specified in the code given above. I will explain this part in the section ” How code works”. you also notice the state of LED will be shown on the web page. Similarly, you can test other buttons and check the same response.
+
+[![Webserver LED0 ON](https://microcontrollerslab.com/wp-content/uploads/2019/03/Webserver-LED0-ON-1024x846.jpg)](https://microcontrollerslab.com/wp-content/uploads/2019/03/Webserver-LED0-ON.jpg)
+
+So you should follow these points while testing web server.
+
+-   First, you should press each button and check if you see the same message in the URL and also on the serial monitor of Arduino IDE.
+-   Also check, if the state of the LED message is changing according to the button you pressed on the web page.
+-   Also see, if the respective LED is toggling according to the pressed button.
+
