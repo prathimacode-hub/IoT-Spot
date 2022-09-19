@@ -317,3 +317,267 @@ So you should follow these points while testing web server.
 -   Also check, if the state of the LED message is changing according to the button you pressed on the web page.
 -   Also see, if the respective LED is toggling according to the pressed button.
 
+### How Does the ESP32 Web Server Code work?
+
+Now we will see how this code work and I will provide you details of function and each line of the code.
+
+WiFi.h is a library of WiFi module. We will include this library because we will be using the WiFi function to connect to a network, to send data to the client and to receive data from the client. This library is pre-installed in Arduino IDE. So, we will just include it with the #include directive.
+
+```c
+#include <WiFi.h>
+```
+
+#### Connect to WiFi
+
+These two variables are used to store name and password of the Network to which you want to connect your ESP32 board. You should replace “ PTCL-BBB” with your wireless feudality network name and also put the password in WIFI_password variable.
+
+```c
+const char* WIFI_NAME= "PTCL-BB"; 
+const char* WIFI_PASSWORD = "5387c614";
+```
+
+Whenever we set Web server, when need to define its ports name, this line will set the WiFiServer() at port 80.
+
+```c
+WiFiServer server(80);
+```
+
+This string variable name is used to store all the data received by ESP32 development board through HTTP requests.
+
+```c
+String header;
+```
+
+#### Define LEDs
+
+As I mentioned, we are toggling three LEDs in this tutorial, so these three variables are used to store the state of these three lights emitting diodes. Initially, we set the state of LEDs to off state. But these states will change according to the status of LEDs.
+
+```c
+String LED_ONE_STATE = "off";
+String LED_TWO_STATE = "off";
+String LED_THREE_STATE = "off";
+```
+
+GPIO pins 22, 23 and 15 are used with LEDs. So, these three statements will give the name to these GPIO pins. Whenever we want to refer to these pins in our code, we will use them by these name instead of the pin number.
+
+```c
+const int GPIO_PIN_NUMBER_22 = 22;
+const int GPIO_PIN_NUMBER_23 = 23;
+const int GPIO_PIN_NUMBER_15 = 15;
+
+```
+
+In setup() function first, we initialized the baud rate of ‘serial.begin’ function at the rate of 115200 bits per second.
+
+```c
+Serial.begin(115200);
+```
+
+Now we define these GPIO pins as digital output using pinMode() function and also set these general purpose input output pins to digitally low using digitalWrite() function.
+
+```c
+  pinMode(GPIO_PIN_NUMBER_22, OUTPUT);
+  pinMode(GPIO_PIN_NUMBER_23, OUTPUT);
+  pinMode(GPIO_PIN_NUMBER_15, OUTPUT);
+  digitalWrite(GPIO_PIN_NUMBER_22, LOW);
+  digitalWrite(GPIO_PIN_NUMBER_23, LOW);
+  digitalWrite(GPIO_PIN_NUMBER_15, LOW);
+```
+
+Now, We will discuss some of the functions from WiFi library which are used in this course. So that you can understand code more clearly.
+
+#### Connecting to WiFi
+
+First, it will print a message “connecting to ” along with WiFi name. After that, it will connect to a network. If it is successfully connected to a wifi network. you will see an IP address and successfully to connect to a Wifi network message on Serial monitor. While it is trying to connect to the internet, it will show ” trying to connect to wifi network. Server.begin () function start the server and now any web client can access the web page with this IP address.
+
+```c
+Serial.print("Connecting to ");
+Serial.println(WIFI_NAME);
+WiFi.begin(WIFI_NAME, WIFI_PASSWORD);
+while (WiFi.status() != WL_CONNECTED)
+
+ {
+delay(1000);
+Serial.print("Trying to connect to Wifi Network");
+}
+Serial.println("");
+Serial.println("Successfully connected to WiFi network");
+Serial.println("IP address: ");
+Serial.println(WiFi.localIP());
+server.begin();
+```
+
+Main loop service the web page to the client and also receive data through HTTP get request about the status of GPIO pins. Inside the loop function, this line is used to receive a request from new web clients. If the client request is available, server.avaialble () function stores logical one value in variable client.
+
+```c
+WiFiClient client = server.available();
+```
+
+Now if the client request is available, These statements will start receiving data from the client and stores the data in header string and it will continue receiving data until ‘\n’ is not found which means client has disconnected.
+
+```c
+if (client) 
+
+{ 
+Serial.println("New Client is requesting web page"); 
+String current_data_line = ""; 
+while (client.connected()) { 
+if (client.available()) { 
+char new_byte = client.read(); 
+Serial.write(new_byte); 
+header += new_byte;
+if (new_byte == '\n') { 
+
+if (current_data_line.length() == 0) 
+{
+
+client.println("HTTP/1.1 200 OK");
+client.println("Content-type:text/html");
+client.println("Connection: close");
+client.println();
+```
+
+#### Controlling LEDs Code
+
+Now based on the received data from the client which we stored in a string ‘header’, we will toggle the respective LED on and off. These conditions will check if the button is pressed or not on. If LED0 button is pressed, as we have seen previously, we will get a message of ‘?LED0=0N” from client and we will save this message in header string. These lines use header.indexof () function which checks if a specific string is available in the header or not, if available, it will turn on and turn off the respective digital pin and also change the status of the LED which will be updated on the Web server. We have three buttons and each button has two states. Therefore here we have six if conditions to check what is received in header string.
+
+```c
+if (header.indexOf("LED0=ON") != -1) 
+{
+Serial.println("GPIO23 LED is ON");
+LED_ONE_STATE = "on";
+digitalWrite(GPIO_PIN_NUMBER_22, HIGH);
+} 
+if (header.indexOf("LED0=OFF") != -1) 
+{
+Serial.println("GPIO23 LED is OFF");
+LED_ONE_STATE = "off";
+digitalWrite(GPIO_PIN_NUMBER_22, LOW);
+} 
+if (header.indexOf("LED1=ON") != -1)
+{
+Serial.println("GPIO23 LED is ON");
+LED_TWO_STATE = "on";
+digitalWrite(GPIO_PIN_NUMBER_23, HIGH);
+}
+if (header.indexOf("LED1=OFF") != -1) 
+{
+Serial.println("GPIO23 LED is OFF");
+LED_TWO_STATE = "off";
+digitalWrite(GPIO_PIN_NUMBER_23, LOW);
+}
+if (header.indexOf("LED2=ON") != -1) 
+{
+Serial.println("GPIO15 LED is ON");
+LED_THREE_STATE = "on";
+digitalWrite(GPIO_PIN_NUMBER_15, HIGH);
+}
+if(header.indexOf("LED2=OFF") != -1) {
+Serial.println("GPIO15 LED is OFF");
+LED_THREE_STATE = "off";
+digitalWrite(GPIO_PIN_NUMBER_15, LOW);
+}
+```
+
+#### Displaying HTML on web server
+
+Next part of the program is to display HTML and CSS code to the web browser. This client.println () function is used to send HTML and CSS commands to the client who is accessing a web server through an IP address. This HTML file we wan to send to a client. You can find further details of HTML and CSS on this  [link](https://www.w3schools.com/).
+
+```c
+<!DOCTYPE html> 
+<html> 
+<head>
+<style>
+.button {
+background-color: #4CAF50;
+border: 2px solid #4CAF50;;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+</style>
+</head>
+<body> 
+<center><h1 style="color:blue;">ESP32 Web server LED controlling example</h1></center> 
+<center><h2 style="color:black;">Web Server Example Microcontrollerslab.com</h2></center> 
+<center><h2 style="color:Green;">Press "ON" button to turn on led and "OFF" button to turn off LED</h3></center> 
+<form> 
+<center>
+<button class="button" name="LED0" value="ON" type="submit">LED0 ON</button> 
+<button class="button" name="LED0" value="OFF" type="submit">LED0 OFF</button><br><br> 
+<button class="button" name="LED1" value="ON" type="submit">LED1 ON</button> 
+<button class="button" name="LED1" value="OFF" type="submit">LED1 OFF</button> <br><br>
+<button class="button" name="LED2" value="ON" type="submit">LED2 ON</button> 
+<button class="button" name="LED2" value="OFF" type="submit">LED2 OFF</button> 
+</center>
+</form> 
+</body> 
+</html>
+```
+
+-   We will serve this HTML and CSS file to a web client through ESP32. Whenever any web client try to access the web page through an IP address, we will send this HTML page.
+-   Buttons are used to control LEDs. Whenever a web client press the button, we receive a HTTP request. Based on the HTTP request, we take action and control the LEDs.
+
+#### Displaying web page with ESP32
+
+But we can send it through client.println() function only. So now let’s see how to set up web page through ESP32. This line will show that we want to send HTML file.
+
+```c
+client.println("<!DOCTYPE html><html>");
+```
+
+This line is used because we want to make our web page accessible on every device like a computer, laptop, mobile, and tablet and it will make the web page responsive.
+
+```c
+client.println("<head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">");
+```
+
+These lines are used to give style and colors to texts and buttons used on the webpage. They make the appearance of the web page better. For in this line, we are using font-family Helvetica and set the color of a web page as default which we can change later and also set the text to the center of the page.
+
+```c
+client.println("<style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}");
+```
+
+To give style to buttons and also color, this line will set the background color of green and border-color black and text color white. It also sets padding, text alignment and font size of the text used inside the buttons.
+
+```c
+client.println(".button { background-color: #4CAF50; border: 2px solid #4CAF50;; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; }");
+client.println("text-decoration: none; font-size: 30px; margin: 2px; cursor: pointer;}");
+```
+
+These code statements print the heading parts of the code and display a text message on server.
+
+```c
+client.println("</style></head>");
+client.println("<body><center><h1>ESP32 Web server LED controlling example</h1></center>");
+client.println("<center><h2>Web Server Example Microcontrollerslab.com</h2></center>" );
+client.println("<center><h2>Press on button to turn on led and off button to turn off LED</h3></center>");
+client.println("<form><center>");
+```
+
+#### HTML Code to display Button and LED status
+
+This part is used to display buttons and also the status of LEDs on a web page.
+
+```c
+client.println("<p> LED one is " + LED_ONE_STATE + "</p>");
+// If the PIN_NUMBER_22State is off, it displays the ON button
+client.println("<center> <button class=\"button\" name=\"LED0\" value=\"ON\" type=\"submit\">LED0 ON</button>") ;
+client.println("<button class=\"button\" name=\"LED0\" value=\"OFF\" type=\"submit\">LED0 OFF</button><br><br>");
+client.println("<p>LED two is " + LED_TWO_STATE + "</p>");
+client.println("<button class=\"button\" name=\"LED1\" value=\"ON\" type=\"submit\">LED1 ON</button>");
+client.println("<button class=\"button\" name=\"LED1\" value=\"OFF\" type=\"submit\">LED1 OFF</button> <br><br>");
+client.println("<p>LED three is " + LED_THREE_STATE + "</p>");
+client.println ("<button class=\"button\" name=\"LED2\" value=\"ON\" type=\"submit\">LED2 ON</button>");
+client.println ("<button class=\"button\" name=\"LED2\" value=\"OFF\" type=\"submit\">LED2 OFF</button></center>");
+client.println("</center></form></body></html>");
+client.println();
+```
+
+So this is all about this first tutorial on creating a web server using ESP32 in Arduino IDE.
+
