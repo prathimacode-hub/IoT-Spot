@@ -72,3 +72,219 @@ After getting the IP address, simply place it in a web browser, you will get the
 
 Uptill now, we have learned about web server and how ESP32 can be used as web server.
 
+## ESP32 Web Server To Control GPIOs
+
+Now we see how to control three light-emitting diodes or LEDs over a web server. We can access this server on any web browser installed on the personal computer, laptop, mobile device or tablet. Now we will be controlling two LEDs through a web browser. We will be using three light emitting diodes in this tutorial. Now make this schematic shown below on breadboard. Connection diagram shows which general-purpose input-output pins we have used. But you can use any GPIO pin you want. Remember this tutorial is for demonstration only, in the actual project, you will use  [relays](https://microcontrollerslab.com/electromechanical-relays-interfacing-with-microcontrollers/)  to control ac devices, like  [home automation project](https://microcontrollerslab.com/ethernet-based-home-automation-project/). Project on home automation will also be published on our blog in the coming article.
+
+### Schematic Diagram
+
+[![ESP32 web server controlling LEDs circuit diagram](https://microcontrollerslab.com/wp-content/uploads/2019/03/ESP32-web-server-controlling-LEDs-circuit-diagram-1024x452.jpg)](https://microcontrollerslab.com/wp-content/uploads/2019/03/ESP32-web-server-controlling-LEDs-circuit-diagram.jpg)
+
+### Components list
+
+To make this schematic, you will need the following components :
+
+-   Breadboard
+-   ESP32 board ( we are using ESP32 devkit DOIT 30 pin version)
+-   three 100 ohm resistors
+-   Jumper wires
+-   3 LEDs
+
+In the schematic, we are using GPIO pins 15, 22, and 23 as digital output pins. These pins are connected with  light-emitting diodes through current limiting resistors. For more information about how to interface LED with this board, you can check  LED blinking with ESP32 article. LED1 is connected with GPIO pin 23. LED2 is connected with GPIO pin 22 and LED3 is connected with GPIO pin fifteen.
+
+### ESP32 Web server Arduino Code
+
+Now, let’s move to the main part of the ESP32 web server tutorial, the programming section. Remember in this tutorial we are using this Wifi module in station mode. This Arduino code controls three LEDs with separate on and off buttons. After building the circuit diagram upload this code to Arduino IDE.
+
+```c
+#include <WiFi.h>
+
+const char* WIFI_NAME= "PTCL-BB"; 
+const char* WIFI_PASSWORD = "5387c614"; 
+WiFiServer server(80);
+
+String header;
+
+String LED_ONE_STATE = "off";
+String LED_TWO_STATE = "off";
+String LED_THREE_STATE = "off";
+
+
+const int GPIO_PIN_NUMBER_22 = 22;
+const int GPIO_PIN_NUMBER_23 = 23;
+const int GPIO_PIN_NUMBER_15 = 15;
+
+
+void setup() {
+Serial.begin(115200);
+pinMode(GPIO_PIN_NUMBER_22, OUTPUT);
+pinMode(GPIO_PIN_NUMBER_23, OUTPUT);
+pinMode(GPIO_PIN_NUMBER_15, OUTPUT);
+
+digitalWrite(GPIO_PIN_NUMBER_22, LOW);
+digitalWrite(GPIO_PIN_NUMBER_23, LOW);
+digitalWrite(GPIO_PIN_NUMBER_15, LOW);
+
+
+Serial.print("Connecting to ");
+Serial.println(WIFI_NAME);
+WiFi.begin(WIFI_NAME, WIFI_PASSWORD);
+while (WiFi.status() != WL_CONNECTED) {
+delay(1000);
+Serial.print("Trying to connect to Wifi Network");
+}
+Serial.println("");
+Serial.println("Successfully connected to WiFi network");
+Serial.println("IP address: ");
+Serial.println(WiFi.localIP());
+server.begin();
+}
+
+void loop(){
+WiFiClient client = server.available(); 
+if (client) { 
+Serial.println("New Client is requesting web page"); 
+String current_data_line = ""; 
+while (client.connected()) { 
+if (client.available()) { 
+char new_byte = client.read(); 
+Serial.write(new_byte); 
+header += new_byte;
+if (new_byte == '\n') { 
+         
+if (current_data_line.length() == 0) 
+{
+            
+client.println("HTTP/1.1 200 OK");
+client.println("Content-type:text/html");
+client.println("Connection: close");
+client.println();
+            
+if (header.indexOf("LED0=ON") != -1) 
+{
+Serial.println("GPIO23 LED is ON");
+LED_ONE_STATE = "on";
+digitalWrite(GPIO_PIN_NUMBER_22, HIGH);
+} 
+if (header.indexOf("LED0=OFF") != -1) 
+{
+Serial.println("GPIO23 LED is OFF");
+LED_ONE_STATE = "off";
+digitalWrite(GPIO_PIN_NUMBER_22, LOW);
+} 
+if (header.indexOf("LED1=ON") != -1)
+{
+Serial.println("GPIO23 LED is ON");
+LED_TWO_STATE = "on";
+digitalWrite(GPIO_PIN_NUMBER_23, HIGH);
+}
+if (header.indexOf("LED1=OFF") != -1) 
+{
+Serial.println("GPIO23 LED is OFF");
+LED_TWO_STATE = "off";
+digitalWrite(GPIO_PIN_NUMBER_23, LOW);
+}
+if (header.indexOf("LED2=ON") != -1) 
+{
+Serial.println("GPIO15 LED is ON");
+LED_THREE_STATE = "on";
+digitalWrite(GPIO_PIN_NUMBER_15, HIGH);
+}
+if(header.indexOf("LED2=OFF") != -1) {
+Serial.println("GPIO15 LED is OFF");
+LED_THREE_STATE = "off";
+digitalWrite(GPIO_PIN_NUMBER_15, LOW);
+}
+            
+client.println("<!DOCTYPE html><html>");
+client.println("<head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">");
+client.println("<link rel=\"icon\" href=\"data:,\">");
+client.println("<style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}");
+client.println(".button { background-color: #4CAF50; border: 2px solid #4CAF50;; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; }");
+client.println("text-decoration: none; font-size: 30px; margin: 2px; cursor: pointer;}"); 
+// Web Page Heading
+client.println("</style></head>");
+client.println("<body><center><h1>ESP32 Web server LED controlling example</h1></center>");
+client.println("<center><h2>Web Server Example Microcontrollerslab.com</h2></center>" );
+client.println("<center><h2>Press on button to turn on led and off button to turn off LED</h3></center>");
+client.println("<form><center>");
+client.println("<p> LED one is " + LED_ONE_STATE + "</p>");
+// If the PIN_NUMBER_22State is off, it displays the ON button 
+client.println("<center> <button class=\"button\" name=\"LED0\" value=\"ON\" type=\"submit\">LED0 ON</button>") ;
+client.println("<button class=\"button\" name=\"LED0\" value=\"OFF\" type=\"submit\">LED0 OFF</button><br><br>");
+client.println("<p>LED two is " + LED_TWO_STATE + "</p>");
+client.println("<button class=\"button\" name=\"LED1\" value=\"ON\" type=\"submit\">LED1 ON</button>");
+client.println("<button class=\"button\" name=\"LED1\" value=\"OFF\" type=\"submit\">LED1 OFF</button> <br><br>");
+client.println("<p>LED three is " + LED_THREE_STATE + "</p>");
+client.println ("<button class=\"button\" name=\"LED2\" value=\"ON\" type=\"submit\">LED2 ON</button>");
+client.println ("<button class=\"button\" name=\"LED2\" value=\"OFF\" type=\"submit\">LED2 OFF</button></center>");
+client.println("</center></form></body></html>");
+client.println();
+break;
+} 
+else 
+{ 
+current_data_line = "";
+}
+} 
+else if (new_byte != '\r') 
+{ 
+current_data_line += new_byte; 
+}
+}
+}
+// Clear the header variable
+header = "";
+// Close the connection
+client.stop();
+Serial.println("Client disconnected.");
+Serial.println("");
+}
+}
+```
+
+### Uploading Code to ESP32
+
+Follow these steps to upload code after copying this code to Arduino IDE.
+
+-   First of all, you need to add the name of your WiFi network and password to the following two lines:
+
+```c
+const char* WIFI_NAME= "Enter your WiFi name here"; 
+const char* WIFI_PASSWORD = "Enter password of WiFi here";
+```
+
+You don’t need to make any other changes in the code. Now first compile your code by clicking on the verify button on the Arduino IDE. ESP32 codes usually take more time to compile than other microcontrollers, so don’t worry about it and wait for a while. After it’s done with compilation, it will show the following message in the compilation window.
+
+![](https://microcontrollerslab.com/wp-content/uploads/2019/03/ESP32-webserver-code-compilation.jpg)
+
+Now click on upload button to upload this code into ESP32 WROOM chip.
+
+![](https://microcontrollerslab.com/wp-content/uploads/2019/03/UPLOAD-BUTTON-ARDUINO-IDE.jpg)
+
+Before uploading the program, make sure you should have select the right COM port to which your board is connected.
+
+![](https://microcontrollerslab.com/wp-content/uploads/2019/03/Selecting-COM-PORT-ESP32.jpg)
+
+Also, you should select the ESP32 dev module from the tools and boards menu as shown below:
+
+![](https://microcontrollerslab.com/wp-content/uploads/2019/03/ESP32-dev-module-selection-for-webserver.jpg)
+
+After you see the message of done uploading on Arduino IDE, open the serial monitor by clicking on the serial monitor option. Select the baud rate of 115200 in the serial monitor window.
+
+![](https://microcontrollerslab.com/wp-content/uploads/2019/03/SERIAL-MONITOR-ARDUINO-IDE.jpg)
+
+After the code will be upload successfully, you will see this message :
+
+![](https://microcontrollerslab.com/wp-content/uploads/2019/03/after-upload-ESP32-server-code.jpg)
+
+### Getting IP address
+
+Now, open the serial monitor and click on the reset button of the ESP32 dev kit board. you will see the message ” trying to connect to a WiFi network” and after some time you will see the message “successfully connected to WiFi network” and also the IP address as shown in the figure below:
+
+![](https://microcontrollerslab.com/wp-content/uploads/2019/03/ESP32-webserver-IP-address.jpg)
+
+### Accessing ESP32 Web Server
+
+Now we will see how to open the web page which is stored in ESP32 board. To access the web server, paste the IP address which we noted in the last step in any web browser. You will find this web page in your browser.[![accessing ESP32 webserver](https://microcontrollerslab.com/wp-content/uploads/2019/03/accessing-ESP32-webserver-1024x549.jpg)](https://microcontrollerslab.com/wp-content/uploads/2019/03/accessing-ESP32-webserver.jpg)
+
