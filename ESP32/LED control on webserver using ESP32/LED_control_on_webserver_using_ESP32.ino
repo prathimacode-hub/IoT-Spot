@@ -97,7 +97,31 @@ void loop(){
               digitalWrite(GPIO_PIN_NUMBER_15, LOW);
             }
             
-            
+            client.println("<!DOCTYPE html><html>");
+            client.println("<head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">");
+            client.println("<link rel=\"icon\" href=\"data:,\">");
+            client.println("<style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}");
+            client.println(".button { background-color: #4CAF50; border: 2px solid #4CAF50;; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; }");
+            client.println("text-decoration: none; font-size: 30px; margin: 2px; cursor: pointer;}");            
+            // Web Page Heading
+            client.println("</style></head>");
+            client.println("<body><center><h1>ESP32 Web server LED controlling example</h1></center>");
+            client.println("<center><h2>Web Server Example Microcontrollerslab.com</h2></center>" );
+            client.println("<center><h2>Press on button to turn on led and off button to turn off LED</h3></center>");
+            client.println("<form><center>");
+            client.println("<p> LED one is " + LED_ONE_STATE + "</p>");
+            // If the PIN_NUMBER_22State is off, it displays the ON button      
+             client.println("<center> <button class=\"button\" name=\"LED0\" value=\"ON\" type=\"submit\">LED0 ON</button>") ;
+             client.println("<button class=\"button\" name=\"LED0\" value=\"OFF\" type=\"submit\">LED0 OFF</button><br><br>");
+             client.println("<p>LED two is " + LED_TWO_STATE + "</p>");
+             client.println("<button class=\"button\" name=\"LED1\" value=\"ON\" type=\"submit\">LED1 ON</button>");
+             client.println("<button class=\"button\" name=\"LED1\" value=\"OFF\" type=\"submit\">LED1 OFF</button> <br><br>");
+             client.println("<p>LED three is " + LED_THREE_STATE + "</p>");
+             client.println ("<button class=\"button\" name=\"LED2\" value=\"ON\" type=\"submit\">LED2 ON</button>");
+             client.println ("<button class=\"button\" name=\"LED2\" value=\"OFF\" type=\"submit\">LED2 OFF</button></center>");
+            client.println("</center></form></body></html>");
+            client.println();
+            break;
           } 
           else 
           { 
