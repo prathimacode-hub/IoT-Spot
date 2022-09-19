@@ -41,3 +41,11 @@ void setup() {
   server.begin();
 }
 
+void loop(){
+  WiFiClient client = server.available();   
+  if (client) {                            
+    Serial.println("New Client is requesting web page");          
+    String current_data_line = "";               
+    
+  }
+}
