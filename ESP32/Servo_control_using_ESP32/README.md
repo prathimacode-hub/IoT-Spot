@@ -2,7 +2,7 @@
 
 Today we’ll see a few ways of interfacing servo motors to the ESP32 microcontroller and controlling them with code, with a potentiometer, and over WiFi.
 
-
+## [Simulation Link](https://wokwi.com/projects/342489008903815762)
 
 ## [Video Link](https://youtu.be/zxBC1ivOVfM)
 
@@ -118,8 +118,9 @@ For my tests, I elected to use a breadboard power supply to supply the motor vol
 Make sure you use 3.3-volts on the connection to the potentiometer and not 5-volts.
 
 
-
 Once you have it all wired up connect it to your computer with the USB cable.
+
+![Circuit Connections](./Images/circuit_diagram.png)
 
 ### Example 1 – Sweep
 
