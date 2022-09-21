@@ -2,7 +2,7 @@
 
 Today we’ll see a few ways of interfacing servo motors to the ESP32 microcontroller and controlling them with code, with a potentiometer, and over WiFi.
 
-## [Simulation Link](https://wokwi.com/projects/342489008903815762)
+
 
 ## [Video Link](https://youtu.be/zxBC1ivOVfM)
 
