@@ -40,3 +40,56 @@ Serial.println(WiFi.localIP());
 server.begin(); // It will start the servo motor with given position value. 
 }
 
+void loop(){
+WiFiClient client = server.available(); // Listen for incoming clients
+
+if (client)
+{ // If a new client connects,
+
+String header = client.readStringUntil('\r');
+client.println("HTTP/1.1 200 OK");
+client.println("Content-type:text/html");
+client.println("Connection: close");
+client.println();
+
+// Display the HTML web page
+client.println("<!DOCTYPE html><html>");
+client.println("<head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">");
+client.println("<link rel=\"icon\" href=\"data:,\">");
+// CSS to style the on/off buttons 
+// Feel free to change the background-color and font-size attributes to fit your preferences
+client.println("<style>body { text-align: center; font-family: \"Trebuchet MS\", Arial; margin-left:auto; margin-right:auto;}");
+client.println(".slider { width: 300px; }</style>");
+client.println("<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js\"></script>");
+
+// Web Page
+client.println("</head><body><h1>ESP32 with Servo</h1>");
+client.println("<p>Position: <span id=\"servoPos\"></span></p>"); 
+client.println("<input type=\"range\" min=\"0\" max=\"180\" class=\"slider\" id=\"servoSlider\" onchange=\"servo(this.value)\" value=\""+valueString+"\"/>");
+
+client.println("<script>var slider = document.getElementById(\"servoSlider\");");
+client.println("var servoP = document.getElementById(\"servoPos\"); servoP.innerHTML = slider.value;");
+client.println("slider.oninput = function() { slider.value = this.value; servoP.innerHTML = this.value; }");
+client.println("$.ajaxSetup({timeout:1000}); function servo(pos) { ");
+client.println("$.get(\"/?value=\" + pos + \"&\"); {Connection: close};}</script>");
+
+client.println("</body></html>"); 
+
+//GET /?value=180& HTTP/1.1
+if(header.indexOf("GET /?value=")>=0) 
+{
+positon1 = header.indexOf('=');
+positon2 = header.indexOf('&');
+valueString = header.substring(positon1+1, positon2);
+
+//Rotate the servo
+ObjServo.write(valueString.toInt());
+Serial.println(valueString); 
+} 
+
+header = "";
+client.stop();
+Serial.println("Client disconnected.");
+Serial.println("");
+}
+}
