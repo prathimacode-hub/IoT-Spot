@@ -298,16 +298,6 @@ Run the sketch and twist the potentiometer. You should observe the servo motor m
 
 This tutorial is regarding controlling servo motor with ESP32 over a web server using Arduino IDE. You will discover how to control the  **Servo motor with ESP32**  and you will also ready to make a simple web server with a slider to control the position of the servo motor in both positions. Web server consists of a slider with a position from 0-180. With this slider, a user can control the shaft position. We use the Arduino IDE to program the ESP32 dev kit module.
 
-
-
-## **Prerequisites**
-
-To follow the concepts of this tutorial, you should have the background knowledge required to grasp concepts.
-
--   First, you should know have an introduction of ESP32 boards, we are using ESP32 dev kit in this tutorial, so can read: **[Introduction to ESP32 development board](https://microcontrollerslab.com/esp32-development-board/)**
--   You should also have an idea of GPIO pins of ESP32, you read this:  [**How to use GPIO pins of ESP32 devkit**](https://microcontrollerslab.com/esp32-pinout-use-gpio-pins/)
--   As mentioned ahead, we are using Arduino IDE to program ESP32, you can read about how to  [**install ESP32 in Arduino IDE and How to program ESP32**](https://microcontrollerslab.com/install-esp32-arduino-ide/).
-
 ## Components Required
 
 We will be using these components for this tutorial:
@@ -407,7 +397,7 @@ delay(20);
 
 ## Controlling servo with POT example
 
-This sketch controls the position of servo with the help potentiometer. **GPIO32**  is used as an analog pin. Voltage across POT is mapped to pulse width position which controls the shaft position. you can read of  [ADC of ESP32 in this article](https://microcontrollerslab.com/adc-esp32-measuring-voltage-example/).
+This sketch controls the position of servo with the help potentiometer. **GPIO32**  is used as an analog pin. Voltage across POT is mapped to pulse width position which controls the shaft position.
 
 ```c
 #include <Servo.h>
@@ -437,11 +427,6 @@ Now, We will show you an example of  **controlling servo motor from web server**
 After making the connection diagram and installing library, copy this code to Arduino IDE and upload it to ESP32 DOIT DEVKIT.
 
 ```c
-/*********
-Microcontrollerslab.com
-you can get more projects about ESP32
-Microcontrollers lab
-*********/
 
 #include <WiFi.h> 
 #include <Servo.h>
