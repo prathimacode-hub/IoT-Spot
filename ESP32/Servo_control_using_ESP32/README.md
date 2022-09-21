@@ -556,3 +556,172 @@ You can control the position of servo’s shaft with the help of this slider.
 
 You can move the slideR in the left or right position to rotate the motor position in the clockwise and ant-clockwise direction.
 
+## Code working
+
+
+
+-   It will create a web page with a slider. Any web client can connect to this web page through an IP address we get in the last section.
+-   The slider can control the position of the shaft between 0 and 180 degrees. A web client can move the slider in the left or right position to control the shaft position.
+-   Web client once opens the web page, they do not need to update the page, again and again, to update the position of the slider because we use the AJAX javascript file to refresh the web page automatically when a user updates the position of the slider.
+-   Web page sends HTTP requests to ESP32 to update position of a servo motor.
+
+These lines add libraries of the WiFi driver and servo motor.
+
+```c
+#include <WiFi.h>   // add library of WiFi for ESP32
+#include <Servo.h> // add library of Servo for ESP32
+```
+
+This line makes an object of Servo motor from the  **Servo library**. Objects are made for every servo motor if we want to control multiple servos through this single servo library. We can create up to 12 objects.
+
+```c
+Servo ObjServo;  // create object with name ObjServo
+```
+
+This line defines the name of the GPIO pin to which we have connected the servo motor.
+
+```c
+static const int ServoGPIO = 13;  // Pin number to which control signal pin is connected
+```
+
+These variables store network name and password for connecting ESP32 with WiFi network
+
+```c
+const char* ssid = "PTCL-BB"; // Enter your network name
+const char* password = "5387c614"; //Enter your network password
+WiFiServer server(80);// Set the server port nunber to deafualt 80
+```
+
+This variable header stores the HTTP requests data received from a web client.
+
+```c
+String header;
+```
+
+These variables store previous and update values of servo position and slider position.
+
+```c
+String valueString = String(0);
+int positon1 = 0;
+int positon2 = 0;
+```
+
+First line defines the baud rate of serial communication and second line attaches the  **GPIO pin**  with the object of the servo motor which we created earlier.
+
+```c
+Serial.begin(115200); //define serial communication with baud rate of 115200
+ObjServo.attach(ServoGPIO); // it will attach the ObjServo to ServoGPIO pin which is 13
+```
+
+This part of the code is used for connecting ESP32 to a WiFi router. ESP32 connects to the WiFi router and displays the IP address on the serial monitor.
+
+```c
+Serial.print("Making connection to "); // it will display message on serial monitor
+Serial.println(ssid);
+WiFi.begin(ssid, password);
+while (WiFi.status() != WL_CONNECTED) {
+delay(500);
+Serial.print(".");
+}
+// These lines prints the IP address value on serial monitor 
+Serial.println("");
+Serial.println("WiFi connected.");
+Serial.println("IP address: ");
+Serial.println(WiFi.localIP());
+server.begin(); // It will start the servo motor with given position value. 
+}
+```
+
+Before explaining the code inside the loop function, we will explain HTML part of this code which we have used inside the main function. This HTML part of code is used to create slider and web page layout.
+
+### Creating a Web page
+
+The following code is used for an HTML page. This web page is responsible for making a range slider and updating the web page automatically. If you are just a beginner with HTML and CSS, you can  [visit](https://www.w3schools.com/)  this website to learn the basics of HTML and CSS.
+
+```c
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<style>
+body {
+text-align: center;
+font-family: "Trebuchet MS", Arial;
+margin-left:auto;
+margin-right:auto;
+}
+.slider {
+width: 300px;
+}
+</style>
+<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></sc
+ript>
+</head>
+<body>
+<h1>ESP32 with Servo</h1>
+<p>Position: <span id="servoPos"></span></p>
+<input type="range" min="0" max="180" class="slider" id="servoSlider"
+onchange="servo(this.value)"/>
+<script>
+var slider = document.getElementById("servoSlider");
+var servoP = document.getElementById("servoPos");
+servoP.innerHTML = slider.value;
+slider.oninput = function() {
+slider.value = this.value;
+servoP.innerHTML = this.value;
+}
+$.ajaxSetup({timeout:1000});
+function servo(pos) {
+$.get("/?value=" + pos + "&");
+{Connection: close};
+}
+</script>
+</body>
+</html>
+```
+
+### Creating a range slider
+
+To create a range slider in HTML, we use <input> and </input> tags. This line create a range slider with <input> and </input> tags.
+
+```c
+<input type="range" min="0" max="180" class="slider" id="servoSlider"
+onchange="servo(this.value)"/>
+```
+
+-   The type defines the type of slider because we want to create a range slider, therefore used “range” and define the minimum value of 0 and a maximum value of 180.
+-   One change feature calls a javascript function which is explained below.
+
+This is a javascript code which is used to update web page automatically and send HTTP request having values of the slider position. We write javascript functions between <script> </script> tags. This code updates the web page with slider position value.
+
+```c
+var slider = document.getElementById("servoSlider");
+var servoP = document.getElementById("servoPos");
+servoP.innerHTML = slider.value;
+slider.oninput = function() {
+slider.value = this.value;
+servoP.innerHTML = this.value;
+} 
+$.ajaxSetup({timeout:1000});
+ function servo(pos) {
+ $.get("/?value=" + pos + "&");
+ {Connection: close};
+ }
+```
+
+These lines get the values of slider position from HTTP request data which is stored in header string. ObjServo.write() function rotate the servo motor according to received value of slider position.
+
+```c
+if(header.indexOf("GET /?value=")>=0) 
+{
+positon1 = header.indexOf('=');
+positon2 = header.indexOf('&');
+valueString = header.substring(positon1+1, positon2);
+
+
+ObjServo.write(valueString.toInt());
+Serial.println(valueString); 
+}
+```
