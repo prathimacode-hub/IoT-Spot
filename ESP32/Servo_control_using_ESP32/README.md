@@ -374,3 +374,61 @@ As mentioned in the last two sections, servo’s are controlled through a series
 
 Remember, you might have already installed library for servo motor in your Arduino IDE. But that library will not work with your ESP32, because that is for other boards like Arduino Uno, Arduino mega and stm32. Now we can use this library to control position of servo from a web server.
 
+## Example code
+
+Upload this code to Arduino IDE, this code rotates the servo for 180 degrees in clockwise direction and for 180 degrees in back direction. Shaft will move from initial position till 180 degrees and then come back to the same position.
+
+```c
+#include <Servo.h>
+
+static const int servoPin = 13;  // defines pin number for PWM
+
+Servo servo1;  // Create object for servo motor
+
+void setup() {
+Serial.begin(115200);
+servo1.attach(servoPin);  // start the library 
+}
+
+void loop() {
+for(int posDegrees = 0; posDegrees <= 180; posDegrees++) {
+servo1.write(posDegrees);
+Serial.println(posDegrees);
+delay(20);
+}
+
+for(int posDegrees = 180; posDegrees >= 0; posDegrees--) {
+servo1.write(posDegrees);
+Serial.println(posDegrees);
+delay(20);
+}
+}
+```
+
+## Controlling servo with POT example
+
+This sketch controls the position of servo with the help potentiometer. **GPIO32**  is used as an analog pin. Voltage across POT is mapped to pulse width position which controls the shaft position. you can read of  [ADC of ESP32 in this article](https://microcontrollerslab.com/adc-esp32-measuring-voltage-example/).
+
+```c
+#include <Servo.h>
+
+static const int servoPin = 13;
+static const int potentiometerPin = 32;
+
+Servo servo1;
+
+void setup() {
+Serial.begin(115200);
+servo1.attach(servoPin);
+}
+
+void loop() {
+int servoPosition = map(analogRead(potentiometerPin), 0, 4096, 0, 180);
+servo1.write(servoPosition);
+Serial.println(servoPosition);
+delay(20);
+}
+```
+
+Now, We will show you an example of  **controlling servo motor from web server**  and after that, we will explain working of code and how to  **make a web server with esp32**.
+
