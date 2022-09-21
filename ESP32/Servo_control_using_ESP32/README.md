@@ -290,3 +290,87 @@ In the loop, all we do is read the potentiometer position by obtaining a value f
 We then use this value to write to the servo object, which moves the servo motor to the desired position.
 
 Run the sketch and twist the potentiometer. You should observe the servo motor moving when you move the potentiometer.
+
+
+# Controlling Servo using Web server on ESP32
+
+## [Video demonstration](https://youtu.be/ijbJ6VeHzgk)
+
+This tutorial is regarding controlling servo motor with ESP32 over a web server using Arduino IDE. You will discover how to control the  **Servo motor with ESP32**  and you will also ready to make a simple web server with a slider to control the position of the servo motor in both positions. Web server consists of a slider with a position from 0-180. With this slider, a user can control the shaft position. We use the Arduino IDE to program the ESP32 dev kit module.
+
+
+
+## **Prerequisites**
+
+To follow the concepts of this tutorial, you should have the background knowledge required to grasp concepts.
+
+-   First, you should know have an introduction of ESP32 boards, we are using ESP32 dev kit in this tutorial, so can read: **[Introduction to ESP32 development board](https://microcontrollerslab.com/esp32-development-board/)**
+-   You should also have an idea of GPIO pins of ESP32, you read this:  [**How to use GPIO pins of ESP32 devkit**](https://microcontrollerslab.com/esp32-pinout-use-gpio-pins/)
+-   As mentioned ahead, we are using Arduino IDE to program ESP32, you can read about how to  [**install ESP32 in Arduino IDE and How to program ESP32**](https://microcontrollerslab.com/install-esp32-arduino-ide/).
+
+## Components Required
+
+We will be using these components for this tutorial:
+
+-   ESP32 DOIT DEVKIT Development board
+-   Few jumper wires
+-   Servo motor ( you can use any sort of servo motor within the current limit of ESP32)
+
+## Interfacing Servo Motor With ESP32
+
+In this section, We will review about basics of servo motor, types of servo motors, pinout, and connection layout of servo motor interfacing with ESP32. In order to understand, interfacing circuit, you first need to understand its working. Let’s start with the basics.
+
+The Servo motor is controlled by giving a  **series of pulses to control the pin**. Almost all servos used for hobbyist projects work on the  **50Hz frequency**  or the time period of the control signal should be 20ms. Control signal width defines the position of a shaft that how much it will rotate. Pulse width and  **position of the shaft**  are directly proportional to each other. They can rotate from 0 to 180 degrees depending on pulse width. You can go through the following tutorial to know more about PWM and its related terms:
+
+
+The picture shown below provides more details about it.
+
+[![ESP32 servo motor position](https://microcontrollerslab.com/wp-content/uploads/2019/04/ESP32-servo-motor-position.png)](https://microcontrollerslab.com/wp-content/uploads/2019/04/ESP32-servo-motor-position.png)
+
+ESP32 servo motor position source  [link](https://howtomechatronics.com/how-it-works/how-servo-motors-work-how-to-control-servos-using-arduino/)
+
+You don’t need to worry about working and how to generate this control signal. Because we will use  **Servo library for ESP32**  to provide a control signal. In the next section, We will show you how to add  **Servo library for ESP32**.
+
+## Pinout
+
+[![Servo motor pinout esp32](https://microcontrollerslab.com/wp-content/uploads/2019/04/Servo-motor-pinout-esp32.png)](https://microcontrollerslab.com/wp-content/uploads/2019/04/Servo-motor-pinout-esp32.png)
+
+Servo motor consists of three pins:
+
+-   Power pin is of red color.
+-   Ground pin is of brown color.
+-   Control signal usually has an orange, yellow and white color.
+
+
+Before connecting it with ESP32, we need to make sure how much current is required to operate. For example, different power servo motors are available in market. When you are using small power servo motor like S0009, you can directly connect it with an ESP32 board. Because its current requirement is less than 10ms. We will use S0009 in this tutorial as shown above. You can also connect SG90, SG92R series directly with board. But if you want to use high power servo motor with ESP32, you need to use motor driver IC like  [UNL2003](https://microcontrollerslab.com/relay-driver-circuit-using-uln2003/)  between these two. Also if you want to use  **multiple Servos**  with ESP32, you still have to use current driver IC.
+
+## Connection diagram
+
+[![ESP32 servo motor control with web server in Arduino IDE](https://microcontrollerslab.com/wp-content/uploads/2019/04/ESP32-servo-motor-control-with-web-server-in-Arduino-IDE.jpg)](https://microcontrollerslab.com/wp-content/uploads/2019/04/ESP32-servo-motor-control-with-web-server-in-Arduino-IDE.jpg)
+
+Very simple connection layout is given here.
+
+Above schematic use ESP32 DOIT DEVKIT 30 pin version. But if you are using 36 pin version or any other ESP32 board, you should check its pinout and find GPIO pin 13.
+
+Now, You just make a connection according to this layout on a breadboard. To  **connect a single servo with ESP32**, we will connect according to these connections:
+
+-   Connect  **Ground Pin**  of servo with Ground pin of ESP32
+-   **Power pin**  >> Vin Pin
+-   **Control Signal pin**  >> GPIO 13 of ESP32
+
+you can use any pin of ESP32 as PWM pin because we need to provide PWM signal to control signal pin of servo. In this tutorial, we are using GPIO pin 13 as PWM pin as shown in layout. But you can also use any pin for control signal. But you need to specify the GPIO pin number inside the code which we will discuss in programming section of this guide.
+
+## Install Servo Library for ESP32
+
+As mentioned in the last two sections, servo’s are controlled through a series of pulses with variable pulse width. But instead of creating its own code that how to create a series of pulses with variable pulse width, we can use  [ESP32 servo library](https://github.com/RoboticsBrno/ESP32-Arduino-Servo-Library). Follow these steps to download and install the library.
+
+-   Follow this link to get  [ESP32 Servo library for Arduino IDE](https://github.com/RoboticsBrno/ESP32-Arduino-Servo-Library).
+-   After downloading, you will get a .zip file.
+-   Use any software to Unzip this downloaded folder.
+-   You will get a folder with name  _ESP32-Arduino-Servo-Library-Master._
+-   Change the name of folder from  ESP32-Arduino-Servo-Library-Master  to _ESP32_Arduino_Servo_Library._
+-   Copy this folder to Arduino library folder. You can find the Arduino library folder inside the Arduino installation folder.
+-   Now open your Arduino IDE, library for servo will be there. Now you can use it with ESP32.
+
+Remember, you might have already installed library for servo motor in your Arduino IDE. But that library will not work with your ESP32, because that is for other boards like Arduino Uno, Arduino mega and stm32. Now we can use this library to control position of servo from a web server.
+
