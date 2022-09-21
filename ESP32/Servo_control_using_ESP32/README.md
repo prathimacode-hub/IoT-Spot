@@ -210,3 +210,82 @@ When I did this it worked, but not very well. My servo motor did indeed sweep, b
 
 The way to fix this is to modify the sketch and change the values for the minimum and maximum time. Every servo is different so you can experiment to find the best fit for your motor. For the SG90 I was using the values of 500 and 2400 seemed to work.
 
+### Example 2 – Knob
+
+Knob is another “classic” Arduino sketch, it’s entire purpose is to allow you to position a servo motor using a potentiometer. If that was ALL you wanted to do then using a microcontroller is a bit of an overkill, but of course, this is just a demonstration!
+
+As with the _Sweep_ sketch _Knob_ has been modified to support the _ESP32Servo_ library instead of the original Arduino library. It has also been adjusted to account for the increased resolution of the ESP32’s analog to digital converters (ADC) over the Arduino’s.
+
+```c
+// Include the ESP32 Arduino Servo Library instead of the original Arduino Servo Library
+
+#include <ESP32Servo.h>
+
+Servo myservo;  // create servo object to control a servo
+
+// Possible PWM GPIO pins on the ESP32: 0(used by on-board button),2,4,5(used by on-board LED),12-19,21-23,25-27,32-33
+
+int  servoPin  =  18;  // GPIO pin used to connect the servo control (digital out)
+
+// Possible ADC pins on the ESP32: 0,2,4,12-15,32-39; 34-39 are recommended for analog input
+
+int  potPin  =  34;  // GPIO pin used to connect the potentiometer (analog in)
+
+int  ADC_Max  =  4096;  // This is the default ADC max value on the ESP32 (12 bit ADC width);
+
+// this width can be set (in low-level oode) from 9-12 bits, for a
+
+// a range of max values of 512-4096
+
+int  val;  // variable to read the value from the analog pin
+
+void  setup()
+
+{
+
+// Allow allocation of all timers
+
+ESP32PWM::allocateTimer(0);
+
+ESP32PWM::allocateTimer(1);
+
+ESP32PWM::allocateTimer(2);
+
+ESP32PWM::allocateTimer(3);
+
+myservo.setPeriodHertz(50);// Standard 50hz servo
+
+myservo.attach(servoPin,  500,  2400);  // attaches the servo on pin 18 to the servo object
+
+// using SG90 servo min/max of 500us and 2400us
+
+// for MG995 large servo, use 1000us and 2000us,
+
+// which are the defaults, so this line could be
+
+// "myservo.attach(servoPin);"
+
+}
+
+void  loop()  {
+
+val  =  analogRead(potPin);  // read the value of the potentiometer (value between 0 and 1023)
+
+val  =  map(val,  0,  ADC_Max,  0,  180);  // scale it to use it with the servo (value between 0 and 180)
+
+myservo.write(val);  // set the servo position according to the scaled value
+
+delay(200);  // wait for the servo to get there
+
+}
+```
+
+The servo motor object is created and attached exactly as it was in the previous sketch.
+
+Note the value of 4096 for _ADC_Max_, it represents the maximum value for the analog to digital converter. By default, the ESP32 uses a 12-bit A/D converter.
+
+In the loop, all we do is read the potentiometer position by obtaining a value from the A/D converter. This is mapped to a range of 0-180.
+
+We then use this value to write to the servo object, which moves the servo motor to the desired position.
+
+Run the sketch and twist the potentiometer. You should observe the servo motor moving when you move the potentiometer.
