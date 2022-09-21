@@ -121,3 +121,92 @@ Make sure you use 3.3-volts on the connection to the potentiometer and not 5-vol
 
 Once you have it all wired up connect it to your computer with the USB cable.
 
+### Example 1 – Sweep
+
+The two examples we are going to look at are both updated versions of classic Arduino sketches. You won’t need to write any code, as these example sketches were included when you installed the _ESP32Servo_ library.
+
+```c
+#include <ESP32Servo.h>
+
+Servo myservo;  // create servo object to control a servo
+
+// 16 servo objects can be created on the ESP32
+
+int  pos  =  0;  // variable to store the servo position
+
+// Recommended PWM GPIO pins on the ESP32 include 2,4,12-19,21-23,25-27,32-33
+
+int  servoPin  =  13;
+
+void  setup()  {
+
+// Allow allocation of all timers
+
+ESP32PWM::allocateTimer(0);
+
+ESP32PWM::allocateTimer(1);
+
+ESP32PWM::allocateTimer(2);
+
+ESP32PWM::allocateTimer(3);
+
+myservo.setPeriodHertz(50);  // standard 50 hz servo
+
+myservo.attach(servoPin,  500,  2400);  // attaches the servo on pin 18 to the servo object
+
+// using default min/max of 1000us and 2000us
+
+// different servos may require different min/max settings
+
+// for an accurate 0 to 180 sweep
+
+}
+
+void  loop()  {
+
+for  (pos  =  0;  pos  <=  180;  pos  +=  1)  {  // goes from 0 degrees to 180 degrees
+
+// in steps of 1 degree
+
+myservo.write(pos);  // tell servo to go to position in variable 'pos'
+
+delay(15);  // waits 15ms for the servo to reach the position
+
+}
+
+for  (pos  =  180;  pos  >=  0;  pos  -=  1)  {  // goes from 180 degrees to 0 degrees
+
+myservo.write(pos);  // tell servo to go to position in variable 'pos'
+
+delay(15);  // waits 15ms for the servo to reach the position
+
+}
+
+}
+```
+The function of the Sweep sketch is pretty simple, it sweeps the servo motor shaft from zero to 180 degrees and then back to zero. It repeats this as long as it is powered up.
+
+The only modifications made to the Sweep sketch from the original are the changes necessary to use the _ESP32Servo_ library instead of the Arduino _Servo_ library.
+
+After including the _ESP32Servo_ library we define an object called  _“myservo_” to represent the servo motor. We also define the GPIO pin that the control input for the servo is connected to.
+
+In the setup you will note the timer allocation statements, something you will need to do when using the _ESP32Servo_ library.
+
+We then define the frequency that we will be using to drive the servo control. 50Hz is pretty standard, but you can play with this value to improve servo performance.
+
+Then we attach our servo object to the servo motor. You’ll notice three parameters here:
+
+-   The servo GPIO pin number.
+-   The minimum pulse width, which should drive the servo to the zero position.
+-   The maximum pulse width, which should drive the servo to its maximum position, typically 180 degrees.
+
+The loop is very simple and consists of two for-loop counters. One counts from 0 to 180 and steps the servo in one direction, the other steps it in reverse back to the zero point. We then repeat everything.
+
+Hook everything up, load up the code and take a look at it working. You should see the servo sweep back and forth.
+
+
+
+When I did this it worked, but not very well. My servo motor did indeed sweep, but it wasn’t a full 180-degrees. More like about half that.
+
+The way to fix this is to modify the sketch and change the values for the minimum and maximum time. Every servo is different so you can experiment to find the best fit for your motor. For the SG90 I was using the values of 500 and 2400 seemed to work.
+
