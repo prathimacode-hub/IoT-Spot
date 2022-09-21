@@ -21,3 +21,22 @@ String valueString = String(0);
 int positon1 = 0;
 int positon2 = 0;
 
+void setup() 
+{
+Serial.begin(115200); //define serial commuination with baud rate of 115200
+ObjServo.attach(ServoGPIO); // it will attach the ObjServo to ServoGPIO pin which is 13 
+Serial.print("Making connection to "); // it will display message on serial monitor
+Serial.println(ssid);
+WiFi.begin(ssid, password);
+while (WiFi.status() != WL_CONNECTED) {
+delay(500);
+Serial.print(".");
+}
+// These lines prints the IP address value on serial monitor 
+Serial.println("");
+Serial.println("WiFi connected.");
+Serial.println("IP address: ");
+Serial.println(WiFi.localIP());
+server.begin(); // It will start the servo motor with given position value. 
+}
+
