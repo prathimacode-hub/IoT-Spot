@@ -144,3 +144,19 @@ void loop(void){
 server.handleClient();
 }
 ```
+
+## How to access Web Server to control lamp
+
+-   Now after you done with code uploading part, you need to check the IP address of ESP32. We will use this IP address to access web server.
+-   To get IP address, open serial monitor and click on EN button on ESP32 board.
+-   If everything works well, you will see this message on serial along with IP address. Note down this IP address, you will need it to access web server.
+
+[![](https://microcontrollerslab.com/wp-content/uploads/2019/05/IP-address.jpg)](https://microcontrollerslab.com/wp-content/uploads/2019/05/IP-address.jpg)
+
+-   Now open the web page using a dynamically allocated IP address which we got in last step. ESP32 will server the web page files with two buttons, lamp picture and some text as shown.
+
+[![control 220 volt lamp from a webserver using ESP32](https://microcontrollerslab.com/wp-content/uploads/2019/05/control-220-volt-lamp-from-a-webserver-using-ESP32.jpg)](https://microcontrollerslab.com/wp-content/uploads/2019/05/control-220-volt-lamp-from-a-webserver-using-ESP32.jpg)
+
+-   As soon as you pressed the on button, lamp will light up and you will also see a picture glowing lamp on web page.
+
+[![control 220 volt lamp from a webserver using ESP32 on state](https://microcontrollerslab.com/wp-content/uploads/2019/05/control-220-volt-lamp-from-a-webserver-using-ESP32-on-state.jpg)](https://microcontrollerslab.com/wp-content/uploads/2019/05/control-220-volt-lamp-from-a-webserver-using-ESP32-on-state.jpg)
