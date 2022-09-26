@@ -160,3 +160,96 @@ server.handleClient();
 -   As soon as you pressed the on button, lamp will light up and you will also see a picture glowing lamp on web page.
 
 [![control 220 volt lamp from a webserver using ESP32 on state](https://microcontrollerslab.com/wp-content/uploads/2019/05/control-220-volt-lamp-from-a-webserver-using-ESP32-on-state.jpg)](https://microcontrollerslab.com/wp-content/uploads/2019/05/control-220-volt-lamp-from-a-webserver-using-ESP32-on-state.jpg)
+
+## Code detailed working
+
+The sketch of remote controlled relay starts with two libraries.
+
+WiFi.h: Consists of functions used to connect ESP32 to a WiFi network
+
+WebServer.h  : This library consists of procedures which handles HTTP requests from server and used to serve HTML or CSS files to web pages.
+
+This is a HTML part of which we server with ESP32. Image is displayed using an image url. When user press the ‘ON’ button, on lamp image will be shown and otherwise off lamp image will be shown. You can show the image by converting the image into URL format. We have two html files, one file is for on state and other html file is for off state. We added these html files in code by converting it into c strings. HTML code is shown below.
+
+```html
+<!DOCTYPE html> 
+<html> 
+<head>
+<style>
+.button {
+background-color: #4CAF50;
+border: 2px solid #4CAF50;;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+</style>
+</head>
+<body> 
+<center><h1 style="color:blue;">ESP32 Web server LED controlling example</h1></center> 
+<center><h2 style="color:black;">Web Server Example Microcontrollerslab.com</h2></center> 
+<center><h2 style="color:Green;">Press "ON" button to turn on led and "OFF" button to turn off LED</h3></center> 
+<center>
+<a href="/26/on"><button class="button">ON</button></a>
+
+<img src='data:image/png;base64,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' alt=''>
+<a href="/26/off"><button class="button button2">OFF</button></a>
+</body> 
+</html>
+```
+
+These two string variables are used to store WiFi name and password. Enter your WiFi name and password instead of mentioned.
+
+```c
+const char* ssid = "PTCL-BB"; 
+const char* password = "5387c614";
+```
+
+This defines the web server at port 80 which is a default port. Now you will not need to mention port number in IP address while accessing the web server.
+
+```
+WebServer server(80);
+```
+
+Inside the  `setup()`  function, these lines defines the GPIO22 as a digital output pin and initialize serial communication at the baud rate of 115200.  `WiFi.begin()`  function start to make connection of ESP32 with WiFi router and upon successful connection display IP address on serial monitor.
+
+```c
+Serial.begin(115200);
+
+  pinMode(22, OUTPUT);
+
+  WiFi.begin(ssid, password);
+
+  Serial.println("");
+
+while (WiFi.status() != WL_CONNECTED) {
+
+    delay(500);
+
+    Serial.print(".");
+
+  }
+
+  Serial.print("IP address:"); 
+
+  Serial.println(WiFi.localIP());
+```
+
+Whenever any user try to access the web server using a IP address, ESP32 receives a HTTP request and you can say whenever you hit a url. Server.on() function handles these requests. This line shows that when ESP32 receives a HTTP request on the root(/) path, it will call handleroot() function and similarly for other requests.
+
+```c
+server.on("/", handleRoot)
+
+server.onNotFound(handle_NotFound)
+
+ server.on("/26/off",handleBulbOff);
+
+ server.on("/26/on",handleBulbOn);
+```
+
+This way you can control a 220 volts lamp from a web page using ESP32. Using this method, you can control it from an existing local area network only. 
