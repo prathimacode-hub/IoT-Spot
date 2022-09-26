@@ -33,3 +33,27 @@ void handleNotFound(){
 String message = "File Not Found\n\n";
 server.send(404, "text/plain", message);
 }
+
+void setup(void){
+Serial.begin(115200);
+pinMode(22, OUTPUT);
+WiFi.begin(ssid, password);
+Serial.println("");
+
+while (WiFi.status() != WL_CONNECTED) {
+delay(500);
+Serial.print(".");
+}
+Serial.print("IP address:"); 
+Serial.println(WiFi.localIP());
+
+server.on("/", handleRoot);
+server.on("/26/off",handleBulbOff);
+server.on("/26/on",handleBulbOn);
+
+
+server.onNotFound(handleNotFound);
+
+server.begin();
+Serial.println("HTTP server started");
+}
