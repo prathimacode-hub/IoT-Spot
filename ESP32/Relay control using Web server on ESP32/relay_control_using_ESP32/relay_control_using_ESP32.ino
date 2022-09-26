@@ -57,3 +57,7 @@ server.onNotFound(handleNotFound);
 server.begin();
 Serial.println("HTTP server started");
 }
+
+void loop(void){
+server.handleClient();
+}
