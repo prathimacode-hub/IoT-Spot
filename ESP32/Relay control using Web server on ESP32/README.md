@@ -19,4 +19,5 @@ It consists of 6 pins. Three pins are used to connect with high voltage side i.e
 
 ### Relay module pinouts
 
-[![Relay module pinout ESP32](https://microcontrollerslab.com/wp-content/uploads/2019/05/Relay-module-pinout-ESP32.jpg)](https://microcontrollerslab.com/wp-content/uploads/2019/05/Relay-module-pinout-ESP32.jpg)
+![Relay Module]("./../Images/relay.png)
+![Pinout](./Images/pinout.png)
