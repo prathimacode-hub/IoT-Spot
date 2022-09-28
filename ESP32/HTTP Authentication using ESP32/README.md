@@ -12,3 +12,27 @@ As we have seen in our previous projects that the ESP32 and ESP8266 Web servers 
 If want to make your web server confidential by adding password login information, this tutorial will help you to add the password to your web server. It will make your web server protected and will be accessible through a password and user name only.
 
 To make our project easy to understand, we will create a simple web server to control the onboard LED of ESP32/ESP8266 in Arduino IDE. Password protection and logout features will be included through HTTP authentication.
+
+## Prerequisites
+
+You should have the latest version of Arduino IDE. Additionally, you also need to install the ESP32 and the ESP8266 plugin. If your IDE does not have the plugins installed you can visit the link below:
+
+
+Moreover, you can also have a look at previously uploaded tutorials regarding webservers in ESP32/ESP8266 using Arduino IDE.
+
+## Project Overview – HTTP Authentication Web Server
+
+In this tutorial, we will add password protection to an asynchronous web server. The webserver will consist of a title ESP WEB SERVER, a logout button, text representing the state of the onboard LED and a sliding button to toggle the LED.
+
+![ESP32 ESP8266 HTTP Authentication Web Server (Username and Password Protected)](https://microcontrollerslab.com/wp-content/uploads/2021/06/ESP32-ESP8266-HTTP-Authentication-Web-Server-Username-and-Password-Protected.jpg)
+
+-   Firstly, we will upload our Arduino sketch to our ESP board.
+-   Then, we will receive an IP address in our serial monitor.
+-   Secondly, we will copy that IP address in a web browser and press enter. Previously, without any password protection, the webserver would have loaded but not this time. This time we will receive a window that will ask for the username and password.
+-   Upon entering the correct credentials, we will get access to the web page.
+-   Inside the web page, you will also find a logout button. By clicking it you will be redirected to the logout page.
+-   To access the webserver again you will need to log in again.
+-   The web server can be accessed on multiple devices only through a correct set of user name and password.
+
+![ESP password protected web page PROJECT OVERVIEW](https://microcontrollerslab.com/wp-content/uploads/2021/06/ESP-password-protected-web-page-PROJECT-OVERVIEW.png)
+
