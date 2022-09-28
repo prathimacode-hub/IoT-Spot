@@ -173,3 +173,128 @@ void loop() {
   
 }
 ```
+
+### How the Code Works?
+
+We have already covered in a previous tutorial how to build an asynchronous web server with sliding buttons to control outputs of the ESP32 module. In this case, we will build an asynchronous web server with only one sliding button to control the GPIO2 of our ESP board. Thus, we will only focus on the code where we are incorporating the HTTP authentication because the rest of the parts are already covered before.
+
+*This code is compatible with both ESP32 and ESP8266 boards except for parts where we are defining the state of the LED. For ESP8266, the onboard LED works on an opposite logic as compared to ESP32. To turn the onboard LED ON, a low signal is sent and to turn it OFF, a high signal is sent. This is the opposite in the case of ESP32.
+
+#### Importing Libraries
+
+Firstly, we will import all the necessary libraries which are required for this project. As this code is compatible with both ESP32 and ESP8266 thus both libraries (  WiFi.h  and ESP8266WiFi.h) are defined. This library will help in establishing the connection between our ESP module to a wireless network. We will also import the two libraries which we installed previously, the ESPAsyncWebServer library and the  ESPAsyncTCP  library.
+
+```c
+#ifdef ESP32
+  #include <WiFi.h>
+  #include <AsyncTCP.h>
+#else
+  #include <ESP8266WiFi.h>
+  #include <ESPAsyncTCP.h>
+#endif
+#include <ESPAsyncWebServer.h>
+```
+
+#### Setting Network Credentials
+
+Next, we will create two global variables, one for the  SSID  and the other for  password. These will hold our network credentials which will be used to connect to our wireless network. Replace both of them with your credentials to ensure a successful connection.
+
+```c
+const char* ssid = "ENTER_YOUR_WIFI_NAME";
+const char* password = "ENTER_YOUR_WIFI_PASSWORD";
+
+```
+
+#### Assigning Username and Password
+
+Then, we will assign our username and password in two global variables of type char. These two values are set by default to ‘admin’ but make sure to change them accordingly. Choose a strong password with a mixture of alphabets, numeric characters, and symbols.
+
+```c
+const char* http_username = "admin"; //Replace with your own username
+const char* http_password = "admin"; //Replace with your own password
+
+```
+
+#### Creating Logout Button
+
+We will create an  index_html  variable to store all the HTML, CSS, and Javascript text which will be required to build our web page. One of the important features in our web server will be the presence of a logout button. We will define it inside the <html><
+
+/html>tags.
+
+```c
+<button onclick="logoutButton()">Logout</button>
+```
+
+As you can see above, the logout button when clicked will call the  logoutButton()  function. Inside this function, we use the  XMLHttpRequest. This will allow us to make an HTTP request in JavaScript.
+
+```c
+function logoutButton() {
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", "logout", true);
+  xhr.send();
+  setTimeout(function(){ window.open("/logged-out","_self"); }, 1000);
+
+```
+
+To make the HTTP GET request to our ESP32/ESP8266 three steps will be
+
+followed.
+
+-   Firstly, we will create an XMLHttpRequest as follows:
+
+```c
+var xhr = new XMLHttpRequest();
+```
+
+-   Secondly, we will initialize the request by using the  xhr.open()  method. Inside it, we will pass on three arguments. The first argument specifies the type of HTTP method which is GET in our case. The second argument is the URL to which are ESP32/ESP8266 will request upon. In our case, it is the string ‘logout’ (URL: /logout). The last argument is true which specifies that the request is asynchronous.
+
+```c
+xhr.open("GET", "logout", true);
+```
+
+-   Lastly, we will use  xhr.send()  to open the connection. Our server (ESP32/ESP8266) will now be able to receive the HTTP GET request whenever the logout button will be clicked.
+
+```c
+xhr.send();
+```
+
+The following line makes sure that only after a delay of 1 second (1000ms) you will be redirected to the  /logged-out  URL. This will happen when the user will click the logout button.
+
+```c
+  setTimeout(function(){ window.open("/logged-out","_self"); }, 1000);
+```
+
+#### Handling Requests with Authentication
+
+Now, comes the important part where the web server will check for user authentication before processing each request. Whenever we will make a request to our ESP board to open the web server it will check for username and password which we defined in the code. The following lines of code will be added after each request.
+
+```c
+if(!request->authenticate(http_username, http_password))
+    return request->requestAuthentication();
+
+```
+
+In these lines, you can see that if the username and password are not correct then the browser will keep on prompting until the correct credentials are entered.
+
+#### Handling Logout Button
+
+Previously, we created the logout button and configured the  HTTP GET request. Now, we will handle what will happen when the ESP32/ESP8266 receives the request on the /logout and the /logged-out URL.
+
+After you click the logout button you will be redirected to the /logout URL as you can see below. We will use the  on()  method on the server object to listen to the incoming HTTP requests and execute functions accordingly. The  send()  method will be used to return the HTTP response. The response code  401  will be sent to the client, whenever the server will receive a request on the “/logout” URL. This 401 code denotes an unauthorized client error. Thus, the webpage will log out and you will have to enter the username and password again to access the webserver.
+
+```c
+server.on("/logout", HTTP_GET, [](AsyncWebServerRequest *request){
+  request->send(401);
+});
+
+```
+
+Next, we also have to deal with the /logged-out URL request which the ESP board will receive after a delay of 1 second. Now, we will use the  send_P()  method. The handling function will respond to the client by using the  send_P()  method on the request object. This method will take in four parameters. The first is  200  which is the HTTP status code for ‘ok’. The second is “text/html” which will correspond to the content type of the response. The third input is the text saved on the logout_html variable. Finally, the last parameter is the processor function which will be sent as the response. Thus, the logout page will be built when the ESP32/ESP8266 will receive the /logout request.
+
+```c
+server.on("/logged-out", HTTP_GET, [](AsyncWebServerRequest *request){
+  request->send_P(200, "text/html", logout_html, processor);
+});
+
+```
+
