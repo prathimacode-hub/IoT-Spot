@@ -7,8 +7,6 @@
 #endif
 #include <ESPAsyncWebServer.h>
 
-
-
 // Replace with your network credentials
 const char* ssid = "PTCL-BB";
 const char* password = "44332211";
@@ -108,3 +106,8 @@ void setup(){
   
   // Start server
   server.begin();
+}
+  
+void loop() {
+  
+}
