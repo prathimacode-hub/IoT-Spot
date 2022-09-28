@@ -53,3 +53,58 @@ String outputState(){
   }
   return "";
 }
+
+void setup(){
+  // Serial port for debugging purposes
+  Serial.begin(115200);
+
+  pinMode(output, OUTPUT);
+  digitalWrite(output, LOW);
+  
+  // Connect to Wi-Fi
+  WiFi.begin(ssid, password);
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(1000);
+    Serial.println("Connecting to WiFi..");
+  }
+
+  // Print ESP Local IP Address
+  Serial.println(WiFi.localIP());
+
+  // Route for root / web page
+  server.on("/", HTTP_GET, [](AsyncWebServerRequest *request){
+    if(!request->authenticate(http_username, http_password))
+      return request->requestAuthentication();
+    request->send_P(200, "text/html", index_html, processor);
+  });
+    
+  server.on("/logout", HTTP_GET, [](AsyncWebServerRequest *request){
+    request->send(401);
+  });
+
+  server.on("/logged-out", HTTP_GET, [](AsyncWebServerRequest *request){
+    request->send_P(200, "text/html", logout_html, processor);
+  });
+
+  // Send a GET request to <ESP_IP>/update?state=<inputMessage>
+  server.on("/update", HTTP_GET, [] (AsyncWebServerRequest *request) {
+    if(!request->authenticate(http_username, http_password))
+      return request->requestAuthentication();
+    String inputMessage;
+    String inputParam;
+    // GET input1 value on <ESP_IP>/update?state=<inputMessage>
+    if (request->hasParam(PARAM_INPUT_1)) {
+      inputMessage = request->getParam(PARAM_INPUT_1)->value();
+      inputParam = PARAM_INPUT_1;
+      digitalWrite(output, inputMessage.toInt());
+    }
+    else {
+      inputMessage = "No message sent";
+      inputParam = "none";
+    }
+    Serial.println(inputMessage);
+    request->send(200, "text/plain", "OK");
+  });
+  
+  // Start server
+  server.begin();
