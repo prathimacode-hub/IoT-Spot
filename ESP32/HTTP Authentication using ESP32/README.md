@@ -298,3 +298,57 @@ server.on("/logged-out", HTTP_GET, [](AsyncWebServerRequest *request){
 
 ```
 
+## Demonstration
+
+Make sure you choose the correct board and COM port before uploading your code to the board. Go to Tools > Board and select ESP32 Dev Module or ESP8266 Module.
+
+![select esp32 board](https://microcontrollerslab.com/wp-content/uploads/2021/05/select-esp32-board.jpg)
+
+Selecting Board
+
+Next, go to Tools > Port and select the appropriate port through which your board is connected.
+
+![Selecting COM PORT ESP32](https://microcontrollerslab.com/wp-content/uploads/2019/03/Selecting-COM-PORT-ESP32.jpg)
+
+Selecting COM Port
+
+Click on the upload button to upload the code into the ESP32/ESP8266 development board.
+
+After you have uploaded your code to the development board, press its ENABLE button.
+
+![ESP32 enable reset button](https://microcontrollerslab.com/wp-content/uploads/2021/04/ESP32-enable-button.jpg)
+
+Press ENABLE Button
+
+In your Arduino IDE, open up the serial monitor and you will be able to see the IP address of your ESP module.
+
+![ESP password protected web page IP ADDRESS](https://microcontrollerslab.com/wp-content/uploads/2021/06/ESP-password-protected-web-page-IP-ADDRESS.png)
+
+Serial Monitor displaying IP Address
+
+Type that IP address in a web browser (Google Chrome/Firefox) and press enter. The following window will pop up asking for the username and password. Type the correct credentials which you specified in the code and click Sign in.
+
+![ESP password protected web server Authentication](https://microcontrollerslab.com/wp-content/uploads/2021/06/ESP-password-protected-web-server-Authentication.png)
+
+The following web page will open up.
+
+![ESP password protected web server Led off](https://microcontrollerslab.com/wp-content/uploads/2021/06/ESP-password-protected-web-server-Led-off.png)
+
+Slide the button to toggle the onboard LED and the state will also update accordingly.
+
+![ESP password protected web server Led on](https://microcontrollerslab.com/wp-content/uploads/2021/06/ESP-password-protected-web-server-Led-on.png)
+
+Click the logout button. Shortly, you will be redirected to the logout page.
+
+![ESP password protected web page LOG OUT](https://microcontrollerslab.com/wp-content/uploads/2021/06/ESP-password-protected-web-page-LOG-OUT.png)
+
+You can close the window or click ‘return to homepage’. When you click the latter then you will be redirected to the authentication window.
+
+If you are using Google Chrome as your web browser then you will have to re-enter your username and password to access the web server.
+
+If you are using Firefox as your web browser then you will need to close all the tabs to logout successfully otherwise you will still be logged in.
+
+## Summary
+
+In conclusion, we learnt a great way to protect our web servers built using the ESPAsyncWebServer library from unauthorized users. With the help of password protection, now we can safely work with our web servers.
+
