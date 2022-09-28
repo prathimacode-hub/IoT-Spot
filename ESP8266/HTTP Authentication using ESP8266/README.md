@@ -35,3 +35,24 @@ In this tutorial, we will add password protection to an asynchronous web server.
 -   The web server can be accessed on multiple devices only through a correct set of user name and password.
 
 ![ESP password protected web page PROJECT OVERVIEW](https://microcontrollerslab.com/wp-content/uploads/2021/06/ESP-password-protected-web-page-PROJECT-OVERVIEW.png)
+
+
+## Setting up Arduino IDE
+
+### Installing ESPAsyncWebServer Library and Async TCP/ ESP Async TCP Library
+
+We will need two libraries to build our web server.
+
+-   ESPAsyncWebServer & AsyncTCP for ESP32.
+-   ESPAsyncwebServer & ESPAsyncTCP for ESP8266.
+
+The ESPAsyncWebServer library will help us in creating our web server easily. With this library, we will set up an asynchronous HTTP server. AsyncTCP (for ESP32 only) and ESPAsyncTCP (for ESP8266 only) library will also be incorporated as it a dependency for the ESPAsyncWebServer library. All of these libraries are not available in the Arduino library manager. Therefore, we will have to download and load them on our ESP32/ESP8266 board ourselves.
+
+#### For ESP32 & ESP8266
+
+-   To install the ESPAsyncWebServer library for free, [click here to download](https://github.com/me-no-dev/ESPAsyncWebServer/archive/master.zip). You will download the library as a .zip folder which you will extract and rename as ‘ESPAsyncWebServer.’ Then, transfer this folder to the installation library folder in your Arduino IDE.
+#### For ESP8266 Only
+
+-   To install the ESPAsync TCP library for free,  [click here to download](https://github.com/me-no-dev/ESPAsyncTCP). You will download the library as a .zip folder which you will extract and rename as ‘ESPAsyncTCP.’ Then, transfer this folder to the installation library folder in your Arduino IDE.
+
+Likewise, you can also go to  **Sketch > Include Library > Add .zip Library** inside the IDE to add the libraries as well. After installation of the libraries, restart your IDE.
