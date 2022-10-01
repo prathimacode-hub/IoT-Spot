@@ -2,7 +2,7 @@
 
 - Info about the related issue 
 
-- [ ] SSOC Participant  
+- [ ] Hacktoberfest Participant  
 - [ ] Contributor
 
 Closes: #issue number that will be closed through this PR

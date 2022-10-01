@@ -9,7 +9,7 @@ Assignee: ''
 
 Define You:
 
-- [ ] SSOC Participant 
+- [ ] Hacktoberfest Participant 
 - [ ] Contributor
 
 
