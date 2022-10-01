@@ -426,6 +426,12 @@ li {
   text-decoration:none;
 }
 
+
+.column h3{
+  font-weight: bold;
+  color:rgb(68, 63, 63);
+}
+
 .serviceoffers{
   padding:50px 0;
   margin-bottom:50px;
