@@ -105,6 +105,19 @@ li {
   align-items: center;
   z-index: 2;
 }
+.fab-twitter{
+  background-size: contain;
+
+  background-image: url("../images/icons8-twitter.svg");
+}
+.fab-linkedin{
+  background-size: contain;
+  background-image: url("../images/icons8-linkedin-circled.svg");
+}
+.fab-github{
+  background-size: contain;
+  background-image: url("../images/icons8-github.svg");
+}
 
 .mail {
   writing-mode: vertical-rl;
@@ -471,7 +484,7 @@ li {
   margin-bottom:25px !important;
 }
 .project-work{
-  margin:50px 0;
+  margin:20% 0 5%;
 }
 .project-work p{
 font-size: 3em;
@@ -1248,6 +1261,7 @@ gap: 5%;
   .contact-wrapper{
     flex-direction: column;
   }
+  
   .about-img{
     width: 100%;
     margin: 2%;
