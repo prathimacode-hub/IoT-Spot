@@ -105,16 +105,15 @@ li {
   align-items: center;
   z-index: 2;
 }
-.fab-twitter{
+.fa-twitter{
   background-size: contain;
-
   background-image: url("../images/icons8-twitter.svg");
 }
-.fab-linkedin{
+.fa-linkedin{
   background-size: contain;
   background-image: url("../images/icons8-linkedin-circled.svg");
 }
-.fab-github{
+.fa-github{
   background-size: contain;
   background-image: url("../images/icons8-github.svg");
 }
@@ -637,7 +636,9 @@ color: #fff !important;
   width: 100%;
   transition: 0.5s;
 }
-
+.row{
+  display: flex;
+}
 .active::after {
   content: "";
   display: block;
@@ -1261,6 +1262,9 @@ gap: 5%;
   .contact-wrapper{
     flex-direction: column;
   }
+  .project-work{
+    margin:45% 0 5%;
+  }
   
   .about-img{
     width: 100%;
@@ -1504,7 +1508,9 @@ gap: 5%;
   .main-content h2 {
     font-size: 5.5vw;
   }
-
+  .project-work{
+    margin:160% 0 5%;
+  }
   .main-content h3 {
     font-size: 4.7vw;
     margin-bottom: 15px;
@@ -1556,7 +1562,9 @@ gap: 5%;
   .btn p {
     font-size: 4vw;
   }
-
+  .project-work{
+    margin:180% 0 5%;
+  }
   .portfolio h3 {
     font-size: 2rem;
   }
