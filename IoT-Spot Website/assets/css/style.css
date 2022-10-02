@@ -105,6 +105,18 @@ li {
   align-items: center;
   z-index: 2;
 }
+.fa-twitter{
+  background-size: contain;
+  background-image: url("../images/icons8-twitter.svg");
+}
+.fa-linkedin{
+  background-size: contain;
+  background-image: url("../images/icons8-linkedin-circled.svg");
+}
+.fa-github{
+  background-size: contain;
+  background-image: url("../images/icons8-github.svg");
+}
 
 .mail {
   writing-mode: vertical-rl;
@@ -373,22 +385,26 @@ li {
 .about {
   background-color: var(--secondary-background);
   min-height: 100vh;
-  display: flex;
+  display: block;
   padding-bottom: 0px;
   align-items: center;
-  margin-bottom:20px;
+  padding-bottom: 0.5%;
 }
 
 .about-content {
-  margin-left: 50px;
+  margin: 5% 10%;
   flex-basis: 60%;
+  text-align: center;
 }
 
 .about-img {
   /* flex-basis: 40%; */
-  height: 200%;
+  width: 100%;
+  margin: 0% 30%;
 }
-
+.about-img>img{
+  width: 40%;
+}
 .about-brief {
   color:black;
   margin-bottom: 30px;
@@ -397,16 +413,19 @@ li {
 .about-brief h1 {
   margin-bottom: 15px;
 }
+.about-brief>p{
+  text-align: center;
+}
 .inclusion p{
   padding-bottom:20px;
 }
 .column {
-  margin-left:17%;
-  width: 25%;
-  padding:5% 3%;
+  margin-left:20%;
+  width: 20%;
+  padding:0% 3%;
   background-color:white;
-  border-radius:10px;
-  border:1px;
+  border-radius:1rem;
+  border:0.5rem;
   /* box-shadow:
    5px 8px rgb(69,121,214); */
   box-shadow:
@@ -433,8 +452,11 @@ li {
 }
 
 .serviceoffers{
-  padding:50px 0;
+  padding:5% 0;
   margin-bottom:50px;
+}
+.container-about{
+  margin: 5% 20%;
 }
 .headings{
   margin-bottom:50px;
@@ -442,7 +464,7 @@ li {
 .headings h1{
   font-size:1.5rem;
   font-weight:600;
-  text-transform:uppercase;
+  text-transform:percase;
 }
 .names h1{
   color:#2e2e2e;
@@ -461,7 +483,7 @@ li {
   margin-bottom:25px !important;
 }
 .project-work{
-  margin:50px 0;
+  margin:20% 0 5%;
 }
 .project-work p{
 font-size: 3em;
@@ -522,18 +544,22 @@ text-align:center;
   padding:10px 0 20px 0;
   color:#fff;
 }
-.header-extra-div{
- width:100%;height:auto;
- margin:100px 0;
- text-align:center;
+.header-extradiv{
+  width:100%;
+  height:2vh;
+  margin:0% 0%;
+  text-align:center;
 }
 
 .container-extradiv{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 1.5%;
-  padding: 3% 0 3% 2%;
+  gap: 1%;
+  padding: 3% 0% 3% 2%;
+}
+.container-portfolio{
+  margin: 0% 10%;
 }
 
 .extraDiv-icon{
@@ -610,7 +636,9 @@ color: #fff !important;
   width: 100%;
   transition: 0.5s;
 }
-
+.row{
+  display: flex;
+}
 .active::after {
   content: "";
   display: block;
@@ -653,12 +681,6 @@ color: #fff !important;
   margin:0;
   padding:0;
 }
-.about-img img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 8px;
-}
 .skill{
   margin-top: 40px;
 }
@@ -669,10 +691,10 @@ color: #fff !important;
   height: 20%;
   width: 20%;
 }
-.portfolio {
-  min-height: 100vh;
-  padding-left: 12%;
-  padding-right: 12%;
+.portfolioo{
+  height: 55vh;
+  max-height: 100vh;
+  padding:5% 12%;
   background-color: var(--secondary-background);
 }
 
@@ -889,7 +911,7 @@ color: #fff !important;
 .contact-wrapper {
   margin: 3rem auto 3.5rem;
   display: flex;
-  gap: 5%;
+  gap: 10%;
   width: 100%;
 }
 
@@ -1070,7 +1092,7 @@ input:-webkit-autofill {
   padding: 3rem 15%;
   padding-top: 4rem;
   background-color: var(--footer);
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1189,20 +1211,71 @@ gap: 5%;
   .main-wrapper {
     margin-left: 8%;
   }
-  .about-img img {
-    min-height: 570px;
+  .about-img{
+    width: 100%;
+    margin: 0% 15%;
   }
-  
+  .about-img>img {
+    width: 70%;
+  }
+  .about-content {
+    margin: 5% 2%;
+    flex-basis: 60%;
+    text-align: center;
+  }
+  .column {
+    margin-left:15%;
+    width: 30%;
+    padding:1% 3%;
+  }
+  .container-about{
+    margin: 5%;
+  }
+  .serviceoffers{
+    padding:10% 0;
+    margin-bottom:5rem;
+  }
+  .container-portfolio{
+    margin: 0%;
+  }
+  .container-extradiv{
+    gap: 2%;
+  }
+  .footer{
+    padding: 3rem 2% ;
+  }
+  .portfolioo{
+    height: 45vh;
+  }
 }
 
-@media (max-width:900px) {
+@media only screen and (max-width:900px) {
   .footer-icons{
     width: auto;
     text-align: center;
     gap: 2.5rem;
   }
+  .footer{
+    width: 100vw;
+    padding: 5rem 5% ;
+  }
   .contact-wrapper{
     flex-direction: column;
+  }
+  .project-work{
+    margin:45% 0 5%;
+  }
+  
+  .about-img{
+    width: 100%;
+    margin: 2%;
+    justify-content: center;
+  }
+  .about-img>img{
+    width: 60vh;
+  }
+  .about-content {
+    margin: 5% 3%;
   }
 }
 
@@ -1355,7 +1428,7 @@ gap: 5%;
     padding-bottom: 0;
   }
   .about-content {
-    margin-left: 0px;
+    margin-left:5%;
     flex-basis: 70%;
   }
   .about-img img {
@@ -1363,6 +1436,7 @@ gap: 5%;
     min-height: 200px;
     max-width: 500px;
     max-height: 500px;
+    margin: 0% 8%;
     height: 70vw;
     width: 70vw;
     object-fit: cover;
@@ -1398,6 +1472,13 @@ gap: 5%;
   .submit{
     margin: 6% auto;
   }
+  .extra-div{
+    margin: 2% 5%;
+  }
+  .portfolioo{
+    height: 95vh;
+    max-height:150vh ;
+  }
 }
 
 @media screen and (max-width: 720px) {
@@ -1408,7 +1489,7 @@ gap: 5%;
   .container-extradiv{
     flex-direction: column;
     padding: 7% 3%;
-    gap: 30px;
+    gap: 2%;
   }
 }
 
@@ -1427,7 +1508,9 @@ gap: 5%;
   .main-content h2 {
     font-size: 5.5vw;
   }
-
+  .project-work{
+    margin:160% 0 5%;
+  }
   .main-content h3 {
     font-size: 4.7vw;
     margin-bottom: 15px;
@@ -1479,7 +1562,9 @@ gap: 5%;
   .btn p {
     font-size: 4vw;
   }
-
+  .project-work{
+    margin:180% 0 5%;
+  }
   .portfolio h3 {
     font-size: 2rem;
   }
@@ -1490,17 +1575,37 @@ gap: 5%;
     margin-left:10%;
     width:35%;
   }
+  .portfolioo{
+    height: 95vh;
+    max-height: 100vh;
+  }
 }
 
-@media only screen and (min-height: 580px) and (max-width: 500px) {
+@media only screen and (min-height: 500px) and (max-width: 580px) {
   .main {
     padding-top: 18vh;
   }
   .main-content {
     padding-top: 3vh;
   }
+  .portfolioo{
+    height: 120vh;
+    max-height: 150vh;
+  }
+  .about-content{
+    margin: 0% 3%;
+  }
 }
-
+@media only screen and (max-width:375px) {
+  .portfolioo{
+    height: 110vh;
+    max-height: 150vh;
+  }
+  .about-content{
+    margin: 0% 3%;
+  }
+  
+}
 /* Remove hovering on unsupported devices */
 @media (hover: none) {
   .project-card:hover img {
