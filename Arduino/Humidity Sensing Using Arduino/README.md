@@ -26,14 +26,14 @@ Using a DHT11 Module, we can get the Humidity in the environment the project is 
 
 - Assemble the circuit as shown below.
 - Make sure to connect the signal pin from DHT11 module ot the pin defined in the program.
-- Upload the code provided [here](https://github.com/SarthakSKumar/IoT-Spot/blob/Humidity_Sensing_Using_Arduino/Arduino/Humidity%20Sensing%20Using%20Arduino/Humidity_Sensing_Using_Ardruino.ino)
+- Upload the code provided [here](Humidity_Sensing_Using_Ardruino.ino)
 - Run to see the project in action!
 
 ---
 
 ## Output:
-![Tinkercad Circuit](https://github.com/SarthakSKumar/IoT-Spot/blob/Humidity_Sensing_Using_Arduino/Arduino/Humidity%20Sensing%20Using%20Arduino/Images/Fritzing%20Circuit%20Diagram.jpg)
-![Simulation Video](https://github.com/SarthakSKumar/IoT-Spot/blob/Humidity_Sensing_Using_Arduino/Arduino/Humidity%20Sensing%20Using%20Arduino/Images/Humidity_Sensing_Using_Arduino_Simulation.mp4)
+![Tinkercad Circuit](Images/Fritzing%20Circuit%20Diagram.jpg)
+![Simulation Video](Images/Humidity_Sensing_Using_Arduino_Simulation.mp4)
 ---
 
 ## Author:

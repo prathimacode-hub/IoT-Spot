@@ -4,13 +4,13 @@
 
 
 ## **ESP8266 Pinout in Arduino IDE
-![Pin Out for ESP8266](https://github.com/adithya-s-k/IoT-Spot/blob/blynk_esp8266/ESP8266/Basic%20LED%20Blink%20using%20ESP8266/Images/ESP8266-pinouts-NodeMcu.jpg)
+![Pin Out for ESP8266](Images/ESP8266-pinouts-NodeMcu.jpg)
 
 Keep in mind that labels on NodeMCU silkscreen and that use in Arduino IDE are differed from each other. Consider the following table and the NodeMCU picture to use the right number of the pin in your sketch otherwise you will face the problems in using the correct GPIOs.
 
 **Arduino IDE Pins Index**
 
-![Arduino naming convention for ports](https://github.com/adithya-s-k/IoT-Spot/blob/blynk_esp8266/ESP8266/Basic%20LED%20Blink%20using%20ESP8266/Images/esp_pin_out.png)
+![Arduino naming convention for ports](Images/esp_pin_out.png)
 
 ### **Components Required**
 
@@ -25,7 +25,7 @@ Keep in mind that labels on NodeMCU silkscreen and that use in Arduino IDE are d
 
 Make the circuit diagram on bread board according to connection diagram shown below. Anode of the LED is connected to the D1 pin of the NodeMCU, the cathode of the LED is connected with the one terminal of the resistor and another terminal of the resistor is connected to the ground pin.
 
-![enter image description here](https://github.com/adithya-s-k/IoT-Spot/blob/blynk_esp8266/ESP8266/Basic%20LED%20Blink%20using%20ESP8266/Images/ESP8266-LED-Blinking-Circuit-Nodemcu.jpg)
+![enter image description here](Images/ESP8266-LED-Blinking-Circuit-Nodemcu.jpg)
 
 ## **Writing sketch for blinking LED**
 
@@ -89,7 +89,7 @@ Complete code for LED blinking is given here.
 
 To blink the built-in LEDs we have to only connect NodeMCU to the computer using a micro USB cable. No external component is required. 
 
-![enter image description here](https://github.com/adithya-s-k/IoT-Spot/blob/blynk_esp8266/ESP8266/Basic%20LED%20Blink%20using%20ESP8266/Images/Blinking-on-board-NodeMcu-LED.jpg)
+![enter image description here](Images/Blinking-on-board-NodeMcu-LED.jpg)
 
 -   On Board LED for ESP8266 is connected wtih GPIO2.
 -   For NodeMCU it is connected with GPIO16
