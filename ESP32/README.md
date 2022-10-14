@@ -56,22 +56,27 @@ Before starting the installation process, make sure you have the latest version 
 ### Installing ESP32 libraries to Arduino IDE
 Follow the steps below:
 1. In your Arduino IDE, go to `File>Preferences`.
+
 ![filemenu][filemenu]
 
 2. Enter the following URL into the "Additional Board Manager URLs" fields:
 `https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json`
 Then, click "OK".
+
 ![preferences][preferences]
 
 Note: If you already have ESP8266 board URL, you can seperate the URLs with a comma.
 
 3. Open Boards Manager. Go to `Tools>Board>Boards Manager`.
+
 ![toolsmenu][toolsmenu]
 
 4. Search for **ESP32** and press install button for **ESP32 by Espressif Systems**
+
 ![boardsmanager][boardsmanager]
 
 5. Well done!. **ESP32** libraries should be installed in you Arduino IDE.
+
 ![installed][installed]
 
 ### Test the installation
@@ -80,6 +85,7 @@ Follow the steps below:
 1. Connect your ESP32 board to your computer through micro-USB cable. Make sure the power LED turns on.
 
 2. Start Arduino IDE and navigate to `Tools>Boards>/<Select your ESP32 board>`
+
 ![selectboard][selectboard]
 
 3. Go to `Tools>Port` and select appropriate Port to which you ESP32 board is connected.
