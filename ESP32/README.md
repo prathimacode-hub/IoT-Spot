@@ -28,10 +28,22 @@ This repository contains all the basic Arduino Projects one needs to know before
 -  WPA, WPA2, WPA3 and WLAN authentication and Privacy Infrastructure.
 -  5μA deep sleep current.
 -  Wake up through GPIO, timer, touch interrupts.
+## 📍Pin Diagram
+![pindiagram](https://lastminuteengineers.b-cdn.net/wp-content/uploads/iot/ESP32-Pinout.png)
+
+Specifications:
+- Input only GPIOs: GPIO34, GPIO35, GPIO36 and GPIO39
+- ADC Pins: GPIO2, GPIO4, GPIO12-GPIO15, GPIO25-GPIO27, GPIO32-GPIO36, GPIO39
+- DAC Pins: GPIO25 and GPIO26
+- Touch Pins: GPIO2, GPIO4, GPIO12-GPIO15, GPIO27, GPIO32, GPIO33
+- I2C: SCL(GPIO22) and SDA(GPIO21)
+- UART Pins: U0_TXD(GPIO1), U0_RXD(GPIO3), U2_TXD(GPIO17), U2_RXD(GPIO16)
+- PWM Pins: All GPIO Pins
+- Power pins: VIN pin(raw input voltage), 3.3V, GND
+- Enable pin: EN
 ## 📃Documentation
 
-[Documentation provided by Espressif for all ESP32 Series](https://www.espressif.com/en/sup
-port/documents/technical-documents)
+[Documentation provided by Espressif for all ESP32 Series](https://www.espressif.com/en/support/documents/technical-documents)
 
 
 ## 📦Installation
@@ -105,4 +117,3 @@ Note: For more info, go to [Basic LED Blink using ESP32](https://github.com/prat
 - [Servo_control_using_ESP32](https://github.com/prathimacode-hub/IoT-Spot/tree/main/ESP32/Servo_control_using_ESP32)
 - [Temperature Humidity measure using ESP32](https://github.com/prathimacode-hub/IoT-Spot/tree/main/ESP32/Temperature%20Humidity%20measure%20using%20ESP32)
 - [Touch Sensor on ESP32](https://github.com/prathimacode-hub/IoT-Spot/tree/main/ESP32/Touch%20Sensor%20on%20ESP32)
-## 📍Pin Diagram
