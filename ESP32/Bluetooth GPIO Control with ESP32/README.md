@@ -113,3 +113,115 @@ Select the ESP32 board in the Bluetooth Terminal App
 
 -   Send “ON”: To turn ON the LED
 -   Send “OFF”: To turn OFF the LED
+
+
+## **Code Explanation:**
+```
+#include "BluetoothSerial.h"
+```
+-   #include  is used to include outside libraries in our program. This gives the user access to a large group of standard C libraries (groups of pre-made functions), and also libraries written especially for the ESP32 board.
+-   Here, we have included the  <BluetoothSerial.h>  library that allows us to use functions that help us to connect the ESP32 board to other mobile devices.
+```
+BluetoothSerial SerialBT;
+```
+Create an object of class BluetoothSerial to initialize the Bluetooth stacks (controller and host) and to establish the serial communication over Bluetooth.
+```
+char receivedChar;
+```
+A char variable to store the value sent by the Bluetooth Serial terminal
+```
+const char turnON ='ON'; 
+const char turnoff ='OFF';
+```
+Variable to store turnOn and turnoff variables.
+```
+const int LEDpin = 15;
+```
+Assign the variable to the GPIO PIN.
+
+### **Inside the void setup() function:**
+```
+Serial.begin(115200);
+```
+-   Serial.begin()  function is used to initiate the serial data communication between the Arduino board and the Arduino IDE.
+-   The  Serial.begin()  function take the argument “data rate” to set up the communication speed for serial data transmission. Here we are setting the data rate as 115200 bits per second.
+-   **Supported baud rates** are 300, 600, 1200, 2400, 4800, 9600, 14400, 19200, 28800, 31250, 38400, 57600, and 115200.
+```
+SerialBT.begin("ESP32_Bluetooth");
+```
+This line begins the Bluetooth serial communication initialize with the name “ESP32_bluetooth“.
+
+**NOTE:**  You can change the name of the ESP32 board Bluetooth module using this line.
+```
+pinMode(LEDpin, OUTPUT);
+```
+Here, we are initializing the mode of LEDpin GPIO pin as OUTPUT.
+
+### **Inside the void loop() function:**
+
+The  void loop()  function consists of two main instances of if statement
+```
+if (Serial.available()) {     
+SerialBT.write(Serial.read());  
+}
+```
+The first if statement is used to check whether the data is being received in the serial port or not. If the data is being received, send it to the connected device through Bluetooth.
+```
+if (SerialBT.available()) 
+{
+ .....
+}
+```
+In the second if statement, we check if the data is being received in the Bluetooth serial port.
+
+Now as both the if statements are executed means the connection between the ESP32 board and the mobile device is working fine.
+```
+receivedChar =(char)SerialBT.read();
+```
+Initialize the  **receivedChar**  variable with the data sent by the mobile device.
+```
+SerialBT.print("Received:");// write on BT app 
+SerialBT.println(receivedChar);// write on BT app
+```
+Print the successful message on the Bluetooth serial monitor app about the data received by the Bluetooth serial port.
+```
+Serial.print ("Received:");//print on serial monitor 
+Serial.println(receivedChar);//print on serial monitor
+```
+Also, print the successful message on the Arduino serial monitor about the data received by the serial port.
+```
+delay(20);
+```
+Delay the execution of the program by 20 milliseconds to overcome any lag between the received data.
+
+Now there are two instances of if statement to control the GPIO pin connected to the LED.
+```
+if(receivedChar == turnON){      
+SerialBT.println("LED ON:");// write on BT app      
+Serial.println("LED ON:");//write on serial monitor      
+digitalWrite(LEDpin, HIGH);// turn the LED ON      
+delay(20); 
+}
+```
+-   The first if statement compares the value received from the mobile device with the variable turnON (that is initialized as “ON”).
+-   If the value received is “ON”, a success message is printed in both the serial monitor as well as the Bluetooth serial monitor app about LED being turned ON. And also, the  **LEDpin**  is set to HIGH which results in switching ON of green LED.
+```
+if(receivedChar == turnoff){  
+SerialBT.println("LED OFF:");// write on BT app      
+Serial.println("LED OFF:");//write on serial monitor       
+digitalWrite(LEDpin, LOW);// turn the LED off       
+delay(20); 
+}
+```
+-   The second if statement compares the value received from the mobile device with the variable turnOFF (that is initialized as “OFF”).
+-   If the value received is “OFF”, a success message is printed on both the serial monitor as well as the Bluetooth serial monitor app about LED being turned OFF. And also, the  **LEDpin**  is set to LOW which results in switching OFF of green LED.
+
+**OBJECTIVE**:**  To  control the external LED connected to the ESP32 board.
+
+![Green LED turned ON using ESP32 bluetooth module with Arduino IDE](https://www.etechnophiles.com/wp-content/uploads/2021/04/ON.jpg?ezimgfmt=rs:714x286/rscb40/ng:webp/ngcb40)
+
+Green LED turned ON using ESP32 Bluetooth module
+
+![Green LED Turned OFF](https://www.etechnophiles.com/wp-content/uploads/2021/04/OFF.jpg?ezimgfmt=rs:714x319/rscb40/ng:webp/ngcb40)
+
+Green LED Turned OFF
