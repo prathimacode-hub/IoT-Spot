@@ -25,6 +25,13 @@ void loop() {
     SerialBT.println(receivedChar);// write on BT app      
     Serial.print ("Received:");//print on serial monitor
     Serial.println(receivedChar);//print on serial monitor  
-    delay(10);  
+    delay(10);
+    if(receivedChar == turnON)
+    {
+     SerialBT.println("LED ON:");// write on BT app
+     Serial.println("LED ON:");//write on serial monitor
+     digitalWrite(LEDpin, HIGH);// turn the LED ON 
+     delay(20);
+    }
     }
 }
