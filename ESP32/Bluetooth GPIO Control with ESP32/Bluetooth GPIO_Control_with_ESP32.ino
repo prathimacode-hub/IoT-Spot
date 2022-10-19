@@ -14,3 +14,17 @@ void setup() {
   Serial.println("To turn OFF send: OFF"); //print on serial monitor 
   pinMode(LEDpin, OUTPUT);
 }
+
+void loop() {
+  if (Serial.available()) {
+    SerialBT.write(Serial.read());
+  }
+  if (SerialBT.available()) {
+    receivedChar =(char)SerialBT.read();
+    SerialBT.print("Received:");// write on BT app
+    SerialBT.println(receivedChar);// write on BT app      
+    Serial.print ("Received:");//print on serial monitor
+    Serial.println(receivedChar);//print on serial monitor  
+    delay(10);  
+    }
+}
