@@ -14,7 +14,6 @@ void setup() {
   Serial.println("To turn OFF send: OFF"); //print on serial monitor 
   pinMode(LEDpin, OUTPUT);
 }
-
 void loop() {
   if (Serial.available()) {
     SerialBT.write(Serial.read());
@@ -25,7 +24,7 @@ void loop() {
     SerialBT.println(receivedChar);// write on BT app      
     Serial.print ("Received:");//print on serial monitor
     Serial.println(receivedChar);//print on serial monitor  
-    delay(10);
+    delay(10);  
     if(receivedChar == turnON)
     {
      SerialBT.println("LED ON:");// write on BT app
@@ -33,5 +32,12 @@ void loop() {
      digitalWrite(LEDpin, HIGH);// turn the LED ON 
      delay(20);
     }
-    }
+    if(receivedChar == turnOFF)
+    {
+     SerialBT.println("LED OFF:");// write on BT app
+     Serial.println("LED OFF:");//write on serial monitor
+      digitalWrite(LEDpin, LOW);// turn the LED off 
+      delay(20);
+    }    
+  }
 }
