@@ -4,7 +4,7 @@ char receivedChar;// received value will be stored as CHAR in this variable
 
 const char turnON ='ON';
 const char turnOFF ='OFF';
-const int LEDpin = 15;
+const int LEDpin = 2;
 
 void setup() {
   Serial.begin(115200);

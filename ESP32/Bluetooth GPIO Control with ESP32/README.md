@@ -22,7 +22,7 @@ In this project, you will  control the external LEDs  connected to one of the GP
 
 ## **Circuit Diagram:**
 
-![Circuit Diagram to control LED using ESP32 inbuilt Bluetooth module](https://www.etechnophiles.com/wp-content/uploads/2021/04/circuit2.jpg?ezimgfmt=rs:411x481/rscb40/ng:webp/ngcb40)
+![Circuit Diagram to control LED using ESP32 inbuilt Bluetooth module](./Images/circuit2-768x898.webp)
 
 Circuit Diagram to control LED using ESP32 inbuilt Bluetooth module
 
@@ -218,11 +218,11 @@ delay(20);
 
 **OBJECTIVE**:**  To  control the external LED connected to the ESP32 board.
 
-![Green LED turned ON using ESP32 bluetooth module with Arduino IDE](https://www.etechnophiles.com/wp-content/uploads/2021/04/ON.jpg?ezimgfmt=rs:714x286/rscb40/ng:webp/ngcb40)
+![Green LED turned ON using ESP32 bluetooth module with Arduino IDE](./Images/ON.webp)
 
 Green LED turned ON using ESP32 Bluetooth module
 
-![Green LED Turned OFF](https://www.etechnophiles.com/wp-content/uploads/2021/04/OFF.jpg?ezimgfmt=rs:714x319/rscb40/ng:webp/ngcb40)
+![Green LED Turned OFF](./Images/OFF.webp)
 
 Green LED Turned OFF
 
