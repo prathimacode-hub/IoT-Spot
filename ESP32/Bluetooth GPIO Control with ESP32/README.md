@@ -216,7 +216,7 @@ delay(20);
 -   The second if statement compares the value received from the mobile device with the variable turnOFF (that is initialized as “OFF”).
 -   If the value received is “OFF”, a success message is printed on both the serial monitor as well as the Bluetooth serial monitor app about LED being turned OFF. And also, the  **LEDpin**  is set to LOW which results in switching OFF of green LED.
 
-**OBJECTIVE**:**  To  control the external LED connected to the ESP32 board.
+## **Result**
 
 ![Green LED turned ON using ESP32 bluetooth module with Arduino IDE](./Images/ON.webp)
 
