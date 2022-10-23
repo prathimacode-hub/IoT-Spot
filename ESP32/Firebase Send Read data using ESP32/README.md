@@ -41,3 +41,58 @@ To follow this project, first, you need to set up a Firebase project and create 
 3.  ESP32: Read data from the Firebase Realtime Database
 
 Let’s get started!
+
+## Set Up a Firebase Account and Create a New Project
+
+### 1.Create a New Project
+
+Follow the next instructions to create a new project on Firebase.
+
+1.  Go to  [Firebase](https://firebase.google.com/) and sign in using a Google Account.
+2.  Click  _Get Started_, and then  _Add project_  to create a new project.
+3.  Give a name to your project, for example:  _ESP32 Firebase Demo_.  
+    ![Set Up Firebase Project for ESP32 and ESP8266 Step 1](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/08/1-Set-Up-Firebase-Project-ESP32-ESP8266.png?resize=680%2C550&quality=100&strip=all&ssl=1)
+4.  Disable the option  _Enable Google Analytics_  for this project as it is not needed and click  _Create project_.  
+    ![Set Up Firebase Project for ESP32 and ESP8266 Step 2](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/08/2-Set-Up-Firebase-Project-ESP32-ESP8266.png?resize=750%2C691&quality=100&strip=all&ssl=1)
+5.  It will take a few seconds setting up your project. Then, click  _Continue_ when it’s ready.  
+    ![Set Up Firebase Project for ESP32 and ESP8266 Step 3](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/08/3-Set-Up-Firebase-Project-ESP32-ESP8266.png?resize=750%2C391&quality=100&strip=all&ssl=1)  
+    
+6.  You’ll be redirected to your Project console page.  
+    ![Set Up Firebase Project for ESP32 and ESP8266 Step 4](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/08/4-Set-Up-Firebase-Project-ESP32-ESP8266.png?resize=750%2C402&quality=100&strip=all&ssl=1)
+
+### 2. Set Authentication Methods
+
+You need to set authentication methods for your app.
+
+“Most apps need to know the identity of a user. In other words, it takes care of logging in and identify the users (in this case, the ESP32). Knowing a user’s identity allows an app to securely save user data in the cloud and provide the same personalized experience across all of the user’s devices.” To learn more about the authentication methods, you can  [read the documentation](https://firebase.google.com/docs/auth).
+
+1.  On the left sidebar, click on  _Authentication_ and then on  _Get started_.  
+    ![Set Up Firebase Project for ESP32 and ESP8266 Authentication Methods](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/08/5-Set-Up-Firebase-Project-ESP32-ESP8266.png?resize=750%2C481&quality=100&strip=all&ssl=1)
+2.  There are several authentication methods like email and password, Google Account, Facebook account, and others.![Set Up Firebase Project for ESP32 and ESP8266 Authentication Methods List](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/08/6-Set-Up-Firebase-Project-ESP32-ESP8266.png?resize=750%2C827&quality=100&strip=all&ssl=1)
+3.  For testing purposes, we can select the  _Anonymous_ user (require authentication without requiring users to sign in first by creating temporary anonymous accounts). Enable that option and click  _Save_.![Set Up Firebase Project for ESP32 and ESP8266 Authentication Methods Anonymous User](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/08/7-Set-Up-Firebase-Project-ESP32-ESP8266.png?resize=828%2C315&quality=100&strip=all&ssl=1)
+
+### 3. Creating a Realtime Database
+
+The next step is creating a Realtime Database for your project. Follow the next steps to create the database.
+
+1.  On the left sidebar click on  _Realtime Database_  and then, click on  _Create Database_.  
+    ![Set up realtime database firebase ESP32 ESP8266 Step1](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/08/1-Set-Up-Firebase-database-ESP32-ESP8266.png?resize=750%2C573&quality=100&strip=all&ssl=1)
+2.  Select your database location. It should be the closest to your location.  
+    ![Set up realtime database firebase ESP32 ESP8266 Select Location](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/08/2-Set-Up-Firebase-database-ESP32-ESP8266.png?resize=750%2C372&quality=100&strip=all&ssl=1)
+3.  Set up security rules for your database. For testing purposes, select  _Start in test mode_. In later tutorials you’ll learn how to secure your database using database rules.  
+    ![Set up realtime database firebase ESP32 ESP8266 Set Security Rules](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/08/3-Set-Up-Firebase-database-ESP32-ESP8266.png?resize=776%2C478&quality=100&strip=all&ssl=1)
+4.  Your database is now created. You need to copy and save the database URL—highlighted in the following image—because you’ll need it later in your ESP32 code.  
+    ![Set up realtime database firebase ESP32 ESP8266 Database Created](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/08/4-Set-Up-Firebase-database-ESP32-ESP8266.png?resize=750%2C372&quality=100&strip=all&ssl=1)
+
+The Realtime Database is all set. Now, you also need to get your project API key.
+
+### 4. Get Project API Key
+
+1.  To get your project’s API key, on the left sidebar click on  _Project Settings_.  
+    ![Get Firebase Project API Key](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/08/1-Get-Firebase-Project-API-Key.png?resize=750%2C192&quality=100&strip=all&ssl=1)
+2.  Copy the API Key to a safe place because you’ll need it later.  
+    ![Firebase Project API key](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/08/2-Get-Firebase-Project-API-Key.png?resize=792%2C457&quality=100&strip=all&ssl=1)
+
+Now, you have everything ready to interface the ESP32 with the database.
+
+----------
