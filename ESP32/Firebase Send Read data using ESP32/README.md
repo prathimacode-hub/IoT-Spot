@@ -264,3 +264,168 @@ void loop(){
 You need to insert your network credentials, URL database, and project API key for the project to work.
 
 This sketch was based on the  [basic example](https://github.com/mobizt/Firebase-ESP-Client/blob/main/examples/RTDB/Basic/Basic.ino)  provided by the library. You can find more examples  [here](https://github.com/mobizt/Firebase-ESP-Client/tree/main/examples).
+
+### How the Code Works
+
+Continue reading to learn how the code works, or skip to the  [demonstration section](https://randomnerdtutorials.com/esp32-firebase-realtime-database/#demo-write).
+
+First, include the required libraries. The  WiFi.h  library to connect the ESP32 to the internet (or the  ESP8266WiFi.h  in case of the ESP8266 board) and the  Firebase_ESP_Client.h  library to interface the boards with Firebase.
+
+```c
+#include <Arduino.h>
+#if defined(ESP32)
+#include <WiFi.h>
+#elif defined(ESP8266)
+#include <ESP8266WiFi.h>
+#endif
+#include <Firebase_ESP_Client.h>
+```
+
+You also need to include the following for the Firebase library to work.
+
+```c
+//Provide the token generation process info.
+#include "addons/TokenHelper.h"
+//Provide the RTDB payload printing info and other helper functions.
+#include "addons/RTDBHelper.h"
+```
+
+Include your network credentials in the following lines.
+
+```c
+#define WIFI_SSID "REPLACE_WITH_YOUR_SSID"
+#define WIFI_PASSWORD "REPLACE_WITH_YOUR_PASSWORD"
+```
+
+Insert your firebase project API key—the one you’ve gotten in  [section 4.1](https://randomnerdtutorials.com/esp32-firebase-realtime-database/#project-api-key).
+
+```c
+#define API_KEY "REPLACE_WITH_YOUR_FIREBASE_PROJECT_API_KEY"
+```
+
+Insert your database URL—[see section 3.4](https://randomnerdtutorials.com/esp32-firebase-realtime-database/#database-url).
+
+```c
+#define DATABASE_URL "REPLACE_WITH_YOUR_FIREBASE_DATABASE_URL"
+```
+
+#### setup()
+
+In the  setup(), connect your board to your network.
+
+```c
+Serial.begin(115200);
+WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
+Serial.print("Connecting to Wi-Fi");
+while (WiFi.status() != WL_CONNECTED){
+  Serial.print(".");
+  delay(300);
+}
+Serial.println();
+Serial.print("Connected with IP: ");
+Serial.println(WiFi.localIP());
+Serial.println();
+```
+
+Assign the API key and the database URL to the Firebase configuration.
+
+```c
+/* Assign the api key (required) */
+config.api_key = API_KEY;
+
+/* Assign the RTDB URL (required) */
+config.database_url = DATABASE_URL;
+```
+
+The following lines take care of the signup for an anonymous user. Notice that you use the  signUp()  method, and the last two arguments are empty (anonymous user).
+
+```c
+/* Sign up */
+if (Firebase.signUp(&config, &auth, "", "")){
+  Serial.println("ok");
+  signupOK = true;
+}
+else{
+  Serial.printf("%s\n", config.signer.signupError.message.c_str());
+}
+```
+
+**Note:** in the anonymous user signup, every time the ESP connects, it creates a new anonymous user.
+
+If the sign-in is successful, the  signupOK  variable changes to  true.
+
+```c
+signupOK = true;
+```
+
+The library provides examples for other authentication methods like signing in as a user with email and password, using the database legacy auth token, etc. You can check all the examples for  [other authentication methods here](https://github.com/mobizt/Firebase-ESP-Client/tree/main/examples/Authentications). If you end up using other authentication methods, don’t forget that you need to enable them on your firebase project (_Build_ >  _Authentication_ >  _Sign-in method_).
+
+#### loop()
+
+In the  loop(), we’ll send data to the database periodically (if the signup is successful and everything is set up).
+
+```c
+if (Firebase.ready() && signupOK && (millis() - sendDataPrevMillis > 15000 || sendDataPrevMillis == 0)){
+```
+
+#### Send Data to the Database
+
+As mentioned in the library documentation, to store data at a specific node in the Firebase RTDB (realtime database), use the following functions:  set,  setInt,  setFloat,  setDouble,  setString,  setJSON,  setArray,  setBlob, and  setFile.
+
+These functions return a boolean value indicating the success of the operation, which will be  true  if all of the following conditions are met:
+
+-   Server returns HTTP status code 200.
+-   The data types matched between request and response.Only  setBlob  and  setFile  functions that make a silent request to Firebase server, thus no payload response returned.
+
+In our example, we’ll send an integer number, so we need to use the  setInt()  function as follows:
+
+```c
+Firebase.RTDB.setInt(&fbdo, "test/int", count)
+```
+
+The second argument is the database node path, and the last argument is the value you want to pass to that database path—you can choose any other database path. In this case, we’re passing the value saved in the  count  variable.
+
+Here’s the complete snippet that stores the value in the database and prints a success or failed message.
+
+```c
+if (Firebase.RTDB.setInt(&fbdo, "test/int", count)) {
+  Serial.println("PASSED");
+  Serial.println("PATH: " + fbdo.dataPath());
+  Serial.println("TYPE: " + fbdo.dataType());
+}
+else {
+  Serial.println("FAILED");
+  Serial.println("REASON: " + fbdo.errorReason());
+}
+```
+
+We proceed in a similar way to store a float value. We’re storing a random float value on the  test/float  path.
+
+```c
+// Write an Float number on the database path test/float
+if (Firebase.RTDB.setFloat(&fbdo, "test/float", 0.01 + random(0, 100))) {
+  Serial.println("PASSED");
+  Serial.println("PATH: " + fbdo.dataPath());
+  Serial.println("TYPE: " + fbdo.dataType());
+}
+else {
+  Serial.println("FAILED");
+  Serial.println("REASON: " + fbdo.errorReason());
+}
+```
+
+### Demonstration
+
+Upload the code to your ESP32 board. Don’t forget to insert your network credentials, database URL path, and the project API key.
+
+After uploading the code, open the Serial Monitor at a baud rate of 115200 and press the ESP32 on-board reset button so it starts running the code.
+
+If everything works as expected, the values should be stored in the database, and you should get success messages.
+
+![ESP32 ESP8266 Store value firebase database Serial Monitor Success](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/08/ESP32-ESP8266-Store-value-to-firebase-database-Serial-Monitor-Success-1.png?resize=601%2C445&quality=100&strip=all&ssl=1)
+
+Go to your project’s Firebase Realtime database, and you’ll see the values saved on the different node paths. Every 15 seconds, it saves a new value. The database blinks when new values are saved.
+
+![ESP32 Store value firebase database Success](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/08/ESP32-store-value-to-firebase-database-success.png?resize=733%2C305&quality=100&strip=all&ssl=1)
+
+Congratulations! You’ve successfully stored data in Firebase’s realtime database using the ESP32. In the next section, you’ll learn to read values from the different database’s node paths.
