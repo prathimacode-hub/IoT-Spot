@@ -151,16 +151,7 @@ Copy the following code to your Arduino IDE. This sketch inserts an int and a fl
 **Note:** We are using version 2.3.7 of the Firebase ESP Client library. If you have issues compiling your code with more recent versions of the library, downgrade to version 2.3.7.
 
 ```c
-/*
-  Rui Santos
-  Complete project details at our blog.
-    - ESP32: https://RandomNerdTutorials.com/esp32-firebase-realtime-database/
-    - ESP8266: https://RandomNerdTutorials.com/esp8266-nodemcu-firebase-realtime-database/
-  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files.
-  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-  Based in the RTDB Basic Example by Firebase-ESP-Client library by mobizt
-  https://github.com/mobizt/Firebase-ESP-Client/blob/main/examples/RTDB/Basic/Basic.ino
-*/
+
 
 #include <Arduino.h>
 #if defined(ESP32)
@@ -441,17 +432,6 @@ The following example reads the values stored in the database. Upload the follow
 **Note:** We are using version 2.3.7 of the Firebase ESP Client library. If you have issues compiling your code with more recent versions of the library, downgrade to version 2.3.7.
 
 ```c
-/*
-  Rui Santos
-  Complete project details at our blog.
-    - ESP32: https://RandomNerdTutorials.com/esp32-firebase-realtime-database/
-    - ESP8266: https://RandomNerdTutorials.com/esp8266-nodemcu-firebase-realtime-database/
-  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files.
-  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-  Based in the RTDB Basic Example by Firebase-ESP-Client library by mobizt
-  https://github.com/mobizt/Firebase-ESP-Client/blob/main/examples/RTDB/Basic/Basic.ino
-*/
-
 #include <Arduino.h>
 #if defined(ESP32)
   #include <WiFi.h>
