@@ -29,3 +29,15 @@ This means that you can have two ESP32 boards in different networks, with one bo
 In a later tutorial, we’ll create a web app using Firebase that will control the ESP32 to display sensor readings or control outputs from anywhere in the world.
 
 ![Firebase ESP32 Project Web App Project Example](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/08/Firebase-ESP32-Project-Web-App-Project-Example.png?resize=750%2C325&quality=100&strip=all&ssl=1)
+
+## Project Overview
+
+In this tutorial, you’ll learn how to create a Firebase project with a realtime database and store and read data from the database using the ESP32.
+
+To follow this project, first, you need to set up a Firebase project and create a realtime database for that project. Then, you’ll program the ESP32 to store and read data from the database. This tutorial is divided into three sections.
+
+1.  Create a Firebase Project
+2.  ESP32: Store data to the Firebase Realtime Database
+3.  ESP32: Read data from the Firebase Realtime Database
+
+Let’s get started!
