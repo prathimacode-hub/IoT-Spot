@@ -67,3 +67,30 @@ void setup(){
   Firebase.reconnectWiFi(true);
 }
 
+void loop(){
+  if (Firebase.ready() && signupOK && (millis() - sendDataPrevMillis > 15000 || sendDataPrevMillis == 0)){
+    sendDataPrevMillis = millis();
+    // Write an Int number on the database path test/int
+    if (Firebase.RTDB.setInt(&fbdo, "test/int", count)){
+      Serial.println("PASSED");
+      Serial.println("PATH: " + fbdo.dataPath());
+      Serial.println("TYPE: " + fbdo.dataType());
+    }
+    else {
+      Serial.println("FAILED");
+      Serial.println("REASON: " + fbdo.errorReason());
+    }
+    count++;
+    
+    // Write an Float number on the database path test/float
+    if (Firebase.RTDB.setFloat(&fbdo, "test/float", 0.01 + random(0,100))){
+      Serial.println("PASSED");
+      Serial.println("PATH: " + fbdo.dataPath());
+      Serial.println("TYPE: " + fbdo.dataType());
+    }
+    else {
+      Serial.println("FAILED");
+      Serial.println("REASON: " + fbdo.errorReason());
+    }
+  }
+}
