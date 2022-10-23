@@ -96,3 +96,48 @@ The Realtime Database is all set. Now, you also need to get your project API key
 Now, you have everything ready to interface the ESP32 with the database.
 
 ----------
+
+## Program the ESP32 to Interface with Firebase
+
+Now that the Firebase Realtime Database is created, you’ll learn how to interface the ESP32 with the database.
+
+To program the ESP32, you can use  [Arduino IDE](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/),  [VS Code with the PlatformIO extension](https://randomnerdtutorials.com/vs-code-platformio-ide-esp32-esp8266-arduino/), or other suitable software.
+
+**Note:** for firebase projects, we recommend using VS Code with the PlatformIO extension because if you want to develop a web application to make the bridge between the ESP32 and Firebase, VS Code provides all the tools to do that. However, we won’t build the web application in this tutorial, so you can use Arduino IDE.
+
+### Install the Firebase-ESP-Client Library
+
+There is a library with lots of examples to use Firebase with the ESP32: the  [Firebase-ESP-Client library](https://github.com/mobizt/Firebase-ESP-Client). This library is compatible with both the ESP32 and ESP8266 boards.
+
+In this tutorial, we’ll look at simple examples to store and read data from the database. The library provides many other examples that you can check  [here](https://github.com/mobizt/Firebase-ESP-Client/tree/main/examples). It also provides detailed documentation explaining how to use the library.
+
+#### Installation – VS Code + PlatformIO
+
+If you’re using VS Code with the PlatformIO extension, click on the  **PIO Home**  icon and then select the  **Libraries tab**. Search for “**Firebase ESP Client**“. Select the  **Firebase Arduino Client Library for ESP8266 and ESP32**.
+
+[![Install Firebase ESP Client Library VS Code](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/09/Install-Firebase-Library-VS-Code-1.png?resize=828%2C745&quality=100&strip=all&ssl=1)](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/09/Install-Firebase-Library-VS-Code-1.png?quality=100&strip=all&ssl=1)
+
+Then, click  **Add to Project**  and select the project you’re working on.
+
+[![Add Firebase ESP Client Library to Project VS Code](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/09/Install-Firebase-Library-VS-Code-2.png?resize=828%2C411&quality=100&strip=all&ssl=1)](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/09/Install-Firebase-Library-VS-Code-2.png?quality=100&strip=all&ssl=1)
+
+Also, change the monitor speed to 115200 by adding the following line to the  platformio.ini  file of your project:
+
+```c
+monitor_speed = 115200
+```
+
+#### Installation – Arduino IDE
+
+If you’re using Arduino IDE, follow the next steps to install the library.
+
+1.  Go to  **Sketch** >  **Include Library**  >  **Manage Libraries**
+2.  Search for  _Firebase ESP Client_  and install the  _Firebase Arduino Client Library for ESP8266 and ESP32_  by Mobitz.
+
+**Note:** We are using version 2.3.7. If you have issues compiling your code with more recent versions of the library, downgrade to version 2.3.7.
+
+![Install Firebase Arduino Client Library for ESP8266 and ESP32 by Mobitz](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/09/Install-Firebase-ESP-Client-Library-Arduino-IDE-f.png?resize=786%2C443&quality=100&strip=all&ssl=1)
+
+Now, you’re all set to start programming the ESP32 board to interact with the database.
+
+----------
