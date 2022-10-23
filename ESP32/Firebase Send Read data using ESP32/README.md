@@ -551,3 +551,54 @@ void loop() {
 [View raw code](https://github.com/RuiSantosdotme/Firebase-ESP/raw/main/ESP-Firebase-Read-RTDB/ESP-Firebase-Read-RTDB.ino)
 
 Don’t forget to insert your network credentials, database URL, and API key.
+
+### How the Code Works
+
+The code is very similar to the previous section’s example, but it reads data from the database. Let’s take a look at the relevant parts for this section.
+
+Data at a specific node in Firebase RTDB can be read through the following functions:  get,  getInt,  getFloat,  getDouble,  getBool,  getString,  getJSON,  getArray,  getBlob,  getFile.
+
+These functions return a boolean value indicating the success of the operation, which will be  true  if all of the following conditions were met:
+
+-   Server returns HTTP status code 200
+-   The data types matched between request and response.
+
+The database data’s payload (response) can be read or access through the following Firebase Data object’s functions:  fbdo.intData,  fbdo.floatData,  fbdo.doubleData,  fbdo.boolData,  fbdo.stringData,  fbdo.jsonString,  fbdo.jsonObject,  fbdo.jsonObjectPtr,  fbdo.jsonArray,  fbdo.jsonArrayPtr,  fbdo.jsonData  (for keeping parse/get result), and  fbdo.blobData.
+
+If you use a function that doesn’t match the returned data type in the database, it will return empty (string, object, or array).
+
+The data type of the returning payload can be determined by fbdo.getDataType.
+
+The following snippet shows how to get an integer value stored in the  test/int  node. First, we use the  getInt()  function; then, we check if the data type is an integer with  fbdo.dataType(), and finally, the  fdbo.intData()  gets the value stored in that node.
+
+```c
+if (Firebase.RTDB.getInt(&fbdo, "/test/int")) {
+  if (fbdo.dataType() == "int") {
+    intValue = fbdo.intData();
+    Serial.println(intValue);
+  }
+}
+else {
+  Serial.println(fbdo.errorReason());
+}
+```
+
+We use a similar snippet to get the float value.
+
+```c
+ if (Firebase.RTDB.getFloat(&fbdo, "/test/float")) {
+  if (fbdo.dataType() == "float") {
+    floatValue = fbdo.floatData();
+    Serial.println(floatValue);
+  }
+}
+else {
+  Serial.println(fbdo.errorReason());
+}
+```
+
+### Demonstration
+
+Upload the code to your board. Then, open the Serial Monitor at a baud rate of 115200. After a few seconds, it will print the values saved on the database.
+
+![ESP32 Store value firebase database Serial Monitor Success](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/08/Get-values-from-Firebase-database-ESP32.png?resize=601%2C375&quality=100&strip=all&ssl=1)
