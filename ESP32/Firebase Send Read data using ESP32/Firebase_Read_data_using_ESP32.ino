@@ -78,3 +78,27 @@ void setup() {
   Firebase.reconnectWiFi(true);
 }
 
+void loop() {
+  if (Firebase.ready() && signupOK && (millis() - sendDataPrevMillis > 15000 || sendDataPrevMillis == 0)) {
+    sendDataPrevMillis = millis();
+    if (Firebase.RTDB.getInt(&fbdo, "/test/int")) {
+      if (fbdo.dataType() == "int") {
+        intValue = fbdo.intData();
+        Serial.println(intValue);
+      }
+    }
+    else {
+      Serial.println(fbdo.errorReason());
+    }
+    
+    if (Firebase.RTDB.getFloat(&fbdo, "/test/float")) {
+      if (fbdo.dataType() == "float") {
+        floatValue = fbdo.floatData();
+        Serial.println(floatValue);
+      }
+    }
+    else {
+      Serial.println(fbdo.errorReason());
+    }
+  }
+}
