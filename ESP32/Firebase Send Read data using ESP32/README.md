@@ -429,3 +429,125 @@ Go to your project’s Firebase Realtime database, and you’ll see the values s
 ![ESP32 Store value firebase database Success](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/08/ESP32-store-value-to-firebase-database-success.png?resize=733%2C305&quality=100&strip=all&ssl=1)
 
 Congratulations! You’ve successfully stored data in Firebase’s realtime database using the ESP32. In the next section, you’ll learn to read values from the different database’s node paths.
+
+## ESP32 Read From Firebase Database
+
+![ESP32 Firebase read data realtime database](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/08/ESP32-Firebase-read-data-realtime-database-04.png?resize=750%2C293&quality=100&strip=all&ssl=1)
+
+In this section, you’ll learn how to read data from the database. We’ll read the data stored in the previous section. Remember that we saved an int value in the  test/int  path and a float value in the  test/float  path.
+
+The following example reads the values stored in the database. Upload the following code to your board. You can use the same ESP32 board or another board to get the data posted by the previous ESP32.
+
+**Note:** We are using version 2.3.7 of the Firebase ESP Client library. If you have issues compiling your code with more recent versions of the library, downgrade to version 2.3.7.
+
+```c
+/*
+  Rui Santos
+  Complete project details at our blog.
+    - ESP32: https://RandomNerdTutorials.com/esp32-firebase-realtime-database/
+    - ESP8266: https://RandomNerdTutorials.com/esp8266-nodemcu-firebase-realtime-database/
+  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files.
+  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+  Based in the RTDB Basic Example by Firebase-ESP-Client library by mobizt
+  https://github.com/mobizt/Firebase-ESP-Client/blob/main/examples/RTDB/Basic/Basic.ino
+*/
+
+#include <Arduino.h>
+#if defined(ESP32)
+  #include <WiFi.h>
+#elif defined(ESP8266)
+  #include <ESP8266WiFi.h>
+#endif
+#include <Firebase_ESP_Client.h>
+
+//Provide the token generation process info.
+#include "addons/TokenHelper.h"
+//Provide the RTDB payload printing info and other helper functions.
+#include "addons/RTDBHelper.h"
+
+// Insert your network credentials
+#define WIFI_SSID "REPLACE_WITH_YOUR_SSID"
+#define WIFI_PASSWORD "REPLACE_WITH_YOUR_PASSWORD"
+
+// Insert Firebase project API Key
+#define API_KEY "REPLACE_WITH_YOUR_FIREBASE_PROJECT_API_KEY"
+
+// Insert RTDB URLefine the RTDB URL */
+#define DATABASE_URL "REPLACE_WITH_YOUR_FIREBASE_DATABASE_URL" 
+
+//Define Firebase Data object
+FirebaseData fbdo;
+
+FirebaseAuth auth;
+FirebaseConfig config;
+
+unsigned long sendDataPrevMillis = 0;
+int intValue;
+float floatValue;
+bool signupOK = false;
+
+void setup() {
+  Serial.begin(115200);
+  WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
+  Serial.print("Connecting to Wi-Fi");
+  while (WiFi.status() != WL_CONNECTED) {
+    Serial.print(".");
+    delay(300);
+  }
+  Serial.println();
+  Serial.print("Connected with IP: ");
+  Serial.println(WiFi.localIP());
+  Serial.println();
+
+  /* Assign the api key (required) */
+  config.api_key = API_KEY;
+
+  /* Assign the RTDB URL (required) */
+  config.database_url = DATABASE_URL;
+
+  /* Sign up */
+  if (Firebase.signUp(&config, &auth, "", "")) {
+    Serial.println("ok");
+    signupOK = true;
+  }
+  else {
+    Serial.printf("%s\n", config.signer.signupError.message.c_str());
+  }
+
+  /* Assign the callback function for the long running token generation task */
+  config.token_status_callback = tokenStatusCallback; //see addons/TokenHelper.h
+
+  Firebase.begin(&config, &auth);
+  Firebase.reconnectWiFi(true);
+}
+
+void loop() {
+  if (Firebase.ready() && signupOK && (millis() - sendDataPrevMillis > 15000 || sendDataPrevMillis == 0)) {
+    sendDataPrevMillis = millis();
+    if (Firebase.RTDB.getInt(&fbdo, "/test/int")) {
+      if (fbdo.dataType() == "int") {
+        intValue = fbdo.intData();
+        Serial.println(intValue);
+      }
+    }
+    else {
+      Serial.println(fbdo.errorReason());
+    }
+    
+    if (Firebase.RTDB.getFloat(&fbdo, "/test/float")) {
+      if (fbdo.dataType() == "float") {
+        floatValue = fbdo.floatData();
+        Serial.println(floatValue);
+      }
+    }
+    else {
+      Serial.println(fbdo.errorReason());
+    }
+  }
+}
+
+```
+
+[View raw code](https://github.com/RuiSantosdotme/Firebase-ESP/raw/main/ESP-Firebase-Read-RTDB/ESP-Firebase-Read-RTDB.ino)
+
+Don’t forget to insert your network credentials, database URL, and API key.
