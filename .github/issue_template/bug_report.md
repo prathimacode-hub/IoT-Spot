@@ -9,7 +9,7 @@ Assignee: ''
 
 Define You:
 
-- [ ] Hacktoberfest Participant  
+- [ ] IWOC2.0 2024 Participant  
 - [ ] Contributor
 
 
