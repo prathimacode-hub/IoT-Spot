@@ -4,6 +4,8 @@ List of Open Source Events in which this project participated.
 
 - Innogeeks Winter Of Code 2024 (IWOC2.0)
 
+In this month-long Open Source Contribution event, impactful projects are facilitated with engaging speaker sessions and unique approach that helps in acquiring valuable contributional knowledge by the registered student community. With the collaborative effort, we created a vibrant ecosystem of learning and innovation creating a supportive and enriching experience for new contributors in the exciting world of open source.
+
 <a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Open%20Source%20Programs/Innogeeks%20Winter%20Of%20Code%20Season2%202024/IWOC%20Logo.png" width=150px height=150px /></a>
 
 -  Hacktoberfest 2022
