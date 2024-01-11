@@ -11,7 +11,7 @@
 <a href="https://github.com/prathimacode-hub"><img src="https://img.shields.io/badge/Open%20Source-%F0%9F%A4%8D-Green"></a> 
 <a href="https://github.com/prathimacode-hub"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3&style=flat-square"></a>
 <a href="https://github.com/prathimacode-hub/IoT-Spot/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/prathimacode-hub/IoT-Spot"></a>
-<a href="https://github.com/prathimacode-hub"><img src="https://img.shields.io/maintenance/yes/2022"></a>
+<a href="https://github.com/prathimacode-hub"><img src="https://img.shields.io/maintenance/yes/2024"></a>
 </p> 
 
 <p align="center">
@@ -40,7 +40,7 @@ Anyone related to technology who is looking to contribute to open-source is all 
 
 **Programming Lanaguages - C, C++, Python, HTML, CSS, JS**
 
-**Domain Knowledge - IoT, Web Development**
+**Domain Knowledge - Internet Of Things, Web Development**
 
 
 **[8051 Scripts](https://github.com/prathimacode-hub/IoT-Spot/tree/main/8051)** - The best repo to start with before you enter into the ocean of micro-controllers. It has all the projects related to the 8051 micro-controller
@@ -76,12 +76,6 @@ When raising an issue, do make sure to mention the kind of script, project title
 If you worked on or want to initiate a unique project and share it with the world, you can do that here. Go through the contributing guidelines in [CONTRIBUTING](https://github.com/prathimacode-hub/IoT-Spot/blob/main/CONTRIBUTING.md)👩‍💻
 
 Subsequently, also go through the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
-
-
-<!-- 
-Content
- -->
- 
  
 ## 🛠 Templates to Follow
 
@@ -121,8 +115,6 @@ Your projects should contain this flow to maintain similarity across all other p
 
 Create an issue with your idea, approach, your expected outcome and why it's useful to be necessary to be included in this project. For PR, include issue number along with PR template, it's details and compiled output screenshot
 
-All the web related changes should go into [IoT-Spot Website]()
-
 
 ## ⚙️ Things to Note
 
@@ -154,6 +146,9 @@ All the web related changes should go into [IoT-Spot Website]()
  
 <table>
 <tr>
+  <td align="center">
+<a href="https://www.iwoc.codes/"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Open%20Source%20Programs/Innogeeks%20Winter%20Of%20Code%20Season2%202024/IWOC%20Logo.png" width=100px height=100px /><br /><sub><b>Innogeeks Winter Of Code 2024</b></sub></a>
+ </td>
  <td align="center">
 <a href="https://ssoc.getsocialnow.co/"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Open%20Source%20Programs/Social%20Summer%20Of%20Code%202022/Social%20Summer%20Of%20Code.png" width=100px height=100px /><br /><sub><b>Social Summer Of Code 2022</b></sub></a>
  </td>
@@ -178,7 +173,7 @@ All the web related changes should go into [IoT-Spot Website]()
 **:one: Recognized as the "BEST PROJECT ADMIN" for the project ['IoT-Spot'](https://github.com/prathimacode-hub/IoT-Spot) in GirlScript Summer Of Code 2022.**</br>
 **:two: Recognized as the "🥇 BEST ORGANIZATION" for "FIESTA OF PROJECTS" undertaking the project ['IoT-Spot'](https://github.com/prathimacode-hub/IoT-Spot) at Delta Winter Of Code for the year 2021-22.**</br>
 
-
+<!--
 ## 📊 Leaderboard 
 
 <table>
@@ -187,7 +182,7 @@ All the web related changes should go into [IoT-Spot Website]()
     <td align="center"><a href="https://github.com/prathimacode-hub/IoT-Spot/blob/main/.github/swoc_leaderboard.md"><img src="https://cdn-icons-png.flaticon.com/512/1986/1986941.png" width="100px;" alt=""/><br /><sub><b>SWOC Leaderboard 2021</b></sub></a></td>
   </tr>
 </table>
-
+-->
 
 ## ✨ Hall Of Fame   
 
@@ -215,7 +210,7 @@ You can find our Code of Conduct [here](https://github.com/prathimacode-hub/IoT-
 
 This project follows the [Mozilla Public License 2.0](https://github.com/prathimacode-hub/IoT-Spot/blob/main/LICENSE).
 
-
+<!-- 
 ## 😎 Project Mentors (SSOC)
 
 <table>
@@ -232,7 +227,7 @@ This project follows the [Mozilla Public License 2.0](https://github.com/prathim
   <td align="center"><a href="https://github.com/Harshil-Jani"><img src="https://avatars.githubusercontent.com/u/79367883?v=4" width="100px;" alt=""/><br /><sub><b>Harshil Jani</b></sub></a></td>
   </td>
 </table>
-
+-->
 
 ## 😎 Project Admin
 
@@ -270,7 +265,7 @@ If you want to contact me, you can reach me through the below handles.
 
 <a href="https://twitter.com/prathimak88"><img src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/1200px-Twitter_Bird.svg.png" width="25"></img></a>&nbsp;&nbsp; <a href="https://www.linkedin.com/in/prathima-kadari/"><img src="https://www.felberpr.com/wp-content/uploads/linkedin-logo.png" width="25"></img></a>
 
-© 2022 Prathima Kadari
+© 2024 Prathima Kadari
 
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com) 
