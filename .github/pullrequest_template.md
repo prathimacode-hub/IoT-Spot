@@ -2,7 +2,7 @@
 
 - Info about the related issue 
 
-- [ ] Hacktoberfest Participant  
+- [ ] IWOC2.0 2024 Participant  
 - [ ] Contributor
 
 Closes: #issue number that will be closed through this PR
