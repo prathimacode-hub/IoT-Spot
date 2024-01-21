@@ -24,7 +24,7 @@
 }
 
 .floatingNav {
-    height: 60px;
+    height: 50px;
     box-shadow: 0px 1px 10px var(--dark-shadow);
 }
 
@@ -164,7 +164,7 @@
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 299px) {
     .grid>article {
         width: 200px;
     }
