@@ -11,7 +11,7 @@
 <a href="https://github.com/prathimacode-hub"><img src="https://img.shields.io/badge/Open%20Source-%F0%9F%A4%8D-Green"></a> 
 <a href="https://github.com/prathimacode-hub"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3&style=flat-square"></a>
 <a href="https://github.com/prathimacode-hub/IoT-Spot/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/prathimacode-hub/IoT-Spot"></a>
-<a href="https://github.com/prathimacode-hub"><img src="https://img.shields.io/maintenance/yes/2024"></a>
+<a href="https://github.com/prathimacode-hub"><img src="https://img.shields.io/maintenance/yes/2025"></a>
 </p> 
 
 <p align="center">
@@ -265,7 +265,7 @@ If you want to contact me, you can reach me through the below handles.
 
 <a href="https://twitter.com/prathima_kadari"><img src="https://static.dezeen.com/uploads/2023/07/x-logo-twitter-elon-musk_dezeen_2364_col_0-1-852x479.jpg" width="45"></img></a>&nbsp;&nbsp; <a href="https://www.linkedin.com/in/prathima-kadari/"><img src="https://www.felberpr.com/wp-content/uploads/linkedin-logo.png" width="25"></img></a>
 
-© 2024 Prathima Kadari
+© 2025 Prathima Kadari
 
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com) 
