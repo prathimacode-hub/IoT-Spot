@@ -1,0 +1,8115 @@
+{
+  "Andhra Pradesh": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "24°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Groundnut",
+        "Maize",
+        "Rice"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "27°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Groundnut",
+        "Maize",
+        "Rice"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "29°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Groundnut",
+        "Maize",
+        "Rice"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "30°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Groundnut",
+        "Maize",
+        "Rice"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "31°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Groundnut",
+        "Maize",
+        "Rice"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "28°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Cotton"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "28°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Cotton"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "28°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Cotton"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "28°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Cotton"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "27°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Groundnut",
+        "Maize",
+        "Rice"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "24°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Groundnut",
+        "Maize",
+        "Rice"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "24°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Groundnut",
+        "Maize",
+        "Rice"
+      ]
+    }
+  },
+  "Arunachal Pradesh": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "21°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Millets",
+        "Maize",
+        "Rice"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "24°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Millets",
+        "Maize",
+        "Rice"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "26°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Millets",
+        "Maize",
+        "Rice"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "27°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Millets",
+        "Maize",
+        "Rice"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "28°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Millets",
+        "Maize",
+        "Rice"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "25°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Rice",
+        "Maize"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "25°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Maize"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "25°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Rice",
+        "Maize"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "25°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Maize"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "24°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Millets",
+        "Maize",
+        "Rice"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "21°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Millets",
+        "Maize",
+        "Rice"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "21°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Millets",
+        "Maize",
+        "Rice"
+      ]
+    }
+  },
+  "Assam": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "21°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "24°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "26°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "27°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "28°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "25°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Rice",
+        "Jute"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "25°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Jute"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "25°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Jute"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "25°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Jute"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "24°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "21°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "21°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    }
+  },
+  "Bihar": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "23°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "26°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "28°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "29°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "30°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "27°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Sugarcane"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "27°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Sugarcane"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "27°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Sugarcane"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "27°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Sugarcane"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "26°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "23°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "23°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    }
+  },
+  "Chhattisgarh": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "23°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "26°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "28°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "29°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "30°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "27°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Sugarcane"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "27°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Sugarcane"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "27°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Sugarcane"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "27°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Sugarcane"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "26°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "23°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "23°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    }
+  },
+  "Goa": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "25°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "28°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "30°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "31°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "32°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "29°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "29°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "29°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "29°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "28°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "25°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "25°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    }
+  },
+  "Gujarat": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "25°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Groundnut"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "28°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Groundnut"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "30°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Groundnut"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "31°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Groundnut"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "32°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Groundnut"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "29°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Cotton",
+        "Sugarcane"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "29°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Cotton",
+        "Sugarcane"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "29°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Cotton",
+        "Sugarcane"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "29°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Cotton",
+        "Sugarcane"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "28°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Groundnut"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "25°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Groundnut"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "25°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Groundnut"
+      ]
+    }
+  },
+  "Haryana": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "13°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "14°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "21°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "22°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "18°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "28°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice",
+        "Cotton",
+        "Sugarcane"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "29°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice",
+        "Cotton",
+        "Sugarcane"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "26°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice",
+        "Cotton",
+        "Sugarcane"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "27°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Rice",
+        "Cotton",
+        "Sugarcane"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "21°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "21°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "12°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    }
+  },
+  "Himachal Pradesh": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "13°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "14°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Maize"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "21°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "22°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Maize"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "18°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Maize"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "28°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Maize"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "29°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "26°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Maize"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "27°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "21°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Maize"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "21°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Maize"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "12°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Maize"
+      ]
+    }
+  },
+  "Jharkhand": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "23°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Millets",
+        "Maize",
+        "Rice"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "26°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Millets",
+        "Maize",
+        "Rice"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "28°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Millets",
+        "Maize",
+        "Rice"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "29°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Millets",
+        "Maize",
+        "Rice"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "30°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Millets",
+        "Maize",
+        "Rice"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "27°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Rice",
+        "Maize"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "27°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Maize"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "27°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Maize"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "27°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Maize"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "26°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Millets",
+        "Maize",
+        "Rice"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "23°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Millets",
+        "Maize",
+        "Rice"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "23°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Millets",
+        "Maize",
+        "Rice"
+      ]
+    }
+  },
+  "Karnataka": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "24°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "27°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "29°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "30°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "31°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "28°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Cotton"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "28°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Cotton"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "28°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Cotton"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "28°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Cotton"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "27°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "24°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "24°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    }
+  },
+  "Kerala": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "24°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "27°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "29°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "30°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "31°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "28°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "28°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "28°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "28°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "27°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "24°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "24°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    }
+  },
+  "Madhya Pradesh": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "23°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "26°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "28°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "29°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "30°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "27°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Soybean"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "27°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Soybean"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "27°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Soybean"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "27°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Soybean"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "26°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "23°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "23°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    }
+  },
+  "Maharashtra": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "25°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Maize"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "28°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "30°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "31°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "32°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Maize"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "29°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Cotton",
+        "Sugarcane"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "29°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Maize",
+        "Cotton",
+        "Sugarcane"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "29°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Maize",
+        "Cotton",
+        "Sugarcane"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "29°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Cotton",
+        "Sugarcane"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "28°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "25°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "25°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Maize"
+      ]
+    }
+  },
+  "Manipur": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "21°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "24°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "26°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "27°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "28°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "25°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Rice",
+        "Maize"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "25°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Rice",
+        "Maize"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "25°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice",
+        "Maize"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "25°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Maize"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "24°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "21°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "21°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    }
+  },
+  "Meghalaya": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "21°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "24°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "26°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "27°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "28°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "25°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "25°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "25°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "25°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "24°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "21°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "21°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    }
+  },
+  "Mizoram": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "21°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "24°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "26°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "27°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "28°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "25°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Maize"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "25°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Rice",
+        "Maize"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "25°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Maize"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "25°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Maize"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "24°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "21°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "21°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    }
+  },
+  "Nagaland": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "21°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Millets",
+        "Maize",
+        "Rice"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "24°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Millets",
+        "Maize",
+        "Rice"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "26°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Millets",
+        "Maize",
+        "Rice"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "27°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Millets",
+        "Maize",
+        "Rice"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "28°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Millets",
+        "Maize",
+        "Rice"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "25°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Maize"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "25°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Rice",
+        "Maize"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "25°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Maize"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "25°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice",
+        "Maize"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "24°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Millets",
+        "Maize",
+        "Rice"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "21°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Millets",
+        "Maize",
+        "Rice"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "21°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Millets",
+        "Maize",
+        "Rice"
+      ]
+    }
+  },
+  "Odisha": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "23°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "26°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "28°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "29°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "30°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "27°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Sugarcane"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "27°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Sugarcane"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "27°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Sugarcane"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "27°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Sugarcane"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "26°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "23°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "23°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    }
+  },
+  "Punjab": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "13°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "14°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "21°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "22°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "18°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "28°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Cotton"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "29°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Cotton"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "26°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Cotton"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "27°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Cotton"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "21°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "21°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "12°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    }
+  },
+  "Rajasthan": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "13°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Millets",
+        "Groundnut"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "14°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Millets",
+        "Groundnut"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "21°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Millets",
+        "Groundnut"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "22°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Millets",
+        "Groundnut"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "18°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Millets",
+        "Groundnut"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "28°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Cotton"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "29°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Cotton"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "26°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Cotton"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "27°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Cotton"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "21°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Millets",
+        "Groundnut"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "21°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Millets",
+        "Groundnut"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "12°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Millets",
+        "Groundnut"
+      ]
+    }
+  },
+  "Sikkim": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "13°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "14°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "21°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "22°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "18°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "28°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Maize"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "29°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Maize"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "26°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Rice",
+        "Maize"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "27°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Rice",
+        "Maize"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "21°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "21°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "12°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    }
+  },
+  "Tamil Nadu": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "24°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Millets",
+        "Groundnut",
+        "Rice"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "27°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Millets",
+        "Groundnut",
+        "Rice"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "29°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Millets",
+        "Groundnut",
+        "Rice"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "30°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Millets",
+        "Groundnut",
+        "Rice"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "31°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Millets",
+        "Groundnut",
+        "Rice"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "28°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Cotton",
+        "Sugarcane"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "28°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Cotton",
+        "Sugarcane"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "28°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Cotton",
+        "Sugarcane"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "28°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Rice",
+        "Cotton",
+        "Sugarcane"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "27°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Millets",
+        "Groundnut",
+        "Rice"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "24°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Millets",
+        "Groundnut",
+        "Rice"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "24°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Millets",
+        "Groundnut",
+        "Rice"
+      ]
+    }
+  },
+  "Telangana": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "24°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "27°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "29°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "30°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "31°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "28°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Cotton"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "28°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Cotton"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "28°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Cotton"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "28°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Cotton"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "27°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "24°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "24°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    }
+  },
+  "Tripura": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "21°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "24°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "26°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "27°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "28°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "25°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice",
+        "Maize"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "25°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Rice",
+        "Maize"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "25°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice",
+        "Maize"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "25°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Maize"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "24°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "21°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "21°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    }
+  },
+  "Uttar Pradesh": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "13°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "14°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "21°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "22°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "18°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "28°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Sugarcane"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "29°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Sugarcane"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "26°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Sugarcane"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "27°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Rice",
+        "Maize",
+        "Sugarcane"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "21°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "21°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "12°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    }
+  },
+  "Uttarakhand": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "13°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Millets",
+        "Rice"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "14°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Millets",
+        "Rice"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "21°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Millets",
+        "Rice"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "22°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Millets",
+        "Rice"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "18°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Millets",
+        "Rice"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "28°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "29°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "26°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "27°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "21°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Millets",
+        "Rice"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "21°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Millets",
+        "Rice"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "12°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Millets",
+        "Rice"
+      ]
+    }
+  },
+  "West Bengal": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "23°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "26°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "28°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "29°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "30°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "27°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Jute"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "27°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Rice",
+        "Jute"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "27°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Rice",
+        "Jute"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "27°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice",
+        "Jute"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "26°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "23°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "23°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    }
+  },
+  "Andaman and Nicobar Islands": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "25°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "28°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "50%",
+        "Temperature": "30°C",
+        "Humidity": "65%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "50%",
+        "Temperature": "31°C",
+        "Humidity": "65%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "50%",
+        "Temperature": "32°C",
+        "Humidity": "65%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "29°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "29°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "29°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "70%",
+        "Temperature": "29°C",
+        "Humidity": "80%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "28°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "25°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "25°C",
+        "Humidity": "50%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    }
+  },
+  "Chandigarh": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "25°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Vegetables"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "28°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Vegetables"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "30°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Vegetables"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "31°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Vegetables"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "32°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Vegetables"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "29°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Wheat",
+        "Vegetables"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "29°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Wheat",
+        "Vegetables"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "29°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Wheat",
+        "Vegetables"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "29°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Wheat",
+        "Vegetables"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "28°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Vegetables"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "25°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Vegetables"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "25°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Vegetables"
+      ]
+    }
+  },
+  "Dadra and Nagar Haveli and Daman and Diu": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "25°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Groundnut",
+        "Rice"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "28°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Groundnut",
+        "Rice"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "30°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Groundnut",
+        "Rice"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "31°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Groundnut",
+        "Rice"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "32°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Groundnut",
+        "Rice"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "29°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "29°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "29°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "29°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "28°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Groundnut",
+        "Rice"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "25°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Groundnut",
+        "Rice"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "25°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Groundnut",
+        "Rice"
+      ]
+    }
+  },
+  "Delhi": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "13°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Vegetables",
+        "Rice"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "14°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Vegetables",
+        "Rice"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "21°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Vegetables",
+        "Rice"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "22°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Vegetables",
+        "Rice"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "18°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Vegetables",
+        "Rice"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "28°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "29°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "26°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "27°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "21°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Vegetables",
+        "Rice"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "21°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Vegetables",
+        "Rice"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "12°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Vegetables",
+        "Rice"
+      ]
+    }
+  },
+  "Jammu and Kashmir": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "13°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "14°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "21°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "22°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "18°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "28°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Rice",
+        "Maize"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "29°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Maize"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "26°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Rice",
+        "Maize"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "27°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice",
+        "Maize"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "21°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "21°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "15%",
+        "Temperature": "12°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Maize",
+        "Rice"
+      ]
+    }
+  },
+  "Ladakh": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "-5°C",
+        "Humidity": "35%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Barley",
+        "Potato"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "-5°C",
+        "Humidity": "35%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Barley",
+        "Potato"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "3°C",
+        "Humidity": "35%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Barley",
+        "Potato"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "3°C",
+        "Humidity": "35%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Barley",
+        "Potato"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "3°C",
+        "Humidity": "35%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Barley",
+        "Potato"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "13°C",
+        "Humidity": "50%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Barley",
+        "Potato"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "13°C",
+        "Humidity": "50%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Barley",
+        "Potato"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "13°C",
+        "Humidity": "50%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Barley",
+        "Potato"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "13°C",
+        "Humidity": "50%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Barley",
+        "Potato"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "3°C",
+        "Humidity": "35%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Barley",
+        "Potato"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "3°C",
+        "Humidity": "35%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Barley",
+        "Potato"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "-5°C",
+        "Humidity": "35%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Barley",
+        "Potato"
+      ]
+    }
+  },
+  "Lakshadweep": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "24°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Coconut",
+        "Tuber crops"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "27°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Coconut",
+        "Tuber crops"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "29°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Coconut",
+        "Tuber crops"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "30°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Coconut",
+        "Tuber crops"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "31°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Coconut",
+        "Tuber crops"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "28°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Coconut",
+        "Tuber crops"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "28°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Coconut",
+        "Tuber crops"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "28°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Coconut",
+        "Tuber crops"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "28°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Coconut",
+        "Tuber crops"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "27°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Coconut",
+        "Tuber crops"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "24°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Coconut",
+        "Tuber crops"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "24°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Coconut",
+        "Tuber crops"
+      ]
+    }
+  },
+  "Puducherry": {
+    "January": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "24°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "February": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "27°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "March": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "29°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "April": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "30°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "May": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "31°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "June": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "28°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice",
+        "Sugarcane"
+      ]
+    },
+    "July": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "28°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Potassium",
+        "Sulphur"
+      ],
+      "crops": [
+        "Rice",
+        "Sugarcane"
+      ]
+    },
+    "August": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "28°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice",
+        "Sugarcane"
+      ]
+    },
+    "September": {
+      "parameters": {
+        "Soil Moisture": "60%",
+        "Temperature": "28°C",
+        "Humidity": "75%",
+        "Light Intensity": "Low",
+        "Water Level": "High",
+        "Rain": "High"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Zinc"
+      ],
+      "crops": [
+        "Rice",
+        "Sugarcane"
+      ]
+    },
+    "October": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "27°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "November": {
+      "parameters": {
+        "Soil Moisture": "40%",
+        "Temperature": "24°C",
+        "Humidity": "60%",
+        "Light Intensity": "Medium",
+        "Water Level": "Medium",
+        "Rain": "Medium"
+      },
+      "nutrients": [
+        "Phosphorus",
+        "Potassium"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    },
+    "December": {
+      "parameters": {
+        "Soil Moisture": "20%",
+        "Temperature": "24°C",
+        "Humidity": "45%",
+        "Light Intensity": "High",
+        "Water Level": "Low",
+        "Rain": "Low"
+      },
+      "nutrients": [
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "crops": [
+        "Rice"
+      ]
+    }
+  }
+}

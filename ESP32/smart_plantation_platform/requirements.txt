@@ -1,0 +1,34 @@
+# ==============================================================================
+# SMART PLANTATION PLATFORM - REQUIREMENTS
+# ==============================================================================
+
+# HARDWARE COMPONENTS REQUIRED
+# ------------------------------------------------------------------------------
+- ESP32 Development Board (e.g., NodeMCU ESP32)
+- DHT22 Temperature and Humidity Sensor
+- LDR Sensor module
+- Capacitive Soil Moisture Sensor v1.2
+- Rain Detection Sensor Module
+- Water Level Sensor Module
+- 5V Relay Module (for Irrigation Control)
+- 5V Water Pump or Solenoid Valve
+- Breadboard and Jumper Wires
+- 5V Power Supply / USB Cable
+
+# PYTHON & MACHINE LEARNING DEPENDENCIES (Backend ML Engine)
+# ------------------------------------------------------------------------------
+# Install via: pip install -r requirements.txt
+
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.0
+tensorflow==2.16.1
+opencv-python==4.9.0.80
+mediapipe==0.10.14
+
+# SOFTWARE & ENVIRONMENT REQUIREMENTS
+# ------------------------------------------------------------------------------
+- Arduino IDE or PlatformIO (for flashing ESP32)
+- DHT Sensor Library (Adafruit)
+- Node.js (v18.x or higher)
+- MongoDB (Local instance or Atlas Cloud cluster)
